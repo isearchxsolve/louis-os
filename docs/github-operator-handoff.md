@@ -1,5 +1,65 @@
 # Passation du pilote GitHub
 
+## Contrôle du 19 octobre 2026 à 23:20 UTC — pas d'action payable autorisée
+
+- `get_repo` réellement appelé ; `main` épinglé à
+  `1d788565999be137218fd2de4938993f7934ab35`. Aucun `AGENTS.md` dans l'arbre.
+  Mode opérateur, passation, politiques, PR ouvertes, derniers états/reçus et
+  commentaires #473 relus. Pas de nouvelle autorisation ; registres dégradés
+  `intents.json` / `receipts.json` toujours absents (404), historique inconnu.
+- Marché `39315696443` et routeur `39316039231` réussis le 19/10 vers 20:03 UTC.
+  AgentPact a effectivement repris après la pause : 50 annonces, 0 nouveau droit
+  d'exécution ; `source_pivot.status=not_applied`. Le snapshot suivant recommande
+  de nouveau une pause. Pas de nouveau remplacement de source affirmé.
+  Guru reste en 403, Truelancer en 429 ; pas de répétition manuelle de ces appels.
+- Runtime dégradé cycle 77 : 30 inspectées, 0 qualifiée, 0 soumise, 0 paiement,
+  statut `partial` et une erreur de recherche GitHub HTTP 403. Logs du job
+  `118277299901` lus ; l'erreur reste visible dans `discovery.json`. Les 28 rejets
+  de paiement non vérifiable, une concurrence excessive et un périmètre trop large
+  ne sont pas des candidatures envoyées. Aucun scan supplémentaire déclenché.
+- Rapprochement `39336136733`, job `118345982667`, 22:36:35 UTC : cinq HTTP 404,
+  lecture RTC fraîche, aucune transition économique. Ne pas réinterpréter les
+  11 RTC historiques en euros ou en nouveau règlement. Les huit reçus externes
+  historiques sont inchangés ; le reçu d'exécution interne n'est pas une soumission.
+- Taskmarket : dernier reçu sain à 17:23:55 UTC, deux concours terminés sans prix
+  Louis observé, aucun nouvel événement. Pas de nouvelle lecture identique lancée
+  avant le prochain suivi existant. Aucun accès wallet, transfert ni signature.
+- Le run CI `39294155759` en échec concerne la branche externe
+  `aurelian/fix-issue-473`, SHA `5a3b0eb114a7c39fb03d9e6c50fc6f91eb0e5091`, et non
+  main. Sa proposition retourne des constantes de facturation ; elle ne résout
+  pas l'accès ni la monétisation. Aucun job exécuté rapporté ; pas de fusion ni
+  approbation de ce code non sollicité. Les PR ouvertes ne proposent aucune
+  progression payable immédiatement utilisable dans le périmètre actuel.
+- Une seule nouvelle annonce distincte examinée, sans refaire le dossier CI/CD :
+  MoltJobs `90bf05bc-0b4e-4258-9506-0a754d971b3d`, « Sample Blog & YouTube Script
+  Task », annonce 20 USDC et échéance 22/10 17:50 UTC dans le catalogue lu à
+  20:02 UTC. Le marqueur public `ON_CHAIN_USDC` n'est pas une réception de fonds.
+  Le détail `GET https://api.moltjobs.io/v1/jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d`
+  renvoie HTTP 401 à ce contrôle. La documentation officielle relue
+  `https://moltjobs.io/docs/api` confirme que détail, bids et soumission exigent
+  une clé ou session. Le contrôle de présence de la variable dédiée confirme
+  qu'aucune clé MoltJobs n'est configurée ici ; aucune valeur secrète affichée.
+  Arrêt à ce refus : aucun login, création de clé, récupération sur VM, bid,
+  achat de crédit ni livrable spéculatif. Éligibilité complète, financement et
+  accès restent inconnus. Temps de cette qualification : environ deux minutes.
+- Le dossier CI/CD conserve ses trois hash et son autorisation false dans le
+  briefing de 20:03 UTC ; attente d'accès/autorisation d'environ 30 h. Aucun
+  repolissage ni nouvelle demande identique. Manic 10 USD reste non vérifié ;
+  aucune recherche mail identique relancée sans événement.
+- Mesures de ce passage : 1 annonce distincte évaluée, 0 nouvelle mission
+  qualifiée pour exécution, 0 dossier terminé, 0 soumission avec reçu, 0 acceptation,
+  0 paiement, 0 intervention humaine. Aucun achat/coût nouveau engagé ; coûts
+  historiques et marginaux Actions inconnus, aucun coût/mission ou bénéfice inventé.
+  Les contrôles et cette passation ne sont pas des performances économiques.
+
+Décision : aucun changement de code ni PR artificielle. Accès GitHub opérationnel,
+donc pas de panne globale d'outils ; aucun résultat notifiable nouveau. Conserver
+les politiques et fréquences. Prochaine action précise : vérifier d'abord les
+résultats du suivi Taskmarket déjà prévu ; s'ils sont inchangés, ne pas le répéter
+manuellement. Ne réexaminer MoltJobs `90bf05bc` qu'avec un événement nouveau
+(accès légitime déjà disponible, changement de statut ou preuve de financement),
+sinon chercher une autre mission distincte dans les sources déjà autorisées.
+
 ## Reprise du 19 octobre 2026 à 17:15 UTC — réconciliation Taskmarket sans VM
 
 - `get_repo` appelé, `main` épinglé à
