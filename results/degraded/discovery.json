@@ -1,7 +1,7 @@
 {
   "registry": {
     "schema_version": 7,
-    "generated_at": "2026-10-19T10:48:54.766184+00:00",
+    "generated_at": "2026-10-19T20:02:53.126314+00:00",
     "count": 0,
     "authenticity_verified": 0,
     "authenticity_blocked": 30,
@@ -12,7 +12,9 @@
     "credible_backlog_count": 0,
     "candidates": [],
     "credible_backlog": [],
-    "errors": [],
+    "errors": [
+      "search_failed:is:issue is:open in:comments \"/claim #\" (typo OR \"broken link\" OR configuration OR test) archived:false:HTTPError:HTTP Error 403: Forbidden"
+    ],
     "recovery_source": "capability_first_verified_payable_scout",
     "payment_adapter_gate": "active",
     "capability_match_gate": "active",
@@ -23,9 +25,9 @@
   "qualified": 0,
   "rejected": [
     {
-      "candidate_id": "45c11aa99bbaecfb",
-      "url": "https://github.com/Willy-nz/Tohyee/issues/329",
-      "title": "Analytics: value label doesn't update when the value's column changes",
+      "candidate_id": "3db63a4d9dccc15e",
+      "url": "https://github.com/kninetimmy/memhub/issues/408",
+      "title": "Bump rustls to 0.23.46 to clear the weekly security audit",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -35,75 +37,15 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "073059dae32dd0f1",
-      "url": "https://github.com/Sorokit/ui/issues/856",
-      "title": "ContractInteractionDebugger — setHistory called in useEffect with eslint-disable comment",
+      "candidate_id": "5a8847bb9bea8b4c",
+      "url": "https://github.com/Vynix-Labs/Soroban-state-lens/issues/706",
+      "title": "Test map decoding through real Comlink transport",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "46e553642066380b",
-      "url": "https://github.com/EduMIPS64/edumips64/issues/619",
-      "title": "Dependency Dashboard",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "894a0fe1732a1de0",
-      "url": "https://github.com/hexgrad/kokoro/issues/290",
-      "title": "Donation/funding for german language",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "0ca3de0c0926cb0b",
-      "url": "https://github.com/objectstack-ai/objectstack/issues/21118",
-      "title": "[PM seat] domain:services · seat 2 — 🟢 os-warren",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "431ab1d9429dec7e",
-      "url": "https://github.com/mem0ai/mem0/issues/7677",
-      "title": "`import mem0` always imports qdrant_client (~58% of import time) via the `MemoryConfig()` default argument of `Memory.__init__`",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "947e60c5ae709c9e",
-      "url": "https://github.com/9t2cbcj8vc-del/iberigo/issues/197",
-      "title": "[Monitor] Official link health",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "8c66d1313ea9c505",
-      "url": "https://github.com/kaiachain/kaia/issues/990",
-      "title": "QA for v3.0.0",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "db5cdc7fdf738462",
-      "url": "https://github.com/OPCFoundation/UA-.NETStandard/issues/4842",
-      "title": "Refresh server benchmarks and performance tuning guidance for 2.0.2+",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "8a91b52298804678",
-      "url": "https://github.com/drizzle-team/drizzle-orm/issues/1603",
-      "title": "[BUG]: Nested Partial Select returns null on left join if first column value is null",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "819afaba0e300068",
-      "url": "https://github.com/opencharly/docs/issues/162",
-      "title": "the deploy workflow's content-regeneration step hangs, and it deadlocks the validator's auto-merge arming",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "70c739a7401385d8",
-      "url": "https://github.com/programminghistorian/ph-submissions/issues/607",
-      "title": "Building Interactive Environments for 3D Models with three.js (Parts 1 & 2)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "cb61c17984c8479d",
-      "url": "https://github.com/mad201802/QuestXtract/issues/159",
-      "title": "Run CI on Linux only",
+      "candidate_id": "0aedc8c024a9606c",
+      "url": "https://github.com/SkriptLang/Skript/issues/1478",
+      "title": "Skript Variable locking, major lag spikes every 5 or 10 minutes",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -115,33 +57,87 @@
       "maximum_allowed": 5
     },
     {
-      "candidate_id": "82a3b91656bcace8",
-      "url": "https://github.com/objectstack-ai/objectstack/issues/18883",
-      "title": "[PM seat] domain:spec · seat 3 — 🟢 baozhoutao · session_01D6F9axfoPzR7t8G1J7Ytzz",
+      "candidate_id": "9f04cabb11550208",
+      "url": "https://github.com/craigtrim/axiom/issues/125",
+      "title": "Every state update sends all entities, even when none changed",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "ce8fc68b24dcfa45",
-      "url": "https://github.com/Bingboom/Hello-Docs/issues/238",
-      "title": "Workspace data update: publication",
+      "candidate_id": "2a85b7498092aea9",
+      "url": "https://github.com/bodegus/lg-code-workflow/issues/68",
+      "title": "[OC2 v1.0 L02] Bootstrap explicit LG and home-infra target enrollment",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "d886ebe0fd33cd8a",
-      "url": "https://github.com/Jackxiaozhiren/MotionSites/issues/5",
-      "title": "Launch QA: 7 media fallbacks, per-project rights and physical-device testing",
+      "candidate_id": "467c1f985cc63483",
+      "url": "https://github.com/the-vibey-project/vibey/issues/891",
+      "title": "feat(loop-service): a loop doctor that checks the broker, each loop's router and each model's seat",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "594cf04c07adcfa1",
-      "url": "https://github.com/division-sh/swarm/issues/2667",
-      "title": "[design-gate][packs] Division Hive (formerly Colony) — the pack source: what it is, addressing and pinning, provenance, trust, what is publishable",
+      "candidate_id": "c92e1c9d16de18f1",
+      "url": "https://github.com/dotnet/runtime/issues/113060",
+      "title": "[Mono][10.0] Runtime test \"test76531\" fails in the LLVM (and mini) Full AOT configuration on linux-x64",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "8bb13b9dded3e018",
-      "url": "https://github.com/aliezzat4321/hyperliquid-copy-engine/issues/130",
-      "title": "AI TEAM RUNTIME STATUS",
+      "candidate_id": "894a0fe1732a1de0",
+      "url": "https://github.com/hexgrad/kokoro/issues/290",
+      "title": "Donation/funding for german language",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "b2da535aa3c117ed",
+      "url": "https://github.com/the-vibey-project/vibey/issues/887",
+      "title": "feat(azure): the az adapter declares its provider and preflight",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "048c4086b3f0dfce",
+      "url": "https://github.com/spec-kitty/spec-kitty/issues/2362",
+      "title": "docs reliability: nightly docsite clickthrough / internal link-health crawl of the deployed site (dynamic sibling of #2360; internal live-site links uncovered today)",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "17b0609f8e97ed00",
+      "url": "https://github.com/soroban-testkit/testkit-backend/issues/400",
+      "title": "[Feature][money] add decimal-aware conversion helpers with checked bounds",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "a0fb02da16979026",
+      "url": "https://github.com/kumori-ai/sparebrains/issues/91",
+      "title": "Open to our free pool: imo_2019_p1 (IMO)",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "8a91b52298804678",
+      "url": "https://github.com/drizzle-team/drizzle-orm/issues/1603",
+      "title": "[BUG]: Nested Partial Select returns null on left join if first column value is null",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "76fa589b6d663082",
+      "url": "https://github.com/itsmechase15/posthog-competitor-happenings/issues/137",
+      "title": "Amplitude: Amplitude and Statsig partnership – Consider publishing",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "f23ec09a617165e1",
+      "url": "https://github.com/abubakarshahid16/Abubakar/issues/692",
+      "title": "Agent queue: what each session does next (read every loop)",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "ad2b26ba5ff1b4a2",
+      "url": "https://github.com/dotnet/runtime/issues/112557",
+      "title": "[linux-x64] [mono-aot] [10.0] Test `Runtime_101731.TestConvertToInt64NativeSingle(3.4028235E+38)` returns exit code 22",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "ca898cb13b72e7a2",
+      "url": "https://github.com/the-vibey-project/vibey/issues/892",
+      "title": "feat(cli): vibey doctor reports the broker and both loops when the queue or the engines use the bus",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -151,33 +147,27 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "dd18fe708c064969",
-      "url": "https://github.com/cbusillo/codex-skills/issues/1043",
-      "title": "Supervisor pilot, week 2: record, brief and exit criteria",
+      "candidate_id": "57fd7d28b97fd45d",
+      "url": "https://github.com/iqbalai55/kitapandu-school-management/issues/19",
+      "title": "P1 — Schema baseline: full RLS + btree_gist exclusion + ENUM types",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "cf249ba8791f01ed",
-      "url": "https://github.com/cailloumajor/opcua-line-gateway/issues/6",
-      "title": "Dependency Dashboard",
+      "candidate_id": "611a0654bb56a268",
+      "url": "https://github.com/d6g8k5htny-coder/main/issues/419",
+      "title": "Agent Message Board (continued from #307): successor coordination board to #307",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "45f69c2971b4055e",
-      "url": "https://github.com/fredgis/sql-migration-advisor/issues/75",
-      "title": "Weekly KB report: human review required",
+      "candidate_id": "d7063e186780ad4d",
+      "url": "https://github.com/JustYannicc/signalbox/issues/1055",
+      "title": "Own a POSIX layer on V8 + WASM so agents and the dev loop run in Durable Objects",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "cb4e0f3031fdecfa",
-      "url": "https://github.com/SaboStudios/Tycoon-Monorepo/issues/1956",
-      "title": "contract: tycoon-main-game pause() duration_ledgers boundary and double-pause guard are untested",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "ef2df2f477315fda",
-      "url": "https://github.com/betagouv/lab-anssi-lib/issues/41",
-      "title": "Dependency Dashboard",
+      "candidate_id": "3429151cfdb9123b",
+      "url": "https://github.com/spec-kitty/spec-kitty/issues/2788",
+      "title": "E2: `lanes write-scope --json` external read-model projection",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -187,25 +177,47 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "7adcf91dd6bce8a1",
-      "url": "https://github.com/pyrycode/pyrycode-mobile/issues/2181",
-      "title": "test(e2e): replay captured Claude permission behaviour on Android",
+      "candidate_id": "64d831ac80879e7c",
+      "url": "https://github.com/freeCodeCamp-Summer-Cohort-2026/globe-trotter/issues/140",
+      "title": "API - Module CRUD endpoints",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "475aefc2211c13da",
-      "url": "https://github.com/heukshow/aicity-os/issues/292",
-      "title": "COSHUMA Work execution bridge",
+      "candidate_id": "f97ae3ac3fe4a9e3",
+      "url": "https://github.com/the-vibey-project/vibey/issues/807",
+      "title": "feat(gh): `forge-snapshot --verify DIR` checks every seal, link and manifest head, and names the first break in each file",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "c7c94418d6ef076d",
-      "url": "https://github.com/Farm-credit/stellar-app-os/issues/1121",
-      "title": "feat(mobile): Push notifications - real-time tree milestones and sponsor achievements",
+      "candidate_id": "a7bb7571f2cf2293",
+      "url": "https://github.com/dotnet/runtime/issues/112423",
+      "title": "[9.0][source-build] Could not find BROTLIDEC using the following names: brotlidec",
       "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "dd3a4eea018a92b4",
+      "url": "https://github.com/alexander-bain/bainluck/issues/11284",
+      "title": "Atlas: adopt the coherent MLB final-game reader in native",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "16fa94d7130642be",
+      "url": "https://github.com/SCIBASE-AI/SCIBASE.AI/issues/18",
+      "title": "Scientific Bounty System",
+      "reason": "task_not_narrow_enough",
+      "narrowness_score": 5.0,
+      "scope": {
+        "file_paths": [],
+        "requirements": 39,
+        "broad_hits": 0,
+        "body_length": 3075,
+        "exact_replacement": false
+      }
     }
   ],
-  "errors": [],
+  "errors": [
+    "search_failed:is:issue is:open in:comments \"/claim #\" (typo OR \"broken link\" OR configuration OR test) archived:false:HTTPError:HTTP Error 403: Forbidden"
+  ],
   "queries": [
     "is:issue is:open (bounty OR reward) (\"replace\" OR \"change\") (README OR docs) archived:false",
     "is:issue is:open (bounty OR reward) \"broken link\" (README OR documentation) archived:false",
