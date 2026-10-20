@@ -1,7 +1,7 @@
 {
   "registry": {
     "schema_version": 7,
-    "generated_at": "2026-10-20T07:47:03.202962+00:00",
+    "generated_at": "2026-10-20T10:53:35.025535+00:00",
     "count": 0,
     "authenticity_verified": 0,
     "authenticity_blocked": 30,
@@ -26,105 +26,9 @@
   "qualified": 0,
   "rejected": [
     {
-      "candidate_id": "202cb18b2dc06c01",
-      "url": "https://github.com/nmi-agro/fdm/issues/867",
-      "title": "Redesign the Mineralization app around Dyna v2",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "d37d42d5bd75f996",
-      "url": "https://github.com/liubaining-louis/louis-os/issues/141",
-      "title": "Autonomous tested patch submission, capability recovery and maintainer loop",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "a0c79a0bed3424f0",
-      "url": "https://github.com/Nanmuxxx/BlockCraft-AI/issues/57",
-      "title": "[SUPERVISOR] BlockCraft AI Agent 协作与审批中心",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "099b215cb1359020",
-      "url": "https://github.com/alibaba/open-code-review/issues/1020",
-      "title": "Wanted: Who is using Open Code Review? Please leave a comment!",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "b3f6a9cd9879f2da",
-      "url": "https://github.com/d-hinders/Haven-AI/issues/4114",
-      "title": "list controls 5/7: Marketplace onto ListToolbar, with URL state",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "f8378f5a9ea553a4",
-      "url": "https://github.com/JWST-GC/data-qa/issues/289",
-      "title": "GC Treasury — jw10678-o065 (NIRCam)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "d3712300846575b4",
-      "url": "https://github.com/ProfessorZhi/serveros/issues/244",
-      "title": "Fleet V1 Complete Nodes: C++ Core/self-heal, CC+Codex, CloudCLI, 33 tools, Device Abilities, local CC plugin",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "ef24fa64126fa7c2",
-      "url": "https://github.com/abu-lina/uflow/issues/671",
-      "title": "Foreman working log",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "12818bc6bb9ed445",
-      "url": "https://github.com/AlainDelree/Bridge_Agent/issues/779",
-      "title": "Vibe a changé d'interface par défaut lors d'une mise à jour et n'accepte plus les options du watcher",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "9b6be1e481aee824",
-      "url": "https://github.com/albin02forsberg/margin/issues/531",
-      "title": "Export: copy the note or selection to the clipboard as Markdown (Space e c)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "d67e2c2f584a4e00",
-      "url": "https://github.com/dvcol/planner/issues/16",
-      "title": "MCP session prototype",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "bd5e3f20fc124bb6",
-      "url": "https://github.com/tkob-team/eshop-sut/issues/76",
-      "title": "[BUG-B04] Coupon application accepts missing, invalid and expired JWTs",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "509f4d821ab3b849",
-      "url": "https://github.com/Miragon/bpmn-modeler/issues/1622",
-      "title": "[Feature] Spike: evaluate composing the C7/C8 modelers without camunda-bpmn-js",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "45371cecb763e57f",
-      "url": "https://github.com/JWST-GC/data-qa/issues/287",
-      "title": "GC Treasury — jw10678-o064 (NIRCam)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "72f7aa5d236d5972",
-      "url": "https://github.com/jussray/jussray/issues/25",
-      "title": "Blocker: GitHub Chromium 403 on public-site CI while Cloudflare bot protection is enabled",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "44235bae52ee0eca",
-      "url": "https://github.com/eclipse-thingweb/node-wot/issues/1583",
-      "title": "binding-opcua: write OPC UA structures (ExtensionObject) from a WoT value",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "aba3ad5b3dad6fe5",
-      "url": "https://github.com/agentic-templates/agent-template/issues/405",
-      "title": "Rewrite the bodies of issues and pull requests 151 to 200 as the writing guide asks",
+      "candidate_id": "011de1017a06cbdc",
+      "url": "https://github.com/DewaldOosthuizen/py-tray-command-launcher/issues/164",
+      "title": "FEATURE: Add GUI controls for managing Quick-Launch Bar pins",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -134,75 +38,171 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "051d660f013fed06",
-      "url": "https://github.com/verl-project/verl-omni/issues/748",
-      "title": "[RFC] Video Generation RSI: Long-Horizon Story-Driven Video Generation on MiniMax-H3",
+      "candidate_id": "a1cd9db890c8ca39",
+      "url": "https://github.com/Stellar-split/split-app/issues/896",
+      "title": "Implement notification center with email and in-app notifications",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "7e2b8785f67925f6",
-      "url": "https://github.com/JoshCLWren/comic-pile/issues/2407",
-      "title": "anti-slop: fix all `no-module-mocking` findings, then enforce the rule (455)",
+      "candidate_id": "6c104383ccca125e",
+      "url": "https://github.com/harrywesterman/Twinbox/issues/36",
+      "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "8055f17482a161f3",
-      "url": "https://github.com/ConductionNL/dossiq/issues/3287",
-      "title": "[OpenSpec] woo-term-is-computed-and-reported-right",
+      "candidate_id": "de2a22e7f4251377",
+      "url": "https://github.com/itsankoff/incident-copilot/issues/3",
+      "title": "Wayfinder: production-grade incident copilot, Kubernetes first, cloud-ready",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "2a85b7498092aea9",
-      "url": "https://github.com/bodegus/lg-code-workflow/issues/68",
-      "title": "[OC2 v1.0 L02] Bootstrap explicit LG and home-infra target enrollment",
+      "candidate_id": "2eb33d164b508bc9",
+      "url": "https://github.com/gxjansen/gxjansen.github.io/issues/396",
+      "title": "Link check: broken links found",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "5e1c366ea96d5142",
-      "url": "https://github.com/dvcol/planner/issues/1",
-      "title": "Native personal planner decision map",
+      "candidate_id": "2291af7fd8d58c63",
+      "url": "https://github.com/halfsend-07/test-repo-01/issues/2",
+      "title": "Server crashes with 'concurrent map writes' under load",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "72b70e5f9878b2b7",
-      "url": "https://github.com/Vigil-SOC/vigil/issues/2503",
-      "title": "compose: Bifrost healthcheck routes the localhost probe through the proxy on proxy-only deployments — container never healthy, deploy gate stalls",
+      "candidate_id": "d4fe3c86bb90b182",
+      "url": "https://github.com/neo4j/cypher-language-support/issues/728",
+      "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "f7382d0ded334de0",
-      "url": "https://github.com/Vigil-SOC/vigil/issues/2462",
-      "title": "Settings › Limits & autonomy and AI models Advanced: the status strip goes, profile summaries from the board, retry bounds from the API",
+      "candidate_id": "698d9d42e9bbe01b",
+      "url": "https://github.com/microsoft/PyRIT/issues/3166",
+      "title": "Python 3.11 adoption opportunities: claim one improvement at a time",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "42674255d1bc5b13",
-      "url": "https://github.com/JWST-GC/data-qa/issues/301",
-      "title": "GC Treasury — jw10678-o071 (NIRCam)",
+      "candidate_id": "240720d0db16080f",
+      "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/1713",
+      "title": "[NAYA 5] LEARN-engine — gates-wiring-bridge-to-10-10",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "453fc590fe6f9d41",
-      "url": "https://github.com/kubevirt/kubevirt/issues/19539",
-      "title": "PrometheusVerifyTLS=true disables certificate verification",
+      "candidate_id": "b92bdf867888230a",
+      "url": "https://github.com/nmorabowen/apeGmsh/issues/2317",
+      "title": "[B] Unplaced Gauss points: NaN for every cause (not the origin), and pick/select/markers skip non-finite rows",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "60c6b7e95c038ccd",
-      "url": "https://github.com/SE-Electronics-Inventory/H9_Electronics_Store_Inventory/issues/10",
-      "title": "FR-08: Calculate and Display Component Availability",
+      "candidate_id": "1ac26b6ae453a662",
+      "url": "https://github.com/openclaw/openclaw/issues/147995",
+      "title": "[Feature]: Add opt-in notices for automatic session resets",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "bfadf7c3d4648936",
-      "url": "https://github.com/pyatkoff/poisk-turov-test/issues/4217",
-      "title": "AnyTour development coordination — continuation of #3419",
+      "candidate_id": "0323490dddcffca8",
+      "url": "https://github.com/nfrankel/opentelemetry-tracing/issues/4",
+      "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "4e3bc46b383d4a49",
-      "url": "https://github.com/gominimal/minimal/issues/1501",
-      "title": "Local box egress proxy — sealed GitHub credentials and host-store secrets without Gatehouse",
+      "candidate_id": "f23ec09a617165e1",
+      "url": "https://github.com/abubakarshahid16/Abubakar/issues/692",
+      "title": "Agent queue: what each session does next (read every loop)",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "71579460dee8058c",
+      "url": "https://github.com/Elite-Work/EliteWork/issues/296",
+      "title": "contracts: split the 9,179-line `lib.rs` into submodules",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "3b09cbcf3d907d27",
+      "url": "https://github.com/OATML-Markslab/ProteinGym/issues/123",
+      "title": "[new model] PTULyra_ytx",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "42ec478d67d7b464",
+      "url": "https://github.com/omacom/omarchy-plugin-marketplace/issues/12349",
+      "title": "[Plugin]: Dell Keyboard & Mouse Battery Indicator",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "6b87b9362790ef5d",
+      "url": "https://github.com/pj-tmt/tmt/issues/4083",
+      "title": "colab: links in a page open through the app (in-app /p/ pages, confirmed outside URLs) instead of stopping the preview",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "d9d91340bc907b46",
+      "url": "https://github.com/Stanley471/FantasyXI/issues/233",
+      "title": "Implement rate-limiting per wallet address on contract deposit verification endpoints",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "e3b1ad85b3594a8f",
+      "url": "https://github.com/omacom/omarchy-plugin-marketplace/issues/11843",
+      "title": "[Verify]: Fresque",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "430fd2ba6dc5b265",
+      "url": "https://github.com/ModernNomad-98/Project-Aegis/issues/868",
+      "title": "Coordinator check-ins (mirror)",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "67549f83189606b9",
+      "url": "https://github.com/pannous/warp/issues/2391",
+      "title": "scope.warp's binding meanings as enum Meaning",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "6ca249cd4558423f",
+      "url": "https://github.com/PEAT-AI/lux-didi/issues/474",
+      "title": "Voice uplink needs 531 kbit/s: verify a lower-bandwidth input (16 kHz, silence handling or WebRTC) for weak links",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "999c9e24fc1ad18b",
+      "url": "https://github.com/ford442/Chromashift/issues/222",
+      "title": "foundation: WebGL context policy — power-preference fallback, context loss, MSAA that matches the passes",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "b7093bc19942a6f0",
+      "url": "https://github.com/astrapi69/adaptive-learner/issues/3807",
+      "title": "privacy(legal): the privacy policy leaves out most of what the app sends and says nothing reaches a server",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "6c7a1f38af38cf19",
+      "url": "https://github.com/parcel-bundler/lightningcss/issues/1163",
+      "title": "Add support to ppc64/s390 and IBM AIX architectures",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "5dff46f158ac7ca3",
+      "url": "https://github.com/metaneutrons/HASI/issues/49",
+      "title": "M2: Qualify the application and independent-plugin foundation",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "41b24162e1d12bdb",
+      "url": "https://github.com/halkeye/twitch_go_online/issues/3",
+      "title": "Dependency Dashboard",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "d886ebe0fd33cd8a",
+      "url": "https://github.com/Jackxiaozhiren/MotionSites/issues/5",
+      "title": "Release QA: new self-scrolling gallery, native devices and media rights",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "625366633dd0b93a",
+      "url": "https://github.com/objectstack-ai/objectstack/issues/6021",
+      "title": "[PM seat] domain:services — 🟢 os-justin",
       "reason": "verified_payment_adapter_evidence_missing"
     }
   ],
