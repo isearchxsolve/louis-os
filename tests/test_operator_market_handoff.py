@@ -175,6 +175,11 @@ class OperatorMarketHandoffTests(unittest.TestCase):
         result = self.handoff()
         self.assertEqual(len(result["backlog"]), 3)
         self.assertTrue(all(not item["submission_authorized"] for item in result["backlog"]))
+        self.cash["cash_first"].append(self.cash["cash_first"][0])
+        self.write("results/cash_first_market.json", self.cash)
+        ambiguous = self.handoff()
+        self.assertEqual(ambiguous["backlog"], [])
+        self.assertEqual(ambiguous["errors"], ["market_backlog_duplicate_cash_candidate"])
 
     def test_integrity_verified_mission_is_visible_but_never_authorized(self):
         before = {str(path.relative_to(self.root)): path.read_bytes() for path in self.root.rglob("*") if path.is_file()}

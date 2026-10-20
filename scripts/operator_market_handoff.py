@@ -142,16 +142,19 @@ def market_handoff(root: Path, policy: dict, *, checked_at: datetime | None = No
         routed = router.get("top_ranked", [])
         if not isinstance(rows, list) or not isinstance(routed, list):
             raise ValueError("market_backlog_evidence_invalid")
-        seen = set()
-        for row in rows:
-            if not isinstance(row, dict):
-                raise ValueError("market_backlog_evidence_invalid")
-            candidate_id = row.get("opportunity_id")
-            if candidate_id == canonical or not row.get("prepared_artifacts"):
-                continue
-            if candidate_id in seen:
-                raise ValueError("market_backlog_duplicate_cash_candidate")
-            seen.add(candidate_id)
+        if any(not isinstance(row, dict) for row in rows):
+            raise ValueError("market_backlog_evidence_invalid")
+        prepared_rows = [row for row in rows if row.get("opportunity_id") != canonical
+                         and row.get("prepared_artifacts")]
+        identities = [row.get("opportunity_id") for row in prepared_rows]
+        if any(not isinstance(identity, str) or not identity for identity in identities):
+            raise ValueError("market_backlog_evidence_invalid")
+        # Check the entire cash population BEFORE the three-dossier read limit;
+        # a duplicate after the limit is still ambiguous current evidence.
+        if len(identities) != len(set(identities)):
+            raise ValueError("market_backlog_duplicate_cash_candidate")
+        for row in prepared_rows:
+            candidate_id = row["opportunity_id"]
             matches = [item for item in routed if isinstance(item, dict)
                        and item.get("opportunity_id") == candidate_id]
             if len(matches) != 1 or matches[0].get("source_url") != row.get("source_url"):
