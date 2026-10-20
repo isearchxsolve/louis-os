@@ -48,6 +48,34 @@ les contrôles requis sont verts. Vérifier le premier briefing réel avec séle
 inchangée, dossier séparé, erreurs visibles et autorisation false. Ne pas polir
 le livrable ni préparer un second dossier spéculatif sur la même plateforme bloquée.
 
+### Correction intégrée et vérifiée — 20 octobre 2026, 10:54 UTC
+
+- PR #488 : https://github.com/liubaining-louis/louis-os/pull/488. CI finale
+  `39410852874` réussie au SHA exact `830c0c8924173a097550c3a059f7b9aff974457f`,
+  875 tests sur Python 3.11 et 3.12. Les deux check-runs sont terminés/verts,
+  branche propre ; fusion avec SHA attendu seulement ensuite. Les anciens essais
+  en échec n'ont jamais été fusionnés. Commit de fusion
+  `29e99fb1c342cb6c036c4299ccfbf77285b6f454` ; CI main `39411052693` réussie.
+- Run réel sans VM `39411052657`, job `118588621922`, réussi ; logs lus.
+  Briefing à 10:53:36 UTC, commit `512909331066d7cbe4ef8f0d32a932b82fba784f` :
+  `prepared_market_mission=null` pour la sélection non préparée BloomFilter,
+  `prepared_market_backlog` contient le seul dossier CI/CD déjà terminé, rôle
+  `prepared_backlog_not_canonical`, sélection canonique `market-dfaeb73f8f57f9b6`
+  préservée. Trois hash inchangés, autorisation false, `market_handoff_errors=[]`,
+  `next_action=retain_prepared_market_backlog_gate`.
+- La santé des sources n'est pas masquée par ce succès de persistance : runtime
+  partiel avec deux recherches GitHub 403, 30 inspectées et 0 qualifiée/soumise/payée.
+  Garde GCP respectée : job de déploiement sauté dans `39411052702`.
+- Effet observé : un dossier existant n'est plus perdu visuellement après rotation,
+  aucune nouvelle mission ni dossier, soumission, acceptation ou recette. Aucun
+  rappel humain ni achat ; coût marginal Actions inconnu. Temps pilote d'environ
+  quatorze minutes ; aucun bénéfice ni coût unitaire démontré.
+
+Prochaine action : conserver ces deux rôles séparés lors du prochain cycle marché
+et contrôler tout événement externe avant d'agir. Ne pas reconstruire CI/CD ni
+BloomFilter sans accès/autorisation effective ; ne pas compter la visibilité
+restaurée ou les tests comme une progression économique.
+
 ## Contrôle du 20 octobre 2026 à 05:30 UTC — résultats inchangés
 
 - `get_repo` appelé ; main épinglé à
