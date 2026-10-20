@@ -1,5 +1,40 @@
 # Passation du pilote GitHub
 
+## Contrôle du 20 octobre 2026 à 05:30 UTC — résultats inchangés
+
+- `get_repo` appelé ; main épinglé à
+  `ff6d657985047f9658ebae89f83f2831558c5737`, aucun `AGENTS.md`. Instructions,
+  politiques, PR, #473, états, intentions et reçus relus ; aucun accès/accord nouveau.
+  Les deux registres dégradés absents restent inconnus (404), pas réputés vides.
+- Suivi Taskmarket prévu `39356499859`, job `118412403874`, 20/10 02:00 UTC :
+  13 tests réussis, deux claims lus, `monitor_healthy=true`, `errors=[]`,
+  `MEANINGFUL_CHANGED=false`. Persistance et commentaire correctement sautés ;
+  artifact daté `12235287484` disponible jusqu'au 03/11. Le fichier versionné
+  reste daté du 19/10 17:23 par conception ; cela n'annule pas cette lecture fraîche.
+  Aucun prix Louis observé ni nouveau revenu ; pas de nouvelle lecture manuelle.
+- Rapprochement `39373648487`, job `118466823542`, à 05:12:37 UTC : cinq HTTP 404,
+  wallet RTC fraîchement lu, aucune transition économique. Échec final attendu,
+  erreurs visibles ; 11 RTC historiques ne sont ni des euros ni un paiement nouveau.
+- Pas de nouveau cycle marché depuis le 19/10 20:03 UTC : aucune donnée de source
+  inconnue n'est rendue fraîche artificiellement. Source Guru 403, Truelancer 429,
+  recherche dégradée 403 restent visibles. Aucun ancien run défaillant relancé.
+- CI/CD reste en attente d'autorisation/accès (environ 36 h) ; MoltJobs `90bf05bc`
+  reste bloqué par le 401 documenté, sans événement nouveau : ni retravail,
+  nouvelle tentative d'accès ni demande répétée. Manic reste non vérifié.
+- Une recherche publique distincte et bornée de missions GitHub Python/CSV/docs
+  rémunérées en USDC, hors RustChain, n'a produit aucun résultat. Arrêt après
+  cette requête, sans élargissement non borné ni sélection artificielle.
+- Mesures du passage : 0 nouvelle mission qualifiée, dossier terminé, soumission,
+  acceptation ou paiement ; 0 intervention humaine. Aucun achat ni dépense nouvelle
+  engagée ; coût marginal Actions et coût historique/mission inconnus. Aucun code,
+  fréquence, politique, credential, wallet ou infrastructure modifié.
+
+Décision : pas de correction à fabriquer ni résultat notifiable nouveau.
+Prochaine action : lire les prochains résultats déjà prévus, puis n'examiner
+un candidat connu qu'après événement nouveau. Toute nouvelle mission doit avoir
+une preuve de paiement, un accès effectif et une autorisation existante avant
+livraison/soumission ; ne pas réactiver GCP ni supposer le Lenovo accessible.
+
 ## Contrôle du 19 octobre 2026 à 23:20 UTC — pas d'action payable autorisée
 
 - `get_repo` réellement appelé ; `main` épinglé à
