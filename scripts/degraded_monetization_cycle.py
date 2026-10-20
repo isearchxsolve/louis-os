@@ -282,7 +282,7 @@ def operator_briefing(state=STATE, root=ROOT):
                and ready.get("run_id") == status.get("run_id")
                and bool(candidate.get("id")))
     reserved = any(x.get("candidate_id") == candidate.get("id") for x in intents)
-    market = {"mission": None, "errors": []}
+    market = {"mission": None, "backlog": [], "errors": []}
     if (cfg.get("enabled") is True
             and submission_driver(cfg) == "connected_github_operator"
             and preflight(load_policy(root / "config/production_policy.json")).allowed):
@@ -299,12 +299,14 @@ def operator_briefing(state=STATE, root=ROOT):
         "package_available_for_review": bool(current and not reserved),
         "submission_authorized": False,
         "prepared_market_mission": market["mission"],
+        "prepared_market_backlog": market["backlog"],
         "market_handoff_errors": market["errors"],
         "reconciliation_required": [x for x in intents if x.get("status") != "submitted"],
         "next_action": ("revalidate_package_and_reserve_candidate" if current and not reserved
                         else "reconcile_intents" if intents and any(x.get("status") != "submitted" for x in intents)
                         else "review_prepared_market_mission" if market["mission"]
                         else "repair_market_handoff_evidence" if market["errors"]
+                        else "retain_prepared_market_backlog_gate" if market["backlog"]
                         else "review_tracking_issue_and_wait_for_qualified_candidate"),
         "runbook": "docs/github-operator-mode.md",
         "handoff": "docs/github-operator-handoff.md",
@@ -327,6 +329,7 @@ def report(state=STATE, root=ROOT):
              f"- Pilote des soumissions : {briefing['submission_driver']}",
              f"- Paquet disponible pour revue : {briefing['package_available_for_review']}",
              f"- Dossier marché préparé pour revue : {(briefing['prepared_market_mission'] or {}).get('candidate_id', 'aucun')}",
+             f"- Dossiers déjà préparés hors sélection : {[item['candidate_id'] for item in briefing['prepared_market_backlog']]}",
              f"- Erreurs du relais marché : {briefing['market_handoff_errors']}",
              f"- Suite du pilote : {briefing['next_action']}",
              "- Relais conversationnel : results/degraded/operator-briefing.json ; docs/github-operator-handoff.md",

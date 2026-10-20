@@ -1,5 +1,49 @@
 # Passation du pilote GitHub
 
+## Reprise du 20 octobre 2026 à 10:41 UTC — continuité des dossiers préparés
+
+- `get_repo` appelé, main épinglé à
+  `877e419850eeee69347d2e802e6121d2c6eca8c4`, aucun `AGENTS.md`. Politiques,
+  instructions, PR ouvertes, #473, états/intents/reçus et jobs/logs relus.
+  Aucun nouveau droit externe ; registres dégradés toujours absents (404).
+- Régression reproduite par test en échec : après le cycle marché `39388613610`
+  et routeur `39388827243` réussis à 07:47 UTC, la nouvelle sélection canonique
+  est BloomFilter `market-dfaeb73f8f57f9b6` (non préparée). Le dossier CI/CD
+  `market-685081cabe16a6b0` demeure `ready_for_human_action=true` dans cash_first,
+  avec observation fraîche dans `top_ranked`, mais le briefing n'affiche plus
+  aucun dossier (`prepared_market_mission=null`, aucune erreur). Le livrable
+  existe toujours ; ce n'est ni une clôture fournisseur ni un paiement.
+- Correctif borné : conserver la sélection BloomFilter et le champ canonique,
+  exposer séparément `prepared_market_backlog` (maximum trois dossiers courants).
+  Réutiliser le validateur existant pour chaque ligne : identité unique dans
+  cash et routeur, URL/liste de fichiers, fraîcheur, politique, registre exact,
+  hash, chemins contenus, rejets persistants et reçus/intents. Rôle explicite
+  `prepared_backlog_not_canonical` ; aucune permission, reprise automatique,
+  nouvelle demande humaine ou préparation. Les erreurs restent visibles.
+- Aucun dossier CI/CD modifié, aucun nouveau BloomFilter construit, aucune
+  mission revendiquée/soumise. Simulation en lecture seule au SHA épinglé :
+  BloomFilter reste canonique ; un dossier CI/CD retrouvé avec les trois hash
+  inchangés et autorisation false ; aucune erreur. Le défaut est la perte de
+  visibilité d'un travail engagé, pas un manque de nouveau code monétisable.
+- Huit tests de régression ajoutés ; 57 tests ciblés réussis. Aucun workflow,
+  déclencheur, fréquence ou politique modifié ; gouvernance 3 planifiés/7 runs/jour.
+  La modification du script de briefing est déjà couverte par le déclencheur
+  existant du runtime sans VM : vérifier son premier run après fusion.
+- Marché : 30 inspectées, 0 qualifiée, 0 soumise, 0 paiement ; runtime partiel,
+  deux recherches GitHub 403 visibles. AgentPact effectivement en pause ce cycle,
+  Guru 403 et Truelancer 429 conservés. Le dernier rapprochement 05:12 UTC garde
+  cinq 404 et une lecture RTC fraîche, sans transition économique. Ne pas réessayer
+  manuellement ces sources, Manic ou MoltJobs `90bf05bc` sans événement nouveau.
+- Mesures : un dossier existant rendu visible en simulation, 0 nouvelle mission
+  qualifiée, 0 nouveau dossier/soumission/acceptation/paiement, 0 intervention humaine.
+  Blocage d'accès CI/CD d'environ 41 h 30 ; aucun rappel identique. Aucun achat ;
+  coût marginal Actions et coût total/mission inconnus. Les tests ne sont pas du revenu.
+
+Prochaine action : contrôler la CI au SHA exact puis fusionner seulement si tous
+les contrôles requis sont verts. Vérifier le premier briefing réel avec sélection
+inchangée, dossier séparé, erreurs visibles et autorisation false. Ne pas polir
+le livrable ni préparer un second dossier spéculatif sur la même plateforme bloquée.
+
 ## Contrôle du 20 octobre 2026 à 05:30 UTC — résultats inchangés
 
 - `get_repo` appelé ; main épinglé à

@@ -19,9 +19,8 @@ from atlas.production_policy import evaluate_candidate
 MAX_EVIDENCE_AGE_HOURS = 24
 
 
-def market_handoff(root: Path, policy: dict, *, checked_at: datetime | None = None) -> dict:
+def _validated_handoff(root: Path, policy: dict, router: dict, cash: dict, *, checked_at: datetime) -> dict:
     result = {"mission": None, "errors": []}
-    checked_at = checked_at or datetime.now(timezone.utc)
 
     def load(relative, default):
         path = root / relative
@@ -30,8 +29,6 @@ def market_handoff(root: Path, policy: dict, *, checked_at: datetime | None = No
         return json.loads(path.read_text(encoding="utf-8"))
 
     try:
-        router = load("results/internet_opportunity_router.json", {})
-        cash = load("results/cash_first_market.json", {})
         selected = router.get("selected") or {}
         top = cash.get("top_cash_first") or {}
         candidate_id = selected.get("opportunity_id")
@@ -113,6 +110,72 @@ def market_handoff(root: Path, policy: dict, *, checked_at: datetime | None = No
         }
     except (OSError, ValueError, TypeError, KeyError, AttributeError) as exc:
         # Never turn a broken bridge into a silently empty, apparently healthy handoff.
+        result["errors"].append(str(exc) if isinstance(exc, ValueError) and not isinstance(exc, json.JSONDecodeError)
+                                else type(exc).__name__)
+    return result
+
+
+def market_handoff(root: Path, policy: dict, *, checked_at: datetime | None = None) -> dict:
+    """Keep canonical selection separate from up to three already prepared dossiers.
+
+    Backlog rows must exist uniquely in BOTH current cash and routed evidence.
+    They undergo the exact same policy, freshness, receipt and artifact checks as
+    the canonical row. This does not select them, reprepare them or grant authority.
+    """
+    result = {"mission": None, "backlog": [], "errors": []}
+    checked_at = checked_at or datetime.now(timezone.utc)
+    try:
+        def load(relative):
+            path = root / relative
+            return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+
+        router = load("results/internet_opportunity_router.json")
+        cash = load("results/cash_first_market.json")
+        current = _validated_handoff(root, policy, router, cash, checked_at=checked_at)
+        result.update(current)
+        canonical = (router.get("selected") or {}).get("opportunity_id")
+        if current["errors"] or not canonical:
+            return result
+        if result["mission"]:
+            result["mission"].update(selection_role="canonical", canonical_candidate_id=canonical)
+        rows = cash.get("cash_first", [])
+        routed = router.get("top_ranked", [])
+        if not isinstance(rows, list) or not isinstance(routed, list):
+            raise ValueError("market_backlog_evidence_invalid")
+        seen = set()
+        for row in rows:
+            if not isinstance(row, dict):
+                raise ValueError("market_backlog_evidence_invalid")
+            candidate_id = row.get("opportunity_id")
+            if candidate_id == canonical or not row.get("prepared_artifacts"):
+                continue
+            if candidate_id in seen:
+                raise ValueError("market_backlog_duplicate_cash_candidate")
+            seen.add(candidate_id)
+            matches = [item for item in routed if isinstance(item, dict)
+                       and item.get("opportunity_id") == candidate_id]
+            if len(matches) != 1 or matches[0].get("source_url") != row.get("source_url"):
+                result["errors"].append(f"backlog:{candidate_id}:market_candidate_missing_or_ambiguous")
+                continue
+            candidate = matches[0]
+            if (candidate.get("metadata") or {}).get("prepared_artifacts") != row["prepared_artifacts"]:
+                result["errors"].append(f"backlog:{candidate_id}:market_artifact_list_mismatch")
+                continue
+            checked = _validated_handoff(
+                root, policy, dict(router, selected=candidate), dict(cash, top_cash_first=row),
+                checked_at=checked_at,
+            )
+            result["errors"].extend(f"backlog:{candidate_id}:{error}" for error in checked["errors"])
+            if checked["mission"]:
+                checked["mission"].update(selection_role="prepared_backlog_not_canonical",
+                                           canonical_candidate_id=canonical,
+                                           source_row="top_ranked",
+                                           next_action="retain_existing_gate_without_resubmitting_or_repreparing")
+                result["backlog"].append(checked["mission"])
+                if len(result["backlog"]) == 3:
+                    break
+    except (OSError, ValueError, TypeError, KeyError, AttributeError) as exc:
+        result["backlog"] = []
         result["errors"].append(str(exc) if isinstance(exc, ValueError) and not isinstance(exc, json.JSONDecodeError)
                                 else type(exc).__name__)
     return result

@@ -46,6 +46,12 @@ Avant de traiter une cible, vérifier les runs actifs et les reçus existants.
    reçus absents sont indiqués. Les hash valident l'intégrité, pas le contenu
    factuel, l'éligibilité courante, l'acceptation ni le paiement. Revalider les
    sources et le livrable avant toute action externe autorisée.
+   `prepared_market_backlog` conserve séparément jusqu'à trois dossiers déjà
+   préparés quand la sélection change. Chaque dossier doit encore figurer sans
+   ambiguïté dans le portefeuille cash et les lignes routées actuels, et subir
+   les mêmes contrôles. Son rôle `prepared_backlog_not_canonical` ne remplace pas
+   la sélection, ne déclenche pas de nouvelle préparation ni demande d'accord,
+   et ne confère aucune autorisation d'envoi. Toute incohérence reste une erreur.
 3. Examiner les PR et runs en cours. Réconcilier les tentatives incertaines avant
    de répéter une action. Choisir une seule tâche utile au plan de relance.
 4. Pour une modification Louis OS : branche issue du `main` courant, correctif
