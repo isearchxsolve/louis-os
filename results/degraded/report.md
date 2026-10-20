@@ -1,7 +1,7 @@
 ## Louis OS — mode dégradé sans VM
 
 - Runtime : partial
-- Dernier cycle : 2026-10-20T07:47:03.203965+00:00
+- Dernier cycle : 2026-10-20T10:53:35.026870+00:00
 - Résultat : no_eligible_candidate
 - Missions inspectées : 30 ; éligibles : 0
 - Soumissions vérifiées dans ce cycle : 0
@@ -11,8 +11,9 @@
 - Pilote des soumissions : connected_github_operator
 - Paquet disponible pour revue : False
 - Dossier marché préparé pour revue : aucun
+- Dossiers déjà préparés hors sélection : ['market-685081cabe16a6b0']
 - Erreurs du relais marché : []
-- Suite du pilote : review_tracking_issue_and_wait_for_qualified_candidate
+- Suite du pilote : retain_prepared_market_backlog_gate
 - Relais conversationnel : results/degraded/operator-briefing.json ; docs/github-operator-handoff.md
 - Le pilote connecté agit pendant une conversation active ; aucun réveil automatique.
 
