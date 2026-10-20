@@ -1,5 +1,51 @@
 # Passation du pilote GitHub
 
+## Contrôle du 20 octobre 2026 à 23:05 UTC — rotation réconciliée, blocage inchangé
+
+- `get_repo` réellement appelé ; main épinglé à
+  `ebc8306b56fb7d2fa8252c713d1a158b60ee2637`, aucun `AGENTS.md`.
+  Instructions, politiques, 19 PR ouvertes, #473, workflows, jobs/logs,
+  états/intents/reçus et erreurs de sources relus. Aucun droit externe nouveau ;
+  les trois registres de soumission absents restent inconnus (404), pas vides.
+- Cycle marché `39475649391` et routeur `39476028863` réussis. La sélection
+  canonique revient au dossier CI/CD `market-685081cabe16a6b0`, observé ouvert
+  à 18:34:06 UTC, 7 USDC annoncés, trois hash inchangés et autorisation false.
+  Le briefing à 18:35:36 UTC expose ce dossier comme `canonical`, backlog vide,
+  `market_handoff_errors=[]`. La rotation BloomFilter→CI/CD est réconciliée ;
+  elle ne prouve ni accès, revendication, livraison, acceptation ou paiement.
+- `human_action_required.json` garde le même fingerprint et `new_count=0` ;
+  le workflow confirme « No new human action ». Aucune alerte répétée. Les cinq
+  autres lignes cash-first sont de nouveaux dossiers BountyBook non préparés
+  portant le même blocage compte/conditions ; ils ne sont pas construits
+  spéculativement et le dossier terminé n'est pas repoli.
+- Source refresh à 18:34:19 UTC : AgentPact a repris comme prévu après une pause
+  d'un cycle mais les 50 besoins restent non financés ; pivot courant
+  `not_applied`, prochaine décision routeur `pause_source_and_replace`.
+  BountyBook 50 annonces, MoltJobs une, Freelancer simple une ; Guru 403 et
+  Truelancer 429 restent visibles. Aucun nouvel adaptateur ni remplacement
+  commercial effectif affirmé. Ne pas répéter manuellement les accès refusés.
+- Runtime cycle 80 : 30 inspectées, 0 qualifiée, 0 soumission/paiement, état
+  partiel et deux recherches GitHub 403. Credential externe false ; les voies
+  MoltJobs, TaskForce, AgentPact et wallet Earn demeurent indisponibles sans VM.
+  Le Lenovo n'est pas supposé accessible et GCP n'est pas réactivé.
+- Dernier rapprochement `39503480716`, job `118906508414`, à 21:49:51 UTC :
+  16 tests réussis, cinq 404 inchangés, wallet RTC lu fraîchement, 1/6 source,
+  `changed=false`, `health_changed=false`. Échec final attendu après artifact
+  `12302851535` conservé jusqu'au 03/11. Les 11 RTC historiques ne deviennent
+  ni un paiement individuel nouveau ni des euros.
+- Mesures : 0 nouvelle mission distincte qualifiée, 0 nouveau dossier terminé,
+  0 soumission avec reçu, 0 acceptation, 0 paiement, 0 intervention humaine.
+  Blocage d'accès/accord CI/CD d'environ 53 h 48 depuis la notification initiale.
+  Aucun achat ; coût marginal Actions, coût total et temps par mission inconnus.
+  Les scans, tests, rotations et commits ne sont pas une performance économique.
+
+Décision : aucune correction causale nouvelle reproduite, donc aucune PR ou
+notification artificielle. Prochaine action précise : contrôler le prochain
+cycle déjà prévu ; vérifier que le pivot suspend effectivement AgentPact une seule
+fois et que le dossier CI/CD reste canonique ou backlog sans perdre ses erreurs.
+Agir extérieurement seulement après un nouvel accès et accord effectifs ; ne pas
+préparer un second dossier BountyBook bloqué ni répéter la demande existante.
+
 ## Contrôle du 20 octobre 2026 à 17:01 UTC — aucune transition nouvelle
 
 - `get_repo` réellement appelé ; main épinglé à
