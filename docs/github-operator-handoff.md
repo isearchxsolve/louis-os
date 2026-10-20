@@ -1,5 +1,55 @@
 # Passation du pilote GitHub
 
+## Contrôle du 20 octobre 2026 à 17:01 UTC — aucune transition nouvelle
+
+- `get_repo` réellement appelé ; main épinglé à
+  `0f8d0aa46ac10dc77a3f379818077867f2e74828`. Aucun `AGENTS.md` dans l'arbre.
+  Instructions, politiques, 19 PR ouvertes, #473, états, intentions/reçus,
+  définitions des workflows et jobs/logs relus. Aucun nouvel accord externe.
+  Les trois registres de soumission absents restent inconnus (404), pas vides.
+- Travail engagé réconcilié : le briefing du run `39411052657`, à 10:53:36,
+  conserve BloomFilter canonique non préparé et le seul dossier CI/CD séparé,
+  rôle `prepared_backlog_not_canonical`, autorisation false, trois hash inchangés,
+  `market_handoff_errors=[]`. Pas de nouveau cycle marché depuis 07:46 UTC ;
+  ces observations ne sont pas renouvelées artificiellement. Le créneau cron
+  14:23 n'a pas de run observable dans la liste actuelle à ce contrôle ; cause
+  et éventuel retard inconnus, aucune relance manuelle ni fréquence ajoutée.
+- Rapprochement plus récent `39419483513`, job `118616568774`, à 12:04:15 UTC :
+  16 tests réussis, cinq HTTP 404 inchangés, wallet RTC lu fraîchement, aucun
+  cache ; `changed=false`, `health_changed=false`, 1/6 source réussie.
+  Échec final attendu après artifact `12263262249`, conservé jusqu'au 03/11.
+  Aucun commit/commentaire économique automatique, aucune nouvelle réception.
+  Les 11 RTC historiques ne prouvent ni un nouveau paiement individuel ni des euros.
+- Taskmarket `39356499859`, job `118412403874` : logs relus, 13 tests réussis,
+  `MEANINGFUL_CHANGED=false`, santé publique complète, aucun signal de sélection
+  ou paiement. Aucun nouveau suivi depuis ce contrôle déjà connu ; pas de requête
+  manuelle identique. Les concours terminés ne sont pas réinterprétés en rejets.
+- Runtime cycle 79 : 30 inspectées, 0 qualifiée, 0 soumission/paiement, état
+  partiel, deux recherches GitHub 403 visibles. Source refresh du matin inchangé :
+  AgentPact effectivement en pause, BountyBook 50 annonces, Guru 403, Truelancer
+  429 ; aucun remplacement commercial nouveau prouvé. Ne pas réinterroger ces
+  sources, MoltJobs `90bf05bc` ou Manic sans événement nouveau.
+- Limite de lecture : l'énumération `actions/workflows?per_page=100` est refusée
+  par le connecteur (`INVALID_ARGUMENT`), pas par une preuve de workflow désactivé.
+  Les fichiers YAML épinglés, les runs, jobs, logs et artifacts sont accessibles.
+  Aucun test local nouveau exécuté ; aucune CI nouvelle déclenchée. Les contrôles
+  passés de #488 ne sont pas présentés comme un nouveau résultat de ce passage.
+- Mesures du passage : 0 nouvelle mission distincte qualifiée, 0 nouveau dossier,
+  0 soumission avec reçu, 0 acceptation, 0 paiement, 0 intervention humaine.
+  Dossier CI/CD laissé intact, attente d'accès/accord d'environ 47 h 44 depuis
+  la notification du 18/10 17:17. Aucun achat ; coût marginal Actions, coût total
+  et temps historique par mission inconnus. Temps pilote environ deux minutes.
+  La passation et les contrôles ne comptent pas comme performance économique.
+
+Décision : aucune PR/correction artificielle ni notification répétée. GitHub reste
+opérationnel pour le pilotage ; pas de panne globale d'accès justifiant l'arrêt.
+Prochaine action précise : examiner le prochain résultat marché déjà prévu et
+sa continuité canonique/backlog ; si aucun run n'apparaît encore, vérifier l'état
+du workflow avec un accès de lecture effectif sans augmenter sa fréquence.
+Ne préparer/soumettre une mission distincte qu'avec critères, paiement, accès et
+autorisation établis ; ne pas reconstruire CI/CD/BloomFilter en attendant.
+Conserver GCP arrêté, migration Lenovo non supposée et charbon exclu.
+
 ## Reprise du 20 octobre 2026 à 10:41 UTC — continuité des dossiers préparés
 
 - `get_repo` appelé, main épinglé à
