@@ -29,6 +29,10 @@
   déclencheur, fréquence ou politique modifié ; gouvernance 3 planifiés/7 runs/jour.
   La modification du script de briefing est déjà couverte par le déclencheur
   existant du runtime sans VM : vérifier son premier run après fusion.
+- Première CI de cette PR restée rouge, sans fusion : un ancien test exigeait
+  que CI/CD soit toujours premier dans le catalogue vivant. Sa fixture est rendue
+  déterministe pour tester le contrat artefact→gate sans figer le classement.
+  Les contrôles de sélection canonique, de rotation et d'intégrité restent testés.
 - Marché : 30 inspectées, 0 qualifiée, 0 soumise, 0 paiement ; runtime partiel,
   deux recherches GitHub 403 visibles. AgentPact effectivement en pause ce cycle,
   Guru 403 et Truelancer 429 conservés. Le dernier rapprochement 05:12 UTC garde

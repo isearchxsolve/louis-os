@@ -123,8 +123,28 @@ class BountyBookCicdComparisonDeliveryTests(unittest.TestCase):
         self.assertTrue(selected_result["metadata"]["prepared_artifact_registry_verified"])
         self.assertFalse(other_result["metadata"]["submission_dossier_prepared"])
 
-    def test_current_market_selection_reaches_operator_gate(self) -> None:
-        market = json.loads((ROOT / "results" / "universal_market_opportunities.json").read_text(encoding="utf-8"))
+    def test_prepared_cicd_fixture_reaches_operator_gate_without_pinning_live_rank(self) -> None:
+        # This tests the artifact-to-gate contract, not which live opportunity
+        # must always rank first. A new listing must be free to outrank CI/CD.
+        market = {"generated_at": "2026-10-20T07:46:00+00:00", "opportunities": [{
+            "opportunity_id": "market-685081cabe16a6b0",
+            "source_url": "https://www.bountybook.ai/job/d47a42b6-8203-4bc7-8bbf-c22ef912c232",
+            "source_id": "bountybook_agent_jobs", "source_category": "agent_native_marketplace",
+            "title": "Write a structured JSON comparison of 5 CI/CD platforms",
+            "description": "Compare five tools using official documentation in one JSON file.",
+            "reward_amount": 7, "currency": "USDC", "reward_verified": True,
+            "payment_evidence": ["fixture_reward_evidence"],
+            "required_capabilities": ["evidence_research_dossier"],
+            "observed_at": "2026-10-20T07:46:00+00:00",
+            "account_required": True, "terms_required": True,
+            "cost": 0, "competition": 0.55, "accessibility": 0.96,
+            "risk": 0.22, "time_to_cash_days": 10,
+            "decision": {"status": "prepare_then_gate", "missing_capabilities": [],
+                         "blockers": ["account_required", "terms_acceptance_required"]},
+            "metadata": {"submission_dossier_required": True, "submission_dossier_prepared": False,
+                         "estimated_effort_hours": 2, "source_kind": "agent_native_public_api",
+                         "official_source": True, "days_left": 7},
+        }]}
         registry = json.loads(REGISTRY.read_text(encoding="utf-8"))
         market["opportunities"] = attach_prepared_artifacts(market["opportunities"], registry)
         portfolio = build_cash_first_portfolio(market)
@@ -133,10 +153,7 @@ class BountyBookCicdComparisonDeliveryTests(unittest.TestCase):
         cycle = build_cycle([
             ("universal_market_opportunities.json", market),
             ("cash_first_market.json", portfolio),
-            (
-                "universal_market_cycle.json",
-                json.loads((ROOT / "results" / "universal_market_cycle.json").read_text(encoding="utf-8")),
-            ),
+            ("universal_market_cycle.json", {}),
         ])
         self.assertEqual(cycle["selected"]["opportunity_id"], "market-685081cabe16a6b0")
         self.assertEqual(cycle["selection_source"], "canonical_cash_first")
