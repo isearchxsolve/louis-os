@@ -4,7 +4,7 @@
       "capability_id": "python_automation_delivery",
       "capability_market_score": 71.64,
       "capability_status": "validated",
-      "capped_score_value": 72.0,
+      "capped_score_value": 61.5,
       "cluster_id": "cluster-748ac3799d1d59fc",
       "deliverable_family": "python_automation_delivery",
       "first_payment_probability": 0.2283,
@@ -33,8 +33,8 @@
         "market-bec36e8a474d979c",
         "market-da9c3f7b812376f8",
         "market-ddd25e168928e0b4",
-        "market-dfaeb73f8f57f9b6",
         "market-e6b188de5a99ce62",
+        "market-f587df60c74ed289",
         "market-fc596d78b7ecf243"
       ],
       "rationale": [
@@ -52,10 +52,10 @@
       "source_ids": [
         "bountybook_agent_jobs"
       ],
-      "top_opportunity_title": "Build a BloomFilter class in Python with add and contains methods",
-      "top_opportunity_url": "https://www.bountybook.ai/job/823eedfb-49f1-4a2c-9fba-87e6c4075e2a",
+      "top_opportunity_title": "Build a StateMachine class in state_machine.py with transitions and guards",
+      "top_opportunity_url": "https://www.bountybook.ai/job/87b131ee-7102-4d69-a99d-08cff67e9c1a",
       "verified_value_by_currency": {
-        "USDC": 72.0
+        "USDC": 61.5
       }
     },
     {
@@ -163,7 +163,7 @@
       "capability_id": "javascript_automation_delivery",
       "capability_market_score": 58.31,
       "capability_status": "unknown",
-      "capped_score_value": 33.5,
+      "capped_score_value": 42.0,
       "cluster_id": "cluster-fbef83a6a25bc3ac",
       "deliverable_family": "javascript_automation_delivery",
       "first_payment_probability": 0.2283,
@@ -172,13 +172,13 @@
       "median_accessibility": 0.96,
       "median_competition": 0.55,
       "median_effort_hours": 2.0,
-      "median_reward": 4.0,
+      "median_reward": 5.0,
       "median_time_to_cash_days": 10,
       "opportunity_count": 9,
       "opportunity_ids": [
         "market-0ce5602d3d3c389c",
         "market-1fb23eafad516f31",
-        "market-4fbdd3d92c33846b",
+        "market-26b456dd609d3e3a",
         "market-59e80f1486713142",
         "market-c1e75be1978a1d1f",
         "market-e72b64110cdd3860",
@@ -201,27 +201,27 @@
       "source_ids": [
         "bountybook_agent_jobs"
       ],
-      "top_opportunity_title": "Build a rate_limiter.js module that exports a RateLimiter class",
-      "top_opportunity_url": "https://www.bountybook.ai/job/05972785-3be7-4b20-be73-acd7484767d3",
+      "top_opportunity_title": "Build a generic MinHeap<T> class in TypeScript with push, pop, peek, and toSorte",
+      "top_opportunity_url": "https://www.bountybook.ai/job/bcef57a8-6a9e-43a5-9e45-458d595f86c3",
       "verified_value_by_currency": {
-        "USDC": 33.5
+        "USDC": 42.0
       }
     },
     {
       "capability_id": "structured_document_delivery",
-      "capability_market_score": 55.64,
+      "capability_market_score": 55.83,
       "capability_status": "experimental",
       "capped_score_value": 20.01,
       "cluster_id": "cluster-0ee287ec90a3ea7f",
       "deliverable_family": "structured_document_delivery",
-      "first_payment_probability": 0.2419,
+      "first_payment_probability": 0.2462,
       "implementation_cost": 0.35,
       "lane": "cash_first",
       "median_accessibility": 0.94,
       "median_competition": 0.525,
       "median_effort_hours": 2.0,
       "median_reward": 10.01,
-      "median_time_to_cash_days": 10.0,
+      "median_time_to_cash_days": 9.5,
       "opportunity_count": 2,
       "opportunity_ids": [
         "market-c52bd45fe8a98f2c",
@@ -232,8 +232,8 @@
         "opportunities=2",
         "sources=2",
         "median_effort_hours=2",
-        "median_time_to_cash_days=10",
-        "first_payment_probability=0.2419",
+        "median_time_to_cash_days=9.5",
+        "first_payment_probability=0.2462",
         "capability_status=experimental",
         "headline rewards are capped for scoring and strategic prizes cannot dominate cash-first rank"
       ],
@@ -294,46 +294,6 @@
       }
     },
     {
-      "capability_id": "static_website_delivery",
-      "capability_market_score": 50.73,
-      "capability_status": "validated",
-      "capped_score_value": 21.0,
-      "cluster_id": "cluster-6d0659d75149485d",
-      "deliverable_family": "static_website_delivery",
-      "first_payment_probability": 0.2833,
-      "implementation_cost": 0.05,
-      "lane": "cash_first",
-      "median_accessibility": 0.86,
-      "median_competition": 0.0,
-      "median_effort_hours": 12.0,
-      "median_reward": 21.0,
-      "median_time_to_cash_days": 30,
-      "opportunity_count": 1,
-      "opportunity_ids": [
-        "market-43f57ba2e06fa72f"
-      ],
-      "rationale": [
-        "lane=cash_first",
-        "opportunities=1",
-        "sources=1",
-        "median_effort_hours=12",
-        "median_time_to_cash_days=30",
-        "first_payment_probability=0.2833",
-        "capability_status=validated",
-        "headline rewards are capped for scoring and strategic prizes cannot dominate cash-first rank"
-      ],
-      "reusable_deliverable_ratio": 0.55,
-      "source_count": 1,
-      "source_ids": [
-        "freelancer_public_software_jobs"
-      ],
-      "top_opportunity_title": "Migrate WordPress Site to a New Host",
-      "top_opportunity_url": "https://www.freelancer.com/projects/ssl/migrate-wordpress-site-new-host",
-      "verified_value_by_currency": {
-        "USD": 21.0
-      }
-    },
-    {
       "capability_id": "go_software_delivery",
       "capability_market_score": 49.14,
       "capability_status": "unknown",
@@ -375,10 +335,50 @@
       }
     },
     {
+      "capability_id": "translation_delivery",
+      "capability_market_score": 46.19,
+      "capability_status": "experimental",
+      "capped_score_value": 20.0,
+      "cluster_id": "cluster-32b15a1bdeecbda4",
+      "deliverable_family": "bounded_translation",
+      "first_payment_probability": 0.2833,
+      "implementation_cost": 0.35,
+      "lane": "cash_first",
+      "median_accessibility": 0.86,
+      "median_competition": 0.0,
+      "median_effort_hours": 8.0,
+      "median_reward": 20.0,
+      "median_time_to_cash_days": 30,
+      "opportunity_count": 1,
+      "opportunity_ids": [
+        "market-687c34b9b498b36c"
+      ],
+      "rationale": [
+        "lane=cash_first",
+        "opportunities=1",
+        "sources=1",
+        "median_effort_hours=8",
+        "median_time_to_cash_days=30",
+        "first_payment_probability=0.2833",
+        "capability_status=experimental",
+        "headline rewards are capped for scoring and strategic prizes cannot dominate cash-first rank"
+      ],
+      "reusable_deliverable_ratio": 0.55,
+      "source_count": 1,
+      "source_ids": [
+        "freelancer_public_simple_jobs"
+      ],
+      "top_opportunity_title": "Czech-English Voice Evaluation Specialist Needed",
+      "top_opportunity_url": "https://www.freelancer.com/projects/czech-translator/czech-english-voice-evaluation",
+      "verified_value_by_currency": {
+        "USD": 20.0
+      }
+    },
+    {
       "capability_id": "evidence_research_dossier",
       "capability_market_score": 28.57,
       "capability_status": "validated",
-      "capped_score_value": 15000.0,
+      "capped_score_value": 14000.0,
       "cluster_id": "cluster-3cbaec53e8253316",
       "deliverable_family": "web_research_and_evidence_dossier",
       "first_payment_probability": 0.0123,
@@ -387,9 +387,9 @@
       "median_accessibility": 0.55,
       "median_competition": 0.8,
       "median_effort_hours": 120.0,
-      "median_reward": 999990.0,
-      "median_time_to_cash_days": 120,
-      "opportunity_count": 15,
+      "median_reward": 824995.0,
+      "median_time_to_cash_days": 120.0,
+      "opportunity_count": 14,
       "opportunity_ids": [
         "market-106b59a047e35450",
         "market-1439b4282f487f05",
@@ -403,13 +403,12 @@
         "market-afecaf51c21016a7",
         "market-b9b95b0b32233d06",
         "market-d46538f8da501d1d",
-        "market-e83151483ac8f8ac",
         "market-ef56ac197c23f21a",
         "market-f03a6ebac9c36f6e"
       ],
       "rationale": [
         "lane=strategic",
-        "opportunities=15",
+        "opportunities=14",
         "sources=1",
         "median_effort_hours=120",
         "median_time_to_cash_days=120",
@@ -425,14 +424,14 @@
       "top_opportunity_title": "xTech|Kinetic Reach",
       "top_opportunity_url": "https://www.usa.gov/challenges/xtech-kinetic-reach",
       "verified_value_by_currency": {
-        "USD": 45748990.0
+        "USD": 44748990.0
       }
     },
     {
       "capability_id": "technical_proposal",
       "capability_market_score": 25.51,
       "capability_status": "experimental",
-      "capped_score_value": 15000.0,
+      "capped_score_value": 14000.0,
       "cluster_id": "cluster-2f439110c8d8b82b",
       "deliverable_family": "technical_proposal",
       "first_payment_probability": 0.0123,
@@ -441,9 +440,9 @@
       "median_accessibility": 0.55,
       "median_competition": 0.8,
       "median_effort_hours": 120.0,
-      "median_reward": 999990.0,
-      "median_time_to_cash_days": 120,
-      "opportunity_count": 15,
+      "median_reward": 824995.0,
+      "median_time_to_cash_days": 120.0,
+      "opportunity_count": 14,
       "opportunity_ids": [
         "market-106b59a047e35450",
         "market-1439b4282f487f05",
@@ -457,13 +456,12 @@
         "market-afecaf51c21016a7",
         "market-b9b95b0b32233d06",
         "market-d46538f8da501d1d",
-        "market-e83151483ac8f8ac",
         "market-ef56ac197c23f21a",
         "market-f03a6ebac9c36f6e"
       ],
       "rationale": [
         "lane=strategic",
-        "opportunities=15",
+        "opportunities=14",
         "sources=1",
         "median_effort_hours=120",
         "median_time_to_cash_days=120",
@@ -479,14 +477,14 @@
       "top_opportunity_title": "xTech|Kinetic Reach",
       "top_opportunity_url": "https://www.usa.gov/challenges/xtech-kinetic-reach",
       "verified_value_by_currency": {
-        "USD": 45748990.0
+        "USD": 44748990.0
       }
     },
     {
       "capability_id": "web_application_prototype",
       "capability_market_score": 25.51,
       "capability_status": "experimental",
-      "capped_score_value": 15000.0,
+      "capped_score_value": 14000.0,
       "cluster_id": "cluster-14511ab14f2659f9",
       "deliverable_family": "web_application_prototype",
       "first_payment_probability": 0.0123,
@@ -495,9 +493,9 @@
       "median_accessibility": 0.55,
       "median_competition": 0.8,
       "median_effort_hours": 120.0,
-      "median_reward": 999990.0,
-      "median_time_to_cash_days": 120,
-      "opportunity_count": 15,
+      "median_reward": 824995.0,
+      "median_time_to_cash_days": 120.0,
+      "opportunity_count": 14,
       "opportunity_ids": [
         "market-106b59a047e35450",
         "market-1439b4282f487f05",
@@ -511,13 +509,12 @@
         "market-afecaf51c21016a7",
         "market-b9b95b0b32233d06",
         "market-d46538f8da501d1d",
-        "market-e83151483ac8f8ac",
         "market-ef56ac197c23f21a",
         "market-f03a6ebac9c36f6e"
       ],
       "rationale": [
         "lane=strategic",
-        "opportunities=15",
+        "opportunities=14",
         "sources=1",
         "median_effort_hours=120",
         "median_time_to_cash_days=120",
@@ -533,14 +530,14 @@
       "top_opportunity_title": "xTech|Kinetic Reach",
       "top_opportunity_url": "https://www.usa.gov/challenges/xtech-kinetic-reach",
       "verified_value_by_currency": {
-        "USD": 45748990.0
+        "USD": 44748990.0
       }
     },
     {
       "capability_id": "physical_hardware_prototype",
-      "capability_market_score": 18.75,
+      "capability_market_score": 18.04,
       "capability_status": "unavailable",
-      "capped_score_value": 7000.0,
+      "capped_score_value": 6000.0,
       "cluster_id": "cluster-532c1604d78624e8",
       "deliverable_family": "physical_hardware_prototype",
       "first_payment_probability": 0.0123,
@@ -549,21 +546,20 @@
       "median_accessibility": 0.55,
       "median_competition": 0.8,
       "median_effort_hours": 120.0,
-      "median_reward": 1000000.0,
-      "median_time_to_cash_days": 120,
-      "opportunity_count": 7,
+      "median_reward": 1749995.0,
+      "median_time_to_cash_days": 120.0,
+      "opportunity_count": 6,
       "opportunity_ids": [
         "market-1439b4282f487f05",
         "market-1ee13912610733bb",
         "market-62f48f66c6d69241",
         "market-afecaf51c21016a7",
         "market-b9b95b0b32233d06",
-        "market-e83151483ac8f8ac",
         "market-f03a6ebac9c36f6e"
       ],
       "rationale": [
         "lane=strategic",
-        "opportunities=7",
+        "opportunities=6",
         "sources=1",
         "median_effort_hours=120",
         "median_time_to_cash_days=120",
@@ -579,7 +575,7 @@
       "top_opportunity_title": "xTech|Kinetic Reach",
       "top_opportunity_url": "https://www.usa.gov/challenges/xtech-kinetic-reach",
       "verified_value_by_currency": {
-        "USD": 21250990.0
+        "USD": 20250990.0
       }
     },
     {
@@ -626,6 +622,6 @@
     }
   ],
   "count": 13,
-  "generated_at": "2026-10-20T07:46:29.251917+00:00",
+  "generated_at": "2026-10-20T18:34:20.499765+00:00",
   "schema_version": "1.0"
 }

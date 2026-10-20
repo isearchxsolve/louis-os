@@ -2,7 +2,7 @@
   "count": 5,
   "external_actions_authorized": false,
   "external_submissions_verified": 0,
-  "generated_at": "2026-10-20T07:46:29.251917+00:00",
+  "generated_at": "2026-10-20T18:34:20.499765+00:00",
   "plans": [
     {
       "acceptance_tests": [
@@ -55,13 +55,13 @@
       "capability_market_score": 58.31,
       "cluster_id": "cluster-fbef83a6a25bc3ac",
       "evidence": [
-        "https://www.bountybook.ai/job/05972785-3be7-4b20-be73-acd7484767d3",
+        "https://www.bountybook.ai/job/bcef57a8-6a9e-43a5-9e45-458d595f86c3",
         "bountybook_agent_jobs"
       ],
       "fixture_opportunity_ids": [
         "market-0ce5602d3d3c389c",
         "market-1fb23eafad516f31",
-        "market-4fbdd3d92c33846b"
+        "market-26b456dd609d3e3a"
       ],
       "immediate_next_action": "create_or_update_capability_issue:javascript_automation_delivery",
       "lane": "cash_first",
@@ -88,7 +88,7 @@
       ],
       "budget_rule": "Use existing local and cloud infrastructure first; any paid dependency or external purchase requires explicit approval.",
       "capability_id": "structured_document_delivery",
-      "capability_market_score": 55.64,
+      "capability_market_score": 55.83,
       "cluster_id": "cluster-0ee287ec90a3ea7f",
       "evidence": [
         "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
