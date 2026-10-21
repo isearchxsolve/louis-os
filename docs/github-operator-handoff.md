@@ -1,5 +1,57 @@
 # Passation du pilote GitHub
 
+## Contrôle du 21 octobre 2026 à 11:26 UTC — pivot exécuté, revenu inchangé
+
+- `get_repo` réellement appelé ; main épinglé à
+  `e8a85cb7508d57845f1e33a0caf5f30ab07c6fbc`, aucun `AGENTS.md`.
+  Instructions, politiques, 19 PR ouvertes, #473, workflows, jobs/logs,
+  états/intents/reçus et erreurs de sources relus. Aucun nouvel accès externe ;
+  les trois registres de soumission absents restent inconnus (404), pas vides.
+- Cycle marché `39564676840` et routeur `39564952092` réussis. Le pivot
+  demandé est maintenant observé : AgentPact a été suspendu exactement pour ce
+  cycle (`applied_source_pause`), sans nouvelle sonde, en conservant son
+  observation précédente (50 besoins, 39 détaillés, tous non financés).
+  `replacement_status=existing_reviewed_sources_only_no_new_source_activated` :
+  BountyBook a fourni 50 lignes, MoltJobs une et Freelancer simple une ; Guru
+  reste en 403 et Truelancer en 429. Aucun remplacement commercial nouveau
+  n'est donc revendiqué ; prochaine décision routeur `continue_measured_search`.
+- Runtime sans VM, cycle 81 : état `healthy`, 30 inspectées, 0 qualifiée,
+  0 soumission, 0 paiement et aucune erreur de découverte GitHub. Les 29 rejets
+  sans preuve d'adaptateur de paiement et un bounty surchargé restent explicites.
+  Le job a exécuté 14 tests puis délégué au pilote connecté ; artifact
+  `12329595800`, digest
+  `sha256:a882972e56321e224b9e79e376ef4a674bd25d85a1942738b75e07accda6d4b4`,
+  disponible jusqu'au 04/11. Credential externe false ; VM/GCP non utilisés.
+- Le dossier CI/CD `market-685081cabe16a6b0` reste canonique, observé ouvert
+  à 07:50:35 UTC, 7 USDC annoncés, trois hash inchangés, backlog vide et
+  `market_handoff_errors=[]`. Autorisation, revendication, soumission,
+  acceptation et paiement restent false. `human_action_required` conserve
+  le même fingerprint et `new_count=0` ; aucune alerte répétée. Les candidats
+  MoltJobs/Freelancer plus hauts dans le classement général ne sont pas exécutés :
+  le premier garde son accès VM/401 documenté et le second exige une compétence
+  linguistique personnelle non établie. Aucun second dossier spéculatif préparé.
+- Rapprochement `39548454617`, job `119051903939`, à 05:14:51 UTC :
+  tests réussis, cinq 404 inchangés, wallet RTC lu fraîchement, 1/6 source,
+  `changed=false`, `health_changed=false`. Échec final attendu après artifact
+  `12322876979`, digest
+  `sha256:8355c72d0cd8b58d9d443fe669a860d218557d3ca9d660869bba2dac5417d12b`.
+  Les 11 RTC historiques ne sont ni des euros ni un nouveau paiement ; Manic
+  10 USD reste non vérifié.
+- Mesures : 0 nouvelle mission distincte qualifiée, 0 nouveau dossier terminé,
+  0 soumission avec reçu, 0 acceptation, 0 paiement et 0 intervention humaine.
+  Blocage compte/conditions CI/CD d'environ 66 h 09 depuis la notification
+  initiale. Aucun achat ; coût marginal Actions, coût total et temps par mission
+  inconnus. Le pivot, les scans, tests et commits ne sont pas une performance
+  économique.
+
+Décision : le travail engagé et le pivot sont réconciliés ; aucune correction
+causale nouvelle à fabriquer, donc aucune PR, soumission ou notification répétée.
+Prochaine action précise : laisser le prochain cycle reprendre AgentPact selon le
+contrat d'une pause unique et vérifier qu'un candidat distinct, accessible et
+payable remplace réellement les voies bloquées. Conserver CI/CD intact tant
+qu'aucun accès et accord BountyBook effectifs n'existent ; ne pas répéter MoltJobs,
+Freelancer ou les cinq 404 sans événement nouveau.
+
 ## Contrôle du 21 octobre 2026 à 05:04 UTC — suivi Taskmarket frais, aucune transition économique
 
 - `get_repo` réellement appelé ; main épinglé au début du contrôle à
