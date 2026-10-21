@@ -1,5 +1,53 @@
 # Passation du pilote GitHub
 
+## Contrôle du 21 octobre 2026 à 22:37 UTC — reprise de source sans candidat exécutable
+
+- `get_repo` réellement appelé ; main épinglé à
+  `1894500cdcb64d8b92d06df23ebf7b84da3c891d`, aucun `AGENTS.md`. Instructions, politiques, 19 PR ouvertes,
+  #473, workflows, jobs/logs, états, intentions et reçus relus. Les trois
+  registres de soumission absents restent inconnus (404), pas réputés vides.
+- Cycle marché `39655639964` et routeur `39656045484` réussis. Runtime
+  sans VM cycle 82 : état `healthy`, 30 inspectées, 0 qualifiée, 0 soumission,
+  0 paiement, aucune erreur de découverte. Rejets conservés : 28 sans preuve
+  d'adaptateur de paiement, un bounty surchargé et une cible indisponible/réservée.
+  Artifact `12371602165`, digest
+  `sha256:7b04aeda90d13f3dd516ddc97712be2e6357d161674246fc7ddf524b10686de4`,
+  disponible jusqu'au 04/11.
+- AgentPact a repris après sa pause unique : 50 annonces observées, 39 détaillées,
+  les 50 restent non financées. Le pivot courant est donc `not_applied` et le
+  routeur redemande `pause_source_and_replace`; le reçu dit explicitement
+  `existing_reviewed_sources_only_no_new_source_activated`. BountyBook fournit
+  50 annonces/39 détaillées, MoltJobs une et Freelancer simple une ; Guru reste
+  en 403 et Truelancer en 429. Aucune nouvelle source commerciale n'est activée
+  ni présentée comme remplacement effectif.
+- Le dossier CI/CD `market-685081cabe16a6b0` reste canonique, observé ouvert
+  à 18:47:32 UTC, récompense annoncée 7 USDC, trois hash inchangés, backlog vide,
+  `market_handoff_errors=[]` et autorisation false. Le même fingerprint humain
+  donne `new_count=0` ; aucun rappel. Les autres candidats BountyBook portent
+  le même blocage compte/conditions ; MoltJobs reste sans accès effectif connu.
+  Aucun second livrable spéculatif n'est préparé.
+- Rapprochement frais `39682809971`, job `119509286924`, à 21:57:06 UTC :
+  tests réussis, cinq 404 inchangés, wallet RTC lu fraîchement, 1/6 source,
+  `changed=false`, `health_changed=false`. Échec final attendu après artifact
+  `12384058419`, digest
+  `sha256:bec428f43c2ea417128ddcc1291d9dd493308d8284a7d5f7d9cc2381099b99d4`,
+  disponible jusqu'au 04/11. Les 11 RTC historiques ne sont ni des euros ni un
+  nouveau paiement individuel ; Manic 10 USD reste non vérifié.
+- Mesures : 0 nouvelle mission distincte qualifiée, 0 nouveau dossier terminé,
+  0 soumission avec reçu, 0 acceptation, 0 paiement, 0 intervention humaine.
+  Blocage compte/conditions CI/CD d'environ 77 h 20 depuis la notification
+  initiale. Aucun achat ; coût marginal Actions, coût total et temps par mission
+  inconnus. Scans, tests, artifacts et passation ne sont pas du revenu.
+
+Décision : aucun correctif, PR ou acte externe artificiel. La reprise prouve que
+la pause alterne mais ne crée pas de remplacement commercial ; cette limite reste
+visible. Prochaine action précise : au prochain cycle, vérifier l'application
+unique de la pause et n'activer une source distincte que si elle possède paiement
+vérifiable, accès effectif et coût nul dans la politique existante. Conserver le
+dossier CI/CD intact sans accord effectif, ne pas relancer MoltJobs/404 à
+l'identique, ne pas réactiver GCP et ne pas supposer le Lenovo accessible.
+
+
 ## Contrôle du 21 octobre 2026 à 16:43 UTC — rapprochement frais, état inchangé
 
 - `get_repo` réellement appelé ; main épinglé à
