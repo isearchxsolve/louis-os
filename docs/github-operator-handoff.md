@@ -1,5 +1,35 @@
 # Passation du pilote GitHub
 
+## Contrôle du 21 octobre 2026 à 16:43 UTC — rapprochement frais, état inchangé
+
+- `get_repo` réellement appelé ; main épinglé à
+  `7d047f8f6bebc85931764e3e5d83e0db16ce87c2`, aucun `AGENTS.md`.
+  Instructions, politiques, 19 PR ouvertes, #473, workflows, jobs/logs,
+  états/intents/reçus et erreurs de sources relus. Aucun nouvel accès externe ;
+  les trois registres de soumission absents restent inconnus (404), pas vides.
+- Aucun nouveau cycle marché, routeur ou Taskmarket depuis le contrôle précédent.
+  Cycle 81 reste sain pour son périmètre sans VM : 30 inspectées, 0 qualifiée,
+  0 soumission/paiement, AgentPact mis en pause une fois, Guru 403 et Truelancer
+  429 visibles. Le dossier CI/CD 7 USDC garde ses trois hash, autorisation false,
+  backlog vide et aucune erreur de passation ; aucun retravail ni rappel.
+- Rapprochement externe nouveau `39598570591`, job `119216947996`, au SHA
+  épinglé : 16 tests réussis, cinq 404 inchangés, portefeuille RTC lu fraîchement,
+  1/6 source, `changed=false`, `health_changed=false`. L'échec final est
+  attendu après conservation de l'artifact `12345455841`, digest
+  `sha256:73918980c1584f0ee6ce8a498fa777a016bde2f8262d137251672782ef055b5a`,
+  disponible jusqu'au 04/11. Les 11 RTC historiques ne deviennent ni un nouveau
+  paiement individuel ni des euros ; Manic 10 USD reste non vérifié.
+- Mesures : 0 nouvelle mission distincte qualifiée, 0 nouveau dossier terminé,
+  0 soumission avec reçu, 0 acceptation, 0 paiement, 0 intervention humaine.
+  Blocage compte/conditions CI/CD d'environ 71 h 26 depuis la notification
+  initiale. Aucun achat ; coût marginal Actions, coût total et temps par mission
+  inconnus. La sonde, les tests et cette passation ne sont pas du revenu.
+
+Décision : aucune correction, PR, action externe ou notification à fabriquer.
+Prochaine action précise : examiner le prochain cycle marché planifié et vérifier
+la reprise unique d'AgentPact ainsi que l'apparition d'un candidat distinct,
+accessible et payable ; conserver le dossier CI/CD intact sans accord effectif.
+
 ## Contrôle du 21 octobre 2026 à 11:26 UTC — pivot exécuté, revenu inchangé
 
 - `get_repo` réellement appelé ; main épinglé à
