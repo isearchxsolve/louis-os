@@ -4,7 +4,7 @@
       "capability_id": "python_automation_delivery",
       "capability_market_score": 71.64,
       "capability_status": "validated",
-      "capped_score_value": 61.5,
+      "capped_score_value": 60.0,
       "cluster_id": "cluster-748ac3799d1d59fc",
       "deliverable_family": "python_automation_delivery",
       "first_payment_probability": 0.2283,
@@ -14,8 +14,8 @@
       "median_competition": 0.55,
       "median_effort_hours": 2.0,
       "median_reward": 3.0,
-      "median_time_to_cash_days": 10,
-      "opportunity_count": 19,
+      "median_time_to_cash_days": 10.0,
+      "opportunity_count": 18,
       "opportunity_ids": [
         "market-0a0b7855a3e9298f",
         "market-13268d410469a15c",
@@ -34,12 +34,11 @@
         "market-da9c3f7b812376f8",
         "market-ddd25e168928e0b4",
         "market-e6b188de5a99ce62",
-        "market-f587df60c74ed289",
         "market-fc596d78b7ecf243"
       ],
       "rationale": [
         "lane=cash_first",
-        "opportunities=19",
+        "opportunities=18",
         "sources=1",
         "median_effort_hours=2",
         "median_time_to_cash_days=10",
@@ -55,7 +54,7 @@
       "top_opportunity_title": "Build a StateMachine class in state_machine.py with transitions and guards",
       "top_opportunity_url": "https://www.bountybook.ai/job/87b131ee-7102-4d69-a99d-08cff67e9c1a",
       "verified_value_by_currency": {
-        "USDC": 61.5
+        "USDC": 60.0
       }
     },
     {
@@ -161,9 +160,9 @@
     },
     {
       "capability_id": "javascript_automation_delivery",
-      "capability_market_score": 58.31,
+      "capability_market_score": 58.88,
       "capability_status": "unknown",
-      "capped_score_value": 39.0,
+      "capped_score_value": 45.5,
       "cluster_id": "cluster-fbef83a6a25bc3ac",
       "deliverable_family": "javascript_automation_delivery",
       "first_payment_probability": 0.2283,
@@ -174,10 +173,12 @@
       "median_effort_hours": 2.0,
       "median_reward": 5.0,
       "median_time_to_cash_days": 10,
-      "opportunity_count": 9,
+      "opportunity_count": 11,
       "opportunity_ids": [
         "market-0ce5602d3d3c389c",
         "market-1fb23eafad516f31",
+        "market-2cffba087e9be944",
+        "market-4fbdd3d92c33846b",
         "market-59e80f1486713142",
         "market-94d8490d83fbd824",
         "market-c1e75be1978a1d1f",
@@ -188,7 +189,7 @@
       ],
       "rationale": [
         "lane=cash_first",
-        "opportunities=9",
+        "opportunities=11",
         "sources=1",
         "median_effort_hours=2",
         "median_time_to_cash_days=10",
@@ -204,7 +205,7 @@
       "top_opportunity_title": "Build a dependency resolver module with cycle detection using DFS",
       "top_opportunity_url": "https://www.bountybook.ai/job/d6d3d8f1-dfaa-4a4c-9f65-df670bdfdb26",
       "verified_value_by_currency": {
-        "USDC": 39.0
+        "USDC": 45.5
       }
     },
     {
@@ -252,62 +253,20 @@
       }
     },
     {
-      "capability_id": "go_software_delivery",
-      "capability_market_score": 51.56,
-      "capability_status": "unknown",
-      "capped_score_value": 23.5,
-      "cluster_id": "cluster-6c3f05a24453ca40",
-      "deliverable_family": "go_software_delivery",
-      "first_payment_probability": 0.2283,
-      "implementation_cost": 0.55,
-      "lane": "cash_first",
-      "median_accessibility": 0.96,
-      "median_competition": 0.55,
-      "median_effort_hours": 2.0,
-      "median_reward": 6.0,
-      "median_time_to_cash_days": 10,
-      "opportunity_count": 3,
-      "opportunity_ids": [
-        "market-43cfc713818c42b3",
-        "market-9e72342cee57cb3c",
-        "market-a3a2d3454ea0c02f"
-      ],
-      "rationale": [
-        "lane=cash_first",
-        "opportunities=3",
-        "sources=1",
-        "median_effort_hours=2",
-        "median_time_to_cash_days=10",
-        "first_payment_probability=0.2283",
-        "capability_status=unknown",
-        "headline rewards are capped for scoring and strategic prizes cannot dominate cash-first rank"
-      ],
-      "reusable_deliverable_ratio": 0.79,
-      "source_count": 1,
-      "source_ids": [
-        "bountybook_agent_jobs"
-      ],
-      "top_opportunity_title": "Build a generic LRU cache in Go with concurrent safety",
-      "top_opportunity_url": "https://www.bountybook.ai/job/a99032ec-5542-4232-a7a7-23ed20bdbaf4",
-      "verified_value_by_currency": {
-        "USDC": 23.5
-      }
-    },
-    {
       "capability_id": "structured_document_delivery",
-      "capability_market_score": 50.94,
+      "capability_market_score": 51.35,
       "capability_status": "experimental",
       "capped_score_value": 20.0,
       "cluster_id": "cluster-0ee287ec90a3ea7f",
       "deliverable_family": "structured_document_delivery",
-      "first_payment_probability": 0.264,
+      "first_payment_probability": 0.2731,
       "implementation_cost": 0.35,
       "lane": "cash_first",
       "median_accessibility": 0.92,
       "median_competition": 0.5,
       "median_effort_hours": 2.0,
       "median_reward": 20.0,
-      "median_time_to_cash_days": 9,
+      "median_time_to_cash_days": 8,
       "opportunity_count": 1,
       "opportunity_ids": [
         "market-f9a6ebdf53c8522a"
@@ -317,8 +276,8 @@
         "opportunities=1",
         "sources=1",
         "median_effort_hours=2",
-        "median_time_to_cash_days=9",
-        "first_payment_probability=0.2640",
+        "median_time_to_cash_days=8",
+        "first_payment_probability=0.2731",
         "capability_status=experimental",
         "headline rewards are capped for scoring and strategic prizes cannot dominate cash-first rank"
       ],
@@ -331,6 +290,47 @@
       "top_opportunity_url": "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
       "verified_value_by_currency": {
         "USDC": 20.0
+      }
+    },
+    {
+      "capability_id": "go_software_delivery",
+      "capability_market_score": 49.14,
+      "capability_status": "unknown",
+      "capped_score_value": 9.5,
+      "cluster_id": "cluster-6c3f05a24453ca40",
+      "deliverable_family": "go_software_delivery",
+      "first_payment_probability": 0.2283,
+      "implementation_cost": 0.55,
+      "lane": "cash_first",
+      "median_accessibility": 0.96,
+      "median_competition": 0.55,
+      "median_effort_hours": 2.0,
+      "median_reward": 4.75,
+      "median_time_to_cash_days": 10.0,
+      "opportunity_count": 2,
+      "opportunity_ids": [
+        "market-43cfc713818c42b3",
+        "market-9e72342cee57cb3c"
+      ],
+      "rationale": [
+        "lane=cash_first",
+        "opportunities=2",
+        "sources=1",
+        "median_effort_hours=2",
+        "median_time_to_cash_days=10",
+        "first_payment_probability=0.2283",
+        "capability_status=unknown",
+        "headline rewards are capped for scoring and strategic prizes cannot dominate cash-first rank"
+      ],
+      "reusable_deliverable_ratio": 0.67,
+      "source_count": 1,
+      "source_ids": [
+        "bountybook_agent_jobs"
+      ],
+      "top_opportunity_title": "Build a CLI program that checks HTTP status codes for URLs in a file",
+      "top_opportunity_url": "https://www.bountybook.ai/job/733d4731-7e60-4bb8-9233-ba3771c779d3",
+      "verified_value_by_currency": {
+        "USDC": 9.5
       }
     },
     {
@@ -621,6 +621,6 @@
     }
   ],
   "count": 13,
-  "generated_at": "2026-10-21T07:50:42.878822+00:00",
+  "generated_at": "2026-10-21T18:47:43.994450+00:00",
   "schema_version": "1.0"
 }
