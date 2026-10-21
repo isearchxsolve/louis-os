@@ -1,7 +1,7 @@
 {
   "registry": {
     "schema_version": 7,
-    "generated_at": "2026-10-20T18:34:59.348431+00:00",
+    "generated_at": "2026-10-21T07:51:19.859894+00:00",
     "count": 0,
     "authenticity_verified": 0,
     "authenticity_blocked": 30,
@@ -12,10 +12,7 @@
     "credible_backlog_count": 0,
     "candidates": [],
     "credible_backlog": [],
-    "errors": [
-      "search_failed:is:issue is:open commenter:algora-pbc (typo OR \"broken link\" OR configuration OR test) archived:false:HTTPError:HTTP Error 403: Forbidden",
-      "search_failed:is:issue is:open in:comments \"/claim #\" (typo OR \"broken link\" OR configuration OR test) archived:false:HTTPError:HTTP Error 403: Forbidden"
-    ],
+    "errors": [],
     "recovery_source": "capability_first_verified_payable_scout",
     "payment_adapter_gate": "active",
     "capability_match_gate": "active",
@@ -26,190 +23,189 @@
   "qualified": 0,
   "rejected": [
     {
-      "candidate_id": "aa7b4c0ba93e91be",
-      "url": "https://github.com/ButiMM/KamLife-Coach/issues/280",
-      "title": "CTO watch: live build status",
+      "candidate_id": "184c0a475d044527",
+      "url": "https://github.com/stranske/Workflows/issues/3926",
+      "title": "Sync/Dependency campaign queue",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "240720d0db16080f",
-      "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/1713",
-      "title": "[NAYA 5] LEARN-engine — gates-wiring-bridge-to-10-10",
+      "candidate_id": "d37d42d5bd75f996",
+      "url": "https://github.com/liubaining-louis/louis-os/issues/141",
+      "title": "Autonomous tested patch submission, capability recovery and maintainer loop",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "2b615cfe94751e6c",
-      "url": "https://github.com/markgoodbody-bit/COM/issues/877",
-      "title": "YAC autonomous public dialogue v0.1 — bounded AI-to-AI posting",
+      "candidate_id": "f8ea8ce21455a32d",
+      "url": "https://github.com/Soroban-Cookbook/Soroban_Cookbook_online/issues/1323",
+      "title": "Cover transfer_token behavior in examples/sac-client",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "6dbf98683af8c9b3",
-      "url": "https://github.com/Timbic/eslint-config/issues/4",
+      "candidate_id": "0e0949151a457d8c",
+      "url": "https://github.com/radiosilence/koan/issues/1418",
+      "title": "Push for self-hosted servers",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "8a91b52298804678",
+      "url": "https://github.com/drizzle-team/drizzle-orm/issues/1603",
+      "title": "[BUG]: Nested Partial Select returns null on left join if first column value is null",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "1ad51325ebde9d16",
+      "url": "https://github.com/jsboige/CoursIA/issues/17222",
+      "title": "[Audit #17073] Série PyMC — partition Hermes",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "a898b08ee1ca6856",
+      "url": "https://github.com/narain1/pydoccraft/issues/8",
+      "title": "[W06] Sections, layout, drawings and native backgrounds",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "a7659222e2198d57",
+      "url": "https://github.com/dkedar7/langstage/issues/28",
+      "title": "Daily library health check",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "8881400cc84b55c6",
+      "url": "https://github.com/alex-mextner/3d-cli/issues/35",
+      "title": "CI: 2 pre-existing test failures on main block dependabot/PR merges (test_ai_bench, test_commands_metrics)",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "c6b6fc56ac56068e",
+      "url": "https://github.com/sysverax/flyvoid/issues/324",
+      "title": "Hotel allocation pipeline",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "b030afc3b66771ba",
+      "url": "https://github.com/drizzle-team/drizzle-orm/issues/376",
+      "title": "Add proper error handling and wrapping",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "0b412755fb4166af",
+      "url": "https://github.com/DannyB-bit/zk-lora-milestone-1/issues/1",
+      "title": "[FLEET] A↔B coordination channel — first contact + fire drill planning",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "a4fc02f879a4f71b",
+      "url": "https://github.com/quadseven/loom/issues/1070",
+      "title": "A copilot lane spends the GitHub Copilot Free allowance on easy public tickets",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "e6288005a3d5f6d2",
+      "url": "https://github.com/hbombheart1230-dotcom/agentra/issues/20",
+      "title": "[P1.5 MASTER] BATCH02 ACTIVE A Reporter contract / B Operator UI · independent CI + integration gates",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "cef0ae27365aaaf0",
+      "url": "https://github.com/quadseven/muster/issues/176",
+      "title": "Enrolled appliances never ring and never take voicemail",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "404d6bbc30fe74f9",
+      "url": "https://github.com/akashic-games/trigger/issues/20",
       "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "992352f5d674f647",
-      "url": "https://github.com/int128/oauth2dev/issues/4",
-      "title": "Dependency Dashboard",
+      "candidate_id": "b58f9f73497a47aa",
+      "url": "https://github.com/gyroflow/gyroflow/issues/742",
+      "title": "Refactor lens profile handling",
+      "reason": "overcrowded_bounty",
+      "active_attempts": 20,
+      "maximum_allowed": 5
+    },
+    {
+      "candidate_id": "f4696d643f8c8ffd",
+      "url": "https://github.com/sophiria1225/AI-/issues/71",
+      "title": "[R33] レター候補機構の限定比較・悪影響・原記録を検証する",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "cb1a209ba978ad9c",
-      "url": "https://github.com/baizhiheizi/enjoy_player/issues/1001",
-      "title": "[repo-assist] Missing .github/workflows/deploy_landing.yml — the download landing page is not deployed by CI",
+      "candidate_id": "ebcf006181de4adb",
+      "url": "https://github.com/kubevirt/enhancements/issues/183",
+      "title": "VEP 183: NetworkDevicesWithDRA",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "8bd61ff739c1fa9b",
-      "url": "https://github.com/akiojin/gwt/issues/3431",
-      "title": "SPEC: PM エージェント — 常駐プロジェクトマネージャー（唯一の対話窓口・Issue 分解/登録/計画・意味的順序決定・Monitor 経由起動指示）",
+      "candidate_id": "e6ffb432c3b0cc49",
+      "url": "https://github.com/florinel-chis/GopherCRM/issues/94",
+      "title": "Architecture audit: validated remediation queue and delivery gates",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "b0c67cb1c17fb7e8",
-      "url": "https://github.com/omry/yadan.net/issues/9",
-      "title": "Node audit configuration",
+      "candidate_id": "c53121af3bd0ab07",
+      "url": "https://github.com/drexthealpha/Knos/issues/17",
+      "title": "Knos relay log",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "1574d170bf512c6c",
-      "url": "https://github.com/dupdab/dupdap-backend/issues/479",
-      "title": "[P2] Improve test coverage to 70% minimum",
+      "candidate_id": "398893712f13f9ff",
+      "url": "https://github.com/ryanbliss/neo-compose-dotnet/issues/381",
+      "title": "Stored nullable class lists cannot find or remove null entries",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "f23ec09a617165e1",
-      "url": "https://github.com/abubakarshahid16/Abubakar/issues/692",
-      "title": "Agent queue: what each session does next (read every loop)",
+      "candidate_id": "ad1f9bd2466de9ab",
+      "url": "https://github.com/seveibar/pgstrap/issues/2",
+      "title": "Use pglite so that postgres isn't required when generating types",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "a3759faec4cfba02",
-      "url": "https://github.com/HualapaiValley/HVO.SkyMonitor/issues/1347",
-      "title": "Follow-up: deferred review findings from PR #1340 (carry diagnostics and trial space)",
+      "candidate_id": "d7f3048facd0fdaa",
+      "url": "https://github.com/eyalgolan/statecraft-israel/issues/564",
+      "title": "Hebrew UI: a native-speaker review of strings.he.yaml",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "8f083564e9d9313a",
-      "url": "https://github.com/Xconfess/Xconfess/issues/2343",
-      "title": "ops: add alerts for repeated authentication failures by source",
+      "candidate_id": "c0711bba5eabdfbe",
+      "url": "https://github.com/ionic-team/ionic-framework/issues/31620",
+      "title": "bug: ion-menu focuses its full-screen host on open and does not restore focus to ion-menu-button on close; ion-menu-button reads aria-label only once",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "dc52eb68f6c2b710",
-      "url": "https://github.com/ben-domingue/irw/issues/3024",
-      "title": "Rankings family: build the FairVote ranked-choice ballot tables (tracking)",
+      "candidate_id": "2bbb29f4a63a5c55",
+      "url": "https://github.com/benomite/brigade/issues/1218",
+      "title": "Translate the last docs/runtime pages and the index, then check the whole slice",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "8e1b92ad33daed6e",
-      "url": "https://github.com/Garblesnarff/infinite-realms-app/issues/356",
-      "title": "Muse day crew — queue 2026-10-11 (strategist-updated)",
+      "candidate_id": "d5c997e26f7d4e62",
+      "url": "https://github.com/RSI-Software/t3code-hyprws/issues/1810",
+      "title": "hyprws sync blocked at v0.1.2-nightly.20261021.3457 (upstream 2edddbc)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "9345873d3ad50937",
-      "url": "https://github.com/cobianic/Discord-VarenykBot/issues/37",
-      "title": "Dependency Dashboard",
+      "candidate_id": "894a0fe1732a1de0",
+      "url": "https://github.com/hexgrad/kokoro/issues/290",
+      "title": "Donation/funding for german language",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "4eae4bb39a8414c9",
-      "url": "https://github.com/clofour/improv/issues/8",
-      "title": "Dependency Dashboard",
+      "candidate_id": "70892fe130a439bd",
+      "url": "https://github.com/Stellar-Cost-Labs/soroban-cost-estimator/issues/514",
+      "title": "test(config): verify snapshot ordering against embedded timestamps",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "f8de0cc9aa83ebc9",
-      "url": "https://github.com/BuroHappoldMachineLearning/ADIRO/issues/202",
-      "title": "Link check: transient GitHub errors fail the deploy, and a closing keyword closed an alert issue too early",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "efce3a536cee23e5",
-      "url": "https://github.com/gominimal/minimal/issues/2236",
-      "title": "Box — one record, one spec, one grammar for every session and task on a stock install",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "9de7c5253497a198",
-      "url": "https://github.com/Xconfess/Xconfess/issues/2345",
-      "title": "ops: add a scheduled PostgreSQL restore drill",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "8e9fc4dcc66fb282",
-      "url": "https://github.com/shortlink-org/helm/issues/5",
-      "title": "Dependency Dashboard",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "146c872c9d4d06b5",
-      "url": "https://github.com/EffortlessMetrics/perl-lsp-swarm/issues/14037",
-      "title": "test(ci-hygiene): resolve Windows commands through explicit PATHEXT semantics",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "0fd3c3a40624311a",
-      "url": "https://github.com/halfsend-09/test-repo-01/issues/2",
-      "title": "Server crashes with 'concurrent map writes' under load",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "fd806ced54ae8627",
-      "url": "https://github.com/linhai86/backlive/issues/1",
-      "title": "Dependency Dashboard",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "b28ad56fc1d5af48",
-      "url": "https://github.com/overnightworks/songmaker/issues/1725",
-      "title": "Saving a global rate limit silently replaces the admins' documented higher limit",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "a50f96a4cdf0b34f",
-      "url": "https://github.com/karakuri3/Gacha-Lens/issues/430",
-      "title": "runtime: eliminate Workers Free CPU-limit 503s",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "9f901c62735d600c",
-      "url": "https://github.com/FreeForCharity/FFC-Cloudflare-Automation/issues/1687",
-      "title": "Conductor liveness: the supervising routine may have stopped",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "5e1f2608e3036fa8",
-      "url": "https://github.com/blu1606/Codi/issues/159",
-      "title": "[Learner] GitHub OAuth consent and evidence-backed skill profile",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "2531fa485caf9d88",
-      "url": "https://github.com/aaronkyriesenbach/catalyst/issues/72",
-      "title": "Dependency Dashboard",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "8407b11788fa7b60",
-      "url": "https://github.com/EffortlessMetrics/perl-lsp-swarm/issues/14105",
-      "title": "docs(program): govern documentation inventory, integrity, authority, and publication",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "42f21d5d23a71d9e",
-      "url": "https://github.com/Tx-wat/stellar-txwatch-core/issues/271",
-      "title": "test: add test for 429 Retry-After header parsing in poll_contract",
+      "candidate_id": "df9eb7b069abf844",
+      "url": "https://github.com/gardnervickers/seedbox/issues/339",
+      "title": "CI: cut the ~70 min PV workflow and run the native suites that never run",
       "reason": "verified_payment_adapter_evidence_missing"
     }
   ],
-  "errors": [
-    "search_failed:is:issue is:open commenter:algora-pbc (typo OR \"broken link\" OR configuration OR test) archived:false:HTTPError:HTTP Error 403: Forbidden",
-    "search_failed:is:issue is:open in:comments \"/claim #\" (typo OR \"broken link\" OR configuration OR test) archived:false:HTTPError:HTTP Error 403: Forbidden"
-  ],
+  "errors": [],
   "queries": [
     "is:issue is:open (bounty OR reward) (\"replace\" OR \"change\") (README OR docs) archived:false",
     "is:issue is:open (bounty OR reward) \"broken link\" (README OR documentation) archived:false",
