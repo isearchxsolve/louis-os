@@ -1,7 +1,7 @@
 {
   "registry": {
     "schema_version": 7,
-    "generated_at": "2026-10-21T07:51:19.859894+00:00",
+    "generated_at": "2026-10-21T18:48:22.179231+00:00",
     "count": 0,
     "authenticity_verified": 0,
     "authenticity_blocked": 30,
@@ -23,9 +23,9 @@
   "qualified": 0,
   "rejected": [
     {
-      "candidate_id": "184c0a475d044527",
-      "url": "https://github.com/stranske/Workflows/issues/3926",
-      "title": "Sync/Dependency campaign queue",
+      "candidate_id": "39e1be98a9934baf",
+      "url": "https://github.com/nickderobertis/oneharness/issues/1517",
+      "title": "build(nx): tell sibling SDK scratch apart by its run token and run the SDK suites in parallel",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -35,51 +35,9 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "f8ea8ce21455a32d",
-      "url": "https://github.com/Soroban-Cookbook/Soroban_Cookbook_online/issues/1323",
-      "title": "Cover transfer_token behavior in examples/sac-client",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "0e0949151a457d8c",
-      "url": "https://github.com/radiosilence/koan/issues/1418",
-      "title": "Push for self-hosted servers",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "8a91b52298804678",
-      "url": "https://github.com/drizzle-team/drizzle-orm/issues/1603",
-      "title": "[BUG]: Nested Partial Select returns null on left join if first column value is null",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "1ad51325ebde9d16",
-      "url": "https://github.com/jsboige/CoursIA/issues/17222",
-      "title": "[Audit #17073] Série PyMC — partition Hermes",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "a898b08ee1ca6856",
-      "url": "https://github.com/narain1/pydoccraft/issues/8",
-      "title": "[W06] Sections, layout, drawings and native backgrounds",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "a7659222e2198d57",
-      "url": "https://github.com/dkedar7/langstage/issues/28",
-      "title": "Daily library health check",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "8881400cc84b55c6",
-      "url": "https://github.com/alex-mextner/3d-cli/issues/35",
-      "title": "CI: 2 pre-existing test failures on main block dependabot/PR merges (test_ai_bench, test_commands_metrics)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "c6b6fc56ac56068e",
-      "url": "https://github.com/sysverax/flyvoid/issues/324",
-      "title": "Hotel allocation pipeline",
+      "candidate_id": "dc867971535b2d80",
+      "url": "https://github.com/nickderobertis/onetaskgraph/issues/3707",
+      "title": "feat(engine): read the image assets a task holds",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -89,33 +47,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "0b412755fb4166af",
-      "url": "https://github.com/DannyB-bit/zk-lora-milestone-1/issues/1",
-      "title": "[FLEET] A↔B coordination channel — first contact + fire drill planning",
+      "candidate_id": "8bb13b9dded3e018",
+      "url": "https://github.com/aliezzat4321/hyperliquid-copy-engine/issues/130",
+      "title": "AI TEAM RUNTIME STATUS",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "a4fc02f879a4f71b",
-      "url": "https://github.com/quadseven/loom/issues/1070",
-      "title": "A copilot lane spends the GitHub Copilot Free allowance on easy public tickets",
+      "candidate_id": "9c357ffbc3fee3b9",
+      "url": "https://github.com/DewaldOosthuizen/py-tray-command-launcher/issues/186",
+      "title": "FEATURE: Check for new GitHub releases and let the user update",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "e6288005a3d5f6d2",
-      "url": "https://github.com/hbombheart1230-dotcom/agentra/issues/20",
-      "title": "[P1.5 MASTER] BATCH02 ACTIVE A Reporter contract / B Operator UI · independent CI + integration gates",
+      "candidate_id": "6fa51ca1cb096c90",
+      "url": "https://github.com/spwn02/Miracle/issues/4",
+      "title": "[Infra] G4 — harden Actions, rulesets, dependency updates and security",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "cef0ae27365aaaf0",
-      "url": "https://github.com/quadseven/muster/issues/176",
-      "title": "Enrolled appliances never ring and never take voicemail",
+      "candidate_id": "27b2bc6749c42c59",
+      "url": "https://github.com/qbtrix/creative-apps/issues/3454",
+      "title": "Feature: placed-images (Design)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "404d6bbc30fe74f9",
-      "url": "https://github.com/akashic-games/trigger/issues/20",
-      "title": "Dependency Dashboard",
+      "candidate_id": "63feb69be4f23729",
+      "url": "https://github.com/ChristianPresley/zigguro/issues/794",
+      "title": "[E10.F06.S01] Story: Every subsystem's tools work uniformly, safely and visibly",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -127,33 +85,33 @@
       "maximum_allowed": 5
     },
     {
-      "candidate_id": "f4696d643f8c8ffd",
-      "url": "https://github.com/sophiria1225/AI-/issues/71",
-      "title": "[R33] レター候補機構の限定比較・悪影響・原記録を検証する",
+      "candidate_id": "f447516f902c78a2",
+      "url": "https://github.com/EffortlessMetrics/perl-lsp-swarm/issues/10174",
+      "title": "feat(devex): reconcile cargo-allow, rustc/Clippy, binary-public, and Cargo-Hawk receipts by exact Rust item",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "ebcf006181de4adb",
-      "url": "https://github.com/kubevirt/enhancements/issues/183",
-      "title": "VEP 183: NetworkDevicesWithDRA",
+      "candidate_id": "8ffed1c98ea7637a",
+      "url": "https://github.com/ConductionNL/dossiq/issues/3290",
+      "title": "[OpenSpec] woo-case-screens-and-objections",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "e6ffb432c3b0cc49",
-      "url": "https://github.com/florinel-chis/GopherCRM/issues/94",
-      "title": "Architecture audit: validated remediation queue and delivery gates",
+      "candidate_id": "349a03d4c1d5c110",
+      "url": "https://github.com/mikesvoboda/nemotron-v3-home-security-intelligence/issues/6854",
+      "title": "Uplevel daily batch",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "c53121af3bd0ab07",
-      "url": "https://github.com/drexthealpha/Knos/issues/17",
-      "title": "Knos relay log",
+      "candidate_id": "8ebf26be9927d861",
+      "url": "https://github.com/cbundy/dev-system/issues/1204",
+      "title": "Image readers skip and count an event type or version they do not know instead of failing",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "398893712f13f9ff",
-      "url": "https://github.com/ryanbliss/neo-compose-dotnet/issues/381",
-      "title": "Stored nullable class lists cannot find or remove null entries",
+      "candidate_id": "a96c6878a96dc8bc",
+      "url": "https://github.com/the-vibey-project/vibey/issues/627",
+      "title": "feat(db): the lost-dispatch sweep and the dead-letter park",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -163,27 +121,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "d7f3048facd0fdaa",
-      "url": "https://github.com/eyalgolan/statecraft-israel/issues/564",
-      "title": "Hebrew UI: a native-speaker review of strings.he.yaml",
+      "candidate_id": "11fb384f4ef3f527",
+      "url": "https://github.com/okou-ai/okou/issues/42104",
+      "title": "test: restore retained CI fixture and page-story headroom",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "c0711bba5eabdfbe",
-      "url": "https://github.com/ionic-team/ionic-framework/issues/31620",
-      "title": "bug: ion-menu focuses its full-screen host on open and does not restore focus to ion-menu-button on close; ion-menu-button reads aria-label only once",
+      "candidate_id": "67119b1ad71e1a76",
+      "url": "https://github.com/SwiftFiddle/swiftregex/issues/7",
+      "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "2bbb29f4a63a5c55",
-      "url": "https://github.com/benomite/brigade/issues/1218",
-      "title": "Translate the last docs/runtime pages and the index, then check the whole slice",
+      "candidate_id": "1c4f6c40612133a9",
+      "url": "https://github.com/juv4uk/sens/issues/5029",
+      "title": "[P0][COORD] SID8/SENS8 → доменна драбина: власники файлів, CLAIM, single-writer main",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "d5c997e26f7d4e62",
-      "url": "https://github.com/RSI-Software/t3code-hyprws/issues/1810",
-      "title": "hyprws sync blocked at v0.1.2-nightly.20261021.3457 (upstream 2edddbc)",
+      "candidate_id": "41a8aac7800cbcca",
+      "url": "https://github.com/nickderobertis/oneharness/issues/1518",
+      "title": "test(coverage): keep killed mock children's profiles in fixture-owned scratch",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "76c44e18c0784c7d",
+      "url": "https://github.com/alanua/Skeleton/issues/4675",
+      "title": "P0 fix family DNS draft PR #4673 registered-unit and fail-closed gates",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -193,15 +157,51 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "70892fe130a439bd",
-      "url": "https://github.com/Stellar-Cost-Labs/soroban-cost-estimator/issues/514",
-      "title": "test(config): verify snapshot ordering against embedded timestamps",
+      "candidate_id": "73be1221e0cff5c6",
+      "url": "https://github.com/the-vibey-project/vibey/issues/628",
+      "title": "feat(ledger): the RabbitMQ claim, the ack that releases dependents, and the dead-letter park are ledger events",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "df9eb7b069abf844",
-      "url": "https://github.com/gardnervickers/seedbox/issues/339",
-      "title": "CI: cut the ~70 min PV workflow and run the native suites that never run",
+      "candidate_id": "f3c1b719efc81898",
+      "url": "https://github.com/the-vibey-project/vibey/issues/619",
+      "title": "feat(surfaces): each surface lane retunes its read concurrency from measured latency and ledgers every change",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "3f710f250dbbbf30",
+      "url": "https://github.com/juv4uk/sens/issues/4196",
+      "title": "[RELEASE][l0.42.0][COORD] Єдиний штаб SENS · main / CI / exact-SHA",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "dc645159d0aa66f3",
+      "url": "https://github.com/valtteriluomapareto/photo-export/issues/423",
+      "title": "Observation migration: record stores (C1-5)",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "b7998b00f20ac98e",
+      "url": "https://github.com/1kc/razer-macos/issues/778",
+      "title": "Razer Basilisk V3 PRO not supported?",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "ba25c8a2ffeacce3",
+      "url": "https://github.com/SCIBASE-AI/SCIBASE.AI/issues/16",
+      "title": "AI-Powered Research Assistant Suite",
+      "reason": "explicitly_unavailable_or_reserved"
+    },
+    {
+      "candidate_id": "692e82cff9caaae5",
+      "url": "https://github.com/AaronBuxbaum/diveday/issues/2881",
+      "title": "Detect Codex stack parents before checking base CI",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "9b4124a123ecca5b",
+      "url": "https://github.com/wolfSSL/wolfssl/issues/11673",
+      "title": "X25519 PKCS#8/RFC 8410 keys are imported and exported in reversed byte order",
       "reason": "verified_payment_adapter_evidence_missing"
     }
   ],
