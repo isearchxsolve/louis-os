@@ -1,3 +1,63 @@
+## Contrôle du 22 octobre 2026 à 23:26 UTC — correction tenue, pivot commercial toujours absent
+
+- `get_repo` réellement appelé ; main épinglé à
+  `1bc66404d247fd815bb26200c3d08f20c4da9df2`, aucun `AGENTS.md`.
+  Instructions, politiques, 19 PR ouvertes, #473, workflows, jobs/logs, états,
+  intentions et reçus relus. Les trois registres de soumission absents restent
+  inconnus (404), pas réputés vides.
+- Premier cycle marché complet après #489 : `39833212373`, jobs
+  `120014605908` et `120015509588`, réussi ; routeur
+  `39833563049`, job `120015853373`, réussi. Artifact marché
+  `12449427584`, digest
+  `sha256:e4043731ac811cfd3dbb6872ea1a759ab0415d6d391c96b9c06c9c034f999491`,
+  disponible jusqu'au 05/11.
+- Effet réel confirmé : 80 lignes, 0 `execute_now`, 8
+  `prepare_then_gate`, 10 `capability_build` et 62 rejets. La ligne
+  Freelancer reste correctement `capability_build` et les fausses promotions
+  MoltJobs/Freelancer supprimées par #489 ne réapparaissent pas. La correction
+  tient sur des données nouvelles, sans masquer les états amont.
+- Runtime sans VM cycle 84 : état `partial`, 30 inspectées, 0 qualifiée,
+  0 soumission et 0 paiement ; une erreur de découverte reste visible. AgentPact
+  a repris : 50 annonces, 39 détaillées, toutes les 50 non financées.
+  BountyBook fournit 50 annonces/40 détaillées ; MoltJobs renvoie dix lignes
+  toutes invalides ; Freelancer simple fournit une ligne. Guru reste en 403,
+  Truelancer en 429 et Superteam requiert des credentials.
+- Le pivot n'est pas effectif : `source_pivot.status=not_applied` et
+  `replacement_status=existing_reviewed_sources_only_no_new_source_activated`.
+  Le routeur redemande `pause_source_and_replace`. Aucune nouvelle source
+  accessible, payable et à coût nul n'est activée ; alterner pause/reprise
+  d'AgentPact n'est donc pas compté comme un résultat commercial.
+- Le dossier CI/CD `market-685081cabe16a6b0` reste canonique, observé ouvert
+  à 18:40:21 UTC, récompense annoncée 7 USDC et trois hash inchangés.
+  Autorisation/accès effectifs false, backlog et erreurs de passation vides,
+  même fingerprint humain, `new_count=0` : aucun rappel. Blocage
+  compte/conditions d'environ 102 h 09 depuis la notification initiale.
+- Rapprochement externe frais `39860840982`, job `120110816385`, à
+  21:53 UTC : 16 tests réussis, cinq 404 inchangés, wallet RTC lu fraîchement,
+  1/6 source, `changed=false`, `health_changed=false`. Échec final attendu
+  après artifact `12462031277`, digest
+  `sha256:f56fe26d0b65e43dfd4b4f24e3ac34f7f22abf96a9c930271c0a3004bf9540fd`,
+  disponible jusqu'au 05/11. Les 11 RTC historiques ne sont ni des euros ni un
+  nouveau paiement individuel ; Manic 10 USD reste non vérifié.
+- Fréquences relues et inchangées : marché `23 2,14 * * *`, rapprochement
+  `37 */6 * * *`, Taskmarket `31 23 * * *` ; routeur déclenché après le
+  marché. Aucun run manuel, aucune facturation GCP et aucun Lenovo supposé
+  accessible. Le suivi Taskmarket quotidien n'était pas encore matérialisé au
+  moment de ce contrôle ; ne pas lui inventer un résultat.
+- Mesures : 0 nouvelle mission distincte qualifiée, 0 nouveau dossier terminé,
+  0 soumission avec reçu, 0 acceptation, 0 paiement et 0 intervention humaine.
+  Aucun achat ; coût marginal Actions, coût total et temps par mission inconnus.
+  La validation du correctif, les scans, tests, artifacts et cette passation ne
+  sont pas du revenu.
+
+Décision : l'amélioration précédente est réconciliée et validée sur un cycle
+complet ; aucune seconde PR ni action externe artificielle. Prochaine action
+précise : lire le prochain suivi Taskmarket puis le prochain cycle marché, et
+mesurer si la pause demandée produit enfin une source distincte effectivement
+accessible et payable. Ne pas resélectionner indéfiniment le dossier CI/CD,
+répéter les mêmes recherches, réactiver GCP ou supposer le Lenovo accessible.
+
+
 ## Contrôle du 22 octobre 2026 à 17:28 UTC — supervision du routeur corrigée et vérifiée
 
 - `get_repo` réellement appelé ; main épinglé au début du contrôle à
