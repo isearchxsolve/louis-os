@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-10-22T07:47:22.005905+00:00",
+  "generated_at": "2026-10-22T17:26:42.699160+00:00",
   "objective": "adaptive multidomain Internet opportunity discovery and execution",
   "allocation": {
     "exploit": 0.5,
@@ -16,32 +16,16 @@
     "monetization.json",
     "universal_market_cycle.json"
   ],
-  "items_seen": 70,
-  "sources_seen": 7,
+  "items_seen": 67,
+  "sources_seen": 6,
   "domains_seen": 7,
   "decision_counts": {
     "execute_now": 0,
-    "prepare_then_gate": 13,
-    "capability_build": 10,
-    "reject": 47
+    "prepare_then_gate": 9,
+    "capability_build": 12,
+    "reject": 46
   },
   "domain_metrics": {
-    "writing_documentation": {
-      "seen": 21,
-      "eligible": 2,
-      "execute_now": 0,
-      "prepare_then_gate": 2,
-      "capability_build": 1,
-      "reject": 18
-    },
-    "translation": {
-      "seen": 2,
-      "eligible": 2,
-      "execute_now": 0,
-      "prepare_then_gate": 2,
-      "capability_build": 0,
-      "reject": 0
-    },
     "b2b_research": {
       "seen": 19,
       "eligible": 4,
@@ -57,6 +41,22 @@
       "prepare_then_gate": 5,
       "capability_build": 7,
       "reject": 3
+    },
+    "writing_documentation": {
+      "seen": 20,
+      "eligible": 0,
+      "execute_now": 0,
+      "prepare_then_gate": 0,
+      "capability_build": 2,
+      "reject": 18
+    },
+    "translation": {
+      "seen": 1,
+      "eligible": 0,
+      "execute_now": 0,
+      "prepare_then_gate": 0,
+      "capability_build": 1,
+      "reject": 0
     },
     "digital_products": {
       "seen": 6,
@@ -75,29 +75,29 @@
       "reject": 0
     },
     "open_source_bounties": {
-      "seen": 6,
+      "seen": 5,
       "eligible": 0,
       "execute_now": 0,
       "prepare_then_gate": 0,
       "capability_build": 0,
-      "reject": 6
+      "reject": 5
     }
   },
   "source_metrics": {
-    "moltjobs_agent_jobs": {
-      "seen": 2,
-      "eligible": 2,
-      "reject": 0
-    },
-    "freelancer_public_simple_jobs": {
-      "seen": 2,
-      "eligible": 2,
-      "reject": 0
-    },
     "bountybook_agent_jobs": {
       "seen": 20,
       "eligible": 9,
       "reject": 1
+    },
+    "moltjobs_agent_jobs": {
+      "seen": 1,
+      "eligible": 0,
+      "reject": 0
+    },
+    "freelancer_public_simple_jobs": {
+      "seen": 1,
+      "eligible": 0,
+      "reject": 0
     },
     "algora_public_bounties": {
       "seen": 20,
@@ -108,11 +108,6 @@
       "seen": 10,
       "eligible": 0,
       "reject": 10
-    },
-    "monetization.json": {
-      "seen": 1,
-      "eligible": 0,
-      "reject": 1
     },
     "usagov_challenges": {
       "seen": 15,
@@ -245,390 +240,6 @@
   },
   "selection_source": "canonical_cash_first",
   "top_ranked": [
-    {
-      "accessibility": 0.92,
-      "account_required": true,
-      "canonical_url": "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
-      "competition": 0.5,
-      "cost": 0.0,
-      "currency": "USDC",
-      "deadline": "2026-10-22T17:50:11.907000+00:00",
-      "decision": {
-        "blockers": [
-          "capability_missing:structured_document_delivery",
-          "capability_requires_validation:structured_document_delivery"
-        ],
-        "evidence": [
-          "https://api.moltjobs.io/v1/jobs?status=OPEN&limit=100",
-          "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
-          "paymentProvider=ON_CHAIN_USDC",
-          "https://moltjobs.io/docs/api",
-          "https://moltjobs.io/terms"
-        ],
-        "human_action_minimal": "none",
-        "missing_capabilities": [
-          "structured_document_delivery"
-        ],
-        "next_action": "create_bounded_capability_spec_test_promote_and_retry",
-        "opportunity_id": "market-f9a6ebdf53c8522a",
-        "score": 66.61,
-        "status": "capability_build"
-      },
-      "description": "Write a 300-500 word blog post about 'The Benefits of AI in Content Creation' and a 1-2 minute YouTube script (150-300 words) on the same topic. Deliverables must be in plain text with clear section headings. Use a professional yet engaging tone. Output format: JSON object with keys 'blogPost' and 'youtubeScript'.\nAcceptance criteria: Blog post must be between 300 and 500 words.; Blog post must contain a title (first non-empty line).; YouTube script must be between 150 and 300 words.",
-      "evidence": [
-        "https://api.moltjobs.io/v1/jobs?status=OPEN&limit=100",
-        "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
-        "https://moltjobs.io/docs/api",
-        "https://moltjobs.io/terms"
-      ],
-      "human_dependency": 0.18,
-      "identity_or_kyc_required": false,
-      "legal_entity_required": false,
-      "metadata": {
-        "autonomous_bid_enabled": false,
-        "bid_endpoint": "/v1/jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d/bids",
-        "days_left": 1,
-        "deadline_verified": true,
-        "estimated_effort_hours": 2.0,
-        "job_id": "90bf05bc-0b4e-4258-9506-0a754d971b3d",
-        "official_source": true,
-        "operator_gate": "human_owner_claim_and_terms_acceptance",
-        "paid_bid_credit_purchase_authorized": false,
-        "payment_provider": "ON_CHAIN_USDC",
-        "payment_status": "",
-        "payout_asset": "USDC",
-        "payout_chain": "Base",
-        "platform": "MoltJobs",
-        "source_kind": "agent_native_public_api",
-        "status_verified_open": true,
-        "submission_dossier_prepared": false,
-        "submission_dossier_required": true,
-        "submission_mode": "moltjobs_agent_api",
-        "submit_endpoint": "/v1/jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d/submit",
-        "template_id": "custom-v1",
-        "verified_google_account_required": true,
-        "wallet_withdrawal_authorized": false
-      },
-      "observed_at": "2026-10-22T07:46:06.706046+00:00",
-      "opportunity_id": "market-f9a6ebdf53c8522a",
-      "payment_evidence": [
-        "https://api.moltjobs.io/v1/jobs?status=OPEN&limit=100",
-        "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
-        "paymentProvider=ON_CHAIN_USDC"
-      ],
-      "physical_presence_required": false,
-      "required_capabilities": [
-        "structured_document_delivery"
-      ],
-      "reward_amount": 20.0,
-      "reward_verified": true,
-      "risk": 0.18,
-      "security_scope_authorized": true,
-      "source_category": "agent_native_marketplace",
-      "source_id": "moltjobs_agent_jobs",
-      "source_url": "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
-      "terms_required": true,
-      "time_to_cash_days": 8,
-      "title": "Sample Blog & YouTube Script Task",
-      "effort_hours": 2.0,
-      "reward_eur": 20.0,
-      "competition_risk": 0.5,
-      "payment_confidence": 0.85,
-      "human_actions_required": 1,
-      "payment_path": "verified public reward evidence; payout terms require platform confirmation",
-      "acceptance_criteria": [
-        "deliver the bounded scope described in the verified public listing"
-      ],
-      "fresh_open_verified": true,
-      "legal_policy_pass": true,
-      "market_signal_verified": true,
-      "personal_eligibility_required": false,
-      "active_competing_claim": false,
-      "source_file": "universal_market_opportunities.json",
-      "upstream_decision": "capability_build",
-      "upstream_rejected": false,
-      "internet_opportunity_router": {
-        "domain": "writing_documentation",
-        "lane": "exploit",
-        "decision": "prepare_then_gate",
-        "score": 5.95,
-        "reasons": [],
-        "forecast_only_not_pipeline_or_revenue": true
-      }
-    },
-    {
-      "accessibility": 0.92,
-      "account_required": true,
-      "collector_source_id": "moltjobs_agent_jobs",
-      "competition": 0.5,
-      "cost": 0.0,
-      "currency": "USDC",
-      "deadline": "2026-10-22T17:50:11.907000+00:00",
-      "description": "Write a 300-500 word blog post about 'The Benefits of AI in Content Creation' and a 1-2 minute YouTube script (150-300 words) on the same topic. Deliverables must be in plain text with clear section headings. Use a professional yet engaging tone. Output format: JSON object with keys 'blogPost' and 'youtubeScript'.\nAcceptance criteria: Blog post must be between 300 and 500 words.; Blog post must contain a title (first non-empty line).; YouTube script must be between 150 and 300 words.",
-      "evidence": [
-        "https://api.moltjobs.io/v1/jobs?status=OPEN&limit=100",
-        "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
-        "https://moltjobs.io/docs/api",
-        "https://moltjobs.io/terms"
-      ],
-      "human_dependency": 0.18,
-      "identity_or_kyc_required": false,
-      "legal_entity_required": false,
-      "metadata": {
-        "autonomous_bid_enabled": false,
-        "bid_endpoint": "/v1/jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d/bids",
-        "collector_source_id": "moltjobs_agent_jobs",
-        "days_left": 1,
-        "deadline_verified": true,
-        "estimated_effort_hours": 2.0,
-        "job_id": "90bf05bc-0b4e-4258-9506-0a754d971b3d",
-        "official_source": true,
-        "operator_gate": "human_owner_claim_and_terms_acceptance",
-        "paid_bid_credit_purchase_authorized": false,
-        "payment_provider": "ON_CHAIN_USDC",
-        "payment_status": "",
-        "payout_asset": "USDC",
-        "payout_chain": "Base",
-        "platform": "MoltJobs",
-        "source_kind": "agent_native_public_api",
-        "status_verified_open": true,
-        "submission_dossier_prepared": false,
-        "submission_dossier_required": true,
-        "submission_mode": "moltjobs_agent_api",
-        "submit_endpoint": "/v1/jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d/submit",
-        "template_id": "custom-v1",
-        "verified_google_account_required": true,
-        "wallet_withdrawal_authorized": false
-      },
-      "observed_at": "2026-10-22T07:46:06.706046+00:00",
-      "payment_evidence": [
-        "https://api.moltjobs.io/v1/jobs?status=OPEN&limit=100",
-        "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
-        "paymentProvider=ON_CHAIN_USDC"
-      ],
-      "physical_presence_required": false,
-      "required_capabilities": [
-        "structured_document_delivery"
-      ],
-      "reward_amount": 20.0,
-      "reward_verified": true,
-      "risk": 0.18,
-      "security_scope_authorized": true,
-      "source_category": "agent_native_marketplace",
-      "source_id": "moltjobs_agent_jobs",
-      "source_url": "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
-      "terms_required": true,
-      "time_to_cash_days": 8,
-      "title": "Sample Blog & YouTube Script Task",
-      "opportunity_id": "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
-      "effort_hours": 2.0,
-      "reward_eur": 20.0,
-      "competition_risk": 0.5,
-      "payment_confidence": 0.85,
-      "human_actions_required": 1,
-      "payment_path": "verified public reward evidence; payout terms require platform confirmation",
-      "acceptance_criteria": [
-        "deliver the bounded scope described in the verified public listing"
-      ],
-      "fresh_open_verified": true,
-      "legal_policy_pass": true,
-      "market_signal_verified": true,
-      "personal_eligibility_required": false,
-      "active_competing_claim": false,
-      "source_file": "simple_mission_source_refresh.json",
-      "upstream_decision": null,
-      "upstream_rejected": false,
-      "internet_opportunity_router": {
-        "domain": "writing_documentation",
-        "lane": "exploit",
-        "decision": "prepare_then_gate",
-        "score": 5.95,
-        "reasons": [],
-        "forecast_only_not_pipeline_or_revenue": true
-      }
-    },
-    {
-      "accessibility": 0.86,
-      "account_required": true,
-      "canonical_url": "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter",
-      "competition": 0.0,
-      "cost": 0.1,
-      "currency": "USD",
-      "deadline": "5 days left",
-      "decision": {
-        "blockers": [
-          "capability_missing:translation_delivery",
-          "capability_requires_validation:translation_delivery"
-        ],
-        "evidence": [
-          "https://www.freelancer.com/jobs/translation/",
-          "St. Lucian Creole Deposition Interpreter 5 days left Verified A virtual deposition for a civil case is set for October 26, 2026 at 11:30 a.m. (Eastern Time). The session is expected to last between one and two hours, and it will be conducted entirely online, so you may participate from any location with a stable internet connection. Fluency in both English and St. Lucian Creole is essential. While formal certification is not required, solid, demonstrable experience handling legal or civil-case proceedings is a must. You should be comfortable with the pace and terminology of depositions and able to preserve accuracy, neutrality, and confidentiality throughout. Deliverables • Provide consecutive or near-simultaneous interpretation for the full duration of the deposition (up to 2 hours or more • Remain available for a brief tech check 15 min... English Translation Legal Translation Translation Zoom $25 - $50 / hr $25 - $50 / hr 0 bids Bid now",
-          "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter"
-        ],
-        "human_action_minimal": "none",
-        "missing_capabilities": [
-          "translation_delivery"
-        ],
-        "next_action": "create_bounded_capability_spec_test_promote_and_retry",
-        "opportunity_id": "market-d5f21a36520a7879",
-        "score": 60.85,
-        "status": "capability_build"
-      },
-      "description": "St. Lucian Creole Deposition Interpreter 5 days left Verified A virtual deposition for a civil case is set for October 26, 2026 at 11:30 a.m. (Eastern Time). The session is expected to last between one and two hours, and it will be conducted entirely online, so you may participate from any location with a stable internet connection. Fluency in both English and St. Lucian Creole is essential. While formal certification is not required, solid, demonstrable experience handling legal or civil-case proceedings is a must. You should be comfortable with the pace and terminology of depositions and able to preserve accuracy, neutrality, and confidentiality throughout. Deliverables • Provide consecutive or near-simultaneous interpretation for the full duration of the deposition (up to 2 hours or more • Remain available for a brief tech check 15 min... English Translation Legal Translation Translation Zoom $25 - $50 / hr $25 - $50 / hr 0 bids Bid now",
-      "evidence": [
-        "https://www.freelancer.com/jobs/translation/",
-        "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter"
-      ],
-      "human_dependency": 0.22,
-      "identity_or_kyc_required": false,
-      "legal_entity_required": false,
-      "metadata": {
-        "active_bids": 0,
-        "budget_currency": "USD",
-        "budget_max": 50.0,
-        "budget_min": 25.0,
-        "days_left": 5,
-        "estimated_effort_hours": 8.0,
-        "official_source": true,
-        "payment_methods": [
-          "Freelancer milestone payment; account payout method selected after award"
-        ],
-        "payout_setup_required": false,
-        "platform": "Freelancer.com",
-        "source_kind": "public_freelance_listing",
-        "source_page": "https://www.freelancer.com/jobs/translation/",
-        "submission_dossier_prepared": false,
-        "submission_dossier_required": true,
-        "submission_mode": "platform_proposal"
-      },
-      "observed_at": "2026-10-22T07:46:10.776691+00:00",
-      "opportunity_id": "market-d5f21a36520a7879",
-      "payment_evidence": [
-        "https://www.freelancer.com/jobs/translation/",
-        "St. Lucian Creole Deposition Interpreter 5 days left Verified A virtual deposition for a civil case is set for October 26, 2026 at 11:30 a.m. (Eastern Time). The session is expected to last between one and two hours, and it will be conducted entirely online, so you may participate from any location with a stable internet connection. Fluency in both English and St. Lucian Creole is essential. While formal certification is not required, solid, demonstrable experience handling legal or civil-case proceedings is a must. You should be comfortable with the pace and terminology of depositions and able to preserve accuracy, neutrality, and confidentiality throughout. Deliverables • Provide consecutive or near-simultaneous interpretation for the full duration of the deposition (up to 2 hours or more • Remain available for a brief tech check 15 min... English Translation Legal Translation Translation Zoom $25 - $50 / hr $25 - $50 / hr 0 bids Bid now"
-      ],
-      "physical_presence_required": false,
-      "required_capabilities": [
-        "translation_delivery"
-      ],
-      "reward_amount": 25.0,
-      "reward_verified": true,
-      "risk": 0.2,
-      "security_scope_authorized": true,
-      "source_category": "freelance_marketplace",
-      "source_id": "freelancer_public_simple_jobs",
-      "source_url": "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter",
-      "terms_required": true,
-      "time_to_cash_days": 30,
-      "title": "St. Lucian Creole Deposition Interpreter",
-      "effort_hours": 8.0,
-      "reward_eur": 25.0,
-      "competition_risk": 0.0,
-      "payment_confidence": 0.85,
-      "human_actions_required": 1,
-      "payment_path": "Freelancer milestone payment; account payout method selected after award",
-      "acceptance_criteria": [
-        "deliver the bounded scope described in the verified public listing"
-      ],
-      "fresh_open_verified": true,
-      "legal_policy_pass": true,
-      "market_signal_verified": true,
-      "personal_eligibility_required": false,
-      "active_competing_claim": false,
-      "source_file": "universal_market_opportunities.json",
-      "upstream_decision": "capability_build",
-      "upstream_rejected": false,
-      "internet_opportunity_router": {
-        "domain": "translation",
-        "lane": "exploit",
-        "decision": "prepare_then_gate",
-        "score": 2.656,
-        "reasons": [],
-        "forecast_only_not_pipeline_or_revenue": true
-      }
-    },
-    {
-      "accessibility": 0.86,
-      "account_required": true,
-      "collector_source_id": "freelancer_public_simple_jobs",
-      "competition": 0.0,
-      "cost": 0.1,
-      "currency": "USD",
-      "deadline": "5 days left",
-      "description": "St. Lucian Creole Deposition Interpreter 5 days left Verified A virtual deposition for a civil case is set for October 26, 2026 at 11:30 a.m. (Eastern Time). The session is expected to last between one and two hours, and it will be conducted entirely online, so you may participate from any location with a stable internet connection. Fluency in both English and St. Lucian Creole is essential. While formal certification is not required, solid, demonstrable experience handling legal or civil-case proceedings is a must. You should be comfortable with the pace and terminology of depositions and able to preserve accuracy, neutrality, and confidentiality throughout. Deliverables • Provide consecutive or near-simultaneous interpretation for the full duration of the deposition (up to 2 hours or more • Remain available for a brief tech check 15 min... English Translation Legal Translation Translation Zoom $25 - $50 / hr $25 - $50 / hr 0 bids Bid now",
-      "evidence": [
-        "https://www.freelancer.com/jobs/translation/",
-        "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter"
-      ],
-      "human_dependency": 0.22,
-      "identity_or_kyc_required": false,
-      "legal_entity_required": false,
-      "metadata": {
-        "active_bids": 0,
-        "budget_currency": "USD",
-        "budget_max": 50.0,
-        "budget_min": 25.0,
-        "collector_source_id": "freelancer_public_simple_jobs",
-        "days_left": 5,
-        "estimated_effort_hours": 8.0,
-        "official_source": true,
-        "payment_methods": [
-          "Freelancer milestone payment; account payout method selected after award"
-        ],
-        "payout_setup_required": false,
-        "platform": "Freelancer.com",
-        "source_kind": "public_freelance_listing",
-        "source_page": "https://www.freelancer.com/jobs/translation/",
-        "submission_dossier_prepared": false,
-        "submission_dossier_required": true,
-        "submission_mode": "platform_proposal"
-      },
-      "observed_at": "2026-10-22T07:46:10.776691+00:00",
-      "payment_evidence": [
-        "https://www.freelancer.com/jobs/translation/",
-        "St. Lucian Creole Deposition Interpreter 5 days left Verified A virtual deposition for a civil case is set for October 26, 2026 at 11:30 a.m. (Eastern Time). The session is expected to last between one and two hours, and it will be conducted entirely online, so you may participate from any location with a stable internet connection. Fluency in both English and St. Lucian Creole is essential. While formal certification is not required, solid, demonstrable experience handling legal or civil-case proceedings is a must. You should be comfortable with the pace and terminology of depositions and able to preserve accuracy, neutrality, and confidentiality throughout. Deliverables • Provide consecutive or near-simultaneous interpretation for the full duration of the deposition (up to 2 hours or more • Remain available for a brief tech check 15 min... English Translation Legal Translation Translation Zoom $25 - $50 / hr $25 - $50 / hr 0 bids Bid now"
-      ],
-      "physical_presence_required": false,
-      "required_capabilities": [
-        "translation_delivery"
-      ],
-      "reward_amount": 25.0,
-      "reward_verified": true,
-      "risk": 0.2,
-      "security_scope_authorized": true,
-      "source_category": "freelance_marketplace",
-      "source_id": "freelancer_public_simple_jobs",
-      "source_url": "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter",
-      "terms_required": true,
-      "time_to_cash_days": 30,
-      "title": "St. Lucian Creole Deposition Interpreter",
-      "opportunity_id": "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter",
-      "effort_hours": 8.0,
-      "reward_eur": 25.0,
-      "competition_risk": 0.0,
-      "payment_confidence": 0.85,
-      "human_actions_required": 1,
-      "payment_path": "Freelancer milestone payment; account payout method selected after award",
-      "acceptance_criteria": [
-        "deliver the bounded scope described in the verified public listing"
-      ],
-      "fresh_open_verified": true,
-      "legal_policy_pass": true,
-      "market_signal_verified": true,
-      "personal_eligibility_required": false,
-      "active_competing_claim": false,
-      "source_file": "simple_mission_source_refresh.json",
-      "upstream_decision": null,
-      "upstream_rejected": false,
-      "internet_opportunity_router": {
-        "domain": "translation",
-        "lane": "exploit",
-        "decision": "prepare_then_gate",
-        "score": 2.656,
-        "reasons": [],
-        "forecast_only_not_pipeline_or_revenue": true
-      }
-    },
     {
       "accessibility": 0.96,
       "account_required": true,
@@ -1641,6 +1252,221 @@
       }
     },
     {
+      "accessibility": 0.92,
+      "account_required": true,
+      "canonical_url": "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
+      "competition": 0.5,
+      "cost": 0.0,
+      "currency": "USDC",
+      "deadline": "2026-10-22T17:50:11.907000+00:00",
+      "decision": {
+        "blockers": [
+          "capability_missing:structured_document_delivery",
+          "capability_requires_validation:structured_document_delivery"
+        ],
+        "evidence": [
+          "https://api.moltjobs.io/v1/jobs?status=OPEN&limit=100",
+          "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
+          "paymentProvider=ON_CHAIN_USDC",
+          "https://moltjobs.io/docs/api",
+          "https://moltjobs.io/terms"
+        ],
+        "human_action_minimal": "none",
+        "missing_capabilities": [
+          "structured_document_delivery"
+        ],
+        "next_action": "create_bounded_capability_spec_test_promote_and_retry",
+        "opportunity_id": "market-f9a6ebdf53c8522a",
+        "score": 66.61,
+        "status": "capability_build"
+      },
+      "description": "Write a 300-500 word blog post about 'The Benefits of AI in Content Creation' and a 1-2 minute YouTube script (150-300 words) on the same topic. Deliverables must be in plain text with clear section headings. Use a professional yet engaging tone. Output format: JSON object with keys 'blogPost' and 'youtubeScript'.\nAcceptance criteria: Blog post must be between 300 and 500 words.; Blog post must contain a title (first non-empty line).; YouTube script must be between 150 and 300 words.",
+      "evidence": [
+        "https://api.moltjobs.io/v1/jobs?status=OPEN&limit=100",
+        "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
+        "https://moltjobs.io/docs/api",
+        "https://moltjobs.io/terms"
+      ],
+      "human_dependency": 0.18,
+      "identity_or_kyc_required": false,
+      "legal_entity_required": false,
+      "metadata": {
+        "autonomous_bid_enabled": false,
+        "bid_endpoint": "/v1/jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d/bids",
+        "days_left": 1,
+        "deadline_verified": true,
+        "estimated_effort_hours": 2.0,
+        "job_id": "90bf05bc-0b4e-4258-9506-0a754d971b3d",
+        "official_source": true,
+        "operator_gate": "human_owner_claim_and_terms_acceptance",
+        "paid_bid_credit_purchase_authorized": false,
+        "payment_provider": "ON_CHAIN_USDC",
+        "payment_status": "",
+        "payout_asset": "USDC",
+        "payout_chain": "Base",
+        "platform": "MoltJobs",
+        "source_kind": "agent_native_public_api",
+        "status_verified_open": true,
+        "submission_dossier_prepared": false,
+        "submission_dossier_required": true,
+        "submission_mode": "moltjobs_agent_api",
+        "submit_endpoint": "/v1/jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d/submit",
+        "template_id": "custom-v1",
+        "verified_google_account_required": true,
+        "wallet_withdrawal_authorized": false
+      },
+      "observed_at": "2026-10-22T07:46:06.706046+00:00",
+      "opportunity_id": "market-f9a6ebdf53c8522a",
+      "payment_evidence": [
+        "https://api.moltjobs.io/v1/jobs?status=OPEN&limit=100",
+        "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
+        "paymentProvider=ON_CHAIN_USDC"
+      ],
+      "physical_presence_required": false,
+      "required_capabilities": [
+        "structured_document_delivery"
+      ],
+      "reward_amount": 20.0,
+      "reward_verified": true,
+      "risk": 0.18,
+      "security_scope_authorized": true,
+      "source_category": "agent_native_marketplace",
+      "source_id": "moltjobs_agent_jobs",
+      "source_url": "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
+      "terms_required": true,
+      "time_to_cash_days": 8,
+      "title": "Sample Blog & YouTube Script Task",
+      "effort_hours": 2.0,
+      "reward_eur": 20.0,
+      "competition_risk": 0.5,
+      "payment_confidence": 0.85,
+      "human_actions_required": 1,
+      "payment_path": "verified public reward evidence; payout terms require platform confirmation",
+      "acceptance_criteria": [
+        "deliver the bounded scope described in the verified public listing"
+      ],
+      "fresh_open_verified": true,
+      "legal_policy_pass": true,
+      "market_signal_verified": true,
+      "personal_eligibility_required": false,
+      "active_competing_claim": false,
+      "source_file": "universal_market_opportunities.json",
+      "upstream_decision": "capability_build",
+      "upstream_rejected": false,
+      "internet_opportunity_router": {
+        "domain": "writing_documentation",
+        "lane": "exploit",
+        "decision": "capability_build",
+        "score": 1.0,
+        "reasons": [
+          "upstream_capability_not_validated"
+        ],
+        "forecast_only_not_pipeline_or_revenue": true
+      }
+    },
+    {
+      "accessibility": 0.86,
+      "account_required": true,
+      "canonical_url": "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter",
+      "competition": 0.0,
+      "cost": 0.1,
+      "currency": "USD",
+      "deadline": "5 days left",
+      "decision": {
+        "blockers": [
+          "capability_missing:translation_delivery",
+          "capability_requires_validation:translation_delivery"
+        ],
+        "evidence": [
+          "https://www.freelancer.com/jobs/translation/",
+          "St. Lucian Creole Deposition Interpreter 5 days left Verified A virtual deposition for a civil case is set for October 26, 2026 at 11:30 a.m. (Eastern Time). The session is expected to last between one and two hours, and it will be conducted entirely online, so you may participate from any location with a stable internet connection. Fluency in both English and St. Lucian Creole is essential. While formal certification is not required, solid, demonstrable experience handling legal or civil-case proceedings is a must. You should be comfortable with the pace and terminology of depositions and able to preserve accuracy, neutrality, and confidentiality throughout. Deliverables • Provide consecutive or near-simultaneous interpretation for the full duration of the deposition (up to 2 hours or more • Remain available for a brief tech check 15 min... English Translation Legal Translation Translation Zoom $25 - $50 / hr $25 - $50 / hr 0 bids Bid now",
+          "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter"
+        ],
+        "human_action_minimal": "none",
+        "missing_capabilities": [
+          "translation_delivery"
+        ],
+        "next_action": "create_bounded_capability_spec_test_promote_and_retry",
+        "opportunity_id": "market-d5f21a36520a7879",
+        "score": 60.85,
+        "status": "capability_build"
+      },
+      "description": "St. Lucian Creole Deposition Interpreter 5 days left Verified A virtual deposition for a civil case is set for October 26, 2026 at 11:30 a.m. (Eastern Time). The session is expected to last between one and two hours, and it will be conducted entirely online, so you may participate from any location with a stable internet connection. Fluency in both English and St. Lucian Creole is essential. While formal certification is not required, solid, demonstrable experience handling legal or civil-case proceedings is a must. You should be comfortable with the pace and terminology of depositions and able to preserve accuracy, neutrality, and confidentiality throughout. Deliverables • Provide consecutive or near-simultaneous interpretation for the full duration of the deposition (up to 2 hours or more • Remain available for a brief tech check 15 min... English Translation Legal Translation Translation Zoom $25 - $50 / hr $25 - $50 / hr 0 bids Bid now",
+      "evidence": [
+        "https://www.freelancer.com/jobs/translation/",
+        "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter"
+      ],
+      "human_dependency": 0.22,
+      "identity_or_kyc_required": false,
+      "legal_entity_required": false,
+      "metadata": {
+        "active_bids": 0,
+        "budget_currency": "USD",
+        "budget_max": 50.0,
+        "budget_min": 25.0,
+        "days_left": 5,
+        "estimated_effort_hours": 8.0,
+        "official_source": true,
+        "payment_methods": [
+          "Freelancer milestone payment; account payout method selected after award"
+        ],
+        "payout_setup_required": false,
+        "platform": "Freelancer.com",
+        "source_kind": "public_freelance_listing",
+        "source_page": "https://www.freelancer.com/jobs/translation/",
+        "submission_dossier_prepared": false,
+        "submission_dossier_required": true,
+        "submission_mode": "platform_proposal"
+      },
+      "observed_at": "2026-10-22T07:46:10.776691+00:00",
+      "opportunity_id": "market-d5f21a36520a7879",
+      "payment_evidence": [
+        "https://www.freelancer.com/jobs/translation/",
+        "St. Lucian Creole Deposition Interpreter 5 days left Verified A virtual deposition for a civil case is set for October 26, 2026 at 11:30 a.m. (Eastern Time). The session is expected to last between one and two hours, and it will be conducted entirely online, so you may participate from any location with a stable internet connection. Fluency in both English and St. Lucian Creole is essential. While formal certification is not required, solid, demonstrable experience handling legal or civil-case proceedings is a must. You should be comfortable with the pace and terminology of depositions and able to preserve accuracy, neutrality, and confidentiality throughout. Deliverables • Provide consecutive or near-simultaneous interpretation for the full duration of the deposition (up to 2 hours or more • Remain available for a brief tech check 15 min... English Translation Legal Translation Translation Zoom $25 - $50 / hr $25 - $50 / hr 0 bids Bid now"
+      ],
+      "physical_presence_required": false,
+      "required_capabilities": [
+        "translation_delivery"
+      ],
+      "reward_amount": 25.0,
+      "reward_verified": true,
+      "risk": 0.2,
+      "security_scope_authorized": true,
+      "source_category": "freelance_marketplace",
+      "source_id": "freelancer_public_simple_jobs",
+      "source_url": "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter",
+      "terms_required": true,
+      "time_to_cash_days": 30,
+      "title": "St. Lucian Creole Deposition Interpreter",
+      "effort_hours": 8.0,
+      "reward_eur": 25.0,
+      "competition_risk": 0.0,
+      "payment_confidence": 0.85,
+      "human_actions_required": 1,
+      "payment_path": "Freelancer milestone payment; account payout method selected after award",
+      "acceptance_criteria": [
+        "deliver the bounded scope described in the verified public listing"
+      ],
+      "fresh_open_verified": true,
+      "legal_policy_pass": true,
+      "market_signal_verified": true,
+      "personal_eligibility_required": false,
+      "active_competing_claim": false,
+      "source_file": "universal_market_opportunities.json",
+      "upstream_decision": "capability_build",
+      "upstream_rejected": false,
+      "internet_opportunity_router": {
+        "domain": "translation",
+        "lane": "exploit",
+        "decision": "capability_build",
+        "score": 0.312,
+        "reasons": [
+          "upstream_capability_not_validated"
+        ],
+        "forecast_only_not_pipeline_or_revenue": true
+      }
+    },
+    {
       "accessibility": 0.96,
       "account_required": true,
       "canonical_url": "https://www.bountybook.ai/job/13e5b137-7f9d-4a6c-affa-215b8dd15657",
@@ -2416,11 +2242,233 @@
         "reasons": [],
         "forecast_only_not_pipeline_or_revenue": true
       }
+    },
+    {
+      "accessibility": 0.96,
+      "account_required": true,
+      "canonical_url": "https://www.bountybook.ai/job/a55bd7d2-b6a0-4bfc-80b5-f788d0ff312d",
+      "competition": 0.55,
+      "cost": 0.0,
+      "currency": "USDC",
+      "deadline": "",
+      "decision": {
+        "blockers": [
+          "capability_missing:javascript_automation_delivery"
+        ],
+        "evidence": [
+          "https://api.bountybook.ai/jobs?status=open&limit=100",
+          "https://www.bountybook.ai/job/a55bd7d2-b6a0-4bfc-80b5-f788d0ff312d",
+          "budget_usdc=5",
+          "official_open_jobs_require_attached_usdc",
+          "https://www.bountybook.ai/docs",
+          "https://www.bountybook.ai/terms"
+        ],
+        "human_action_minimal": "none",
+        "missing_capabilities": [
+          "javascript_automation_delivery"
+        ],
+        "next_action": "create_bounded_capability_spec_test_promote_and_retry",
+        "opportunity_id": "market-e91dcdf4892d3082",
+        "score": 66.68,
+        "status": "capability_build"
+      },
+      "description": "Implement TypedEmitter<Events> class in event_emitter.ts with on/off/once/emit/listenerCount. Must compile with tsc --strict. No external deps.\nImplement a `TypedEmitter<Events>` class in `event_emitter.ts`.\n\n## Interface\n```typescript\ntype Listener<T> = (data: T) => void;\n\nclass TypedEmitter<Events extends Record<string, unknown>> {\n  on<K extends keyof Events>(event: K, listener: Listener<Events[K]>): this\n  off<K extends keyof Events>(event: K, listener: Listener<Events[K]>): this\n  once<K extends keyof Events>(event: K, listener: Listener<Events[K]>): this\n  emit<K extends keyof Events>(event: K, data: Events[K]): boolean  // true if any listeners called\n  listenerCount<K extends keyof Events>(event: K): number\n}\n```\n\n## Behavior\n- `on`: register a persistent listener\n- `off`: remove the exact listener function (no-op if not registered)\n- `once`: register a one-time listener (auto-removed after first call)\n- `emit`: call all registered listeners for that event in registration order; return true if > 0 listeners, false otherwise\n- `listenerCount`: return number of active listeners for an event\n\n## Constraints\n- No external dependencies\n- Must compile: `tsc --strict --target ES2020 --module commonjs event_emitter.ts`",
+      "evidence": [
+        "https://api.bountybook.ai/jobs?status=open&limit=100",
+        "https://www.bountybook.ai/job/a55bd7d2-b6a0-4bfc-80b5-f788d0ff312d",
+        "https://www.bountybook.ai/docs",
+        "https://www.bountybook.ai/terms"
+      ],
+      "human_dependency": 0.08,
+      "identity_or_kyc_required": false,
+      "legal_entity_required": false,
+      "metadata": {
+        "autonomous_claim_enabled": false,
+        "claim_endpoint": "/jobs/a55bd7d2-b6a0-4bfc-80b5-f788d0ff312d/claim",
+        "claim_is_free": true,
+        "days_left": 7,
+        "deadline_verified": false,
+        "estimated_effort_hours": 2.0,
+        "financial_transaction_signing_enabled": false,
+        "job_id": "a55bd7d2-b6a0-4bfc-80b5-f788d0ff312d",
+        "official_source": true,
+        "operator_gate": "build_deliverable_before_claim",
+        "payout_asset": "USDC",
+        "payout_chain": "Base",
+        "platform": "BountyBook",
+        "source_kind": "agent_native_public_api",
+        "spend_authorized": false,
+        "status_verified_open": true,
+        "submission_dossier_prepared": false,
+        "submission_dossier_required": true,
+        "submission_is_free": true,
+        "submission_mode": "bountybook_agent_api",
+        "submit_endpoint": "/jobs/a55bd7d2-b6a0-4bfc-80b5-f788d0ff312d/submit",
+        "wallet_type": "EVM"
+      },
+      "observed_at": "2026-10-22T07:46:06.257592+00:00",
+      "opportunity_id": "market-e91dcdf4892d3082",
+      "payment_evidence": [
+        "https://api.bountybook.ai/jobs?status=open&limit=100",
+        "https://www.bountybook.ai/job/a55bd7d2-b6a0-4bfc-80b5-f788d0ff312d",
+        "budget_usdc=5",
+        "official_open_jobs_require_attached_usdc"
+      ],
+      "physical_presence_required": false,
+      "required_capabilities": [
+        "javascript_automation_delivery"
+      ],
+      "reward_amount": 5.0,
+      "reward_verified": true,
+      "risk": 0.22,
+      "security_scope_authorized": true,
+      "source_category": "agent_native_marketplace",
+      "source_id": "bountybook_agent_jobs",
+      "source_url": "https://www.bountybook.ai/job/a55bd7d2-b6a0-4bfc-80b5-f788d0ff312d",
+      "terms_required": true,
+      "time_to_cash_days": 10,
+      "title": "Build TypedEmitter class with typed event handling in event_emitter.ts",
+      "effort_hours": 2.0,
+      "reward_eur": 5.0,
+      "competition_risk": 0.55,
+      "payment_confidence": 0.85,
+      "human_actions_required": 1,
+      "payment_path": "verified public reward evidence; payout terms require platform confirmation",
+      "acceptance_criteria": [
+        "deliver the bounded scope described in the verified public listing"
+      ],
+      "fresh_open_verified": true,
+      "legal_policy_pass": true,
+      "market_signal_verified": true,
+      "personal_eligibility_required": false,
+      "active_competing_claim": false,
+      "source_file": "universal_market_opportunities.json",
+      "upstream_decision": "capability_build",
+      "upstream_rejected": false,
+      "internet_opportunity_router": {
+        "domain": "code_automation",
+        "lane": "experimental",
+        "decision": "capability_build",
+        "score": 0.107,
+        "reasons": [],
+        "forecast_only_not_pipeline_or_revenue": true
+      }
+    },
+    {
+      "accessibility": 0.96,
+      "account_required": true,
+      "canonical_url": "https://www.bountybook.ai/job/fca0ae30-6edc-401d-86dc-69c9681f233f",
+      "competition": 0.55,
+      "cost": 0.0,
+      "currency": "USDC",
+      "deadline": "",
+      "decision": {
+        "blockers": [
+          "capability_missing:javascript_automation_delivery"
+        ],
+        "evidence": [
+          "https://api.bountybook.ai/jobs?status=open&limit=100",
+          "https://www.bountybook.ai/job/fca0ae30-6edc-401d-86dc-69c9681f233f",
+          "budget_usdc=5",
+          "official_open_jobs_require_attached_usdc",
+          "https://www.bountybook.ai/docs",
+          "https://www.bountybook.ai/terms"
+        ],
+        "human_action_minimal": "none",
+        "missing_capabilities": [
+          "javascript_automation_delivery"
+        ],
+        "next_action": "create_bounded_capability_spec_test_promote_and_retry",
+        "opportunity_id": "market-fc390e04e71a092e",
+        "score": 66.68,
+        "status": "capability_build"
+      },
+      "description": "Write retry.js exporting retry(fn, options). Options: maxAttempts, baseDelayMs, factor, jitter. Exponential backoff between attempts. Returns first success, throws last error after all attempts. module.exports = { retry }.\nWrite `retry.js` that exports a `retry(fn, options)` function.\n\n## API\n```js\nconst result = await retry(asyncFn, {\n  maxAttempts: 3,     // total attempts (default: 3)\n  baseDelayMs: 100,   // initial delay in ms (default: 100)\n  factor: 2,          // backoff multiplier (default: 2)\n  jitter: false       // add random jitter (default: false)\n});\n```\n\n## Behavior\n- Calls `asyncFn()` up to `maxAttempts` times.\n- On failure, waits `baseDelayMs * factor^(attempt-1)` before retrying.\n  - attempt 1 fails → wait `100ms`, retry attempt 2\n  - attempt 2 fails → wait `200ms`, retry attempt 3\n  - attempt 3 fails → throw the last error\n- If `jitter: true`, multiply delay by a random factor in [0.5, 1.5].\n- Returns the first successful result immediately.\n- `module.exports = { retry };`\n\n## Deliverable\nSingle file `retry.js`.",
+      "evidence": [
+        "https://api.bountybook.ai/jobs?status=open&limit=100",
+        "https://www.bountybook.ai/job/fca0ae30-6edc-401d-86dc-69c9681f233f",
+        "https://www.bountybook.ai/docs",
+        "https://www.bountybook.ai/terms"
+      ],
+      "human_dependency": 0.08,
+      "identity_or_kyc_required": false,
+      "legal_entity_required": false,
+      "metadata": {
+        "autonomous_claim_enabled": false,
+        "claim_endpoint": "/jobs/fca0ae30-6edc-401d-86dc-69c9681f233f/claim",
+        "claim_is_free": true,
+        "days_left": 7,
+        "deadline_verified": false,
+        "estimated_effort_hours": 2.0,
+        "financial_transaction_signing_enabled": false,
+        "job_id": "fca0ae30-6edc-401d-86dc-69c9681f233f",
+        "official_source": true,
+        "operator_gate": "build_deliverable_before_claim",
+        "payout_asset": "USDC",
+        "payout_chain": "Base",
+        "platform": "BountyBook",
+        "source_kind": "agent_native_public_api",
+        "spend_authorized": false,
+        "status_verified_open": true,
+        "submission_dossier_prepared": false,
+        "submission_dossier_required": true,
+        "submission_is_free": true,
+        "submission_mode": "bountybook_agent_api",
+        "submit_endpoint": "/jobs/fca0ae30-6edc-401d-86dc-69c9681f233f/submit",
+        "wallet_type": "EVM"
+      },
+      "observed_at": "2026-10-22T07:46:06.261841+00:00",
+      "opportunity_id": "market-fc390e04e71a092e",
+      "payment_evidence": [
+        "https://api.bountybook.ai/jobs?status=open&limit=100",
+        "https://www.bountybook.ai/job/fca0ae30-6edc-401d-86dc-69c9681f233f",
+        "budget_usdc=5",
+        "official_open_jobs_require_attached_usdc"
+      ],
+      "physical_presence_required": false,
+      "required_capabilities": [
+        "javascript_automation_delivery"
+      ],
+      "reward_amount": 5.0,
+      "reward_verified": true,
+      "risk": 0.22,
+      "security_scope_authorized": true,
+      "source_category": "agent_native_marketplace",
+      "source_id": "bountybook_agent_jobs",
+      "source_url": "https://www.bountybook.ai/job/fca0ae30-6edc-401d-86dc-69c9681f233f",
+      "terms_required": true,
+      "time_to_cash_days": 10,
+      "title": "Build retry.js with exponential backoff and jitter support",
+      "effort_hours": 2.0,
+      "reward_eur": 5.0,
+      "competition_risk": 0.55,
+      "payment_confidence": 0.85,
+      "human_actions_required": 1,
+      "payment_path": "verified public reward evidence; payout terms require platform confirmation",
+      "acceptance_criteria": [
+        "deliver the bounded scope described in the verified public listing"
+      ],
+      "fresh_open_verified": true,
+      "legal_policy_pass": true,
+      "market_signal_verified": true,
+      "personal_eligibility_required": false,
+      "active_competing_claim": false,
+      "source_file": "universal_market_opportunities.json",
+      "upstream_decision": "capability_build",
+      "upstream_rejected": false,
+      "internet_opportunity_router": {
+        "domain": "code_automation",
+        "lane": "experimental",
+        "decision": "capability_build",
+        "score": 0.107,
+        "reasons": [],
+        "forecast_only_not_pipeline_or_revenue": true
+      }
     }
   ],
   "pivot_metrics": {
     "rejected_without_candidate": 0,
-    "source_results_without_eligible": 46,
+    "source_results_without_eligible": 47,
     "proposals_without_reply": 0,
     "replies_without_conversion": 0,
     "verified_payments": 0
