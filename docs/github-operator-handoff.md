@@ -1,5 +1,51 @@
 # Passation du pilote GitHub
 
+## Contrôle du 22 octobre 2026 à 05:20 UTC — suivis frais, aucun résultat économique
+
+- `get_repo` réellement appelé ; main épinglé à
+  `186904510128e7d508350864776c1ad7c16f6848`, aucun `AGENTS.md`. Instructions, politiques, 19 PR ouvertes,
+  #473, workflows, jobs/logs, états, intentions et reçus relus. Les trois
+  registres de soumission absents restent inconnus (404), pas réputés vides.
+- Suivi Taskmarket `39707191051`, job `119589887116`, réussi au SHA
+  épinglé : 13 tests réussis, deux livraisons historiques relues, santé true,
+  erreurs vides, `MEANINGFUL_CHANGED=false`, sélection false et candidat
+  paiement false. Persistance/commentaire correctement sautés. Artifact
+  `12395408454`, digest
+  `sha256:3fdf2d850fbade878528d3d7204f56ec2cfe58c52ef4a2917f8aa08b83517c0d`,
+  disponible jusqu'au 05/11. Solde wallet et revenu EUR restent inconnus.
+- Rapprochement `39727239887`, job `119653860611`, à 05:18:21 UTC :
+  16 tests réussis, cinq 404 inchangés, wallet RTC lu fraîchement, 1/6 source,
+  `changed=false`, `health_changed=false`. Échec final attendu après
+  conservation de l'artifact `12402459976`, digest
+  `sha256:9117b0f6b2c1ec4ce68e17445da29879e472319164130dff7b1e17e20aee310e`,
+  disponible jusqu'au 05/11. Les 11 RTC historiques ne sont ni des euros ni un
+  nouveau paiement individuel ; Manic 10 USD reste non vérifié.
+- Aucun nouveau cycle marché/routeur depuis `39655639964`/`39656045484`.
+  Le dernier état reste cycle 82 : 30 inspectées, 0 qualifiée, 0 soumission,
+  0 paiement, découverte saine. AgentPact avait repris avec 50 annonces toutes
+  non financées ; Guru 403, Truelancer 429 et absence de nouvelle source activée
+  restent visibles. Ne pas rendre ces observations plus fraîches artificiellement.
+- Dossier CI/CD `market-685081cabe16a6b0` intact : 7 USDC annoncés, trois
+  hash inchangés, autorisation false, aucune erreur de passation et aucun rappel
+  (`new_count=0`). MoltJobs conserve son accès VM/credential indisponible ;
+  aucune tentative avant son échéance ni nouvelle demande identique.
+- Les crons existants restent inchangés : marché deux fois/jour, rapprochement
+  toutes les six heures, Taskmarket une fois/jour ; aucun run manuel, coût ou
+  fréquence ajouté. Aucun workflow actif/en attente au contrôle.
+- Mesures : 0 nouvelle mission distincte qualifiée, 0 nouveau dossier terminé,
+  0 soumission avec reçu, 0 acceptation, 0 paiement, 0 intervention humaine.
+  Blocage compte/conditions CI/CD d'environ 84 h 03 depuis la notification
+  initiale. Aucun achat ; coût marginal Actions, coût total et temps par mission
+  inconnus. Tests, scans, artifacts et passation ne sont pas du revenu.
+
+Décision : aucun défaut causal nouveau ni accès exploitable ; aucune PR,
+soumission ou notification artificielle. Prochaine action précise : examiner le
+prochain cycle marché prévu, vérifier la pause unique d'AgentPact et un éventuel
+remplacement réellement accessible/payable. Conserver CI/CD intact sans accord,
+réconcilier toute transition avant répétition, ne pas réactiver GCP et ne pas
+supposer le Lenovo accessible.
+
+
 ## Contrôle du 21 octobre 2026 à 22:37 UTC — reprise de source sans candidat exécutable
 
 - `get_repo` réellement appelé ; main épinglé à
