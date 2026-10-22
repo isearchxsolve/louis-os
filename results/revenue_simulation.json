@@ -2,7 +2,7 @@
   "annualization_status": "insufficient_history",
   "counted_as_pipeline": false,
   "counted_as_revenue": false,
-  "generated_at": "2026-10-21T18:47:43.994450+00:00",
+  "generated_at": "2026-10-22T07:46:13.429647+00:00",
   "schema_version": "1.0",
   "simulations": [
     {
@@ -79,24 +79,6 @@
     },
     {
       "annualization_status": "insufficient_history",
-      "capability_id": "rust_software_delivery",
-      "cluster_id": "cluster-be71839c3a477384",
-      "counted_as_pipeline": false,
-      "counted_as_revenue": false,
-      "scenarios_by_currency": {
-        "USDC": {
-          "base_expected_value": 3.0,
-          "conservative_expected_value": 1.25,
-          "median_verified_reward": 5.0,
-          "observed_opportunity_count": 5,
-          "upside_expected_value": 6.25
-        }
-      },
-      "scope": "currently observed qualified opportunities; not annualized",
-      "type": "simulation_only"
-    },
-    {
-      "annualization_status": "insufficient_history",
       "capability_id": "structured_document_delivery",
       "cluster_id": "cluster-0ee287ec90a3ea7f",
       "counted_as_pipeline": false,
@@ -105,9 +87,27 @@
         "USDC": {
           "base_expected_value": 2.4,
           "conservative_expected_value": 1.0,
-          "median_verified_reward": 20.0,
-          "observed_opportunity_count": 1,
+          "median_verified_reward": 10.01,
+          "observed_opportunity_count": 2,
           "upside_expected_value": 5.0
+        }
+      },
+      "scope": "currently observed qualified opportunities; not annualized",
+      "type": "simulation_only"
+    },
+    {
+      "annualization_status": "insufficient_history",
+      "capability_id": "rust_software_delivery",
+      "cluster_id": "cluster-be71839c3a477384",
+      "counted_as_pipeline": false,
+      "counted_as_revenue": false,
+      "scenarios_by_currency": {
+        "USDC": {
+          "base_expected_value": 2.16,
+          "conservative_expected_value": 0.9,
+          "median_verified_reward": 4.5,
+          "observed_opportunity_count": 4,
+          "upside_expected_value": 4.5
         }
       },
       "scope": "currently observed qualified opportunities; not annualized",

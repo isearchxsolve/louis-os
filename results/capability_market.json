@@ -83,29 +83,29 @@
         "re-run market qualification immediately after promotion"
       ],
       "budget_rule": "Use existing local and cloud infrastructure first; any paid dependency or external purchase requires explicit approval.",
-      "capability_id": "rust_software_delivery",
-      "capability_market_score": 55.21,
-      "cluster_id": "cluster-be71839c3a477384",
+      "capability_id": "structured_document_delivery",
+      "capability_market_score": 56.03,
+      "cluster_id": "cluster-0ee287ec90a3ea7f",
       "evidence": [
-        "https://www.bountybook.ai/job/13e5b137-7f9d-4a6c-affa-215b8dd15657",
-        "bountybook_agent_jobs"
+        "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
+        "bountybook_agent_jobs",
+        "moltjobs_agent_jobs"
       ],
       "fixture_opportunity_ids": [
-        "market-028a260f83c48f66",
-        "market-46c66d38d5c7a2bc",
-        "market-6d211653a743e740"
+        "market-c52bd45fe8a98f2c",
+        "market-f9a6ebdf53c8522a"
       ],
-      "immediate_next_action": "create_or_update_capability_issue:rust_software_delivery",
+      "immediate_next_action": "create_or_update_capability_issue:structured_document_delivery",
       "lane": "cash_first",
-      "objective": "Implement and validate `rust_software_delivery` as a reusable `rust_software_delivery` delivery capability for 5 currently observed cash-first opportunity(ies).",
-      "opportunity_count": 5,
+      "objective": "Implement and validate `structured_document_delivery` as a reusable `structured_document_delivery` delivery capability for 2 currently observed cash-first opportunity(ies).",
+      "opportunity_count": 2,
       "promotion_rule": "Promote only after green unit tests, one reproducible dry-run artifact and no regression in the versioned business benchmark.",
       "rank": 3,
       "required_interface": {
         "input": "canonical opportunity dossier, source materials, acceptance criteria and payment evidence",
         "output": "bounded deliverable, validation report, hashes and execution receipt"
       },
-      "source_count": 1,
+      "source_count": 2,
       "stop_rule": "Defer if the cluster has no qualifying mission for three consecutive cycles, score falls below 35, or a mandatory human/physical constraint dominates."
     },
     {
@@ -119,20 +119,22 @@
         "re-run market qualification immediately after promotion"
       ],
       "budget_rule": "Use existing local and cloud infrastructure first; any paid dependency or external purchase requires explicit approval.",
-      "capability_id": "structured_document_delivery",
-      "capability_market_score": 51.35,
-      "cluster_id": "cluster-0ee287ec90a3ea7f",
+      "capability_id": "rust_software_delivery",
+      "capability_market_score": 53.59,
+      "cluster_id": "cluster-be71839c3a477384",
       "evidence": [
-        "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
-        "moltjobs_agent_jobs"
+        "https://www.bountybook.ai/job/13e5b137-7f9d-4a6c-affa-215b8dd15657",
+        "bountybook_agent_jobs"
       ],
       "fixture_opportunity_ids": [
-        "market-f9a6ebdf53c8522a"
+        "market-46c66d38d5c7a2bc",
+        "market-6d211653a743e740",
+        "market-73a7f157c2ccf876"
       ],
-      "immediate_next_action": "create_or_update_capability_issue:structured_document_delivery",
+      "immediate_next_action": "create_or_update_capability_issue:rust_software_delivery",
       "lane": "cash_first",
-      "objective": "Implement and validate `structured_document_delivery` as a reusable `structured_document_delivery` delivery capability for 1 currently observed cash-first opportunity(ies).",
-      "opportunity_count": 1,
+      "objective": "Implement and validate `rust_software_delivery` as a reusable `rust_software_delivery` delivery capability for 4 currently observed cash-first opportunity(ies).",
+      "opportunity_count": 4,
       "promotion_rule": "Promote only after green unit tests, one reproducible dry-run artifact and no regression in the versioned business benchmark.",
       "rank": 4,
       "required_interface": {
@@ -388,10 +390,52 @@
       }
     },
     {
+      "capability_id": "structured_document_delivery",
+      "capability_market_score": 56.03,
+      "capability_status": "experimental",
+      "capped_score_value": 20.01,
+      "cluster_id": "cluster-0ee287ec90a3ea7f",
+      "deliverable_family": "structured_document_delivery",
+      "first_payment_probability": 0.2507,
+      "implementation_cost": 0.35,
+      "lane": "cash_first",
+      "median_accessibility": 0.94,
+      "median_competition": 0.525,
+      "median_effort_hours": 2.0,
+      "median_reward": 10.01,
+      "median_time_to_cash_days": 9.0,
+      "opportunity_count": 2,
+      "opportunity_ids": [
+        "market-c52bd45fe8a98f2c",
+        "market-f9a6ebdf53c8522a"
+      ],
+      "rationale": [
+        "lane=cash_first",
+        "opportunities=2",
+        "sources=2",
+        "median_effort_hours=2",
+        "median_time_to_cash_days=9",
+        "first_payment_probability=0.2507",
+        "capability_status=experimental",
+        "headline rewards are capped for scoring and strategic prizes cannot dominate cash-first rank"
+      ],
+      "reusable_deliverable_ratio": 0.75,
+      "source_count": 2,
+      "source_ids": [
+        "bountybook_agent_jobs",
+        "moltjobs_agent_jobs"
+      ],
+      "top_opportunity_title": "Sample Blog & YouTube Script Task",
+      "top_opportunity_url": "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
+      "verified_value_by_currency": {
+        "USDC": 20.01
+      }
+    },
+    {
       "capability_id": "rust_software_delivery",
-      "capability_market_score": 55.21,
+      "capability_market_score": 53.59,
       "capability_status": "unknown",
-      "capped_score_value": 32.5,
+      "capped_score_value": 24.5,
       "cluster_id": "cluster-be71839c3a477384",
       "deliverable_family": "rust_software_delivery",
       "first_payment_probability": 0.2283,
@@ -400,11 +444,10 @@
       "median_accessibility": 0.96,
       "median_competition": 0.55,
       "median_effort_hours": 2.0,
-      "median_reward": 5.0,
-      "median_time_to_cash_days": 10,
-      "opportunity_count": 5,
+      "median_reward": 4.5,
+      "median_time_to_cash_days": 10.0,
+      "opportunity_count": 4,
       "opportunity_ids": [
-        "market-028a260f83c48f66",
         "market-46c66d38d5c7a2bc",
         "market-6d211653a743e740",
         "market-73a7f157c2ccf876",
@@ -412,7 +455,7 @@
       ],
       "rationale": [
         "lane=cash_first",
-        "opportunities=5",
+        "opportunities=4",
         "sources=1",
         "median_effort_hours=2",
         "median_time_to_cash_days=10",
@@ -420,7 +463,7 @@
         "capability_status=unknown",
         "headline rewards are capped for scoring and strategic prizes cannot dominate cash-first rank"
       ],
-      "reusable_deliverable_ratio": 1.0,
+      "reusable_deliverable_ratio": 0.91,
       "source_count": 1,
       "source_ids": [
         "bountybook_agent_jobs"
@@ -428,47 +471,7 @@
       "top_opportunity_title": "Build a Trie struct in Rust with insert, search, and starts_with methods",
       "top_opportunity_url": "https://www.bountybook.ai/job/13e5b137-7f9d-4a6c-affa-215b8dd15657",
       "verified_value_by_currency": {
-        "USDC": 32.5
-      }
-    },
-    {
-      "capability_id": "structured_document_delivery",
-      "capability_market_score": 51.35,
-      "capability_status": "experimental",
-      "capped_score_value": 20.0,
-      "cluster_id": "cluster-0ee287ec90a3ea7f",
-      "deliverable_family": "structured_document_delivery",
-      "first_payment_probability": 0.2731,
-      "implementation_cost": 0.35,
-      "lane": "cash_first",
-      "median_accessibility": 0.92,
-      "median_competition": 0.5,
-      "median_effort_hours": 2.0,
-      "median_reward": 20.0,
-      "median_time_to_cash_days": 8,
-      "opportunity_count": 1,
-      "opportunity_ids": [
-        "market-f9a6ebdf53c8522a"
-      ],
-      "rationale": [
-        "lane=cash_first",
-        "opportunities=1",
-        "sources=1",
-        "median_effort_hours=2",
-        "median_time_to_cash_days=8",
-        "first_payment_probability=0.2731",
-        "capability_status=experimental",
-        "headline rewards are capped for scoring and strategic prizes cannot dominate cash-first rank"
-      ],
-      "reusable_deliverable_ratio": 0.55,
-      "source_count": 1,
-      "source_ids": [
-        "moltjobs_agent_jobs"
-      ],
-      "top_opportunity_title": "Sample Blog & YouTube Script Task",
-      "top_opportunity_url": "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
-      "verified_value_by_currency": {
-        "USDC": 20.0
+        "USDC": 24.5
       }
     },
     {
@@ -806,7 +809,7 @@
     "clusters": 13,
     "strategic_clusters": 5
   },
-  "generated_at": "2026-10-21T18:47:43.994450+00:00",
+  "generated_at": "2026-10-22T07:46:13.429647+00:00",
   "policy": {
     "cash_first_effort_hours_max": 16,
     "cash_first_time_to_cash_days_max": 30,
