@@ -1,3 +1,59 @@
+## Contrôle du 22 octobre 2026 à 17:28 UTC — supervision du routeur corrigée et vérifiée
+
+- `get_repo` réellement appelé ; main épinglé au début du contrôle à
+  `61f1252cd1e80833f97e6560baef2a9d90882cbc`, aucun `AGENTS.md`.
+  Instructions, politiques, 19 PR ouvertes, #473, workflows, jobs/logs, états,
+  intentions et reçus relus. Les trois registres de soumission absents restent
+  inconnus (404), pas réputés vides.
+- Défaut reproduit sur le cycle du matin : 13 candidats affichés
+  `prepare_then_gate`, dont quatre lignes MoltJobs/Freelancer trompeuses.
+  Leurs copies classifiées portaient encore `capability_build` et des capacités
+  manquantes/non validées, tandis que des copies brutes du même URL, dotées d'un
+  autre identifiant, étaient promues comme si seule une validation humaine
+  manquait.
+- PR #489 fusionnée au commit
+  `9d96ddc9facad1ca1c90acb5f7ee19d77d7edd85`. Le routeur déduplique désormais
+  les copies par URL canonique et conserve le verdict amont
+  `capability_build` avec la raison `upstream_capability_not_validated`.
+  Politique, autorité externe, crons et dossier CI/CD inchangés.
+- Vérification : 51 tests ciblés réussis localement. CI PR
+  `39822344153` verte au SHA exact
+  `562bf82c260a0f54f5fdbaecb765e2ab6e79a863`, Python 3.11 et 3.12.
+  CI main `39822662921` réussie après fusion. Déploiement
+  `39822662827` : garde runtime réussie et job cloud explicitement sauté ;
+  GCP non utilisé.
+- Effet réel : routeur post-fusion `39822663200`, job `119977705549`,
+  réussi et persisté au commit
+  `55da1edf2d85b7a474ae45f6480e941690ba8627`. Le portefeuille passe de
+  70 lignes/13 `prepare_then_gate`/10 `capability_build`/47 rejets à
+  67 lignes canoniques/9/12/46. Les quatre fausses promotions ne sont plus
+  présentées comme prêtes ; aucune erreur n'est masquée.
+- Le dossier CI/CD `market-685081cabe16a6b0` reste volontairement canonique :
+  7 USDC annoncés, hash inchangés, autorisation false et aucun rappel nouveau.
+  La correction n'invente pas un pivot commercial ni un accès. Le blocage
+  compte/conditions atteint environ 96 h 11 ; sa rotation effective reste à
+  traiter seulement lorsqu'une voie distincte possède accès et paiement vérifiés.
+- Rapprochement frais `39777444919`, job `119819895010`, à 12:19 UTC :
+  16 tests réussis, cinq 404 inchangés, wallet RTC lu fraîchement, 1/6 source,
+  `changed=false`, `health_changed=false`. Échec final attendu après artifact
+  `12424509409`, digest
+  `sha256:396ff6ff8e48ed86fc793e2408bfe489a36689bb2498f01286abffc3ee40914f`,
+  disponible jusqu'au 05/11. Les 11 RTC historiques ne sont ni des euros ni un
+  nouveau paiement individuel ; Manic 10 USD reste non vérifié.
+- Mesures : 0 nouvelle mission distincte qualifiée, 0 nouveau dossier terminé,
+  0 soumission avec reçu, 0 acceptation, 0 paiement, 0 intervention humaine.
+  Aucun achat ni run manuel ; coût marginal Actions, coût total et temps par
+  mission inconnus. Correction et tests ne sont pas du revenu.
+
+Décision : correction causale intégrée et comportement réel vérifié ; ne pas
+enchaîner une seconde amélioration dans ce cycle. Prochaine action précise :
+contrôler le prochain cycle marché et mesurer si les candidats MoltJobs/Freelancer
+restent correctement en construction de capacité. Poursuivre ensuite la rotation
+du dossier bloqué uniquement vers une source distincte réellement accessible et
+payable, sans refaire la même recherche, réactiver GCP ou supposer le Lenovo
+accessible.
+
+
 ## Contrôle du 22 octobre 2026 à 11:23 UTC — pause répétée sans remplacement commercial
 
 - `get_repo` réellement appelé ; main épinglé à
