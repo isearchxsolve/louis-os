@@ -57,12 +57,12 @@
       "fixture_opportunity_ids": [
         "market-0ce5602d3d3c389c",
         "market-1fb23eafad516f31",
-        "market-2cffba087e9be944"
+        "market-4fbdd3d92c33846b"
       ],
       "immediate_next_action": "create_or_update_capability_issue:javascript_automation_delivery",
       "lane": "cash_first",
-      "objective": "Implement and validate `javascript_automation_delivery` as a reusable `javascript_automation_delivery` delivery capability for 11 currently observed cash-first opportunity(ies).",
-      "opportunity_count": 11,
+      "objective": "Implement and validate `javascript_automation_delivery` as a reusable `javascript_automation_delivery` delivery capability for 10 currently observed cash-first opportunity(ies).",
+      "opportunity_count": 10,
       "promotion_rule": "Promote only after green unit tests, one reproducible dry-run artifact and no regression in the versioned business benchmark.",
       "rank": 2,
       "required_interface": {
@@ -70,42 +70,6 @@
         "output": "bounded deliverable, validation report, hashes and execution receipt"
       },
       "source_count": 1,
-      "stop_rule": "Defer if the cluster has no qualifying mission for three consecutive cycles, score falls below 35, or a mandatory human/physical constraint dominates."
-    },
-    {
-      "acceptance_tests": [
-        "reject missing or unverified payer and scope evidence",
-        "reject work that prohibits AI, automation or the authorized delivery method",
-        "produce a deterministic or bounded artifact from a fixture",
-        "validate completeness, schema, formatting and source traceability",
-        "record artifact hashes, test command, result and elapsed effort",
-        "fail closed at account, terms, identity, contract and payout gates",
-        "re-run market qualification immediately after promotion"
-      ],
-      "budget_rule": "Use existing local and cloud infrastructure first; any paid dependency or external purchase requires explicit approval.",
-      "capability_id": "structured_document_delivery",
-      "capability_market_score": 56.03,
-      "cluster_id": "cluster-0ee287ec90a3ea7f",
-      "evidence": [
-        "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
-        "bountybook_agent_jobs",
-        "moltjobs_agent_jobs"
-      ],
-      "fixture_opportunity_ids": [
-        "market-c52bd45fe8a98f2c",
-        "market-f9a6ebdf53c8522a"
-      ],
-      "immediate_next_action": "create_or_update_capability_issue:structured_document_delivery",
-      "lane": "cash_first",
-      "objective": "Implement and validate `structured_document_delivery` as a reusable `structured_document_delivery` delivery capability for 2 currently observed cash-first opportunity(ies).",
-      "opportunity_count": 2,
-      "promotion_rule": "Promote only after green unit tests, one reproducible dry-run artifact and no regression in the versioned business benchmark.",
-      "rank": 3,
-      "required_interface": {
-        "input": "canonical opportunity dossier, source materials, acceptance criteria and payment evidence",
-        "output": "bounded deliverable, validation report, hashes and execution receipt"
-      },
-      "source_count": 2,
       "stop_rule": "Defer if the cluster has no qualifying mission for three consecutive cycles, score falls below 35, or a mandatory human/physical constraint dominates."
     },
     {
@@ -135,6 +99,40 @@
       "lane": "cash_first",
       "objective": "Implement and validate `rust_software_delivery` as a reusable `rust_software_delivery` delivery capability for 4 currently observed cash-first opportunity(ies).",
       "opportunity_count": 4,
+      "promotion_rule": "Promote only after green unit tests, one reproducible dry-run artifact and no regression in the versioned business benchmark.",
+      "rank": 3,
+      "required_interface": {
+        "input": "canonical opportunity dossier, source materials, acceptance criteria and payment evidence",
+        "output": "bounded deliverable, validation report, hashes and execution receipt"
+      },
+      "source_count": 1,
+      "stop_rule": "Defer if the cluster has no qualifying mission for three consecutive cycles, score falls below 35, or a mandatory human/physical constraint dominates."
+    },
+    {
+      "acceptance_tests": [
+        "reject missing or unverified payer and scope evidence",
+        "reject work that prohibits AI, automation or the authorized delivery method",
+        "produce a deterministic or bounded artifact from a fixture",
+        "validate completeness, schema, formatting and source traceability",
+        "record artifact hashes, test command, result and elapsed effort",
+        "fail closed at account, terms, identity, contract and payout gates",
+        "re-run market qualification immediately after promotion"
+      ],
+      "budget_rule": "Use existing local and cloud infrastructure first; any paid dependency or external purchase requires explicit approval.",
+      "capability_id": "structured_document_delivery",
+      "capability_market_score": 49.99,
+      "cluster_id": "cluster-0ee287ec90a3ea7f",
+      "evidence": [
+        "https://www.bountybook.ai/job/969317da-1a1d-418a-ae28-4306f1d85876",
+        "bountybook_agent_jobs"
+      ],
+      "fixture_opportunity_ids": [
+        "market-c52bd45fe8a98f2c"
+      ],
+      "immediate_next_action": "create_or_update_capability_issue:structured_document_delivery",
+      "lane": "cash_first",
+      "objective": "Implement and validate `structured_document_delivery` as a reusable `structured_document_delivery` delivery capability for 1 currently observed cash-first opportunity(ies).",
+      "opportunity_count": 1,
       "promotion_rule": "Promote only after green unit tests, one reproducible dry-run artifact and no regression in the versioned business benchmark.",
       "rank": 4,
       "required_interface": {
@@ -185,7 +183,7 @@
       "capability_id": "python_automation_delivery",
       "capability_market_score": 71.64,
       "capability_status": "validated",
-      "capped_score_value": 60.0,
+      "capped_score_value": 61.5,
       "cluster_id": "cluster-748ac3799d1d59fc",
       "deliverable_family": "python_automation_delivery",
       "first_payment_probability": 0.2283,
@@ -195,8 +193,8 @@
       "median_competition": 0.55,
       "median_effort_hours": 2.0,
       "median_reward": 3.0,
-      "median_time_to_cash_days": 10.0,
-      "opportunity_count": 18,
+      "median_time_to_cash_days": 10,
+      "opportunity_count": 19,
       "opportunity_ids": [
         "market-0a0b7855a3e9298f",
         "market-13268d410469a15c",
@@ -215,11 +213,12 @@
         "market-da9c3f7b812376f8",
         "market-ddd25e168928e0b4",
         "market-e6b188de5a99ce62",
+        "market-f587df60c74ed289",
         "market-fc596d78b7ecf243"
       ],
       "rationale": [
         "lane=cash_first",
-        "opportunities=18",
+        "opportunities=19",
         "sources=1",
         "median_effort_hours=2",
         "median_time_to_cash_days=10",
@@ -235,7 +234,7 @@
       "top_opportunity_title": "Build a StateMachine class in state_machine.py with transitions and guards",
       "top_opportunity_url": "https://www.bountybook.ai/job/87b131ee-7102-4d69-a99d-08cff67e9c1a",
       "verified_value_by_currency": {
-        "USDC": 60.0
+        "USDC": 61.5
       }
     },
     {
@@ -343,7 +342,7 @@
       "capability_id": "javascript_automation_delivery",
       "capability_market_score": 58.88,
       "capability_status": "unknown",
-      "capped_score_value": 45.5,
+      "capped_score_value": 40.5,
       "cluster_id": "cluster-fbef83a6a25bc3ac",
       "deliverable_family": "javascript_automation_delivery",
       "first_payment_probability": 0.2283,
@@ -352,13 +351,12 @@
       "median_accessibility": 0.96,
       "median_competition": 0.55,
       "median_effort_hours": 2.0,
-      "median_reward": 5.0,
-      "median_time_to_cash_days": 10,
-      "opportunity_count": 11,
+      "median_reward": 4.5,
+      "median_time_to_cash_days": 10.0,
+      "opportunity_count": 10,
       "opportunity_ids": [
         "market-0ce5602d3d3c389c",
         "market-1fb23eafad516f31",
-        "market-2cffba087e9be944",
         "market-4fbdd3d92c33846b",
         "market-59e80f1486713142",
         "market-94d8490d83fbd824",
@@ -370,7 +368,7 @@
       ],
       "rationale": [
         "lane=cash_first",
-        "opportunities=11",
+        "opportunities=10",
         "sources=1",
         "median_effort_hours=2",
         "median_time_to_cash_days=10",
@@ -386,49 +384,7 @@
       "top_opportunity_title": "Build a dependency resolver module with cycle detection using DFS",
       "top_opportunity_url": "https://www.bountybook.ai/job/d6d3d8f1-dfaa-4a4c-9f65-df670bdfdb26",
       "verified_value_by_currency": {
-        "USDC": 45.5
-      }
-    },
-    {
-      "capability_id": "structured_document_delivery",
-      "capability_market_score": 56.03,
-      "capability_status": "experimental",
-      "capped_score_value": 20.01,
-      "cluster_id": "cluster-0ee287ec90a3ea7f",
-      "deliverable_family": "structured_document_delivery",
-      "first_payment_probability": 0.2507,
-      "implementation_cost": 0.35,
-      "lane": "cash_first",
-      "median_accessibility": 0.94,
-      "median_competition": 0.525,
-      "median_effort_hours": 2.0,
-      "median_reward": 10.01,
-      "median_time_to_cash_days": 9.0,
-      "opportunity_count": 2,
-      "opportunity_ids": [
-        "market-c52bd45fe8a98f2c",
-        "market-f9a6ebdf53c8522a"
-      ],
-      "rationale": [
-        "lane=cash_first",
-        "opportunities=2",
-        "sources=2",
-        "median_effort_hours=2",
-        "median_time_to_cash_days=9",
-        "first_payment_probability=0.2507",
-        "capability_status=experimental",
-        "headline rewards are capped for scoring and strategic prizes cannot dominate cash-first rank"
-      ],
-      "reusable_deliverable_ratio": 0.75,
-      "source_count": 2,
-      "source_ids": [
-        "bountybook_agent_jobs",
-        "moltjobs_agent_jobs"
-      ],
-      "top_opportunity_title": "Sample Blog & YouTube Script Task",
-      "top_opportunity_url": "https://moltjobs.io/open-jobs/90bf05bc-0b4e-4258-9506-0a754d971b3d",
-      "verified_value_by_currency": {
-        "USDC": 20.01
+        "USDC": 40.5
       }
     },
     {
@@ -472,6 +428,46 @@
       "top_opportunity_url": "https://www.bountybook.ai/job/13e5b137-7f9d-4a6c-affa-215b8dd15657",
       "verified_value_by_currency": {
         "USDC": 24.5
+      }
+    },
+    {
+      "capability_id": "structured_document_delivery",
+      "capability_market_score": 49.99,
+      "capability_status": "experimental",
+      "capped_score_value": 0.01,
+      "cluster_id": "cluster-0ee287ec90a3ea7f",
+      "deliverable_family": "structured_document_delivery",
+      "first_payment_probability": 0.2283,
+      "implementation_cost": 0.35,
+      "lane": "cash_first",
+      "median_accessibility": 0.96,
+      "median_competition": 0.55,
+      "median_effort_hours": 2.0,
+      "median_reward": 0.01,
+      "median_time_to_cash_days": 10,
+      "opportunity_count": 1,
+      "opportunity_ids": [
+        "market-c52bd45fe8a98f2c"
+      ],
+      "rationale": [
+        "lane=cash_first",
+        "opportunities=1",
+        "sources=1",
+        "median_effort_hours=2",
+        "median_time_to_cash_days=10",
+        "first_payment_probability=0.2283",
+        "capability_status=experimental",
+        "headline rewards are capped for scoring and strategic prizes cannot dominate cash-first rank"
+      ],
+      "reusable_deliverable_ratio": 0.55,
+      "source_count": 1,
+      "source_ids": [
+        "bountybook_agent_jobs"
+      ],
+      "top_opportunity_title": "Deliver warm introduction to qualified buyer for SaSame MCP services",
+      "top_opportunity_url": "https://www.bountybook.ai/job/969317da-1a1d-418a-ae28-4306f1d85876",
+      "verified_value_by_currency": {
+        "USDC": 0.01
       }
     },
     {
@@ -809,7 +805,7 @@
     "clusters": 13,
     "strategic_clusters": 5
   },
-  "generated_at": "2026-10-22T07:46:13.429647+00:00",
+  "generated_at": "2026-10-22T18:40:35.739309+00:00",
   "policy": {
     "cash_first_effort_hours_max": 16,
     "cash_first_time_to_cash_days_max": 30,
@@ -822,7 +818,7 @@
     "capability_id": "python_automation_delivery",
     "capability_market_score": 71.64,
     "capability_status": "validated",
-    "capped_score_value": 60.0,
+    "capped_score_value": 61.5,
     "cluster_id": "cluster-748ac3799d1d59fc",
     "deliverable_family": "python_automation_delivery",
     "first_payment_probability": 0.2283,
@@ -832,8 +828,8 @@
     "median_competition": 0.55,
     "median_effort_hours": 2.0,
     "median_reward": 3.0,
-    "median_time_to_cash_days": 10.0,
-    "opportunity_count": 18,
+    "median_time_to_cash_days": 10,
+    "opportunity_count": 19,
     "opportunity_ids": [
       "market-0a0b7855a3e9298f",
       "market-13268d410469a15c",
@@ -852,11 +848,12 @@
       "market-da9c3f7b812376f8",
       "market-ddd25e168928e0b4",
       "market-e6b188de5a99ce62",
+      "market-f587df60c74ed289",
       "market-fc596d78b7ecf243"
     ],
     "rationale": [
       "lane=cash_first",
-      "opportunities=18",
+      "opportunities=19",
       "sources=1",
       "median_effort_hours=2",
       "median_time_to_cash_days=10",
@@ -872,7 +869,7 @@
     "top_opportunity_title": "Build a StateMachine class in state_machine.py with transitions and guards",
     "top_opportunity_url": "https://www.bountybook.ai/job/87b131ee-7102-4d69-a99d-08cff67e9c1a",
     "verified_value_by_currency": {
-      "USDC": 60.0
+      "USDC": 61.5
     }
   }
 }
