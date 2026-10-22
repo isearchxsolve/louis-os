@@ -1,3 +1,53 @@
+## Contrôle du 22 octobre 2026 à 11:23 UTC — pause répétée sans remplacement commercial
+
+- `get_repo` réellement appelé ; main épinglé à
+  `a3bd425bfbaa3c9f074b245644b5fb54436038f3`, aucun `AGENTS.md`.
+  Instructions, politiques, 19 PR ouvertes, #473, workflows, jobs/logs, états,
+  intentions et reçus relus. Les trois registres de soumission absents restent
+  inconnus (404), pas réputés vides.
+- Cycle marché `39742679383`, jobs `119703506554` et `119704038375`,
+  réussi ; routeur `39742912541`, job `119704285457`, réussi. Runtime sans
+  VM cycle 83 : état `partial`, 30 inspectées, 0 qualifiée, 0 soumission,
+  0 paiement et une recherche GitHub en 403. Rejets conservés : 28 sans preuve
+  d'adaptateur de paiement, un bounty surchargé et une cible indisponible ou
+  réservée. Artifact `12410475280`, digest
+  `sha256:883b078f4948bc700d96b9b42e0dcea08489b599bf02d3cb7fa3fd57682ed3dd`,
+  disponible jusqu'au 05/11.
+- La pause unique d'AgentPact est de nouveau appliquée :
+  `source_pivot.status=applied_source_pause`, sans nouvelle sonde. L'échantillon
+  motivant la pause reste 17 vues, 17 rejets et 0 admissible ; l'observation
+  antérieure conserve 50 annonces toutes non financées. Le reçu dit toujours
+  `existing_reviewed_sources_only_no_new_source_activated`. BountyBook a fourni
+  50 lignes, MoltJobs une et Freelancer simple une ; Guru reste en 403 et
+  Truelancer en 429. L'effet économique de la pause demeure non mesuré.
+- Le routeur compte 0 `execute_now`, 13 `prepare_then_gate`, 10
+  `capability_build` et 47 rejets. Il conserve le dossier CI/CD
+  `market-685081cabe16a6b0`, observé ouvert à 07:46:06 UTC, 7 USDC annoncés,
+  trois hash inchangés, backlog vide et aucune erreur de passation, mais
+  autorisation/accès effectifs false. Même fingerprint humain, `new_count=0` :
+  aucun rappel. La prochaine décision est `continue_measured_search`.
+- Dernier rapprochement externe frais : `39727239887` à 05:18 UTC, cinq 404
+  inchangés, wallet RTC lu, `changed=false`. Dernier suivi Taskmarket :
+  `39707191051` à 01:42 UTC, santé true mais aucune sélection ni paiement.
+  Les 11 RTC historiques ne sont ni des euros ni un nouveau paiement individuel ;
+  Manic 10 USD reste non vérifié.
+- Les fréquences restent inchangées et aucun run manuel n'a été lancé. VM/GCP
+  non utilisés ; Lenovo non supposé accessible. Mesures : 0 nouvelle mission
+  distincte qualifiée, 0 nouveau dossier terminé, 0 soumission avec reçu,
+  0 acceptation, 0 paiement, 0 intervention humaine. Blocage compte/conditions
+  CI/CD d'environ 90 h 06 depuis la notification initiale. Aucun achat ; coût
+  marginal Actions, coût total et temps par mission inconnus. Tests, scans,
+  artifacts et passation ne sont pas du revenu.
+
+Décision : aucun correctif causal sûr ni acte externe autorisé. La pause évite
+une collecte stérile mais ne constitue toujours pas un pivot commercial effectif ;
+cette limite et le 403 restent visibles. Prochaine action précise : contrôler la
+reprise au cycle suivant et empêcher le même dossier bloqué de monopoliser la
+sélection si une voie distincte possède paiement vérifiable, accès effectif et
+coût nul. Ne pas reconstruire CI/CD, répéter les recherches identiques, réactiver
+GCP ou supposer le Lenovo accessible.
+
+
 # Passation du pilote GitHub
 
 ## Contrôle du 22 octobre 2026 à 05:20 UTC — suivis frais, aucun résultat économique
