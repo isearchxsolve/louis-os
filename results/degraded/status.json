@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
   "mode": "github_actions_without_vm",
-  "started_at": "2026-10-21T18:47:57.348985+00:00",
-  "run_id": "39655639964:1",
-  "cycle": 82,
-  "runtime_status": "healthy",
+  "started_at": "2026-10-22T07:46:27.163586+00:00",
+  "run_id": "39742679383:1",
+  "cycle": 83,
+  "runtime_status": "partial",
   "cycle_outcome": "no_eligible_candidate",
   "vm_required": false,
   "cloud_required": false,
@@ -20,12 +20,12 @@
   },
   "inspected": 30,
   "qualified": 0,
-  "discovery_errors": 0,
+  "discovery_errors": 1,
   "rejections": {
     "verified_payment_adapter_evidence_missing": 28,
     "overcrowded_bounty": 1,
     "explicitly_unavailable_or_reserved": 1
   },
   "next_action": "refresh_on_next_market_cycle",
-  "finished_at": "2026-10-21T18:48:22.180167+00:00"
+  "finished_at": "2026-10-22T07:46:46.014293+00:00"
 }
