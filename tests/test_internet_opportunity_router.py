@@ -72,6 +72,25 @@ class InternetOpportunityRouterTests(unittest.TestCase):
         })
         self.assertEqual(result.decision, "capability_build")
 
+    def test_does_not_promote_upstream_capability_build_to_human_gate(self) -> None:
+        result = route({
+            "title": "Sample Blog and YouTube Script Task",
+            "description": "Write a short blog post and matching video script.",
+            "capability_fit": 0.90,
+            "effort_hours": 2,
+            "fresh_open_verified": True,
+            "payment_path": "verified public reward",
+            "acceptance_criteria": ["deliver both documents"],
+            "legal_policy_pass": True,
+            "market_signal_verified": True,
+            "human_actions_required": 1,
+            "reward_eur": 20,
+            "payment_confidence": 0.85,
+            "upstream_decision": "capability_build",
+        })
+        self.assertEqual(result.decision, "capability_build")
+        self.assertIn("upstream_capability_not_validated", result.reasons)
+
     def test_pivot_rules(self) -> None:
         self.assertEqual(next_pivot({"rejected_without_candidate": 30}), "regenerate_queries_and_shift_domain")
         self.assertEqual(next_pivot({"source_results_without_eligible": 50}), "pause_source_and_replace")
@@ -197,6 +216,27 @@ class InternetOpportunityRouterTests(unittest.TestCase):
         self.assertEqual(len(items), 3)
         api = next(item for item in items if item["opportunity_id"] == "2")
         self.assertEqual(api["description"], "richer description")
+
+    def test_deduplicates_raw_url_id_against_classified_market_id(self) -> None:
+        source_url = "https://market.example/jobs/one"
+        items = extract_items([
+            ("raw.json", {"opportunities": [{
+                "opportunity_id": source_url,
+                "source_url": source_url,
+                "title": "Write one brief",
+            }]}),
+            ("classified.json", {"opportunities": [{
+                "opportunity_id": "market-generated-id",
+                "source_url": source_url + "/",
+                "title": "Write one brief",
+                "description": "The classified copy carries the capability verdict.",
+                "decision": {"status": "capability_build"},
+                "payment_evidence": ["official reward"],
+            }]}),
+        ])
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]["opportunity_id"], "market-generated-id")
+        self.assertEqual(items[0]["upstream_decision"], "capability_build")
 
     def test_extracts_sources_fairly_when_first_catalog_is_large(self) -> None:
         payloads = [

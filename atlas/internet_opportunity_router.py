@@ -98,6 +98,18 @@ def route(item: dict[str, Any]) -> RoutedOpportunity:
         decision = "reject"
         reasons.append("insufficient_capability_or_economics")
 
+    # A downstream keyword/fit inference must not promote an opportunity whose
+    # upstream capability assessment still requires work.  The upstream market
+    # owns capability validation; until it advances the row, keep the router in
+    # capability_build and expose the reason instead of presenting an executable
+    # or human-gated mission.
+    if item.get("upstream_decision") == "capability_build" and decision in {
+        "execute_now",
+        "prepare_then_gate",
+    }:
+        decision = "capability_build"
+        reasons.append("upstream_capability_not_validated")
+
     lane = "exploit" if fit >= 0.85 else "adjacent" if fit >= 0.55 else "experimental"
     reward = max(0.0, float(item.get("reward_eur", 0)))
     payment_confidence = max(0.0, min(1.0, float(item.get("payment_confidence", 0))))
