@@ -234,7 +234,13 @@ def extract_items(payloads: Iterable[tuple[str, dict[str, Any]]]) -> list[dict[s
     for source_file, payload in payloads:
         for raw in _walk_candidates(payload):
             item = normalize_candidate(raw, source_file)
-            key = str(item.get("opportunity_id") or item.get("source_url") or item.get("title"))
+            # The same listing is present in both raw and classified catalogs,
+            # sometimes with a generated market ID in one and its URL as the ID
+            # in the other.  Prefer the canonical URL as the cross-catalog
+            # identity so the weaker raw copy cannot bypass an upstream
+            # capability_build verdict.
+            source_url = str(item.get("source_url") or "").rstrip("/")
+            key = source_url or str(item.get("opportunity_id") or item.get("title"))
             existing = deduped.get(key)
             item_quality = (
                 bool(item.get("upstream_decision")),
