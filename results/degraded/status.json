@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "mode": "github_actions_without_vm",
-  "started_at": "2026-10-22T07:46:27.163586+00:00",
-  "run_id": "39742679383:1",
-  "cycle": 83,
+  "started_at": "2026-10-22T18:40:50.054009+00:00",
+  "run_id": "39833212373:1",
+  "cycle": 84,
   "runtime_status": "partial",
   "cycle_outcome": "no_eligible_candidate",
   "vm_required": false,
@@ -27,5 +27,5 @@
     "explicitly_unavailable_or_reserved": 1
   },
   "next_action": "refresh_on_next_market_cycle",
-  "finished_at": "2026-10-22T07:46:46.014293+00:00"
+  "finished_at": "2026-10-22T18:41:13.608875+00:00"
 }

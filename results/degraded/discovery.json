@@ -1,7 +1,7 @@
 {
   "registry": {
     "schema_version": 7,
-    "generated_at": "2026-10-22T07:46:46.013215+00:00",
+    "generated_at": "2026-10-22T18:41:13.607815+00:00",
     "count": 0,
     "authenticity_verified": 0,
     "authenticity_blocked": 30,
@@ -25,9 +25,39 @@
   "qualified": 0,
   "rejected": [
     {
-      "candidate_id": "df73efe3a881517c",
-      "url": "https://github.com/hoctt-1111/sakura-market-lab5/issues/584",
-      "title": "[DEV TASK] PLT-03-1/INFRA Hạ tầng: Chốt chủ ghi từng bảng và ba hàm ghi (1/3)",
+      "candidate_id": "dbd22ab559cfad02",
+      "url": "https://github.com/KookaStudio/KookaPictura/issues/875",
+      "title": "fix(io): Save As ignores the chosen format and drops raster metadata",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "02bfc35a3637bf6f",
+      "url": "https://github.com/rachelgonsalves821/Envoi/issues/34",
+      "title": "Agent-native build board",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "538a07ccbf1d2f83",
+      "url": "https://github.com/fuzzysniper/scout-stonk-intel/issues/156",
+      "title": "P0 launch feed — Pump coin creations to independent SCOUT evidence, review-only",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "38323ba677eaecca",
+      "url": "https://github.com/lgaticaq/node-totp-cli/issues/223",
+      "title": "Dependency Dashboard",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "ad1f9bd2466de9ab",
+      "url": "https://github.com/seveibar/pgstrap/issues/2",
+      "title": "Use pglite so that postgres isn't required when generating types",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "00a1a9713c7e6c62",
+      "url": "https://github.com/kburson/ai-task-manager/issues/2087",
+      "title": "🐞 [BUG] CI docs-only classifier can skip code test groups after SIGPIPE",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -37,15 +67,9 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "1e6646909512a9b0",
-      "url": "https://github.com/the-vibey-project/vibey/issues/762",
-      "title": "feat(engines)!: opencode is refused by name, pointing at its replacements",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "05dbc9eb3260e4ba",
-      "url": "https://github.com/the-vibey-project/vibey/issues/773",
-      "title": "docs(ledger): draft the ADR for rotating the ledger through its storage tiers without breaking append-only",
+      "candidate_id": "aabcd12f84beb3d5",
+      "url": "https://github.com/tesserahq/identies-portal/issues/35",
+      "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -55,27 +79,27 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "bb19c1be1b92a4cf",
-      "url": "https://github.com/Wisdoverse/novelworld/issues/378",
-      "title": "[Roadmap] H3/H4: prove four-layer memory across upgrade and restart",
+      "candidate_id": "7812fcb2d73d8868",
+      "url": "https://github.com/FaunKr/Strata-Home-Proxy/issues/307",
+      "title": "Optimization prompt: environment variables and paste-ready answer",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "475aefc2211c13da",
-      "url": "https://github.com/heukshow/aicity-os/issues/292",
-      "title": "COSHUMA Work execution bridge",
+      "candidate_id": "d583d6ae5f458b5a",
+      "url": "https://github.com/saurabhhbansal/nuvioweb/issues/200",
+      "title": "Sign-in: QR code never appears; add a Sign up link to nuvio.tv",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "9ad4c4d5be6269cb",
-      "url": "https://github.com/rubys/roundhouse/issues/58",
-      "title": "Mastodon as the next target: Ruby-emit-on-CRuby first pass (real-world impact)",
+      "candidate_id": "b0dbef441f273902",
+      "url": "https://github.com/TanjunBot/new_tanjun/issues/4232",
+      "title": "Mypy Typing Errors Report (35 issues detected)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "d5feaa4f8cb233be",
-      "url": "https://github.com/test-fullautomation/robotframework-qconnect-base/issues/224",
-      "title": "[ 2835825 ] Missing component",
+      "candidate_id": "96066c3e99151361",
+      "url": "https://github.com/EffortlessMetrics/perl-lsp-swarm/issues/11294",
+      "title": "refactor(lsp-workspace-services): extract the workspace composition owner behind replaceable ports",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -85,27 +109,27 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "b2d33d9f46eb649c",
-      "url": "https://github.com/apinkpanda722/ko-docs-agentic-rag/issues/55",
-      "title": "docs: 데모 대본을 확정된 영상 구성에 맞춰 정리",
+      "candidate_id": "e53502ff54b94012",
+      "url": "https://github.com/bitwise-media-group/terraform-google-gke-flux/issues/16",
+      "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "349a03d4c1d5c110",
-      "url": "https://github.com/mikesvoboda/nemotron-v3-home-security-intelligence/issues/6854",
-      "title": "Uplevel daily batch",
+      "candidate_id": "86840e342f929ea8",
+      "url": "https://github.com/UOR-Foundation/uor-r4/issues/2028",
+      "title": "[Roadmap] UOR-R4 — path to a native conversation and memory alpha",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "03d3f21e40ad9714",
-      "url": "https://github.com/Navin-xmr/navin-contracts/issues/1139",
-      "title": "Split storage.rs by domain",
+      "candidate_id": "c9093948d054e48f",
+      "url": "https://github.com/physicsdog0505/HoloViewer/issues/47",
+      "title": "Public Today: independent scheduled YouTube catalog ingestion (backend-only, offline gate)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "8d9da7769e69bdc7",
-      "url": "https://github.com/the-vibey-project/vibey/issues/772",
-      "title": "docs(ledger): draft the ADR for the ledger segment codec, chunk size, content address and hash walk, with a benchmark method on real ledgers",
+      "candidate_id": "08348a796bad4b65",
+      "url": "https://github.com/Aman4563/lumen-ai-notes/issues/180",
+      "title": "Whiteboard: attached, labelled connectors, frames and add-connected-box",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -117,51 +141,27 @@
       "maximum_allowed": 5
     },
     {
-      "candidate_id": "063e366b91e1683f",
-      "url": "https://github.com/ASTROIDX556/astroid-sdk/issues/433",
-      "title": "Implement authentication token storage adapter interface and memory store in @astroid/auth",
+      "candidate_id": "e6e43ebf23d44296",
+      "url": "https://github.com/Cratis/Chronicle/issues/5287",
+      "title": "Kernel storage changes can merge without any integration run (hot-core contract too narrow, PR detection only reports)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "86840e342f929ea8",
-      "url": "https://github.com/UOR-Foundation/uor-r4/issues/2028",
-      "title": "[Roadmap] UOR-R4 — path to a native conversation and memory alpha",
+      "candidate_id": "2c24b68430db5793",
+      "url": "https://github.com/cskolny/ha-green-button-energy/issues/5",
+      "title": "Timestamp error when reading AES Ohio exports",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "87485487d62799bd",
-      "url": "https://github.com/Deen-Bridge/dnb-ai/issues/155",
-      "title": "[Enhancement] Intelligent Agent Task Decomposition System",
+      "candidate_id": "3842d2d5b2df2eec",
+      "url": "https://github.com/adambrutto-maker/brave-hc/issues/30",
+      "title": "HockeyOS Plan 03 — Historical Games, Records & Articles | Integrated execution",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "c42c74a65958cc4c",
-      "url": "https://github.com/kurone-kito/dotfiles/issues/676",
-      "title": "chore(idd): pin user-global CLI wrappers to v0.17.0",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "ad1f9bd2466de9ab",
-      "url": "https://github.com/seveibar/pgstrap/issues/2",
-      "title": "Use pglite so that postgres isn't required when generating types",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "2dd7ff4abe882cdf",
-      "url": "https://github.com/solutionsDigibull/BAM/issues/88",
-      "title": "[E6.4] SOW export: PDF, DOCX, Markdown",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "a7659222e2198d57",
-      "url": "https://github.com/dkedar7/langstage/issues/28",
-      "title": "Daily library health check",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "771c9762d7d08a8a",
-      "url": "https://github.com/AdguardTeam/AdguardFilters/issues/245051",
-      "title": "mopria.org",
+      "candidate_id": "041d49bce6fe94d2",
+      "url": "https://github.com/the-vibey-project/vibey/issues/429",
+      "title": "test(cli): the worker, recover, watch and operator command tests run on the in-memory app, and the PostgreSQL-only file is gone",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -171,27 +171,27 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "e73ab2b9c9f15efe",
-      "url": "https://github.com/canonical/ubuntu-frame-vnc/issues/19",
-      "title": "Dependency Dashboard",
+      "candidate_id": "907c2c06b7c17b8c",
+      "url": "https://github.com/DefuzeX-AI/AgentBehaviorBench/issues/461",
+      "title": "[onboarding] moltis-org/moltis",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "acf1cbe499e9f0c3",
-      "url": "https://github.com/najathakram/routeflow/issues/2554",
-      "title": "Board (continued): PR verdicts, proofs and SA rulings — successor to #938",
+      "candidate_id": "6a86d4f76f2a87d9",
+      "url": "https://github.com/EffortlessMetrics/perl-lsp-swarm/issues/11410",
+      "title": "policy(rustdoc): define useful documentation quality and the exact lint denominator",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "4648c88621143c6c",
-      "url": "https://github.com/Deen-Bridge/dnb-ai/issues/429",
-      "title": "test: add coverage for faraid (inheritance calculation)",
+      "candidate_id": "dd18fe708c064969",
+      "url": "https://github.com/cbusillo/codex-skills/issues/1043",
+      "title": "Supervisor pilot, week 2: record, brief and exit criteria",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "0827d1c4bea3040b",
-      "url": "https://github.com/GulovM/island/issues/8",
-      "title": "Объединить настройки «Прозрачность» и «Материал»: они делают одно и то же",
+      "candidate_id": "df4430f36cf19f6b",
+      "url": "https://github.com/fuzzysniper/scout-stonk-intel/issues/157",
+      "title": "P1 Pump-native UNFARMD growth kit — independent branding and human-reviewed social/token launch gate",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -201,9 +201,9 @@
       "reason": "explicitly_unavailable_or_reserved"
     },
     {
-      "candidate_id": "a0a1cf22abafcf79",
-      "url": "https://github.com/doom404official-collab/DOOM404/issues/55",
-      "title": "GLITCH Liquidity — master completion checklist and go-live gates",
+      "candidate_id": "20438d1a87cee53d",
+      "url": "https://github.com/vyomya/agent-studio/issues/86",
+      "title": "Model allowance limits UI",
       "reason": "verified_payment_adapter_evidence_missing"
     }
   ],
