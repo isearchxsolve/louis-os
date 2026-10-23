@@ -1,3 +1,69 @@
+## Contrôle du 23 octobre 2026 à 05:33 UTC — cause commune des 404 intégrée et vérifiée
+
+- `get_repo` réellement appelé ; main épinglé au début du contrôle à
+  `8eef350ff9a35acd17c74259a801ffa27c10015a`, aucun `AGENTS.md`.
+  Instructions, politiques, 19 PR ouvertes, #473, workflows, jobs/logs, états,
+  intentions et reçus relus. Les trois registres de soumission absents restent
+  inconnus (404), pas réputés vides.
+- Suivi Taskmarket `39885855837`, job `120193739784`, réussi :
+  13 tests, santé true, erreurs vides, `MEANINGFUL_CHANGED=false`, sélection
+  false et candidat paiement false. Les deux livraisons historiques sont
+  terminées sans attribution observée à Louis ; cela n'est pas transformé en
+  rejet formel. Artifact `12471838910`, digest
+  `sha256:be50933c2506cdb9e74661c6544318fb97bb6f6e033b2af76675d9221daff0dc`,
+  disponible jusqu'au 06/11. Solde wallet Taskmarket et revenu restent inconnus.
+- Rapprochement planifié `39904901697`, job `120254473506` :
+  16 tests réussis, cinq HTTP 404, wallet RTC lu fraîchement, 1/6 source,
+  `changed=false`, `health_changed=false`. Artifact `12480231844`,
+  digest
+  `sha256:82d08999c197fabeeab259d90279c1e6042153667906b69c70a4b460f7db5ba0`,
+  disponible jusqu'au 06/11.
+- Défaut causal reproduit séparément : l'API GitHub renvoie 404 pour le dépôt
+  `Scottcjn/rustchain-bounties` lui-même, donc les cinq appels d'issues
+  échouaient pour une seule cause amont. La recherche GitHub n'a trouvé aucun
+  dépôt officiel de remplacement vérifiable ; les résultats homonymes restent
+  des copies tierces et ne remplacent pas la source canonique.
+- PR #490 fusionnée au commit
+  `338573bed177fd01e52566022783c9dc8082c0d2`. Le probe teste maintenant le
+  dépôt canonique une fois ; s'il est indisponible, il conserve les cinq sources
+  d'issues en état `blocked` avec `UPSTREAM_REPOSITORY_HTTP_404`, sans les
+  appeler ni les interpréter comme vides. Wallet, reçus historiques, échec
+  explicite et frontière EUR inchangés.
+- Vérification avant fusion : CI `39905947938` réussie au SHA exact
+  `e2a822cb7f2e714aacdd3ea5f4f386bd7f5c3de1`, Python 3.11 et 3.12,
+  878 tests par matrice. CI main `39906203586` réussie au SHA de fusion.
+  Déploiement `39906203708` : garde runtime réussie et job cloud sauté ;
+  GCP non utilisé.
+- Effet réel post-fusion : rapprochement `39906203751`, job
+  `120258625874`, 17 tests réussis. Une seule erreur causale
+  `repository:Scottcjn/rustchain-bounties:HTTP_404`, cinq suivis conservés
+  bloqués, wallet frais à 11 RTC, `changed=false`. La transition de santé
+  attendue a été persistée au commit
+  `241bd512f05935db3c30b2092737b42d5c441b42`. Artifact
+  `12480657201`, digest
+  `sha256:8a9c29a347f0d8a6422c7098f66579b60d605dea4db2efc1240335eec636f100`,
+  disponible jusqu'au 06/11. Le chemin dégradé économise quatre requêtes GitHub
+  par rapprochement, sans masquer l'indisponibilité.
+- Aucun nouveau cycle marché depuis `39833212373` ; ne pas rendre l'état du
+  22/10 artificiellement plus frais. Le dossier CI/CD reste bloqué depuis
+  environ 108 h 16, sans autorisation ni accès BountyBook nouveaux. Aucun rappel,
+  aucun run manuel et aucune fréquence augmentée.
+- Mesures : 0 nouvelle mission distincte qualifiée, 0 nouveau dossier terminé,
+  0 soumission avec reçu, 0 acceptation nouvelle, 0 paiement nouveau et
+  0 intervention humaine. Les trois acceptations historiques et 11 RTC agrégés
+  ne sont ni un nouveau paiement individuel ni des euros ; Manic 10 USD reste
+  non vérifié. Aucun achat ; économie réseau mesurée en requêtes, coût monétaire
+  Actions, coût total et temps par mission inconnus. Correction et CI ne sont
+  pas du revenu.
+
+Décision : correction causale intégrée et effet réel vérifié ; ne pas enchaîner
+une seconde amélioration. Prochaine action précise : au prochain rapprochement,
+vérifier que l'état stable produit `health_changed=false` sans commit répété ;
+au prochain cycle marché, mesurer si le pivot active enfin une source distincte,
+accessible et payable. Ne pas revenir aux cinq appels 404, resélectionner le
+dossier CI/CD sans événement, réactiver GCP ou supposer le Lenovo accessible.
+
+
 ## Contrôle du 22 octobre 2026 à 23:26 UTC — correction tenue, pivot commercial toujours absent
 
 - `get_repo` réellement appelé ; main épinglé à
