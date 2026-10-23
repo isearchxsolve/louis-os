@@ -333,6 +333,25 @@ class InternetOpportunityRouterTests(unittest.TestCase):
             "request exact platform account and terms gate for tested deliverable",
         )
 
+    def test_cycle_keeps_unresolved_source_replacement_visible(self) -> None:
+        cycle = build_cycle([
+            ("simple_mission_source_refresh.json", {
+                "source_pivot": {
+                    "status": "holding_source_pause_pending_replacement",
+                    "paused_source_id": "unfunded-source",
+                    "replacement_status": "existing_reviewed_sources_only_no_new_source_activated",
+                    "economic_effect": "unmeasured_not_submission_or_revenue",
+                },
+            }),
+        ])
+        self.assertEqual(cycle["next_pivot"], "activate_authorized_replacement_source")
+        self.assertEqual(
+            cycle["next_action"],
+            "activate one distinct authorized payable source before resuming the paused source",
+        )
+        self.assertEqual(cycle["source_pivot"]["paused_source_id"], "unfunded-source")
+        self.assertFalse(cycle["truth"]["payment_verified"])
+
     def test_workflow_reports_only_meaningful_changes_without_blocking_routing(self) -> None:
         workflow = (Path(__file__).resolve().parents[1] / ".github" / "workflows" / "internet-opportunity-router.yml").read_text()
         self.assertIn("meaningful_changed", workflow)
