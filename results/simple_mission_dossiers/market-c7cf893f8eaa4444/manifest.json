@@ -1,0 +1,20 @@
+{
+  "capabilities": [
+    "static_website_delivery"
+  ],
+  "currency": "USD",
+  "deadline": "6 days left",
+  "estimated_effort_hours": 8.0,
+  "external_receipt": null,
+  "externally_submitted": false,
+  "opportunity_id": "market-c7cf893f8eaa4444",
+  "platform": "Freelancer.com",
+  "proposal_path": "results/simple_mission_dossiers/market-c7cf893f8eaa4444/proposal.md",
+  "proposal_sha256": "1d38498570a800fd32d82afc284300d50e0e172bf5e7e58433e2a81491082403",
+  "revenue_verified": false,
+  "reward_amount": 15.0,
+  "schema_version": "1.2",
+  "source_id": "freelancer_public_software_jobs",
+  "source_url": "https://www.freelancer.com/projects/software-development/mentor-for-intern-coders",
+  "title": "US Mentor for Intern Coders"
+}
