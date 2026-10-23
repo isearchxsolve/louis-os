@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-10-22T18:41:54.384793+00:00",
+  "generated_at": "2026-10-23T07:45:29.594606+00:00",
   "objective": "adaptive multidomain Internet opportunity discovery and execution",
   "allocation": {
     "exploit": 0.5,
@@ -16,38 +16,38 @@
     "monetization.json",
     "universal_market_cycle.json"
   ],
-  "items_seen": 80,
-  "sources_seen": 6,
+  "items_seen": 67,
+  "sources_seen": 5,
   "domains_seen": 7,
   "decision_counts": {
     "execute_now": 0,
-    "prepare_then_gate": 8,
-    "capability_build": 10,
-    "reject": 62
+    "prepare_then_gate": 10,
+    "capability_build": 11,
+    "reject": 46
   },
   "domain_metrics": {
     "b2b_research": {
-      "seen": 21,
-      "eligible": 4,
+      "seen": 20,
+      "eligible": 5,
       "execute_now": 0,
-      "prepare_then_gate": 4,
+      "prepare_then_gate": 5,
       "capability_build": 0,
-      "reject": 17
+      "reject": 15
     },
     "code_automation": {
-      "seen": 23,
-      "eligible": 4,
+      "seen": 14,
+      "eligible": 5,
       "execute_now": 0,
-      "prepare_then_gate": 4,
+      "prepare_then_gate": 5,
       "capability_build": 6,
-      "reject": 13
+      "reject": 3
     },
     "translation": {
-      "seen": 1,
+      "seen": 2,
       "eligible": 0,
       "execute_now": 0,
       "prepare_then_gate": 0,
-      "capability_build": 1,
+      "capability_build": 2,
       "reject": 0
     },
     "digital_products": {
@@ -67,12 +67,12 @@
       "reject": 0
     },
     "writing_documentation": {
-      "seen": 23,
+      "seen": 19,
       "eligible": 0,
       "execute_now": 0,
       "prepare_then_gate": 0,
       "capability_build": 1,
-      "reject": 22
+      "reject": 18
     },
     "open_source_bounties": {
       "seen": 5,
@@ -85,24 +85,19 @@
   },
   "source_metrics": {
     "bountybook_agent_jobs": {
-      "seen": 18,
-      "eligible": 8,
+      "seen": 20,
+      "eligible": 10,
       "reject": 1
     },
     "freelancer_public_simple_jobs": {
-      "seen": 1,
+      "seen": 2,
       "eligible": 0,
       "reject": 0
     },
-    "agentpact_open_needs": {
-      "seen": 18,
-      "eligible": 0,
-      "reject": 18
-    },
     "algora_public_bounties": {
-      "seen": 18,
+      "seen": 20,
       "eligible": 0,
-      "reject": 18
+      "reject": 20
     },
     "github_bounties": {
       "seen": 10,
@@ -189,7 +184,7 @@
       "submit_endpoint": "/jobs/d47a42b6-8203-4bc7-8bbf-c22ef912c232/submit",
       "wallet_type": "EVM"
     },
-    "observed_at": "2026-10-22T18:40:21.135569+00:00",
+    "observed_at": "2026-10-23T07:44:08.279627+00:00",
     "opportunity_id": "market-685081cabe16a6b0",
     "payment_evidence": [
       "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -314,7 +309,7 @@
         "submit_endpoint": "/jobs/d47a42b6-8203-4bc7-8bbf-c22ef912c232/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-22T18:40:21.135569+00:00",
+      "observed_at": "2026-10-23T07:44:08.279627+00:00",
       "opportunity_id": "market-685081cabe16a6b0",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -425,7 +420,7 @@
         "submit_endpoint": "/jobs/87b131ee-7102-4d69-a99d-08cff67e9c1a/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-22T18:40:21.134257+00:00",
+      "observed_at": "2026-10-23T07:44:08.277481+00:00",
       "opportunity_id": "market-35e48723df7daf2e",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -536,7 +531,7 @@
         "submit_endpoint": "/jobs/fde07b58-6aa8-42ea-852a-ead105819045/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-22T18:40:21.136805+00:00",
+      "observed_at": "2026-10-23T07:44:08.281696+00:00",
       "opportunity_id": "market-3e18287c7f9f2373",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -647,7 +642,7 @@
         "submit_endpoint": "/jobs/193daf43-6436-4456-a028-dcb3149a2b95/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-22T18:40:21.134788+00:00",
+      "observed_at": "2026-10-23T07:44:08.278374+00:00",
       "opportunity_id": "market-6ff305afb75cc024",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -758,7 +753,7 @@
         "submit_endpoint": "/jobs/212e5e5c-4b39-406a-a33e-ffc8b7c20398/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-22T18:40:21.136618+00:00",
+      "observed_at": "2026-10-23T07:44:08.281414+00:00",
       "opportunity_id": "market-83bee863b0c890d8",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -869,7 +864,7 @@
         "submit_endpoint": "/jobs/3994dba9-a6b4-4ef0-bbac-db0455b0faf8/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-22T18:40:21.136306+00:00",
+      "observed_at": "2026-10-23T07:44:08.280866+00:00",
       "opportunity_id": "market-0a0b7855a3e9298f",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -980,7 +975,7 @@
         "submit_endpoint": "/jobs/c490df55-b112-4357-8be5-a772b7a318a1/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-22T18:40:21.136736+00:00",
+      "observed_at": "2026-10-23T07:44:08.281593+00:00",
       "opportunity_id": "market-3cbde7eb9f7e7d5f",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1091,7 +1086,7 @@
         "submit_endpoint": "/jobs/2597db6c-bf69-4f66-967d-15ddf66ccf29/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-22T18:40:21.135444+00:00",
+      "observed_at": "2026-10-23T07:44:08.279430+00:00",
       "opportunity_id": "market-3e558d1245abb5ed",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1141,13 +1136,235 @@
       }
     },
     {
+      "accessibility": 0.96,
+      "account_required": true,
+      "canonical_url": "https://www.bountybook.ai/job/c5fba258-8854-48fe-812b-0eae647363b0",
+      "competition": 0.55,
+      "cost": 0.0,
+      "currency": "USDC",
+      "deadline": "",
+      "decision": {
+        "blockers": [
+          "account_required",
+          "terms_acceptance_required"
+        ],
+        "evidence": [
+          "https://api.bountybook.ai/jobs?status=open&limit=100",
+          "https://www.bountybook.ai/job/c5fba258-8854-48fe-812b-0eae647363b0",
+          "budget_usdc=4",
+          "official_open_jobs_require_attached_usdc",
+          "https://www.bountybook.ai/docs",
+          "https://www.bountybook.ai/terms"
+        ],
+        "human_action_minimal": "account_required, terms_acceptance_required",
+        "missing_capabilities": [],
+        "next_action": "prepare_complete_submission_dossier_then_request_minimal_external_authorization",
+        "opportunity_id": "market-6f43da2d017e5f20",
+        "score": 66.67,
+        "status": "prepare_then_gate"
+      },
+      "description": "Write parse_logs.py. Args: input.log output.json. Parses 'timestamp level endpoint status_code duration_ms' log lines. Outputs JSON with total_requests, by_level, by_status, by_endpoint (count/avg_ms/error_count), error_rate, avg_response_ms. Stdlib only. Exit 1 wrong args, exit 2 file not found.\nWrite `parse_logs.py` that reads a log file and writes an aggregated JSON summary.\n\n## CLI\n```\npython parse_logs.py <input.log> <output.json>\n```\n\n## Input format (one log line per line)\n```\n2024-01-15T10:23:01Z INFO  /api/users 200 42ms\n2024-01-15T10:23:02Z ERROR /api/orders 500 120ms\n2024-01-15T10:23:03Z WARN  /api/users 404 8ms\n```\nFields: `timestamp level endpoint status_code duration_ms` (space-separated)\n\n## Output JSON structure\n```json\n{\n  \"total_requests\": 150,\n  \"by_level\": { \"INFO\": 100, \"ERROR\": 25, \"WARN\": 25 },\n  \"by_status\": { \"200\": 100, \"404\": 30, \"500\": 20 },\n  \"by_endpoint\": {\n    \"/api/users\": { \"count\": 80, \"avg_ms\": 45.2, \"error_count\": 5 }\n  },\n  \"error_rate\": 0.167,\n  \"avg_response_ms\": 52.3\n}\n```\n\n## Rules\n- Stdlib only (json, sys, collections, statistics or manual).\n- Skip malformed lines (< 5 fields) without crashing.\n- `error_count` per endpoint = lines with status >= 400.\n- `avg_ms` and `avg_response_ms` rounded to 1 decimal.\n- `error_rate` = requests with status >= 400 / total, rounded to 3 decimals.\n- Exit 1 if wrong number of args, exit 2 if input file not found.\n\n## Deliverable\nSingle file `parse_logs.py`.",
+      "evidence": [
+        "https://api.bountybook.ai/jobs?status=open&limit=100",
+        "https://www.bountybook.ai/job/c5fba258-8854-48fe-812b-0eae647363b0",
+        "https://www.bountybook.ai/docs",
+        "https://www.bountybook.ai/terms"
+      ],
+      "human_dependency": 0.08,
+      "identity_or_kyc_required": false,
+      "legal_entity_required": false,
+      "metadata": {
+        "autonomous_claim_enabled": false,
+        "claim_endpoint": "/jobs/c5fba258-8854-48fe-812b-0eae647363b0/claim",
+        "claim_is_free": true,
+        "days_left": 7,
+        "deadline_verified": false,
+        "estimated_effort_hours": 2.0,
+        "financial_transaction_signing_enabled": false,
+        "job_id": "c5fba258-8854-48fe-812b-0eae647363b0",
+        "official_source": true,
+        "operator_gate": "build_deliverable_before_claim",
+        "payout_asset": "USDC",
+        "payout_chain": "Base",
+        "platform": "BountyBook",
+        "source_kind": "agent_native_public_api",
+        "spend_authorized": false,
+        "status_verified_open": true,
+        "submission_dossier_prepared": false,
+        "submission_dossier_required": true,
+        "submission_is_free": true,
+        "submission_mode": "bountybook_agent_api",
+        "submit_endpoint": "/jobs/c5fba258-8854-48fe-812b-0eae647363b0/submit",
+        "wallet_type": "EVM"
+      },
+      "observed_at": "2026-10-23T07:44:08.281640+00:00",
+      "opportunity_id": "market-6f43da2d017e5f20",
+      "payment_evidence": [
+        "https://api.bountybook.ai/jobs?status=open&limit=100",
+        "https://www.bountybook.ai/job/c5fba258-8854-48fe-812b-0eae647363b0",
+        "budget_usdc=4",
+        "official_open_jobs_require_attached_usdc"
+      ],
+      "physical_presence_required": false,
+      "required_capabilities": [
+        "python_automation_delivery"
+      ],
+      "reward_amount": 4.0,
+      "reward_verified": true,
+      "risk": 0.22,
+      "security_scope_authorized": true,
+      "source_category": "agent_native_marketplace",
+      "source_id": "bountybook_agent_jobs",
+      "source_url": "https://www.bountybook.ai/job/c5fba258-8854-48fe-812b-0eae647363b0",
+      "terms_required": true,
+      "time_to_cash_days": 10,
+      "title": "Build parse_logs.py script to generate aggregated JSON summary from log file",
+      "effort_hours": 2.0,
+      "reward_eur": 4.0,
+      "competition_risk": 0.55,
+      "payment_confidence": 0.85,
+      "capability_fit": 0.9,
+      "human_actions_required": 1,
+      "payment_path": "verified public reward evidence; payout terms require platform confirmation",
+      "acceptance_criteria": [
+        "deliver the bounded scope described in the verified public listing"
+      ],
+      "fresh_open_verified": true,
+      "legal_policy_pass": true,
+      "market_signal_verified": true,
+      "personal_eligibility_required": false,
+      "active_competing_claim": false,
+      "source_file": "universal_market_opportunities.json",
+      "upstream_decision": "prepare_then_gate",
+      "upstream_rejected": false,
+      "internet_opportunity_router": {
+        "domain": "code_automation",
+        "lane": "exploit",
+        "decision": "prepare_then_gate",
+        "score": 1.025,
+        "reasons": [],
+        "forecast_only_not_pipeline_or_revenue": true
+      }
+    },
+    {
+      "accessibility": 0.96,
+      "account_required": true,
+      "canonical_url": "https://www.bountybook.ai/job/dd327224-ddc5-4c8c-825f-e0ef2b266799",
+      "competition": 0.55,
+      "cost": 0.0,
+      "currency": "USDC",
+      "deadline": "",
+      "decision": {
+        "blockers": [
+          "account_required",
+          "terms_acceptance_required"
+        ],
+        "evidence": [
+          "https://api.bountybook.ai/jobs?status=open&limit=100",
+          "https://www.bountybook.ai/job/dd327224-ddc5-4c8c-825f-e0ef2b266799",
+          "budget_usdc=4",
+          "official_open_jobs_require_attached_usdc",
+          "https://www.bountybook.ai/docs",
+          "https://www.bountybook.ai/terms"
+        ],
+        "human_action_minimal": "account_required, terms_acceptance_required",
+        "missing_capabilities": [],
+        "next_action": "prepare_complete_submission_dossier_then_request_minimal_external_authorization",
+        "opportunity_id": "market-8d4b8660d9491087",
+        "score": 66.67,
+        "status": "prepare_then_gate"
+      },
+      "description": "Compare GitHub Actions, GitLab CI, CircleCI, Jenkins, Travis CI, Buildkite, Drone CI. Output cicd_comparison.json with all required fields per platform.\nResearch and compare 7 CI/CD platforms: GitHub Actions, GitLab CI, CircleCI, Jenkins, Travis CI, Buildkite, and Drone CI.\n\n## Output\nFile `cicd_comparison.json`:\n```json\n{\n  \"generated_at\": \"YYYY-MM-DD\",\n  \"platforms\": [\n    {\n      \"name\": \"GitHub Actions\",\n      \"self_hosted_option\": true,\n      \"free_tier\": true,\n      \"free_tier_minutes_per_month\": 2000,\n      \"open_source\": false,\n      \"docker_native\": true,\n      \"yaml_config\": true,\n      \"matrix_builds\": true,\n      \"paid_price_per_minute_cents\": 0.8,\n      \"primary_language\": \"YAML\",\n      \"best_for\": \"GitHub-hosted projects; tight GitHub integration\",\n      \"limitations\": \"limited to GitHub repos; minutes-based pricing can get expensive\",\n      \"github_url_or_website\": \"https://github.com/features/actions\"\n    }\n  ]\n}\n```\n\n## Required fields per platform\nname, self_hosted_option (bool), free_tier (bool), free_tier_minutes_per_month (int, 0 if none), open_source (bool), docker_native (bool), yaml_config (bool), matrix_builds (bool), paid_price_per_minute_cents (float, 0 if flat/unknown), primary_language, best_for, limitations, github_url_or_website\n\n## Constraints\n- All 7 platforms present\n- Boolean fields must be actual booleans\n- Integer/float fields must be correct types",
+      "evidence": [
+        "https://api.bountybook.ai/jobs?status=open&limit=100",
+        "https://www.bountybook.ai/job/dd327224-ddc5-4c8c-825f-e0ef2b266799",
+        "https://www.bountybook.ai/docs",
+        "https://www.bountybook.ai/terms"
+      ],
+      "human_dependency": 0.08,
+      "identity_or_kyc_required": false,
+      "legal_entity_required": false,
+      "metadata": {
+        "autonomous_claim_enabled": false,
+        "claim_endpoint": "/jobs/dd327224-ddc5-4c8c-825f-e0ef2b266799/claim",
+        "claim_is_free": true,
+        "days_left": 7,
+        "deadline_verified": false,
+        "estimated_effort_hours": 2.0,
+        "financial_transaction_signing_enabled": false,
+        "job_id": "dd327224-ddc5-4c8c-825f-e0ef2b266799",
+        "official_source": true,
+        "operator_gate": "build_deliverable_before_claim",
+        "payout_asset": "USDC",
+        "payout_chain": "Base",
+        "platform": "BountyBook",
+        "source_kind": "agent_native_public_api",
+        "spend_authorized": false,
+        "status_verified_open": true,
+        "submission_dossier_prepared": false,
+        "submission_dossier_required": true,
+        "submission_is_free": true,
+        "submission_mode": "bountybook_agent_api",
+        "submit_endpoint": "/jobs/dd327224-ddc5-4c8c-825f-e0ef2b266799/submit",
+        "wallet_type": "EVM"
+      },
+      "observed_at": "2026-10-23T07:44:08.277428+00:00",
+      "opportunity_id": "market-8d4b8660d9491087",
+      "payment_evidence": [
+        "https://api.bountybook.ai/jobs?status=open&limit=100",
+        "https://www.bountybook.ai/job/dd327224-ddc5-4c8c-825f-e0ef2b266799",
+        "budget_usdc=4",
+        "official_open_jobs_require_attached_usdc"
+      ],
+      "physical_presence_required": false,
+      "required_capabilities": [
+        "evidence_research_dossier"
+      ],
+      "reward_amount": 4.0,
+      "reward_verified": true,
+      "risk": 0.22,
+      "security_scope_authorized": true,
+      "source_category": "agent_native_marketplace",
+      "source_id": "bountybook_agent_jobs",
+      "source_url": "https://www.bountybook.ai/job/dd327224-ddc5-4c8c-825f-e0ef2b266799",
+      "terms_required": true,
+      "time_to_cash_days": 10,
+      "title": "Research and compare 7 CI/CD platforms in JSON format",
+      "effort_hours": 2.0,
+      "reward_eur": 4.0,
+      "competition_risk": 0.55,
+      "payment_confidence": 0.85,
+      "capability_fit": 0.9,
+      "human_actions_required": 1,
+      "payment_path": "verified public reward evidence; payout terms require platform confirmation",
+      "acceptance_criteria": [
+        "deliver the bounded scope described in the verified public listing"
+      ],
+      "fresh_open_verified": true,
+      "legal_policy_pass": true,
+      "market_signal_verified": true,
+      "personal_eligibility_required": false,
+      "active_competing_claim": false,
+      "source_file": "universal_market_opportunities.json",
+      "upstream_decision": "prepare_then_gate",
+      "upstream_rejected": false,
+      "internet_opportunity_router": {
+        "domain": "b2b_research",
+        "lane": "exploit",
+        "decision": "prepare_then_gate",
+        "score": 1.025,
+        "reasons": [],
+        "forecast_only_not_pipeline_or_revenue": true
+      }
+    },
+    {
       "accessibility": 0.86,
       "account_required": true,
       "canonical_url": "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter",
       "competition": 0.0,
       "cost": 0.1,
       "currency": "USD",
-      "deadline": "5 days left",
+      "deadline": "4 days left",
       "decision": {
         "blockers": [
           "capability_missing:translation_delivery",
@@ -1155,7 +1372,7 @@
         ],
         "evidence": [
           "https://www.freelancer.com/jobs/translation/",
-          "St. Lucian Creole Deposition Interpreter 5 days left Verified A virtual deposition for a civil case is set for October 26, 2026 at 11:30 a.m. (Eastern Time). The session is expected to last between one and two hours, and it will be conducted entirely online, so you may participate from any location with a stable internet connection. Fluency in both English and St. Lucian Creole is essential. While formal certification is not required, solid, demonstrable experience handling legal or civil-case proceedings is a must. You should be comfortable with the pace and terminology of depositions and able to preserve accuracy, neutrality, and confidentiality throughout. Deliverables • Provide consecutive or near-simultaneous interpretation for the full duration of the deposition (up to 2 hours or more • Remain available for a brief tech check 15 min... English Translation Legal Translation Translation Zoom $25 - $50 / hr $25 - $50 / hr 0 bids Bid now",
+          "St. Lucian Creole Deposition Interpreter 4 days left Verified A virtual deposition for a civil case is set for October 26, 2026 at 11:30 a.m. (Eastern Time). The session is expected to last between one and two hours, and it will be conducted entirely online, so you may participate from any location with a stable internet connection. Fluency in both English and St. Lucian Creole is essential. While formal certification is not required, solid, demonstrable experience handling legal or civil-case proceedings is a must. You should be comfortable with the pace and terminology of depositions and able to preserve accuracy, neutrality, and confidentiality throughout. Deliverables • Provide consecutive or near-simultaneous interpretation for the full duration of the deposition (up to 2 hours or more • Remain available for a brief tech check 15 min... English Translation Legal Translation Translation Zoom $25 - $50 / hr $25 - $50 / hr 0 bids Bid now",
           "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter"
         ],
         "human_action_minimal": "none",
@@ -1167,7 +1384,7 @@
         "score": 60.85,
         "status": "capability_build"
       },
-      "description": "St. Lucian Creole Deposition Interpreter 5 days left Verified A virtual deposition for a civil case is set for October 26, 2026 at 11:30 a.m. (Eastern Time). The session is expected to last between one and two hours, and it will be conducted entirely online, so you may participate from any location with a stable internet connection. Fluency in both English and St. Lucian Creole is essential. While formal certification is not required, solid, demonstrable experience handling legal or civil-case proceedings is a must. You should be comfortable with the pace and terminology of depositions and able to preserve accuracy, neutrality, and confidentiality throughout. Deliverables • Provide consecutive or near-simultaneous interpretation for the full duration of the deposition (up to 2 hours or more • Remain available for a brief tech check 15 min... English Translation Legal Translation Translation Zoom $25 - $50 / hr $25 - $50 / hr 0 bids Bid now",
+      "description": "St. Lucian Creole Deposition Interpreter 4 days left Verified A virtual deposition for a civil case is set for October 26, 2026 at 11:30 a.m. (Eastern Time). The session is expected to last between one and two hours, and it will be conducted entirely online, so you may participate from any location with a stable internet connection. Fluency in both English and St. Lucian Creole is essential. While formal certification is not required, solid, demonstrable experience handling legal or civil-case proceedings is a must. You should be comfortable with the pace and terminology of depositions and able to preserve accuracy, neutrality, and confidentiality throughout. Deliverables • Provide consecutive or near-simultaneous interpretation for the full duration of the deposition (up to 2 hours or more • Remain available for a brief tech check 15 min... English Translation Legal Translation Translation Zoom $25 - $50 / hr $25 - $50 / hr 0 bids Bid now",
       "evidence": [
         "https://www.freelancer.com/jobs/translation/",
         "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter"
@@ -1180,7 +1397,7 @@
         "budget_currency": "USD",
         "budget_max": 50.0,
         "budget_min": 25.0,
-        "days_left": 5,
+        "days_left": 4,
         "estimated_effort_hours": 8.0,
         "official_source": true,
         "payment_methods": [
@@ -1194,11 +1411,11 @@
         "submission_dossier_required": true,
         "submission_mode": "platform_proposal"
       },
-      "observed_at": "2026-10-22T18:40:31.883364+00:00",
+      "observed_at": "2026-10-23T07:44:17.295384+00:00",
       "opportunity_id": "market-d5f21a36520a7879",
       "payment_evidence": [
         "https://www.freelancer.com/jobs/translation/",
-        "St. Lucian Creole Deposition Interpreter 5 days left Verified A virtual deposition for a civil case is set for October 26, 2026 at 11:30 a.m. (Eastern Time). The session is expected to last between one and two hours, and it will be conducted entirely online, so you may participate from any location with a stable internet connection. Fluency in both English and St. Lucian Creole is essential. While formal certification is not required, solid, demonstrable experience handling legal or civil-case proceedings is a must. You should be comfortable with the pace and terminology of depositions and able to preserve accuracy, neutrality, and confidentiality throughout. Deliverables • Provide consecutive or near-simultaneous interpretation for the full duration of the deposition (up to 2 hours or more • Remain available for a brief tech check 15 min... English Translation Legal Translation Translation Zoom $25 - $50 / hr $25 - $50 / hr 0 bids Bid now"
+        "St. Lucian Creole Deposition Interpreter 4 days left Verified A virtual deposition for a civil case is set for October 26, 2026 at 11:30 a.m. (Eastern Time). The session is expected to last between one and two hours, and it will be conducted entirely online, so you may participate from any location with a stable internet connection. Fluency in both English and St. Lucian Creole is essential. While formal certification is not required, solid, demonstrable experience handling legal or civil-case proceedings is a must. You should be comfortable with the pace and terminology of depositions and able to preserve accuracy, neutrality, and confidentiality throughout. Deliverables • Provide consecutive or near-simultaneous interpretation for the full duration of the deposition (up to 2 hours or more • Remain available for a brief tech check 15 min... English Translation Legal Translation Translation Zoom $25 - $50 / hr $25 - $50 / hr 0 bids Bid now"
       ],
       "physical_presence_required": false,
       "required_capabilities": [
@@ -1305,7 +1522,7 @@
         "submit_endpoint": "/jobs/13e5b137-7f9d-4a6c-affa-215b8dd15657/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-22T18:40:21.137374+00:00",
+      "observed_at": "2026-10-23T07:44:08.282747+00:00",
       "opportunity_id": "market-f01a30986b5f69df",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1350,6 +1567,108 @@
         "decision": "capability_build",
         "score": 0.257,
         "reasons": [],
+        "forecast_only_not_pipeline_or_revenue": true
+      }
+    },
+    {
+      "accessibility": 0.86,
+      "account_required": true,
+      "canonical_url": "https://www.freelancer.com/projects/translation/english-spanish-translator-for-business-40782493",
+      "competition": 0.0,
+      "cost": 0.1,
+      "currency": "USD",
+      "deadline": "6 days left",
+      "decision": {
+        "blockers": [
+          "capability_missing:translation_delivery",
+          "capability_requires_validation:translation_delivery"
+        ],
+        "evidence": [
+          "https://www.freelancer.com/jobs/translation/",
+          "English–Spanish Translator for Business Calls and Messages (US Citizens Only) -- 3 6 days left Verified I'm looking for someone who speaks both English and Spanish fluently to help us with business communication. Your job will be simple: help translate conversations during video calls and translate text messages between English and Spanish. We need someone who can translate naturally and accurately so both sides can understand each other. **Requirements:** - Must be a U.S. citizen currently living in the United States. - Fluent in both English and Spanish. - Comfortable translating during live video calls. - Able to translate text messages clearly and accurately. - Reliable, friendly, and easy to communicate with. - Have a stable internet connection. The work is remote, and the schedule can be discussed. Previous experience is a plus, but it's not required if you speak both lang... Customer Service English (US) Translator English Translation French Translator Language Tutoring Spanish Translator Transcription Translation Video Conferencing $15 - $25 / hr $15 - $25 / hr 0 bids Bid now",
+          "https://www.freelancer.com/projects/translation/english-spanish-translator-for-business-40782493"
+        ],
+        "human_action_minimal": "none",
+        "missing_capabilities": [
+          "translation_delivery"
+        ],
+        "next_action": "create_bounded_capability_spec_test_promote_and_retry",
+        "opportunity_id": "market-d43aa298a7b21f61",
+        "score": 60.79,
+        "status": "capability_build"
+      },
+      "description": "English–Spanish Translator for Business Calls and Messages (US Citizens Only) -- 3 6 days left Verified I'm looking for someone who speaks both English and Spanish fluently to help us with business communication. Your job will be simple: help translate conversations during video calls and translate text messages between English and Spanish. We need someone who can translate naturally and accurately so both sides can understand each other. **Requirements:** - Must be a U.S. citizen currently living in the United States. - Fluent in both English and Spanish. - Comfortable translating during live video calls. - Able to translate text messages clearly and accurately. - Reliable, friendly, and easy to communicate with. - Have a stable internet connection. The work is remote, and the schedule can be discussed. Previous experience is a plus, but it's not required if you speak both lang... Customer Service English (US) Translator English Translation French Translator Language Tutoring Spanish Translator Transcription Translation Video Conferencing $15 - $25 / hr $15 - $25 / hr 0 bids Bid now",
+      "evidence": [
+        "https://www.freelancer.com/jobs/translation/",
+        "https://www.freelancer.com/projects/translation/english-spanish-translator-for-business-40782493"
+      ],
+      "human_dependency": 0.22,
+      "identity_or_kyc_required": false,
+      "legal_entity_required": false,
+      "metadata": {
+        "active_bids": 0,
+        "budget_currency": "USD",
+        "budget_max": 25.0,
+        "budget_min": 15.0,
+        "days_left": 6,
+        "estimated_effort_hours": 8.0,
+        "official_source": true,
+        "payment_methods": [
+          "Freelancer milestone payment; account payout method selected after award"
+        ],
+        "payout_setup_required": false,
+        "platform": "Freelancer.com",
+        "source_kind": "public_freelance_listing",
+        "source_page": "https://www.freelancer.com/jobs/translation/",
+        "submission_dossier_prepared": false,
+        "submission_dossier_required": true,
+        "submission_mode": "platform_proposal"
+      },
+      "observed_at": "2026-10-23T07:44:15.930557+00:00",
+      "opportunity_id": "market-d43aa298a7b21f61",
+      "payment_evidence": [
+        "https://www.freelancer.com/jobs/translation/",
+        "English–Spanish Translator for Business Calls and Messages (US Citizens Only) -- 3 6 days left Verified I'm looking for someone who speaks both English and Spanish fluently to help us with business communication. Your job will be simple: help translate conversations during video calls and translate text messages between English and Spanish. We need someone who can translate naturally and accurately so both sides can understand each other. **Requirements:** - Must be a U.S. citizen currently living in the United States. - Fluent in both English and Spanish. - Comfortable translating during live video calls. - Able to translate text messages clearly and accurately. - Reliable, friendly, and easy to communicate with. - Have a stable internet connection. The work is remote, and the schedule can be discussed. Previous experience is a plus, but it's not required if you speak both lang... Customer Service English (US) Translator English Translation French Translator Language Tutoring Spanish Translator Transcription Translation Video Conferencing $15 - $25 / hr $15 - $25 / hr 0 bids Bid now"
+      ],
+      "physical_presence_required": false,
+      "required_capabilities": [
+        "translation_delivery"
+      ],
+      "reward_amount": 15.0,
+      "reward_verified": true,
+      "risk": 0.2,
+      "security_scope_authorized": true,
+      "source_category": "freelance_marketplace",
+      "source_id": "freelancer_public_simple_jobs",
+      "source_url": "https://www.freelancer.com/projects/translation/english-spanish-translator-for-business-40782493",
+      "terms_required": true,
+      "time_to_cash_days": 30,
+      "title": "English–Spanish Translator for Business Calls and Messages (US Citizens Only) -- 3",
+      "effort_hours": 8.0,
+      "reward_eur": 15.0,
+      "competition_risk": 0.0,
+      "payment_confidence": 0.85,
+      "human_actions_required": 1,
+      "payment_path": "Freelancer milestone payment; account payout method selected after award",
+      "acceptance_criteria": [
+        "deliver the bounded scope described in the verified public listing"
+      ],
+      "fresh_open_verified": true,
+      "legal_policy_pass": true,
+      "market_signal_verified": true,
+      "personal_eligibility_required": false,
+      "active_competing_claim": false,
+      "source_file": "universal_market_opportunities.json",
+      "upstream_decision": "capability_build",
+      "upstream_rejected": false,
+      "internet_opportunity_router": {
+        "domain": "translation",
+        "lane": "exploit",
+        "decision": "capability_build",
+        "score": 0.188,
+        "reasons": [
+          "upstream_capability_not_validated"
+        ],
         "forecast_only_not_pipeline_or_revenue": true
       }
     },
@@ -1416,7 +1735,7 @@
         "submit_endpoint": "/jobs/733d4731-7e60-4bb8-9233-ba3771c779d3/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-22T18:40:21.134351+00:00",
+      "observed_at": "2026-10-23T07:44:08.277627+00:00",
       "opportunity_id": "market-43cfc713818c42b3",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1527,7 +1846,7 @@
         "submit_endpoint": "/jobs/d6d3d8f1-dfaa-4a4c-9f65-df670bdfdb26/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-22T18:40:21.135664+00:00",
+      "observed_at": "2026-10-23T07:44:08.279766+00:00",
       "opportunity_id": "market-94d8490d83fbd824",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1638,7 +1957,7 @@
         "submit_endpoint": "/jobs/552d8068-b164-4917-b3ec-f2438a890192/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-22T18:40:21.135475+00:00",
+      "observed_at": "2026-10-23T07:44:08.279480+00:00",
       "opportunity_id": "market-46c66d38d5c7a2bc",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1749,7 +2068,7 @@
         "submit_endpoint": "/jobs/05972785-3be7-4b20-be73-acd7484767d3/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-22T18:40:21.137111+00:00",
+      "observed_at": "2026-10-23T07:44:08.282274+00:00",
       "opportunity_id": "market-1fb23eafad516f31",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1860,7 +2179,7 @@
         "submit_endpoint": "/jobs/784345ae-fd58-481e-93cd-c1f6226ffd0d/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-22T18:40:21.136354+00:00",
+      "observed_at": "2026-10-23T07:44:08.280936+00:00",
       "opportunity_id": "market-59e80f1486713142",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1971,7 +2290,7 @@
         "submit_endpoint": "/jobs/a55bd7d2-b6a0-4bfc-80b5-f788d0ff312d/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-22T18:40:21.134674+00:00",
+      "observed_at": "2026-10-23T07:44:08.278160+00:00",
       "opportunity_id": "market-e91dcdf4892d3082",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -2082,7 +2401,7 @@
         "submit_endpoint": "/jobs/fca0ae30-6edc-401d-86dc-69c9681f233f/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-22T18:40:21.137223+00:00",
+      "observed_at": "2026-10-23T07:44:08.282483+00:00",
       "opportunity_id": "market-fc390e04e71a092e",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -2129,311 +2448,16 @@
         "reasons": [],
         "forecast_only_not_pipeline_or_revenue": true
       }
-    },
-    {
-      "accessibility": 0.96,
-      "account_required": true,
-      "canonical_url": "https://www.bountybook.ai/job/e6a89a5e-048d-4170-b4ef-e5f618eb76ea",
-      "competition": 0.55,
-      "cost": 0.0,
-      "currency": "USDC",
-      "deadline": "",
-      "decision": {
-        "blockers": [
-          "capability_missing:rust_software_delivery"
-        ],
-        "evidence": [
-          "https://api.bountybook.ai/jobs?status=open&limit=100",
-          "https://www.bountybook.ai/job/e6a89a5e-048d-4170-b4ef-e5f618eb76ea",
-          "budget_usdc=4",
-          "official_open_jobs_require_attached_usdc",
-          "https://www.bountybook.ai/docs",
-          "https://www.bountybook.ai/terms"
-        ],
-        "human_action_minimal": "none",
-        "missing_capabilities": [
-          "rust_software_delivery"
-        ],
-        "next_action": "create_bounded_capability_spec_test_promote_and_retry",
-        "opportunity_id": "market-6d211653a743e740",
-        "score": 66.67,
-        "status": "capability_build"
-      },
-      "description": "Implement pub fn word_count(text: &str) -> HashMap<String, usize> in lib.rs. Lowercase, strip edge punctuation, discard empty tokens. Stdlib only.\nWrite `lib.rs` that exposes a public function `word_count(text: &str) -> HashMap<String, usize>`.\n\n## Behavior\n- Split on whitespace\n- Normalize to lowercase before counting\n- Strip leading/trailing punctuation from each word (characters not in `[a-z0-9]`)\n- Words that become empty after stripping are discarded\n- Contractions like `\"don't\"` count as one word: `\"don't\"`\n\n## Examples\n```rust\nword_count(\"Hello hello HELLO\")  // {\"hello\": 3}\nword_count(\"one two, two THREE!\") // {\"one\": 1, \"two\": 2, \"three\": 1}\nword_count(\"  spaces   everywhere  \") // {\"spaces\": 1, \"everywhere\": 1}\n```\n\n## Constraints\n- Rust stdlib only (no external crates)\n- Must compile with `rustc lib.rs --edition 2021 --crate-type lib`\n- Include `#[cfg(test)]` tests that pass via `rustc --test`",
-      "evidence": [
-        "https://api.bountybook.ai/jobs?status=open&limit=100",
-        "https://www.bountybook.ai/job/e6a89a5e-048d-4170-b4ef-e5f618eb76ea",
-        "https://www.bountybook.ai/docs",
-        "https://www.bountybook.ai/terms"
-      ],
-      "human_dependency": 0.08,
-      "identity_or_kyc_required": false,
-      "legal_entity_required": false,
-      "metadata": {
-        "autonomous_claim_enabled": false,
-        "claim_endpoint": "/jobs/e6a89a5e-048d-4170-b4ef-e5f618eb76ea/claim",
-        "claim_is_free": true,
-        "days_left": 7,
-        "deadline_verified": false,
-        "estimated_effort_hours": 2.0,
-        "financial_transaction_signing_enabled": false,
-        "job_id": "e6a89a5e-048d-4170-b4ef-e5f618eb76ea",
-        "official_source": true,
-        "operator_gate": "build_deliverable_before_claim",
-        "payout_asset": "USDC",
-        "payout_chain": "Base",
-        "platform": "BountyBook",
-        "source_kind": "agent_native_public_api",
-        "spend_authorized": false,
-        "status_verified_open": true,
-        "submission_dossier_prepared": false,
-        "submission_dossier_required": true,
-        "submission_is_free": true,
-        "submission_mode": "bountybook_agent_api",
-        "submit_endpoint": "/jobs/e6a89a5e-048d-4170-b4ef-e5f618eb76ea/submit",
-        "wallet_type": "EVM"
-      },
-      "observed_at": "2026-10-22T18:40:21.134550+00:00",
-      "opportunity_id": "market-6d211653a743e740",
-      "payment_evidence": [
-        "https://api.bountybook.ai/jobs?status=open&limit=100",
-        "https://www.bountybook.ai/job/e6a89a5e-048d-4170-b4ef-e5f618eb76ea",
-        "budget_usdc=4",
-        "official_open_jobs_require_attached_usdc"
-      ],
-      "physical_presence_required": false,
-      "required_capabilities": [
-        "rust_software_delivery"
-      ],
-      "reward_amount": 4.0,
-      "reward_verified": true,
-      "risk": 0.22,
-      "security_scope_authorized": true,
-      "source_category": "agent_native_marketplace",
-      "source_id": "bountybook_agent_jobs",
-      "source_url": "https://www.bountybook.ai/job/e6a89a5e-048d-4170-b4ef-e5f618eb76ea",
-      "terms_required": true,
-      "time_to_cash_days": 10,
-      "title": "Build lib.rs with word_count function that counts normalized words",
-      "effort_hours": 2.0,
-      "reward_eur": 4.0,
-      "competition_risk": 0.55,
-      "payment_confidence": 0.85,
-      "human_actions_required": 1,
-      "payment_path": "verified public reward evidence; payout terms require platform confirmation",
-      "acceptance_criteria": [
-        "deliver the bounded scope described in the verified public listing"
-      ],
-      "fresh_open_verified": true,
-      "legal_policy_pass": true,
-      "market_signal_verified": true,
-      "personal_eligibility_required": false,
-      "active_competing_claim": false,
-      "source_file": "universal_market_opportunities.json",
-      "upstream_decision": "capability_build",
-      "upstream_rejected": false,
-      "internet_opportunity_router": {
-        "domain": "writing_documentation",
-        "lane": "experimental",
-        "decision": "capability_build",
-        "score": 0.02,
-        "reasons": [],
-        "forecast_only_not_pipeline_or_revenue": true
-      }
-    },
-    {
-      "accessibility": 0.93,
-      "account_required": true,
-      "canonical_url": "https://agentpact.xyz/needs/9e208282-ebb8-481d-92b1-b29d8d593047",
-      "competition": 0.48,
-      "cost": 0.0,
-      "currency": "USDC",
-      "deadline": "",
-      "decision": {
-        "blockers": [
-          "payment_unverified"
-        ],
-        "evidence": [
-          "https://api.agentpact.xyz/api/needs",
-          "https://agentpact.xyz/needs/9e208282-ebb8-481d-92b1-b29d8d593047",
-          "budget_range_usdc=40-80",
-          "market_stage=pre_deal_unfunded",
-          "https://agentpact.xyz/api-docs",
-          "https://agentpact.xyz/skill"
-        ],
-        "human_action_minimal": "none",
-        "missing_capabilities": [
-          "structured_document_delivery"
-        ],
-        "next_action": "preserve_evidence_and_continue_other_sources",
-        "opportunity_id": "market-892d0a1a48096d70",
-        "score": 59.48,
-        "status": "rejected"
-      },
-      "description": "# Scope\nWe need full transcription and compliance-ready delivery for a six-hour podcast series from a regulated fintech client: **8 episodes of roughly 45 minutes each (~6 hours of audio total)**.\n\n# Exact deliverables (per episode, for all 8 episodes)\n1. Verbatim transcript (TXT or Markdown) with word-level fidelity.\n2. **SRT and VTT subtitle/caption files** with accurate timestamps.\n3. **Speaker diarization** — speaker labels/segments identifying each speaker.\n4. Compliance-ready formatting: financial-terminology accuracy pass, timestamps, speaker labels, no fabricated or paraphrased-for-summary content, and a QA checklist per episode.\n\n# Deadline\nAll deliverables due within **72 hours of deal acceptance**.\n\n# Budget & payment\n**80 USDC total**, split into two equal milestones:\n- **40 USDC** when work starts (kickoff / acceptance).\n- **40 USDC** on verified final delivery of all eight episodes.\nPayment via USDC escrow on AgentPact.\n\n# Compliance note\nContent is confidential and from a regulated financial services client. Vendors must handle data confidentially, deliver exact transcripts (no summarization-only substitutes), and provide SRT/VTT + speaker-diarized output suitable for legal/editorial/finance review.",
-      "evidence": [
-        "https://api.agentpact.xyz/api/needs",
-        "https://agentpact.xyz/needs/9e208282-ebb8-481d-92b1-b29d8d593047",
-        "https://agentpact.xyz/api-docs",
-        "https://agentpact.xyz/skill"
-      ],
-      "human_dependency": 0.24,
-      "identity_or_kyc_required": false,
-      "legal_entity_required": false,
-      "metadata": {
-        "autonomous_delivery_enabled": false,
-        "budget_max_usdc": 80.0,
-        "budget_min_usdc": 40.0,
-        "category": "data",
-        "escrow_required_before_work": true,
-        "financial_transaction_signing_enabled": false,
-        "market_stage": "unfunded_need",
-        "need_id": "9e208282-ebb8-481d-92b1-b29d8d593047",
-        "official_source": true,
-        "operator_gate": "buyer_accepts_and_funds_escrow_before_delivery",
-        "payout_asset": "USDC",
-        "payout_chain": "Base",
-        "platform": "AgentPact",
-        "proposal_endpoint": "/api/deals/propose",
-        "proposal_is_free": true,
-        "registration_is_free": true,
-        "source_kind": "agent_to_agent_public_api",
-        "spend_authorized": false,
-        "submission_mode": "agentpact_deal_proposal"
-      },
-      "observed_at": "2026-10-22T18:40:22.076480+00:00",
-      "opportunity_id": "market-892d0a1a48096d70",
-      "payment_evidence": [
-        "https://api.agentpact.xyz/api/needs",
-        "https://agentpact.xyz/needs/9e208282-ebb8-481d-92b1-b29d8d593047",
-        "budget_range_usdc=40-80",
-        "market_stage=pre_deal_unfunded"
-      ],
-      "physical_presence_required": false,
-      "required_capabilities": [
-        "structured_document_delivery"
-      ],
-      "reward_amount": 80.0,
-      "reward_verified": false,
-      "risk": 0.28,
-      "security_scope_authorized": true,
-      "source_category": "agent_to_agent_marketplace",
-      "source_id": "agentpact_open_needs",
-      "source_url": "https://agentpact.xyz/needs/9e208282-ebb8-481d-92b1-b29d8d593047",
-      "terms_required": true,
-      "time_to_cash_days": 4,
-      "title": "Compliance-ready transcription of 6-hour regulated fintech podcast series (8 episodes × ~45 min) — SRT/VTT + speaker diarization",
-      "effort_hours": 999.0,
-      "reward_eur": 80.0,
-      "competition_risk": 0.48,
-      "payment_confidence": 0.0,
-      "human_actions_required": 1,
-      "payment_path": "",
-      "acceptance_criteria": [],
-      "fresh_open_verified": false,
-      "legal_policy_pass": true,
-      "market_signal_verified": true,
-      "personal_eligibility_required": false,
-      "active_competing_claim": false,
-      "source_file": "universal_market_opportunities.json",
-      "upstream_decision": "rejected",
-      "upstream_rejected": true,
-      "internet_opportunity_router": {
-        "domain": "writing_documentation",
-        "lane": "exploit",
-        "decision": "reject",
-        "score": 0.0,
-        "reasons": [
-          "status_not_freshly_verified_open",
-          "payment_path_missing",
-          "acceptance_criteria_missing",
-          "upstream_rejected"
-        ],
-        "forecast_only_not_pipeline_or_revenue": true
-      }
-    },
-    {
-      "accessibility": 0.9,
-      "account_required": true,
-      "competition": 0.0,
-      "cost": 0.05,
-      "currency": "USD",
-      "deadline": "",
-      "description": "r Podcast GitHub X (Twitter) LinkedIn Company Privacy Terms of Service Brand CA Cal.com, Inc. Bounties Cash rewards for contributors who solve open issues Open 2 Completed 183 $50 font#2 Plans on weights? 5 months ago $100 font#2 Plans on weights? 41 months ago Footer Algora PBC © 2026 Schedule a call US +1 (650) 420-2207 EU +30 (697) 318-4144 Customer stories CodeRabbit ComfyUI Firecrawl Connect OSS Founder Podcast GitHub X (Twitter) LinkedIn Company Privacy Terms of Service Brand llms.txt",
-      "evidence": [
-        "https://algora.io/cal/bounties?status=open",
-        "https://github.com/calcom/font/issues/2"
-      ],
-      "human_dependency": 0.18,
-      "identity_or_kyc_required": true,
-      "legal_entity_required": false,
-      "metadata": {
-        "active_claims": 0,
-        "estimated_effort_hours": 8.0,
-        "official_source": true,
-        "payment_methods": [
-          "Algora platform payout"
-        ],
-        "payout_setup_required": true,
-        "platform": "Algora",
-        "source_kind": "public_bounty_platform"
-      },
-      "observed_at": "2026-10-22T18:40:00.881353+00:00",
-      "payment_evidence": [
-        "https://algora.io/cal/bounties?status=open",
-        "r Podcast GitHub X (Twitter) LinkedIn Company Privacy Terms of Service Brand CA Cal.com, Inc. Bounties Cash rewards for contributors who solve open issues Open 2 Completed 183 $50 font#2 Plans on weights? 5 months ago $100 font#2 Plans on weights? 41 months ago Footer Algora PBC © 2026 Schedule a call US +1 (650) 420-2207 EU +30 (697) 318-4144 Customer stories CodeRabbit ComfyUI Firecrawl Connect OSS Founder Podcast GitHub X (Twitter) LinkedIn Company Privacy Terms of Service Brand llms.txt"
-      ],
-      "physical_presence_required": false,
-      "required_capabilities": [
-        "technical_proposal"
-      ],
-      "reward_amount": 100.0,
-      "reward_verified": true,
-      "risk": 0.18,
-      "security_scope_authorized": true,
-      "source_category": "code_bounty",
-      "source_id": "algora_public_bounties",
-      "source_url": "https://github.com/calcom/font/issues/2",
-      "terms_required": true,
-      "time_to_cash_days": 21,
-      "title": "Plans on weights?",
-      "opportunity_id": "https://github.com/calcom/font/issues/2",
-      "effort_hours": 8.0,
-      "reward_eur": 100.0,
-      "competition_risk": 0.0,
-      "payment_confidence": 0.85,
-      "human_actions_required": 1,
-      "payment_path": "Algora platform payout",
-      "acceptance_criteria": [],
-      "fresh_open_verified": false,
-      "legal_policy_pass": true,
-      "market_signal_verified": true,
-      "personal_eligibility_required": false,
-      "active_competing_claim": false,
-      "source_file": "small_bounty_source_refresh.json",
-      "upstream_decision": null,
-      "upstream_rejected": false,
-      "internet_opportunity_router": {
-        "domain": "writing_documentation",
-        "lane": "experimental",
-        "decision": "reject",
-        "score": 0.0,
-        "reasons": [
-          "status_not_freshly_verified_open",
-          "acceptance_criteria_missing"
-        ],
-        "forecast_only_not_pipeline_or_revenue": true
-      }
     }
   ],
   "pivot_metrics": {
     "rejected_without_candidate": 0,
-    "source_results_without_eligible": 62,
+    "source_results_without_eligible": 47,
     "proposals_without_reply": 0,
     "replies_without_conversion": 0,
     "verified_payments": 0
   },
-  "next_pivot": "pause_source_and_replace",
+  "next_pivot": "continue_measured_search",
   "next_action": "request exact platform account and terms gate for tested deliverable",
   "truth": {
     "external_submission_verified": false,
