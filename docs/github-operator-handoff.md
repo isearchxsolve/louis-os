@@ -1,3 +1,44 @@
+## Contrôle du 23 octobre 2026 à 12:03 UTC — rapprochement stable sans commit répétitif
+
+- `get_repo` réellement appelé ; `main` épinglé à
+  `2e5df65619badf004be22f606b52dcccb0bd47b4`. Aucun `AGENTS.md`.
+  Instructions, politiques, états, intentions, reçus, #473, 19 PR ouvertes et
+  workflows relus. Aucune PR récente ne recouvre ce contrôle ; les trois
+  registres de soumission absents restent des inconnues 404, pas des listes vides.
+- Rapprochement planifié `39950225922`, job `120402590908`, exécuté sur le
+  SHA épinglé : 17 tests réussis. La sonde conserve une seule erreur causale
+  `repository:Scottcjn/rustchain-bounties:HTTP_404`, les cinq discussions en
+  état `blocked`, et le wallet RTC lu fraîchement à 11 RTC.
+  `changed=false` et `health_changed=false`.
+- Les étapes de persistance et de publication ont donc été sautées. `main`
+  est resté exactement au SHA épinglé après le run : la stabilité post-#490 ne
+  recrée pas de commit ni de commentaire. L'échec final du job est le garde-fou
+  attendu pour une lecture externe incomplète, pas un test en échec.
+- Artifact daté `12499628624`, digest
+  `sha256:697e0b305b58535056626eadc37ed57e6dacebe4c96db7ab8944bbf8a1dea268`,
+  disponible jusqu'au 06/11. Il préserve la preuve sans réécrire l'état stable.
+- Aucun nouveau cycle marché indépendant n'était matérialisé après
+  `39945791670`. La dernière preuve à 11:25 UTC maintient AgentPact
+  `paused_by_router`, sans probe ni remplaçant inventé. BountyBook reste à
+  50 annonces, Freelancer simple à 2, MoltJobs à 10 lignes invalides,
+  Superteam sans credential, Guru en 403 et Truelancer en 429. Ne pas présenter
+  l'absence du prochain cycle comme une nouvelle validation de la pause.
+- Le dossier CI/CD reste sélectionné mais non autorisé, sans nouvel événement
+  ni rappel. Blocage compte/conditions d'environ 114 h 53. Aucun envoi,
+  acceptation ou paiement nouveau ; les 11 RTC historiques ne sont pas des
+  euros et Manic 10 USD reste non vérifié.
+- Mesures : 0 nouvelle mission distincte qualifiée, 0 nouveau dossier terminé,
+  0 soumission avec reçu, 0 acceptation, 0 paiement et 0 intervention humaine.
+  Coût d'exploitation connu 0 EUR ; coût Actions, coût total et temps par
+  mission inconnus. Ce contrôle et cette passation ne sont pas du revenu.
+
+Décision : le résultat engagé du rapprochement 404 est entièrement réconcilié ;
+aucune seconde correction ni recherche identique lancée. Prochaine action
+précise : vérifier le prochain cycle marché indépendant pour confirmer que la
+pause AgentPact tient encore, puis seulement valider et raccorder un adaptateur
+distinct, légal, payable et sans coût. Ne pas reprendre AgentPact, réactiver GCP,
+supposer le Lenovo accessible ou redemander l'autorisation CI/CD sans événement.
+
 ## Contrôle du 23 octobre 2026 à 11:27 UTC — oscillation du pivot supprimée et effet réel vérifié
 
 - `get_repo` réellement appelé ; main épinglé au début du contrôle à
