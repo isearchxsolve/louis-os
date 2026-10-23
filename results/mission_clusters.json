@@ -292,6 +292,47 @@
       }
     },
     {
+      "capability_id": "translation_delivery",
+      "capability_market_score": 49.6,
+      "capability_status": "experimental",
+      "capped_score_value": 40.0,
+      "cluster_id": "cluster-32b15a1bdeecbda4",
+      "deliverable_family": "bounded_translation",
+      "first_payment_probability": 0.2833,
+      "implementation_cost": 0.35,
+      "lane": "cash_first",
+      "median_accessibility": 0.86,
+      "median_competition": 0.0,
+      "median_effort_hours": 8.0,
+      "median_reward": 20.0,
+      "median_time_to_cash_days": 30.0,
+      "opportunity_count": 2,
+      "opportunity_ids": [
+        "market-d43aa298a7b21f61",
+        "market-d5f21a36520a7879"
+      ],
+      "rationale": [
+        "lane=cash_first",
+        "opportunities=2",
+        "sources=1",
+        "median_effort_hours=8",
+        "median_time_to_cash_days=30",
+        "first_payment_probability=0.2833",
+        "capability_status=experimental",
+        "headline rewards are capped for scoring and strategic prizes cannot dominate cash-first rank"
+      ],
+      "reusable_deliverable_ratio": 0.67,
+      "source_count": 1,
+      "source_ids": [
+        "freelancer_public_simple_jobs"
+      ],
+      "top_opportunity_title": "St. Lucian Creole Deposition Interpreter",
+      "top_opportunity_url": "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter",
+      "verified_value_by_currency": {
+        "USD": 40.0
+      }
+    },
+    {
       "capability_id": "go_software_delivery",
       "capability_market_score": 49.14,
       "capability_status": "unknown",
@@ -330,46 +371,6 @@
       "top_opportunity_url": "https://www.bountybook.ai/job/733d4731-7e60-4bb8-9233-ba3771c779d3",
       "verified_value_by_currency": {
         "USDC": 9.5
-      }
-    },
-    {
-      "capability_id": "translation_delivery",
-      "capability_market_score": 46.19,
-      "capability_status": "experimental",
-      "capped_score_value": 25.0,
-      "cluster_id": "cluster-32b15a1bdeecbda4",
-      "deliverable_family": "bounded_translation",
-      "first_payment_probability": 0.2833,
-      "implementation_cost": 0.35,
-      "lane": "cash_first",
-      "median_accessibility": 0.86,
-      "median_competition": 0.0,
-      "median_effort_hours": 8.0,
-      "median_reward": 25.0,
-      "median_time_to_cash_days": 30,
-      "opportunity_count": 1,
-      "opportunity_ids": [
-        "market-d5f21a36520a7879"
-      ],
-      "rationale": [
-        "lane=cash_first",
-        "opportunities=1",
-        "sources=1",
-        "median_effort_hours=8",
-        "median_time_to_cash_days=30",
-        "first_payment_probability=0.2833",
-        "capability_status=experimental",
-        "headline rewards are capped for scoring and strategic prizes cannot dominate cash-first rank"
-      ],
-      "reusable_deliverable_ratio": 0.55,
-      "source_count": 1,
-      "source_ids": [
-        "freelancer_public_simple_jobs"
-      ],
-      "top_opportunity_title": "St. Lucian Creole Deposition Interpreter",
-      "top_opportunity_url": "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter",
-      "verified_value_by_currency": {
-        "USD": 25.0
       }
     },
     {
@@ -620,6 +621,6 @@
     }
   ],
   "count": 13,
-  "generated_at": "2026-10-22T18:40:35.739309+00:00",
+  "generated_at": "2026-10-23T07:44:21.932561+00:00",
   "schema_version": "1.0"
 }

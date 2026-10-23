@@ -2,7 +2,7 @@
   "annualization_status": "insufficient_history",
   "counted_as_pipeline": false,
   "counted_as_revenue": false,
-  "generated_at": "2026-10-22T18:40:35.739309+00:00",
+  "generated_at": "2026-10-23T07:44:21.932561+00:00",
   "schema_version": "1.0",
   "simulations": [
     {
@@ -115,6 +115,24 @@
     },
     {
       "annualization_status": "insufficient_history",
+      "capability_id": "translation_delivery",
+      "cluster_id": "cluster-32b15a1bdeecbda4",
+      "counted_as_pipeline": false,
+      "counted_as_revenue": false,
+      "scenarios_by_currency": {
+        "USD": {
+          "base_expected_value": 4.8,
+          "conservative_expected_value": 2.0,
+          "median_verified_reward": 20.0,
+          "observed_opportunity_count": 2,
+          "upside_expected_value": 10.0
+        }
+      },
+      "scope": "currently observed qualified opportunities; not annualized",
+      "type": "simulation_only"
+    },
+    {
+      "annualization_status": "insufficient_history",
       "capability_id": "go_software_delivery",
       "cluster_id": "cluster-6c3f05a24453ca40",
       "counted_as_pipeline": false,
@@ -126,24 +144,6 @@
           "median_verified_reward": 4.75,
           "observed_opportunity_count": 2,
           "upside_expected_value": 2.38
-        }
-      },
-      "scope": "currently observed qualified opportunities; not annualized",
-      "type": "simulation_only"
-    },
-    {
-      "annualization_status": "insufficient_history",
-      "capability_id": "translation_delivery",
-      "cluster_id": "cluster-32b15a1bdeecbda4",
-      "counted_as_pipeline": false,
-      "counted_as_revenue": false,
-      "scenarios_by_currency": {
-        "USD": {
-          "base_expected_value": 3.0,
-          "conservative_expected_value": 1.25,
-          "median_verified_reward": 25.0,
-          "observed_opportunity_count": 1,
-          "upside_expected_value": 6.25
         }
       },
       "scope": "currently observed qualified opportunities; not annualized",
