@@ -1,3 +1,70 @@
+## Contrôle du 23 octobre 2026 à 23:28 UTC — pause tenue, remplacement payable non prouvé
+
+- `get_repo` réellement appelé ; `main` épinglé à
+  `0b309a858c044a8b3c6c96fe316f96c687581798`. Aucun `AGENTS.md`.
+  Instructions, politiques, états, intentions, reçus, #473, 19 PR ouvertes et
+  workflows relus. Aucune PR ne recouvre l'activation d'une nouvelle source.
+  Les trois registres de soumission absents restent des inconnues 404.
+- Le premier cycle marché indépendant après #491/#492 est réussi :
+  `40003745557`, jobs `120586262171` et `120587068649`, sur le parent
+  `0a1e1644d4e053d665af0dcad460e360520404de`. Les 14 tests du runtime
+  réussissent. Cycle sans VM 88 sain : 30 missions inspectées, 0 qualifiée,
+  0 erreur de découverte, 0 soumission et 0 paiement.
+- Preuve du pivot réel : AgentPact reste `paused_by_router`, avec 0 ligne,
+  `current_probe_performed=false` et le motif fidèle « en attente d'un
+  remplacement distinct ». La pause ne rebondit plus vers une reprise
+  artificielle. BountyBook reste à 50/50, Freelancer simple à 2/2 et logiciel
+  à 1/1 ; MoltJobs conserve dix lignes invalides, Superteam requiert un
+  credential, Guru reste en 403 et Truelancer en 429.
+- Artifact marché `12522229209`, digest
+  `sha256:824378d65a0e91f4f19c69833946b8f7f76dcd9aa0af974d39fece0f89e44b4f`,
+  disponible jusqu'au 06/11.
+- Routeur `40004078365`, job `120587400962`, réussi : 19 tests routeur,
+  3 GitHub reward, 2 TaskForce et 34 tests de passation/runtime. État persisté
+  au SHA épinglé : 68 lignes, 0 `execute_now`, 9 `prepare_then_gate`,
+  13 `capability_build`, 46 rejets. Le pivot reste
+  `holding_source_pause_pending_replacement` et la prochaine action
+  `activate_authorized_replacement_source` ; aucun remplacement n'est
+  revendiqué.
+- Rapprochement externe `40028094287`, job `120669230770` : 17 tests
+  réussis, `changed=false`, `health_changed=false`, une erreur causale
+  dépôt 404, cinq suivis bloqués et wallet lu fraîchement à 11 RTC.
+  Persistance/publication sautées ; l'échec final est le garde-fou attendu.
+  Artifact `12532773625`, digest
+  `sha256:eda1bd7feb48a0033552b6ed2fca92629df7b905d41b5f2d88dbb654b541632d`,
+  disponible jusqu'au 06/11.
+- Recherche de remplacement bornée et non répétitive, avec preuves officielles :
+  Workana publie des projets mais les pages accessibles ne donnent pas de
+  montant vérifiable ; PeoplePerHour oppose une vérification JavaScript/robot
+  et la seule mission chiffrée trouvée était déjà fortement concurrentielle ;
+  Contra réserve l'accès complet aux offres à Contra Pro. Ces voies ne
+  satisfont donc pas accès gratuit + montant actuel explicite + mission bornée.
+- Trois pistes open source ont été contrôlées séparément. Openbounty annonce
+  explicitement « Mock-payments mode » : ses montants ne sont pas des revenus
+  réels. IssueHunt OSS renvoie 502 et issuehunt.io est désormais une plateforme
+  de recherche de vulnérabilités sans liste publique de missions bornées
+  exploitable par ce runtime. Gitpay documente bien claim, PR, acceptation et
+  paiement, mais aucune liste publique actuelle de tâches financées ni API de
+  découverte vérifiable n'a été exposée. Aucun adaptateur décoratif ajouté.
+- Le dossier CI/CD reste préparé mais `submission_authorized=false`, sans
+  événement ni rappel ; blocage compte/conditions d'environ 126 h 20. Les 7 USDC
+  sont une annonce, pas un paiement. Les 11 RTC historiques ne sont pas des
+  euros et Manic 10 USD reste non vérifié.
+- Mesures : 0 nouvelle mission distincte qualifiée, 0 nouveau dossier terminé,
+  0 soumission avec reçu, 0 acceptation, 0 paiement et 0 intervention humaine.
+  Coût d'exploitation connu 0 EUR ; coût Actions, coût total et temps par
+  mission inconnus. Tests, scans et cette passation ne sont pas une performance
+  économique.
+
+Décision : la correction #491/#492 est réconciliée sur un cycle planifié réel,
+mais aucune source distincte ne franchit les garde-fous d'accès et de paiement ;
+aucune PR ni action externe créée. Prochaine action précise : contrôler une seule
+nouvelle preuve officielle de liste financée publique, en priorité une API/liste
+Gitpay si elle devient accessible ; sinon conserver la pause et passer à une
+autre famille autorisée. Ne pas reprendre AgentPact, intégrer openbounty comme
+payant, lancer une recherche de vulnérabilité, réactiver GCP, supposer le Lenovo
+accessible ou redemander l'autorisation CI/CD sans événement.
+
 ## Contrôle du 23 octobre 2026 à 12:03 UTC — rapprochement stable sans commit répétitif
 
 - `get_repo` réellement appelé ; `main` épinglé à
