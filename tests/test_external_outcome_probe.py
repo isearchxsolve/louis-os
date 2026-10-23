@@ -42,8 +42,10 @@ class ExternalOutcomeProbeTests(unittest.TestCase):
             "payouts_received_verified": 1,
         })
 
-    def run_probe(self, *, comments=None, balance=None) -> tuple[int, dict]:
+    def run_probe(self, *, comments=None, balance=None, calls=None) -> tuple[int, dict]:
         def getter(url: str):
+            if calls is not None:
+                calls.append(url)
             value = comments if "api.github.com" in url else balance
             if isinstance(value, Exception):
                 raise value
@@ -60,13 +62,52 @@ class ExternalOutcomeProbeTests(unittest.TestCase):
         self.assertEqual(code, 2)
         self.assertEqual(first["health"]["status"], "degraded")
         self.assertEqual(first["health"]["sources_successful"], 1)
-        self.assertEqual(first["errors"], [f"comments:{TARGET}:HTTP_404"])
+        self.assertEqual(
+            first["errors"],
+            ["repository:Scottcjn/rustchain-bounties:HTTP_404"],
+        )
+        self.assertEqual(
+            first["health"]["sources"][f"comments:{TARGET}"]["status"], "blocked"
+        )
+        self.assertEqual(
+            first["health"]["sources"][f"comments:{TARGET}"]["error"],
+            "UPSTREAM_REPOSITORY_HTTP_404",
+        )
         self.assertNotIn("private response text", json.dumps(first))
         code, second = self.run_probe(comments=error, balance={"balance": 11})
         self.assertEqual(code, 2)
         self.assertFalse(second["changed"])
         self.assertFalse(second["health_changed"])
         self.assertEqual(probe.load_json(probe.HEALTH_PATH, {})["status"], "degraded")
+
+    def test_missing_repository_is_probed_once_for_multiple_targets(self) -> None:
+        receipts = probe.load_json(probe.RECEIPTS_PATH, {})
+        receipts["receipts"].append({
+            "action_id": "second",
+            "target_url": "https://github.com/Scottcjn/rustchain-bounties/issues/12444",
+            "payout_wallet": WALLET,
+            "accepted_verified": True,
+            "accepted_reward_rtc": 3.0,
+            "payout_status": "queued",
+        })
+        probe.save_json(probe.RECEIPTS_PATH, receipts)
+        calls = []
+        error = HTTPError(TARGET, 404, "missing repository", {}, None)
+        code, result = self.run_probe(comments=error, balance={"balance": 11}, calls=calls)
+        github_calls = [url for url in calls if "api.github.com" in url]
+        self.assertEqual(code, 2)
+        self.assertEqual(
+            github_calls,
+            ["https://api.github.com/repos/Scottcjn/rustchain-bounties"],
+        )
+        self.assertEqual(result["health"]["sources_expected"], 4)
+        self.assertEqual(result["health"]["sources_successful"], 1)
+        for issue in (12442, 12444):
+            key = f"comments:https://github.com/Scottcjn/rustchain-bounties/issues/{issue}"
+            self.assertEqual(result["health"]["sources"][key]["status"], "blocked")
+            self.assertEqual(
+                result["health"]["sources"][key]["error"], "UPSTREAM_REPOSITORY_HTTP_404"
+            )
 
     def test_recovery_is_a_health_transition_without_new_money(self) -> None:
         self.run_probe(comments=HTTPError(TARGET, 404, "missing", {}, None), balance={"balance": 11})
