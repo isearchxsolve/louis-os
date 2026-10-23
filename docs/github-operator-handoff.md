@@ -1,3 +1,79 @@
+## Contrôle du 23 octobre 2026 à 11:27 UTC — oscillation du pivot supprimée et effet réel vérifié
+
+- `get_repo` réellement appelé ; main épinglé au début du contrôle à
+  `ea53c105cb5725e0bd673117b8effb94dbcdbd04`, aucun `AGENTS.md`.
+  Instructions, politiques, 19 PR ouvertes, #473, workflows, jobs/logs, états,
+  intentions et reçus relus. Les trois registres de soumission absents restent
+  inconnus (404), pas réputés vides.
+- Défaut reproduit sur le cycle marché `39919615239` puis le routeur
+  `39919872842` : AgentPact était mis en pause sans nouvelle source activée,
+  ce qui retirait ses 50 lignes non financées du snapshot suivant, abaissait le
+  seuil à 47 puis faisait annoncer `continue_measured_search`. Au cycle
+  suivant la source aurait été reprise, créant l'alternance pause/reprise déjà
+  observée, sans remplacement commercial et sans changer le dossier CI/CD.
+- PR #491 fusionnée au commit
+  `763d0d60eec6e13ce184db9264b48e67de4752d4`. Une source mesurée à zéro
+  éligible reste désormais `paused_by_router` tant qu'aucun identifiant de
+  source distincte n'est réellement ajouté ; l'arrivée d'un adaptateur distinct
+  libère automatiquement la pause. Le routeur expose
+  `activate_authorized_replacement_source` et l'effet économique reste
+  explicitement non mesuré.
+- Le premier état post-fusion a correctement tenu la pause, mais conservait le
+  libellé historique « One-cycle ». PR de cohérence #492 fusionnée au commit
+  `66ed7db917e180759bfdbaefe1baeae2911abfe3` : une pause maintenue indique
+  désormais qu'elle attend un remplacement distinct, sans être présentée comme
+  un probe réussi ou vide.
+- Vérifications avant fusion aux SHA exacts : CI #491
+  `39944805152` au SHA `332db92b2635a59bd3490cc24fd239b7d69586ef`
+  et CI #492 `39945585341` au SHA
+  `f383248907cc160bf9b0b3a0ba46a0b02c4c46d1`, réussies sur Python 3.11
+  et 3.12 avec 880 tests par matrice. Les 75 régressions locales source,
+  routeur, workflow et passation, puis les 29 tests ciblés du libellé, ont réussi.
+  CI main `39945061344` et `39945791637` réussies.
+- Déploiements `39945061129` et `39945791667` : garde runtime réussie,
+  job cloud sauté. GCP non utilisé, aucune fréquence modifiée et aucun Lenovo
+  supposé accessible.
+- Effet réel final : cycle marché `39945791670` réussi ; artifact
+  `12497084679`, digest
+  `sha256:822e65c7c5d0c862c51334e8de0ab958fd6eee3a472cbfcf80e55eeee4a98d3d`,
+  disponible jusqu'au 06/11. AgentPact reste à 0 observation avec
+  `current_probe_performed=false`, pause commencée à 11:19:04 UTC et motif
+  fidèle ; aucun remplaçant n'est inventé. Cycle sans VM 87 sain : 30
+  inspectées, 0 qualifiée, 0 erreur de découverte, 0 soumission et 0 paiement.
+- Routeur post-cycle `39946021432` réussi et état persisté au commit
+  `095ef2aafcfb9e580be0a54b7cbd3579598ef50a` : 67 lignes,
+  0 `execute_now`, 9 `prepare_then_gate`, 12 `capability_build` et
+  46 rejets. Le pivot est maintenant
+  `activate_authorized_replacement_source`, avec prochaine action explicite
+  d'activer une source distincte payable avant de reprendre AgentPact.
+- Le dossier CI/CD `market-685081cabe16a6b0` reste sélectionné, observé ouvert
+  à 11:25:00 UTC avec 7 USDC annoncés et artefacts intacts, mais
+  `submission_authorized=false`. Aucun rappel : `new_human_actions=0`.
+  Blocage compte/conditions d'environ 114 h 17. La sélection n'est ni une
+  soumission ni un paiement.
+- Sources et erreurs visibles : BountyBook 50/50, Freelancer simple 2/2,
+  MoltJobs vide après 10 lignes invalides, Superteam sans credential, Guru en
+  403 et Truelancer en 429. Le cycle intermédiaire 86 avait aussi conservé un
+  403 de recherche GitHub et un `github_response_too_large`; le cycle 87
+  final est sain sans effacer ces preuves historiques.
+- Le prochain rapprochement externe stable post-#490 n'était pas encore
+  matérialisé. Dernière preuve disponible : état dégradé à 05:31 UTC, une cause
+  dépôt 404, cinq suivis bloqués, wallet frais à 11 RTC. Ne pas transformer
+  l'absence du prochain run en succès ; les 11 RTC ne sont pas des euros et
+  Manic 10 USD reste non vérifié.
+- Mesures : 0 nouvelle mission distincte qualifiée, 0 nouveau dossier terminé,
+  0 soumission avec reçu, 0 acceptation, 0 paiement et 0 intervention humaine.
+  Coût d'exploitation connu 0 EUR ; coût Actions, coût total et temps par
+  mission inconnus. La correction, les CI, cycles et artifacts ne sont pas du
+  revenu.
+
+Décision : correction causale intégrée et tenue sur deux cycles réels ; aucune
+seconde amélioration économique engagée. Prochaine action précise : identifier
+et valider une source distincte, légale, payable et sans coût avant de la
+raccorder ; ne pas reprendre AgentPact ni redemander l'accès CI/CD sans événement.
+Au prochain rapprochement, vérifier `health_changed=false` sans commit répétitif.
+
+
 ## Contrôle du 23 octobre 2026 à 05:33 UTC — cause commune des 404 intégrée et vérifiée
 
 - `get_repo` réellement appelé ; main épinglé au début du contrôle à
