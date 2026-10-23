@@ -204,7 +204,12 @@ def collect_with_source_pivot(
             results.append(([], SourceState(
                 source_id=source.source_id, category=source.source_category,
                 status="paused_by_router",
-                reason="One-cycle zero-eligible source pause; not a successful or empty probe.",
+                reason=(
+                    "Source remains paused pending a distinct reviewed replacement; "
+                    "not a successful or empty probe."
+                    if unresolved_pause
+                    else "One-cycle zero-eligible source pause; not a successful or empty probe."
+                ),
                 evidence=("results/internet_opportunity_router.json",), observed_count=0,
             )))
         else:
