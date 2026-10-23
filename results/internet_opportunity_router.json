@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-10-23T07:45:29.594606+00:00",
+  "generated_at": "2026-10-23T11:18:07.184037+00:00",
   "objective": "adaptive multidomain Internet opportunity discovery and execution",
   "allocation": {
     "exploit": 0.5,
@@ -2457,8 +2457,14 @@
     "replies_without_conversion": 0,
     "verified_payments": 0
   },
-  "next_pivot": "continue_measured_search",
-  "next_action": "request exact platform account and terms gate for tested deliverable",
+  "source_pivot": {
+    "status": "applied_source_pause",
+    "paused_source_id": "agentpact_open_needs",
+    "replacement_status": "existing_reviewed_sources_only_no_new_source_activated",
+    "economic_effect": "unmeasured_not_submission_or_revenue"
+  },
+  "next_pivot": "activate_authorized_replacement_source",
+  "next_action": "activate one distinct authorized payable source before resuming the paused source",
   "truth": {
     "external_submission_verified": false,
     "payment_verified": false,
