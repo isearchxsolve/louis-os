@@ -105,12 +105,14 @@ def collect_with_source_pivot(
     sources: list[Any], router: Any, previous_receipt: Any,
     *, now: datetime | None = None,
 ) -> tuple[list[tuple[list[InternetOpportunity], SourceState]], dict[str, Any]]:
-    """Apply one reversible source pause; never invent or activate a new adapter.
+    """Apply a reversible source pause; never invent or activate a new adapter.
 
     The router's aggregate rejection threshold is a trigger, not a count of
     distinct historical missions for any individual source. Only its measured
-    zero-eligible sources are candidates, and a new snapshot cannot pause the
-    same source twice consecutively. Replaying one snapshot is idempotent.
+    zero-eligible sources are candidates. Once a pause is applied, keep that
+    source paused until a distinct adapter is actually added; otherwise a
+    pause removes its failures from the next router snapshot and creates a
+    misleading pause/resume oscillation. Replaying one snapshot is idempotent.
     """
     now = now or datetime.now(timezone.utc)
     receipt: dict[str, Any] = {
@@ -123,6 +125,23 @@ def collect_with_source_pivot(
     previous_receipt = previous_receipt if isinstance(previous_receipt, dict) else {}
     previous = previous_receipt.get("source_pivot")
     previous = previous if isinstance(previous, dict) else {}
+    source_ids = {source.source_id for source in sources}
+    prior_source_ids = {
+        str(value) for value in previous.get("continued_source_ids") or [] if value
+    }
+    previous_paused = str(previous.get("paused_source_id") or "")
+    if previous_paused:
+        prior_source_ids.add(previous_paused)
+    replacement_source_ids = sorted(source_ids - prior_source_ids) if prior_source_ids else []
+    unresolved_pause = bool(
+        previous_paused in source_ids
+        and previous.get("status") in {
+            "applied_source_pause", "holding_source_pause_pending_replacement",
+        }
+        and previous.get("replacement_status")
+            == "existing_reviewed_sources_only_no_new_source_activated"
+        and not replacement_source_ids
+    )
     timestamp = router.get("generated_at")
     receipt["router_generated_at"] = timestamp
     fresh = False
@@ -139,7 +158,8 @@ def collect_with_source_pivot(
         receipt["errors"].append("router_source_metrics_missing_or_invalid")
         metrics = {}
     candidates = []
-    if fresh and router.get("next_pivot") == "pause_source_and_replace":
+    if (fresh and router.get("next_pivot") == "pause_source_and_replace"
+            and not unresolved_pause and not replacement_source_ids):
         for source in sources:
             metric = metrics.get(source.source_id)
             if metric is None:
@@ -152,19 +172,28 @@ def collect_with_source_pivot(
                 continue
             if metric["seen"] <= 0 or metric["eligible"] != 0:
                 continue
-            if (previous.get("router_generated_at") != timestamp
-                    and previous.get("paused_source_id") == source.source_id):
-                continue
             candidates.append((-metric["seen"], source.source_id))
-    paused = min(candidates)[1] if candidates else None
+    paused = previous_paused if unresolved_pause else min(candidates)[1] if candidates else None
+    if replacement_source_ids and previous_paused:
+        receipt.update(
+            status="replacement_detected_source_pause_released",
+            replacement_status="distinct_reviewed_source_activated",
+            replacement_source_ids=replacement_source_ids,
+            pause_started_at=previous.get("pause_started_at"),
+        )
     if paused:
-        receipt.update(status="applied_source_pause", paused_source_id=paused,
-                       measured_source_sample=dict(metrics[paused]))
+        receipt.update(
+            status=("holding_source_pause_pending_replacement" if unresolved_pause
+                    else "applied_source_pause"),
+            paused_source_id=paused,
+            measured_source_sample=dict(metrics.get(paused) or previous.get("measured_source_sample") or {}),
+            pause_started_at=previous.get("pause_started_at") or now.isoformat(),
+        )
         prior_sources = previous_receipt.get("sources")
         prior_sources = prior_sources if isinstance(prior_sources, list) else []
         prior_state = next((row for row in prior_sources
                             if isinstance(row, dict) and row.get("source_id") == paused), None)
-        receipt["previous_source_observation"] = {
+        receipt["previous_source_observation"] = previous.get("previous_source_observation") or {
             "generated_at": previous_receipt.get("generated_at"),
             "source_state": prior_state,
             "current_probe_performed": False,

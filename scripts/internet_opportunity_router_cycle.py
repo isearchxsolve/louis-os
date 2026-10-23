@@ -327,7 +327,25 @@ def build_cycle(
         "replies_without_conversion": max(0, _integer(market.get("qualified_replies"), 0) - _integer(market.get("conversions"), 0)),
         "verified_payments": 1 if _number(_first(market, "revenue_received", "revenue_verified_eur"), 0.0) > 0 else 0,
     }
-    pivot = next_pivot(metrics)
+    simple_mission_receipt = next(
+        (payload for name, payload in payload_list if name == "simple_mission_source_refresh.json"),
+        {},
+    )
+    source_pivot = simple_mission_receipt.get("source_pivot")
+    source_pivot = source_pivot if isinstance(source_pivot, dict) else {}
+    unresolved_source_replacement = bool(
+        source_pivot.get("status") in {
+            "applied_source_pause", "holding_source_pause_pending_replacement",
+        }
+        and source_pivot.get("paused_source_id")
+        and source_pivot.get("replacement_status")
+            == "existing_reviewed_sources_only_no_new_source_activated"
+    )
+    pivot = (
+        "activate_authorized_replacement_source"
+        if unresolved_source_replacement
+        else next_pivot(metrics)
+    )
     cash_market = next((payload for name, payload in payload_list if name == "cash_first_market.json"), {})
     canonical_cash_top = (
         cash_market.get("top_cash_first")
@@ -370,9 +388,17 @@ def build_cycle(
         "selection_source": selection_source if selected else None,
         "top_ranked": routed[:20],
         "pivot_metrics": metrics,
+        "source_pivot": {
+            "status": source_pivot.get("status"),
+            "paused_source_id": source_pivot.get("paused_source_id"),
+            "replacement_status": source_pivot.get("replacement_status"),
+            "economic_effect": source_pivot.get("economic_effect"),
+        } if source_pivot else None,
         "next_pivot": pivot,
         "next_action": (
-            "request exact platform account and terms gate for tested deliverable"
+            "activate one distinct authorized payable source before resuming the paused source"
+            if unresolved_source_replacement
+            else "request exact platform account and terms gate for tested deliverable"
             if selected and selected_prepared
             else "execute and validate selected opportunity before requesting external gate"
             if selected
