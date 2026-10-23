@@ -96,10 +96,12 @@ class SourcePivotTests(unittest.TestCase):
         _, second = self.collect(previous={"source_pivot": first})
         self.assertEqual(first["paused_source_id"], second["paused_source_id"])
         self.router["generated_at"] = (NOW - timedelta(seconds=1)).isoformat()
-        _, third = self.collect(previous={"source_pivot": first})
+        rows, third = self.collect(previous={"source_pivot": first})
         self.assertEqual(third["paused_source_id"], "unfunded")
         self.assertEqual(third["status"], "holding_source_pause_pending_replacement")
         self.assertEqual(self.sources[1].calls, 0)
+        state = next(state for _, state in rows if state.source_id == "unfunded")
+        self.assertIn("pending a distinct reviewed replacement", state.reason)
 
     def test_distinct_source_releases_held_pause(self):
         _, first = self.collect()
