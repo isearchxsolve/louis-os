@@ -5,6 +5,7 @@ import unittest
 from atlas.external_outcome_reconciliation import (
     apply_summary_to_ledger,
     github_comments_api_url,
+    github_repository_api_url,
     reconcile_receipts,
     wallet_settlement_view,
 )
@@ -40,6 +41,11 @@ class ExternalOutcomeReconciliationTests(unittest.TestCase):
             "https://api.github.com/repos/Scottcjn/rustchain-bounties/issues/12442/comments?per_page=100",
         )
         self.assertIsNone(github_comments_api_url("https://github.com/other/repo/issues/1"))
+        self.assertEqual(
+            github_repository_api_url("https://github.com/Scottcjn/rustchain-bounties/issues/12442"),
+            "https://api.github.com/repos/Scottcjn/rustchain-bounties",
+        )
+        self.assertIsNone(github_repository_api_url("https://github.com/other/repo/issues/1"))
 
     def test_reconciles_two_authoritative_queued_payouts(self) -> None:
         first = self.receipt(12442)

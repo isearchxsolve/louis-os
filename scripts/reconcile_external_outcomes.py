@@ -20,6 +20,7 @@ if str(ROOT) not in sys.path:
 from atlas.external_outcome_reconciliation import (
     apply_summary_to_ledger,
     github_comments_api_url,
+    github_repository_api_url,
     reconcile_receipts,
     wallet_settlement_view,
 )
@@ -100,15 +101,22 @@ def main() -> int:
     previous_health = load_json(HEALTH_PATH, {})
     sources: dict[str, dict[str, Any]] = {}
 
-    def record_source(key: str, *, error: str | None = None) -> None:
+    def record_source(
+        key: str,
+        *,
+        error: str | None = None,
+        status: str | None = None,
+        append_error: bool = True,
+    ) -> None:
         previous = previous_health.get("sources", {}).get(key, {})
+        resolved_status = status or ("error" if error else "ok")
         sources[key] = {
-            "status": "error" if error else "ok",
+            "status": resolved_status,
             "error": error,
             "checked_at": checked_at,
             "last_success_at": previous.get("last_success_at") if error else checked_at,
         }
-        if error:
+        if error and append_error:
             errors.append(f"{key}:{error}")
 
     targets = sorted(
@@ -118,10 +126,44 @@ def main() -> int:
             if isinstance(row, dict) and github_comments_api_url(str(row.get("target_url") or ""))
         }
     )
-    with ThreadPoolExecutor(max_workers=min(8, max(1, len(targets)))) as pool:
+    targets_by_repository: dict[str, list[str]] = {}
+    for target in targets:
+        if repository_url := github_repository_api_url(target):
+            targets_by_repository.setdefault(repository_url, []).append(target)
+
+    available_repositories: set[str] = set()
+    with ThreadPoolExecutor(max_workers=min(4, max(1, len(targets_by_repository)))) as pool:
+        pending_repositories = {
+            pool.submit(get_json, repository_url): repository_url
+            for repository_url in targets_by_repository
+        }
+        for future in as_completed(pending_repositories):
+            repository_url = pending_repositories[future]
+            repository_key = "repository:Scottcjn/rustchain-bounties"
+            try:
+                future.result()
+                available_repositories.add(repository_url)
+                record_source(repository_key)
+            except Exception as exc:
+                error = _error_code(exc)
+                record_source(repository_key, error=error)
+                for target in targets_by_repository[repository_url]:
+                    record_source(
+                        f"comments:{target}",
+                        error=f"UPSTREAM_REPOSITORY_{error}",
+                        status="blocked",
+                        append_error=False,
+                    )
+
+    comment_targets = [
+        target
+        for target in targets
+        if github_repository_api_url(target) in available_repositories
+    ]
+    with ThreadPoolExecutor(max_workers=min(8, max(1, len(comment_targets)))) as pool:
         pending_comments = {
             pool.submit(get_json, api_url): target
-            for target in targets
+            for target in comment_targets
             if (api_url := github_comments_api_url(target))
         }
         for future in as_completed(pending_comments):
