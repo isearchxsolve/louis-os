@@ -45,6 +45,16 @@ def github_comments_api_url(target_url: str) -> str | None:
     )
 
 
+def github_repository_api_url(target_url: str) -> str | None:
+    """Return the canonical repository API URL for a tracked RustChain issue."""
+
+    parsed = urlparse(str(target_url or ""))
+    match = re.fullmatch(r"/Scottcjn/rustchain-bounties/issues/[0-9]+/?", parsed.path)
+    if parsed.scheme != "https" or parsed.hostname != "github.com" or not match:
+        return None
+    return "https://api.github.com/repos/Scottcjn/rustchain-bounties"
+
+
 def _identity_line(body: str, wallet: str) -> str:
     needles = tuple(
         value for value in (wallet.casefold(), "louis os", "liubaining-louis") if value
