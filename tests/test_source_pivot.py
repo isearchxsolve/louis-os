@@ -91,13 +91,25 @@ class SourcePivotTests(unittest.TestCase):
         self.assertIsNone(receipt["paused_source_id"])
         self.assertTrue(receipt["errors"])
 
-    def test_same_snapshot_is_idempotent_but_new_snapshot_cannot_repause(self):
+    def test_pause_is_held_across_new_snapshots_until_replacement_exists(self):
         _, first = self.collect()
         _, second = self.collect(previous={"source_pivot": first})
         self.assertEqual(first["paused_source_id"], second["paused_source_id"])
         self.router["generated_at"] = (NOW - timedelta(seconds=1)).isoformat()
         _, third = self.collect(previous={"source_pivot": first})
-        self.assertEqual(third["paused_source_id"], "alternate")
+        self.assertEqual(third["paused_source_id"], "unfunded")
+        self.assertEqual(third["status"], "holding_source_pause_pending_replacement")
+        self.assertEqual(self.sources[1].calls, 0)
+
+    def test_distinct_source_releases_held_pause(self):
+        _, first = self.collect()
+        replacement = FakeSource("replacement")
+        self.sources.append(replacement)
+        _, receipt = self.collect(previous={"source_pivot": first})
+        self.assertIsNone(receipt["paused_source_id"])
+        self.assertEqual(receipt["status"], "replacement_detected_source_pause_released")
+        self.assertEqual(receipt["replacement_source_ids"], ["replacement"])
+        self.assertEqual([source.calls for source in self.sources], [2, 1, 2, 1])
 
     def test_malformed_router_and_previous_receipt_do_not_hide_errors(self):
         for router in ([], None, {"generated_at": NOW.isoformat(), "next_pivot": "pause_source_and_replace", "source_metrics": []}):
