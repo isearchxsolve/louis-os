@@ -119,21 +119,21 @@
         "re-run market qualification immediately after promotion"
       ],
       "budget_rule": "Use existing local and cloud infrastructure first; any paid dependency or external purchase requires explicit approval.",
-      "capability_id": "translation_delivery",
-      "capability_market_score": 52.23,
-      "cluster_id": "cluster-32b15a1bdeecbda4",
+      "capability_id": "go_software_delivery",
+      "capability_market_score": 51.56,
+      "cluster_id": "cluster-6c3f05a24453ca40",
       "evidence": [
-        "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter",
-        "freelancer_public_simple_jobs"
+        "https://www.bountybook.ai/job/a99032ec-5542-4232-a7a7-23ed20bdbaf4",
+        "bountybook_agent_jobs"
       ],
       "fixture_opportunity_ids": [
-        "market-d43aa298a7b21f61",
-        "market-d5f21a36520a7879",
-        "market-f0e1a28c46ee3cc2"
+        "market-43cfc713818c42b3",
+        "market-9e72342cee57cb3c",
+        "market-a3a2d3454ea0c02f"
       ],
-      "immediate_next_action": "create_or_update_capability_issue:translation_delivery",
+      "immediate_next_action": "create_or_update_capability_issue:go_software_delivery",
       "lane": "cash_first",
-      "objective": "Implement and validate `translation_delivery` as a reusable `bounded_translation` delivery capability for 3 currently observed cash-first opportunity(ies).",
+      "objective": "Implement and validate `go_software_delivery` as a reusable `go_software_delivery` delivery capability for 3 currently observed cash-first opportunity(ies).",
       "opportunity_count": 3,
       "promotion_rule": "Promote only after green unit tests, one reproducible dry-run artifact and no regression in the versioned business benchmark.",
       "rank": 4,
@@ -155,22 +155,21 @@
         "re-run market qualification immediately after promotion"
       ],
       "budget_rule": "Use existing local and cloud infrastructure first; any paid dependency or external purchase requires explicit approval.",
-      "capability_id": "go_software_delivery",
-      "capability_market_score": 51.56,
-      "cluster_id": "cluster-6c3f05a24453ca40",
+      "capability_id": "translation_delivery",
+      "capability_market_score": 49.6,
+      "cluster_id": "cluster-32b15a1bdeecbda4",
       "evidence": [
-        "https://www.bountybook.ai/job/a99032ec-5542-4232-a7a7-23ed20bdbaf4",
-        "bountybook_agent_jobs"
+        "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter",
+        "freelancer_public_simple_jobs"
       ],
       "fixture_opportunity_ids": [
-        "market-43cfc713818c42b3",
-        "market-9e72342cee57cb3c",
-        "market-a3a2d3454ea0c02f"
+        "market-d43aa298a7b21f61",
+        "market-d5f21a36520a7879"
       ],
-      "immediate_next_action": "create_or_update_capability_issue:go_software_delivery",
+      "immediate_next_action": "create_or_update_capability_issue:translation_delivery",
       "lane": "cash_first",
-      "objective": "Implement and validate `go_software_delivery` as a reusable `go_software_delivery` delivery capability for 3 currently observed cash-first opportunity(ies).",
-      "opportunity_count": 3,
+      "objective": "Implement and validate `translation_delivery` as a reusable `bounded_translation` delivery capability for 2 currently observed cash-first opportunity(ies).",
+      "opportunity_count": 2,
       "promotion_rule": "Promote only after green unit tests, one reproducible dry-run artifact and no regression in the versioned business benchmark.",
       "rank": 5,
       "required_interface": {
@@ -434,45 +433,43 @@
       }
     },
     {
-      "capability_id": "translation_delivery",
-      "capability_market_score": 52.23,
-      "capability_status": "experimental",
-      "capped_score_value": 50.0,
-      "cluster_id": "cluster-32b15a1bdeecbda4",
-      "deliverable_family": "bounded_translation",
+      "capability_id": "static_website_delivery",
+      "capability_market_score": 51.72,
+      "capability_status": "validated",
+      "capped_score_value": 54.0,
+      "cluster_id": "cluster-6d0659d75149485d",
+      "deliverable_family": "static_website_delivery",
       "first_payment_probability": 0.2833,
-      "implementation_cost": 0.35,
+      "implementation_cost": 0.05,
       "lane": "cash_first",
       "median_accessibility": 0.86,
       "median_competition": 0.0,
       "median_effort_hours": 8.0,
-      "median_reward": 15.0,
+      "median_reward": 54.0,
       "median_time_to_cash_days": 30,
-      "opportunity_count": 3,
+      "opportunity_count": 1,
       "opportunity_ids": [
-        "market-d43aa298a7b21f61",
-        "market-d5f21a36520a7879",
-        "market-f0e1a28c46ee3cc2"
+        "market-35406fde15382585"
       ],
       "rationale": [
         "lane=cash_first",
-        "opportunities=3",
+        "opportunities=1",
         "sources=1",
         "median_effort_hours=8",
         "median_time_to_cash_days=30",
         "first_payment_probability=0.2833",
-        "capability_status=experimental",
+        "capability_status=validated",
         "headline rewards are capped for scoring and strategic prizes cannot dominate cash-first rank"
       ],
-      "reusable_deliverable_ratio": 0.79,
+      "reusable_deliverable_ratio": 0.55,
       "source_count": 1,
       "source_ids": [
-        "freelancer_public_simple_jobs"
+        "freelancer_public_software_jobs"
       ],
-      "top_opportunity_title": "St. Lucian Creole Deposition Interpreter",
-      "top_opportunity_url": "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter",
+      "top_opportunity_title": "Enhance Mobile Website for \"25 Years Under the Rising Sun\" Author Series",
+      "top_opportunity_url": "https://www.freelancer.com/projects/css/enhance-mobile-website-for-years",
       "verified_value_by_currency": {
-        "USD": 50.0
+        "USD": 54.0
       }
     },
     {
@@ -515,6 +512,47 @@
       "top_opportunity_url": "https://www.bountybook.ai/job/a99032ec-5542-4232-a7a7-23ed20bdbaf4",
       "verified_value_by_currency": {
         "USDC": 23.5
+      }
+    },
+    {
+      "capability_id": "translation_delivery",
+      "capability_market_score": 49.6,
+      "capability_status": "experimental",
+      "capped_score_value": 40.0,
+      "cluster_id": "cluster-32b15a1bdeecbda4",
+      "deliverable_family": "bounded_translation",
+      "first_payment_probability": 0.2833,
+      "implementation_cost": 0.35,
+      "lane": "cash_first",
+      "median_accessibility": 0.86,
+      "median_competition": 0.0,
+      "median_effort_hours": 8.0,
+      "median_reward": 20.0,
+      "median_time_to_cash_days": 30.0,
+      "opportunity_count": 2,
+      "opportunity_ids": [
+        "market-d43aa298a7b21f61",
+        "market-d5f21a36520a7879"
+      ],
+      "rationale": [
+        "lane=cash_first",
+        "opportunities=2",
+        "sources=1",
+        "median_effort_hours=8",
+        "median_time_to_cash_days=30",
+        "first_payment_probability=0.2833",
+        "capability_status=experimental",
+        "headline rewards are capped for scoring and strategic prizes cannot dominate cash-first rank"
+      ],
+      "reusable_deliverable_ratio": 0.67,
+      "source_count": 1,
+      "source_ids": [
+        "freelancer_public_simple_jobs"
+      ],
+      "top_opportunity_title": "St. Lucian Creole Deposition Interpreter",
+      "top_opportunity_url": "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter",
+      "verified_value_by_currency": {
+        "USD": 40.0
       }
     },
     {
@@ -767,11 +805,11 @@
   "counts": {
     "ai_prohibited_opportunities_rejected": 0,
     "capability_build_plans": 5,
-    "cash_first_clusters": 7,
-    "clusters": 12,
+    "cash_first_clusters": 8,
+    "clusters": 13,
     "strategic_clusters": 5
   },
-  "generated_at": "2026-10-24T11:25:00.521438+00:00",
+  "generated_at": "2026-10-24T17:31:03.096516+00:00",
   "policy": {
     "cash_first_effort_hours_max": 16,
     "cash_first_time_to_cash_days_max": 30,

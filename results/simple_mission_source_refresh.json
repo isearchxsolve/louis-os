@@ -1,7 +1,7 @@
 {
-  "detailed_opportunities_persisted": 54,
+  "detailed_opportunities_persisted": 53,
   "external_submissions_verified": 0,
-  "generated_at": "2026-10-24T11:24:59.811493+00:00",
+  "generated_at": "2026-10-24T17:31:02.501830+00:00",
   "opportunities": [
     {
       "accessibility": 0.96,
@@ -46,7 +46,7 @@
         "submit_endpoint": "/jobs/740fd768-1dcb-410c-a7ad-c64ac8be50af/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.606289+00:00",
+      "observed_at": "2026-10-24T17:30:52.889795+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/740fd768-1dcb-410c-a7ad-c64ac8be50af",
@@ -75,11 +75,11 @@
       "competition": 0.0,
       "cost": 0.1,
       "currency": "USD",
-      "deadline": "6 days left",
-      "description": "Native Azerbaijani Speech Collection 6 days left I’m compiling a new Azerbaijani speech dataset and need adult native speakers to record short prompts. All you have to do is open the script I provide, speak each line into your Android smartphone’s mic, and save the audio in PCM/WAV. Your very quiet recording space fits the project perfectly, and no special studio or extra equipment is required. A typical session takes about an hour and pays US $8. Everything is remote, so you can work from home at your convenience. Once the recordings are finished, simply send me the raw files; I take care of the rest and release payment as soon as audio quality and format are confirmed. If you’re 18 + and a native Azerbaijani speaker, message me on WhatsApp, Telegram, or call +91 7749083550 for the script, detailed guidelines, and co... Audio Editing Audio Engineering Audio Services Hindi Translator Translation Voice Acting Voice Over Voice Talent $10 - $30 $10 - $30 0 bids Bid now",
+      "deadline": "5 days left",
+      "description": "English–Spanish Translator for Business Calls and Messages (US Citizens Only) -- 3 5 days left Verified I'm looking for someone who speaks both English and Spanish fluently to help us with business communication. Your job will be simple: help translate conversations during video calls and translate text messages between English and Spanish. We need someone who can translate naturally and accurately so both sides can understand each other. **Requirements:** - Must be a U.S. citizen currently living in the United States. - Fluent in both English and Spanish. - Comfortable translating during live video calls. - Able to translate text messages clearly and accurately. - Reliable, friendly, and easy to communicate with. - Have a stable internet connection. The work is remote, and the schedule can be discussed. Previous experience is a plus, but it's not required if you speak both lang... Customer Service English (US) Translator English Translation French Translator Language Tutoring Spanish Translator Transcription Translation Video Conferencing $15 - $25 / hr $15 - $25 / hr 0 bids Bid now",
       "evidence": [
         "https://www.freelancer.com/jobs/translation/",
-        "https://www.freelancer.com/projects/voice-over/native-azerbaijani-speech-collection"
+        "https://www.freelancer.com/projects/translation/english-spanish-translator-for-business-40782493"
       ],
       "human_dependency": 0.22,
       "identity_or_kyc_required": false,
@@ -87,10 +87,10 @@
       "metadata": {
         "active_bids": 0,
         "budget_currency": "USD",
-        "budget_max": 30.0,
-        "budget_min": 10.0,
+        "budget_max": 25.0,
+        "budget_min": 15.0,
         "collector_source_id": "freelancer_public_simple_jobs",
-        "days_left": 6,
+        "days_left": 5,
         "estimated_effort_hours": 8.0,
         "official_source": true,
         "payment_methods": [
@@ -104,25 +104,81 @@
         "submission_dossier_required": true,
         "submission_mode": "platform_proposal"
       },
-      "observed_at": "2026-10-24T11:24:56.416804+00:00",
+      "observed_at": "2026-10-24T17:30:59.045580+00:00",
       "payment_evidence": [
         "https://www.freelancer.com/jobs/translation/",
-        "Native Azerbaijani Speech Collection 6 days left I’m compiling a new Azerbaijani speech dataset and need adult native speakers to record short prompts. All you have to do is open the script I provide, speak each line into your Android smartphone’s mic, and save the audio in PCM/WAV. Your very quiet recording space fits the project perfectly, and no special studio or extra equipment is required. A typical session takes about an hour and pays US $8. Everything is remote, so you can work from home at your convenience. Once the recordings are finished, simply send me the raw files; I take care of the rest and release payment as soon as audio quality and format are confirmed. If you’re 18 + and a native Azerbaijani speaker, message me on WhatsApp, Telegram, or call +91 7749083550 for the script, detailed guidelines, and co... Audio Editing Audio Engineering Audio Services Hindi Translator Translation Voice Acting Voice Over Voice Talent $10 - $30 $10 - $30 0 bids Bid now"
+        "English–Spanish Translator for Business Calls and Messages (US Citizens Only) -- 3 5 days left Verified I'm looking for someone who speaks both English and Spanish fluently to help us with business communication. Your job will be simple: help translate conversations during video calls and translate text messages between English and Spanish. We need someone who can translate naturally and accurately so both sides can understand each other. **Requirements:** - Must be a U.S. citizen currently living in the United States. - Fluent in both English and Spanish. - Comfortable translating during live video calls. - Able to translate text messages clearly and accurately. - Reliable, friendly, and easy to communicate with. - Have a stable internet connection. The work is remote, and the schedule can be discussed. Previous experience is a plus, but it's not required if you speak both lang... Customer Service English (US) Translator English Translation French Translator Language Tutoring Spanish Translator Transcription Translation Video Conferencing $15 - $25 / hr $15 - $25 / hr 0 bids Bid now"
       ],
       "physical_presence_required": false,
       "required_capabilities": [
         "translation_delivery"
       ],
-      "reward_amount": 10.0,
+      "reward_amount": 15.0,
       "reward_verified": true,
       "risk": 0.2,
       "security_scope_authorized": true,
       "source_category": "freelance_marketplace",
       "source_id": "freelancer_public_simple_jobs",
-      "source_url": "https://www.freelancer.com/projects/voice-over/native-azerbaijani-speech-collection",
+      "source_url": "https://www.freelancer.com/projects/translation/english-spanish-translator-for-business-40782493",
       "terms_required": true,
       "time_to_cash_days": 30,
-      "title": "Native Azerbaijani Speech Collection"
+      "title": "English–Spanish Translator for Business Calls and Messages (US Citizens Only) -- 3"
+    },
+    {
+      "accessibility": 0.86,
+      "account_required": true,
+      "collector_source_id": "freelancer_public_software_jobs",
+      "competition": 0.0,
+      "cost": 0.1,
+      "currency": "USD",
+      "deadline": "7 days left",
+      "description": "Enhance Mobile Website for \"25 Years Under the Rising Sun\" Author Series 7 days left Verified I’ve built an author website in Canva to showcase my eight-book series, \"25 Years Under the Rising Sun,\" based on my 25 years in Japan. While much of the work is done, I need help improving its mobile responsiveness, layout, and navigation to make it more polished and professional. Key tasks include: - Optimizing the website for mobile devices. - Enhancing the layout and navigation for a seamless user experience. - Verifying that all Amazon links work correctly. The goal is to create an engaging site that excites readers and encourages them to explore my books. CSS Graphic Design HTML PHP Website Design $54 - $107 $54 - $107 0 bids Bid now",
+      "evidence": [
+        "https://www.freelancer.com/jobs/css/",
+        "https://www.freelancer.com/projects/css/enhance-mobile-website-for-years"
+      ],
+      "human_dependency": 0.22,
+      "identity_or_kyc_required": false,
+      "legal_entity_required": false,
+      "metadata": {
+        "active_bids": 0,
+        "budget_currency": "USD",
+        "budget_max": 107.0,
+        "budget_min": 54.0,
+        "collector_source_id": "freelancer_public_software_jobs",
+        "days_left": 7,
+        "estimated_effort_hours": 12.0,
+        "official_source": true,
+        "payment_methods": [
+          "Freelancer milestone payment; account payout method selected after award"
+        ],
+        "payout_setup_required": false,
+        "platform": "Freelancer.com",
+        "source_kind": "public_freelance_listing",
+        "source_page": "https://www.freelancer.com/jobs/css/",
+        "submission_dossier_prepared": false,
+        "submission_dossier_required": true,
+        "submission_mode": "platform_proposal"
+      },
+      "observed_at": "2026-10-24T17:31:00.705264+00:00",
+      "payment_evidence": [
+        "https://www.freelancer.com/jobs/css/",
+        "Enhance Mobile Website for \"25 Years Under the Rising Sun\" Author Series 7 days left Verified I’ve built an author website in Canva to showcase my eight-book series, \"25 Years Under the Rising Sun,\" based on my 25 years in Japan. While much of the work is done, I need help improving its mobile responsiveness, layout, and navigation to make it more polished and professional. Key tasks include: - Optimizing the website for mobile devices. - Enhancing the layout and navigation for a seamless user experience. - Verifying that all Amazon links work correctly. The goal is to create an engaging site that excites readers and encourages them to explore my books. CSS Graphic Design HTML PHP Website Design $54 - $107 $54 - $107 0 bids Bid now"
+      ],
+      "physical_presence_required": false,
+      "required_capabilities": [
+        "technical_proposal"
+      ],
+      "reward_amount": 54.0,
+      "reward_verified": true,
+      "risk": 0.2,
+      "security_scope_authorized": true,
+      "source_category": "freelance_marketplace",
+      "source_id": "freelancer_public_software_jobs",
+      "source_url": "https://www.freelancer.com/projects/css/enhance-mobile-website-for-years",
+      "terms_required": true,
+      "time_to_cash_days": 30,
+      "title": "Enhance Mobile Website for \"25 Years Under the Rising Sun\" Author Series"
     },
     {
       "accessibility": 0.96,
@@ -167,7 +223,7 @@
         "submit_endpoint": "/jobs/60379d18-2a1b-4d47-b732-0f16840680c0/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.606515+00:00",
+      "observed_at": "2026-10-24T17:30:52.889992+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/60379d18-2a1b-4d47-b732-0f16840680c0",
@@ -196,11 +252,11 @@
       "competition": 0.0,
       "cost": 0.1,
       "currency": "USD",
-      "deadline": "6 days left",
-      "description": "Belarusian Speech Recording Project 6 days left I am assembling a high-quality speech dataset and need adult native Belarusian speakers to help. The task is straightforward: read the short sentences I provide—half written in Belarusian, half in Russian—clearly into your smartphone’s built-in microphone while you sit in a quiet space. Recordings must be saved in standard PCM/WAV format and uploaded through the link I will share after we connect. The work is fully remote, paid at $8 USD per recorded hour, and you can set your own schedule. As long as you are 18 or older, speak Belarusian natively, and have a modern smartphone, you are welcome to participate. Ready to start? Message or call me on WhatsApp or Telegram at +91 7749083550 and I will send the script, brief instructions, and the upload folder so you can begin... Audio Editing Audio Engineering Audio Services Russian Translator Translation Voice Acting Voice Over Voice Talent $10 - $30 $10 - $30 0 bids Bid now",
+      "deadline": "3 days left",
+      "description": "St. Lucian Creole Deposition Interpreter 3 days left Verified A virtual deposition for a civil case is set for October 26, 2026 at 11:30 a.m. (Eastern Time). The session is expected to last between one and two hours, and it will be conducted entirely online, so you may participate from any location with a stable internet connection. Fluency in both English and St. Lucian Creole is essential. While formal certification is not required, solid, demonstrable experience handling legal or civil-case proceedings is a must. You should be comfortable with the pace and terminology of depositions and able to preserve accuracy, neutrality, and confidentiality throughout. Deliverables • Provide consecutive or near-simultaneous interpretation for the full duration of the deposition (up to 2 hours or more • Remain available for a brief tech check 15 min... English Translation Legal Translation Translation Zoom $25 - $50 / hr $25 - $50 / hr 0 bids Bid now",
       "evidence": [
         "https://www.freelancer.com/jobs/translation/",
-        "https://www.freelancer.com/projects/voice-over/belarusian-speech-recording-project"
+        "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter"
       ],
       "human_dependency": 0.22,
       "identity_or_kyc_required": false,
@@ -208,10 +264,10 @@
       "metadata": {
         "active_bids": 0,
         "budget_currency": "USD",
-        "budget_max": 30.0,
-        "budget_min": 10.0,
+        "budget_max": 50.0,
+        "budget_min": 25.0,
         "collector_source_id": "freelancer_public_simple_jobs",
-        "days_left": 6,
+        "days_left": 3,
         "estimated_effort_hours": 8.0,
         "official_source": true,
         "payment_methods": [
@@ -225,25 +281,25 @@
         "submission_dossier_required": true,
         "submission_mode": "platform_proposal"
       },
-      "observed_at": "2026-10-24T11:24:56.417116+00:00",
+      "observed_at": "2026-10-24T17:30:59.046418+00:00",
       "payment_evidence": [
         "https://www.freelancer.com/jobs/translation/",
-        "Belarusian Speech Recording Project 6 days left I am assembling a high-quality speech dataset and need adult native Belarusian speakers to help. The task is straightforward: read the short sentences I provide—half written in Belarusian, half in Russian—clearly into your smartphone’s built-in microphone while you sit in a quiet space. Recordings must be saved in standard PCM/WAV format and uploaded through the link I will share after we connect. The work is fully remote, paid at $8 USD per recorded hour, and you can set your own schedule. As long as you are 18 or older, speak Belarusian natively, and have a modern smartphone, you are welcome to participate. Ready to start? Message or call me on WhatsApp or Telegram at +91 7749083550 and I will send the script, brief instructions, and the upload folder so you can begin... Audio Editing Audio Engineering Audio Services Russian Translator Translation Voice Acting Voice Over Voice Talent $10 - $30 $10 - $30 0 bids Bid now"
+        "St. Lucian Creole Deposition Interpreter 3 days left Verified A virtual deposition for a civil case is set for October 26, 2026 at 11:30 a.m. (Eastern Time). The session is expected to last between one and two hours, and it will be conducted entirely online, so you may participate from any location with a stable internet connection. Fluency in both English and St. Lucian Creole is essential. While formal certification is not required, solid, demonstrable experience handling legal or civil-case proceedings is a must. You should be comfortable with the pace and terminology of depositions and able to preserve accuracy, neutrality, and confidentiality throughout. Deliverables • Provide consecutive or near-simultaneous interpretation for the full duration of the deposition (up to 2 hours or more • Remain available for a brief tech check 15 min... English Translation Legal Translation Translation Zoom $25 - $50 / hr $25 - $50 / hr 0 bids Bid now"
       ],
       "physical_presence_required": false,
       "required_capabilities": [
         "translation_delivery"
       ],
-      "reward_amount": 10.0,
+      "reward_amount": 25.0,
       "reward_verified": true,
       "risk": 0.2,
       "security_scope_authorized": true,
       "source_category": "freelance_marketplace",
       "source_id": "freelancer_public_simple_jobs",
-      "source_url": "https://www.freelancer.com/projects/voice-over/belarusian-speech-recording-project",
+      "source_url": "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter",
       "terms_required": true,
       "time_to_cash_days": 30,
-      "title": "Belarusian Speech Recording Project"
+      "title": "St. Lucian Creole Deposition Interpreter"
     },
     {
       "accessibility": 0.96,
@@ -288,7 +344,7 @@
         "submit_endpoint": "/jobs/dc07cac3-ba35-4f13-965e-4fa8ace642a5/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.606616+00:00",
+      "observed_at": "2026-10-24T17:30:52.890074+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/dc07cac3-ba35-4f13-965e-4fa8ace642a5",
@@ -309,62 +365,6 @@
       "terms_required": true,
       "time_to_cash_days": 10,
       "title": "Build a Trie class with insert, search, and starts_with methods"
-    },
-    {
-      "accessibility": 0.86,
-      "account_required": true,
-      "collector_source_id": "freelancer_public_simple_jobs",
-      "competition": 0.0,
-      "cost": 0.1,
-      "currency": "USD",
-      "deadline": "5 days left",
-      "description": "English–Spanish Translator for Business Calls and Messages (US Citizens Only) -- 3 5 days left Verified I'm looking for someone who speaks both English and Spanish fluently to help us with business communication. Your job will be simple: help translate conversations during video calls and translate text messages between English and Spanish. We need someone who can translate naturally and accurately so both sides can understand each other. **Requirements:** - Must be a U.S. citizen currently living in the United States. - Fluent in both English and Spanish. - Comfortable translating during live video calls. - Able to translate text messages clearly and accurately. - Reliable, friendly, and easy to communicate with. - Have a stable internet connection. The work is remote, and the schedule can be discussed. Previous experience is a plus, but it's not required if you speak both lang... Customer Service English (US) Translator English Translation French Translator Language Tutoring Spanish Translator Transcription Translation Video Conferencing $15 - $25 / hr $15 - $25 / hr 0 bids Bid now",
-      "evidence": [
-        "https://www.freelancer.com/jobs/translation/",
-        "https://www.freelancer.com/projects/translation/english-spanish-translator-for-business-40782493"
-      ],
-      "human_dependency": 0.22,
-      "identity_or_kyc_required": false,
-      "legal_entity_required": false,
-      "metadata": {
-        "active_bids": 0,
-        "budget_currency": "USD",
-        "budget_max": 25.0,
-        "budget_min": 15.0,
-        "collector_source_id": "freelancer_public_simple_jobs",
-        "days_left": 5,
-        "estimated_effort_hours": 8.0,
-        "official_source": true,
-        "payment_methods": [
-          "Freelancer milestone payment; account payout method selected after award"
-        ],
-        "payout_setup_required": false,
-        "platform": "Freelancer.com",
-        "source_kind": "public_freelance_listing",
-        "source_page": "https://www.freelancer.com/jobs/translation/",
-        "submission_dossier_prepared": false,
-        "submission_dossier_required": true,
-        "submission_mode": "platform_proposal"
-      },
-      "observed_at": "2026-10-24T11:24:57.311676+00:00",
-      "payment_evidence": [
-        "https://www.freelancer.com/jobs/translation/",
-        "English–Spanish Translator for Business Calls and Messages (US Citizens Only) -- 3 5 days left Verified I'm looking for someone who speaks both English and Spanish fluently to help us with business communication. Your job will be simple: help translate conversations during video calls and translate text messages between English and Spanish. We need someone who can translate naturally and accurately so both sides can understand each other. **Requirements:** - Must be a U.S. citizen currently living in the United States. - Fluent in both English and Spanish. - Comfortable translating during live video calls. - Able to translate text messages clearly and accurately. - Reliable, friendly, and easy to communicate with. - Have a stable internet connection. The work is remote, and the schedule can be discussed. Previous experience is a plus, but it's not required if you speak both lang... Customer Service English (US) Translator English Translation French Translator Language Tutoring Spanish Translator Transcription Translation Video Conferencing $15 - $25 / hr $15 - $25 / hr 0 bids Bid now"
-      ],
-      "physical_presence_required": false,
-      "required_capabilities": [
-        "translation_delivery"
-      ],
-      "reward_amount": 15.0,
-      "reward_verified": true,
-      "risk": 0.2,
-      "security_scope_authorized": true,
-      "source_category": "freelance_marketplace",
-      "source_id": "freelancer_public_simple_jobs",
-      "source_url": "https://www.freelancer.com/projects/translation/english-spanish-translator-for-business-40782493",
-      "terms_required": true,
-      "time_to_cash_days": 30,
-      "title": "English–Spanish Translator for Business Calls and Messages (US Citizens Only) -- 3"
     },
     {
       "accessibility": 0.96,
@@ -409,7 +409,7 @@
         "submit_endpoint": "/jobs/0a1c6ae8-2034-4c3a-a13b-e7d6381aa5aa/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.606695+00:00",
+      "observed_at": "2026-10-24T17:30:52.890138+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/0a1c6ae8-2034-4c3a-a13b-e7d6381aa5aa",
@@ -430,62 +430,6 @@
       "terms_required": true,
       "time_to_cash_days": 10,
       "title": "Build merge_csv.py with inner join function for CSV files"
-    },
-    {
-      "accessibility": 0.86,
-      "account_required": true,
-      "collector_source_id": "freelancer_public_simple_jobs",
-      "competition": 0.0,
-      "cost": 0.1,
-      "currency": "USD",
-      "deadline": "3 days left",
-      "description": "St. Lucian Creole Deposition Interpreter 3 days left Verified A virtual deposition for a civil case is set for October 26, 2026 at 11:30 a.m. (Eastern Time). The session is expected to last between one and two hours, and it will be conducted entirely online, so you may participate from any location with a stable internet connection. Fluency in both English and St. Lucian Creole is essential. While formal certification is not required, solid, demonstrable experience handling legal or civil-case proceedings is a must. You should be comfortable with the pace and terminology of depositions and able to preserve accuracy, neutrality, and confidentiality throughout. Deliverables • Provide consecutive or near-simultaneous interpretation for the full duration of the deposition (up to 2 hours or more • Remain available for a brief tech check 15 min... English Translation Legal Translation Translation Zoom $25 - $50 / hr $25 - $50 / hr 0 bids Bid now",
-      "evidence": [
-        "https://www.freelancer.com/jobs/translation/",
-        "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter"
-      ],
-      "human_dependency": 0.22,
-      "identity_or_kyc_required": false,
-      "legal_entity_required": false,
-      "metadata": {
-        "active_bids": 0,
-        "budget_currency": "USD",
-        "budget_max": 50.0,
-        "budget_min": 25.0,
-        "collector_source_id": "freelancer_public_simple_jobs",
-        "days_left": 3,
-        "estimated_effort_hours": 8.0,
-        "official_source": true,
-        "payment_methods": [
-          "Freelancer milestone payment; account payout method selected after award"
-        ],
-        "payout_setup_required": false,
-        "platform": "Freelancer.com",
-        "source_kind": "public_freelance_listing",
-        "source_page": "https://www.freelancer.com/jobs/translation/",
-        "submission_dossier_prepared": false,
-        "submission_dossier_required": true,
-        "submission_mode": "platform_proposal"
-      },
-      "observed_at": "2026-10-24T11:24:57.513992+00:00",
-      "payment_evidence": [
-        "https://www.freelancer.com/jobs/translation/",
-        "St. Lucian Creole Deposition Interpreter 3 days left Verified A virtual deposition for a civil case is set for October 26, 2026 at 11:30 a.m. (Eastern Time). The session is expected to last between one and two hours, and it will be conducted entirely online, so you may participate from any location with a stable internet connection. Fluency in both English and St. Lucian Creole is essential. While formal certification is not required, solid, demonstrable experience handling legal or civil-case proceedings is a must. You should be comfortable with the pace and terminology of depositions and able to preserve accuracy, neutrality, and confidentiality throughout. Deliverables • Provide consecutive or near-simultaneous interpretation for the full duration of the deposition (up to 2 hours or more • Remain available for a brief tech check 15 min... English Translation Legal Translation Translation Zoom $25 - $50 / hr $25 - $50 / hr 0 bids Bid now"
-      ],
-      "physical_presence_required": false,
-      "required_capabilities": [
-        "translation_delivery"
-      ],
-      "reward_amount": 25.0,
-      "reward_verified": true,
-      "risk": 0.2,
-      "security_scope_authorized": true,
-      "source_category": "freelance_marketplace",
-      "source_id": "freelancer_public_simple_jobs",
-      "source_url": "https://www.freelancer.com/projects/translation/lucian-creole-deposition-interpreter",
-      "terms_required": true,
-      "time_to_cash_days": 30,
-      "title": "St. Lucian Creole Deposition Interpreter"
     },
     {
       "accessibility": 0.96,
@@ -530,7 +474,7 @@
         "submit_endpoint": "/jobs/c2fd6d93-91e4-4078-a355-225da2699c0c/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.606755+00:00",
+      "observed_at": "2026-10-24T17:30:52.890182+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/c2fd6d93-91e4-4078-a355-225da2699c0c",
@@ -595,7 +539,7 @@
         "submit_endpoint": "/jobs/7ef434e0-e870-4aa0-90f9-33db59262ccd/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.606836+00:00",
+      "observed_at": "2026-10-24T17:30:52.890251+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/7ef434e0-e870-4aa0-90f9-33db59262ccd",
@@ -660,7 +604,7 @@
         "submit_endpoint": "/jobs/dd327224-ddc5-4c8c-825f-e0ef2b266799/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.606905+00:00",
+      "observed_at": "2026-10-24T17:30:52.890295+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/dd327224-ddc5-4c8c-825f-e0ef2b266799",
@@ -725,7 +669,7 @@
         "submit_endpoint": "/jobs/def03885-5007-44a5-be0b-133d08c131df/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.606965+00:00",
+      "observed_at": "2026-10-24T17:30:52.890339+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/def03885-5007-44a5-be0b-133d08c131df",
@@ -790,7 +734,7 @@
         "submit_endpoint": "/jobs/f940acbb-eb53-4b16-b4dd-1e43e30dea37/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.607023+00:00",
+      "observed_at": "2026-10-24T17:30:52.890381+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/f940acbb-eb53-4b16-b4dd-1e43e30dea37",
@@ -855,7 +799,7 @@
         "submit_endpoint": "/jobs/733d4731-7e60-4bb8-9233-ba3771c779d3/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.607076+00:00",
+      "observed_at": "2026-10-24T17:30:52.890424+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/733d4731-7e60-4bb8-9233-ba3771c779d3",
@@ -920,7 +864,7 @@
         "submit_endpoint": "/jobs/6b626f9c-2b70-40a1-8879-49fad43adb46/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.607357+00:00",
+      "observed_at": "2026-10-24T17:30:52.890648+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/6b626f9c-2b70-40a1-8879-49fad43adb46",
@@ -985,7 +929,7 @@
         "submit_endpoint": "/jobs/e6a89a5e-048d-4170-b4ef-e5f618eb76ea/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.607421+00:00",
+      "observed_at": "2026-10-24T17:30:52.890699+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/e6a89a5e-048d-4170-b4ef-e5f618eb76ea",
@@ -1050,7 +994,7 @@
         "submit_endpoint": "/jobs/641b861f-cfda-4f06-a159-84f2b2399faf/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.607506+00:00",
+      "observed_at": "2026-10-24T17:30:52.890785+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/641b861f-cfda-4f06-a159-84f2b2399faf",
@@ -1115,7 +1059,7 @@
         "submit_endpoint": "/jobs/cb28a16d-9bd1-4399-8d1b-44824c8e0cfc/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.607582+00:00",
+      "observed_at": "2026-10-24T17:30:52.890846+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/cb28a16d-9bd1-4399-8d1b-44824c8e0cfc",
@@ -1180,7 +1124,7 @@
         "submit_endpoint": "/jobs/a55bd7d2-b6a0-4bfc-80b5-f788d0ff312d/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.607633+00:00",
+      "observed_at": "2026-10-24T17:30:52.890890+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/a55bd7d2-b6a0-4bfc-80b5-f788d0ff312d",
@@ -1245,7 +1189,7 @@
         "submit_endpoint": "/jobs/193daf43-6436-4456-a028-dcb3149a2b95/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.607934+00:00",
+      "observed_at": "2026-10-24T17:30:52.891179+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/193daf43-6436-4456-a028-dcb3149a2b95",
@@ -1310,7 +1254,7 @@
         "submit_endpoint": "/jobs/294e3880-ae94-436c-8e9e-330317da6d96/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.608000+00:00",
+      "observed_at": "2026-10-24T17:30:52.891234+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/294e3880-ae94-436c-8e9e-330317da6d96",
@@ -1375,7 +1319,7 @@
         "submit_endpoint": "/jobs/25e871ca-fb8d-4974-8cc6-258d352c1a55/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.608257+00:00",
+      "observed_at": "2026-10-24T17:30:52.891430+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/25e871ca-fb8d-4974-8cc6-258d352c1a55",
@@ -1440,7 +1384,7 @@
         "submit_endpoint": "/jobs/4e4f5fb7-fa5c-4fa5-9ced-934cbe45943b/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.608384+00:00",
+      "observed_at": "2026-10-24T17:30:52.891526+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/4e4f5fb7-fa5c-4fa5-9ced-934cbe45943b",
@@ -1505,7 +1449,7 @@
         "submit_endpoint": "/jobs/1d28d2a5-c0be-4dd0-992e-7ea239a7a2c9/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.608530+00:00",
+      "observed_at": "2026-10-24T17:30:52.891579+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/1d28d2a5-c0be-4dd0-992e-7ea239a7a2c9",
@@ -1570,7 +1514,7 @@
         "submit_endpoint": "/jobs/fcdb4b00-4e6b-4baf-b680-5524471ef427/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.608575+00:00",
+      "observed_at": "2026-10-24T17:30:52.891613+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/fcdb4b00-4e6b-4baf-b680-5524471ef427",
@@ -1635,7 +1579,7 @@
         "submit_endpoint": "/jobs/9651abf4-74ba-4cae-8b8d-07cfd26b8bd0/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.608809+00:00",
+      "observed_at": "2026-10-24T17:30:52.891804+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/9651abf4-74ba-4cae-8b8d-07cfd26b8bd0",
@@ -1700,7 +1644,7 @@
         "submit_endpoint": "/jobs/6c541fc3-6425-4d70-9c4c-02a8ade90b1c/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.608870+00:00",
+      "observed_at": "2026-10-24T17:30:52.891843+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/6c541fc3-6425-4d70-9c4c-02a8ade90b1c",
@@ -1765,7 +1709,7 @@
         "submit_endpoint": "/jobs/0da7673c-739b-4587-b1f6-507829ed3c10/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.608939+00:00",
+      "observed_at": "2026-10-24T17:30:52.891899+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/0da7673c-739b-4587-b1f6-507829ed3c10",
@@ -1830,7 +1774,7 @@
         "submit_endpoint": "/jobs/2597db6c-bf69-4f66-967d-15ddf66ccf29/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.609129+00:00",
+      "observed_at": "2026-10-24T17:30:52.892035+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/2597db6c-bf69-4f66-967d-15ddf66ccf29",
@@ -1895,7 +1839,7 @@
         "submit_endpoint": "/jobs/552d8068-b164-4917-b3ec-f2438a890192/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.609181+00:00",
+      "observed_at": "2026-10-24T17:30:52.892074+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/552d8068-b164-4917-b3ec-f2438a890192",
@@ -1960,7 +1904,7 @@
         "submit_endpoint": "/jobs/d47a42b6-8203-4bc7-8bbf-c22ef912c232/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.609342+00:00",
+      "observed_at": "2026-10-24T17:30:52.892202+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/d47a42b6-8203-4bc7-8bbf-c22ef912c232",
@@ -2025,7 +1969,7 @@
         "submit_endpoint": "/jobs/19a16071-2be4-4fce-ae05-217b4e7098a8/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.609407+00:00",
+      "observed_at": "2026-10-24T17:30:52.892252+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/19a16071-2be4-4fce-ae05-217b4e7098a8",
@@ -2090,7 +2034,7 @@
         "submit_endpoint": "/jobs/d6d3d8f1-dfaa-4a4c-9f65-df670bdfdb26/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.609492+00:00",
+      "observed_at": "2026-10-24T17:30:52.892315+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/d6d3d8f1-dfaa-4a4c-9f65-df670bdfdb26",
@@ -2155,7 +2099,7 @@
         "submit_endpoint": "/jobs/530f94a8-c471-4ea2-a01e-8e8f52112593/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.610018+00:00",
+      "observed_at": "2026-10-24T17:30:52.892714+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/530f94a8-c471-4ea2-a01e-8e8f52112593",
@@ -2220,7 +2164,7 @@
         "submit_endpoint": "/jobs/17708672-b386-458e-89a4-7ef72b6b97b5/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.610098+00:00",
+      "observed_at": "2026-10-24T17:30:52.892781+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/17708672-b386-458e-89a4-7ef72b6b97b5",
@@ -2285,7 +2229,7 @@
         "submit_endpoint": "/jobs/9f40e36f-5ade-4af6-a27b-943a91c34797/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.610527+00:00",
+      "observed_at": "2026-10-24T17:30:52.893123+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/9f40e36f-5ade-4af6-a27b-943a91c34797",
@@ -2350,7 +2294,7 @@
         "submit_endpoint": "/jobs/3994dba9-a6b4-4ef0-bbac-db0455b0faf8/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.610632+00:00",
+      "observed_at": "2026-10-24T17:30:52.893215+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/3994dba9-a6b4-4ef0-bbac-db0455b0faf8",
@@ -2415,7 +2359,7 @@
         "submit_endpoint": "/jobs/784345ae-fd58-481e-93cd-c1f6226ffd0d/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.610704+00:00",
+      "observed_at": "2026-10-24T17:30:52.893270+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/784345ae-fd58-481e-93cd-c1f6226ffd0d",
@@ -2480,7 +2424,7 @@
         "submit_endpoint": "/jobs/212e5e5c-4b39-406a-a33e-ffc8b7c20398/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.611153+00:00",
+      "observed_at": "2026-10-24T17:30:52.893631+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/212e5e5c-4b39-406a-a33e-ffc8b7c20398",
@@ -2545,7 +2489,7 @@
         "submit_endpoint": "/jobs/e7862957-9b3b-4460-be55-cd4939636ba0/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.611251+00:00",
+      "observed_at": "2026-10-24T17:30:52.893714+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/e7862957-9b3b-4460-be55-cd4939636ba0",
@@ -2610,7 +2554,7 @@
         "submit_endpoint": "/jobs/c490df55-b112-4357-8be5-a772b7a318a1/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.611329+00:00",
+      "observed_at": "2026-10-24T17:30:52.893792+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/c490df55-b112-4357-8be5-a772b7a318a1",
@@ -2675,7 +2619,7 @@
         "submit_endpoint": "/jobs/c5fba258-8854-48fe-812b-0eae647363b0/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.611378+00:00",
+      "observed_at": "2026-10-24T17:30:52.893833+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/c5fba258-8854-48fe-812b-0eae647363b0",
@@ -2740,7 +2684,7 @@
         "submit_endpoint": "/jobs/fde07b58-6aa8-42ea-852a-ead105819045/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.611434+00:00",
+      "observed_at": "2026-10-24T17:30:52.893878+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/fde07b58-6aa8-42ea-852a-ead105819045",
@@ -2805,7 +2749,7 @@
         "submit_endpoint": "/jobs/9afd2ac3-0c1e-46e8-b420-26c14a1a8687/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.611484+00:00",
+      "observed_at": "2026-10-24T17:30:52.893917+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/9afd2ac3-0c1e-46e8-b420-26c14a1a8687",
@@ -2870,7 +2814,7 @@
         "submit_endpoint": "/jobs/974811c4-7d74-4f41-abd0-ff1495927e0a/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.611739+00:00",
+      "observed_at": "2026-10-24T17:30:52.894123+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/974811c4-7d74-4f41-abd0-ff1495927e0a",
@@ -2935,7 +2879,7 @@
         "submit_endpoint": "/jobs/e4b78856-628e-4da7-897e-f66ae4020948/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.611921+00:00",
+      "observed_at": "2026-10-24T17:30:52.894262+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/e4b78856-628e-4da7-897e-f66ae4020948",
@@ -3000,7 +2944,7 @@
         "submit_endpoint": "/jobs/05972785-3be7-4b20-be73-acd7484767d3/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.611979+00:00",
+      "observed_at": "2026-10-24T17:30:52.894307+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/05972785-3be7-4b20-be73-acd7484767d3",
@@ -3065,7 +3009,7 @@
         "submit_endpoint": "/jobs/fca0ae30-6edc-401d-86dc-69c9681f233f/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.612185+00:00",
+      "observed_at": "2026-10-24T17:30:52.894473+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/fca0ae30-6edc-401d-86dc-69c9681f233f",
@@ -3130,7 +3074,7 @@
         "submit_endpoint": "/jobs/7d63ea8b-742b-4d8e-8537-746b2e8116be/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.612376+00:00",
+      "observed_at": "2026-10-24T17:30:52.894623+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/7d63ea8b-742b-4d8e-8537-746b2e8116be",
@@ -3195,7 +3139,7 @@
         "submit_endpoint": "/jobs/13e5b137-7f9d-4a6c-affa-215b8dd15657/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.612456+00:00",
+      "observed_at": "2026-10-24T17:30:52.894687+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/13e5b137-7f9d-4a6c-affa-215b8dd15657",
@@ -3260,7 +3204,7 @@
         "submit_endpoint": "/jobs/fdaccd0e-0eb6-42be-8819-fd61746eebe2/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.612594+00:00",
+      "observed_at": "2026-10-24T17:30:52.894810+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/fdaccd0e-0eb6-42be-8819-fd61746eebe2",
@@ -3325,7 +3269,7 @@
         "submit_endpoint": "/jobs/a99032ec-5542-4232-a7a7-23ed20bdbaf4/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.612693+00:00",
+      "observed_at": "2026-10-24T17:30:52.894892+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/a99032ec-5542-4232-a7a7-23ed20bdbaf4",
@@ -3390,7 +3334,7 @@
         "submit_endpoint": "/jobs/bcef57a8-6a9e-43a5-9e45-458d595f86c3/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.612891+00:00",
+      "observed_at": "2026-10-24T17:30:52.895040+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/bcef57a8-6a9e-43a5-9e45-458d595f86c3",
@@ -3455,7 +3399,7 @@
         "submit_endpoint": "/jobs/823eedfb-49f1-4a2c-9fba-87e6c4075e2a/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-24T11:24:50.613208+00:00",
+      "observed_at": "2026-10-24T17:30:52.895288+00:00",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
         "https://www.bountybook.ai/job/823eedfb-49f1-4a2c-9fba-87e6c4075e2a",
@@ -3478,7 +3422,7 @@
       "title": "Build a BloomFilter class in Python with add and contains methods"
     }
   ],
-  "opportunities_observed": 54,
+  "opportunities_observed": 53,
   "revenue_verified_eur": 0.0,
   "schema_version": "1.1",
   "source_pivot": {
@@ -3517,7 +3461,7 @@
       }
     },
     "replacement_status": "existing_reviewed_sources_only_no_new_source_activated",
-    "router_generated_at": "2026-10-24T07:28:29.057347+00:00",
+    "router_generated_at": "2026-10-24T11:26:18.384845+00:00",
     "status": "holding_source_pause_pending_replacement"
   },
   "sources": [
@@ -3567,7 +3511,7 @@
       "status": "empty"
     },
     {
-      "detailed_count": 4,
+      "detailed_count": 2,
       "evidence": [
         "https://www.freelancer.com/jobs/data-entry/",
         "https://www.freelancer.com/jobs/data-processing/",
@@ -3577,13 +3521,13 @@
         "https://www.freelancer.com/jobs/translation/",
         "https://www.freelancer.com/jobs/proofreading/"
       ],
-      "observed_count": 4,
+      "observed_count": 2,
       "reason": "",
       "source_id": "freelancer_public_simple_jobs",
       "status": "ok"
     },
     {
-      "detailed_count": 0,
+      "detailed_count": 1,
       "evidence": [
         "https://www.freelancer.com/jobs/website-design/",
         "https://www.freelancer.com/jobs/html/",
@@ -3593,10 +3537,10 @@
         "https://www.freelancer.com/jobs/api/",
         "https://www.freelancer.com/jobs/wordpress/"
       ],
-      "observed_count": 0,
+      "observed_count": 1,
       "reason": "",
       "source_id": "freelancer_public_software_jobs",
-      "status": "empty"
+      "status": "ok"
     },
     {
       "detailed_count": 0,

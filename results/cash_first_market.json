@@ -267,10 +267,10 @@
   "counts": {
     "cash_first": 5,
     "human_action_ready": 1,
-    "rejected": 3,
+    "rejected": 2,
     "strategic": 71
   },
-  "generated_at": "2026-10-24T11:25:00.181983+00:00",
+  "generated_at": "2026-10-24T17:31:02.805569+00:00",
   "human_action_ready": [
     {
       "cash_priority_score": 62.96,
@@ -3036,6 +3036,59 @@
       "urgency": "normal"
     },
     {
+      "cash_priority_score": 56.23,
+      "currency": "USD",
+      "deadline": "7 days left",
+      "decision_status": "prepare_then_gate",
+      "estimated_effort_hours": 8.0,
+      "estimated_hourly_value": 6.75,
+      "evidence": [
+        "https://www.freelancer.com/jobs/css/",
+        "Enhance Mobile Website for \"25 Years Under the Rising Sun\" Author Series 7 days left Verified I’ve built an author website in Canva to showcase my eight-book series, \"25 Years Under the Rising Sun,\" based on my 25 years in Japan. While much of the work is done, I need help improving its mobile responsiveness, layout, and navigation to make it more polished and professional. Key tasks include: - Optimizing the website for mobile devices. - Enhancing the layout and navigation for a seamless user experience. - Verifying that all Amazon links work correctly. The goal is to create an engaging site that excites readers and encourages them to explore my books. CSS Graphic Design HTML PHP Website Design $54 - $107 $54 - $107 0 bids Bid now",
+        "https://www.freelancer.com/projects/css/enhance-mobile-website-for-years",
+        "results/simple_mission_dossiers/market-35406fde15382585/proposal.md",
+        "results/simple_mission_dossiers/market-35406fde15382585/manifest.json"
+      ],
+      "human_actions": [
+        "Authorize use of a truthful Freelancer.com account and review/accept the platform terms so Louis OS can submit the already prepared proposal or quote. Do not complete KYC or configure payout unless the platform explicitly requests it later."
+      ],
+      "human_gate_required": true,
+      "lane": "strategic",
+      "notification_fingerprint": "0cb31d23707b9ddbb478",
+      "opportunity_id": "market-35406fde15382585",
+      "payment_methods": [
+        "Freelancer milestone payment; account payout method selected after award"
+      ],
+      "prepared_artifacts": [
+        "results/simple_mission_dossiers/market-35406fde15382585/proposal.md",
+        "results/simple_mission_dossiers/market-35406fde15382585/manifest.json"
+      ],
+      "rationale": [
+        "estimated_effort_hours=8",
+        "page_count=unknown",
+        "time_to_cash_days=30",
+        "competition=0.00",
+        "cost=0.10",
+        "accessibility=0.86",
+        "economics_viable=false",
+        "minimum_hourly_value=8",
+        "agent_native_microjob=false",
+        "agent_native_minimum_reward=5",
+        "execution_ready=true",
+        "scope_exception_applied=false",
+        "hours and page volume are scoring inputs, not standalone rejection gates",
+        "headline prize size is not used as the primary ranking signal"
+      ],
+      "ready_for_human_action": false,
+      "reward_amount": 54.0,
+      "risk_summary": "risk=0.20; platform account and terms gate only; KYC, payout and contract actions remain deferred until explicitly required",
+      "scope_exception_applied": false,
+      "source_url": "https://www.freelancer.com/projects/css/enhance-mobile-website-for-years",
+      "time_to_cash_days": 30,
+      "title": "Enhance Mobile Website for \"25 Years Under the Rising Sun\" Author Series",
+      "urgency": "normal"
+    },
+    {
       "cash_priority_score": 55.87,
       "currency": "USD",
       "deadline": "3 days left",
@@ -3125,52 +3178,6 @@
       "source_url": "https://www.freelancer.com/projects/translation/english-spanish-translator-for-business-40782493",
       "time_to_cash_days": 30,
       "title": "English–Spanish Translator for Business Calls and Messages (US Citizens Only) -- 3",
-      "urgency": "normal"
-    },
-    {
-      "cash_priority_score": 55.68,
-      "currency": "USD",
-      "deadline": "6 days left",
-      "decision_status": "capability_build",
-      "estimated_effort_hours": 8.0,
-      "estimated_hourly_value": 1.25,
-      "evidence": [
-        "https://www.freelancer.com/jobs/translation/",
-        "Belarusian Speech Recording Project 6 days left I am assembling a high-quality speech dataset and need adult native Belarusian speakers to help. The task is straightforward: read the short sentences I provide—half written in Belarusian, half in Russian—clearly into your smartphone’s built-in microphone while you sit in a quiet space. Recordings must be saved in standard PCM/WAV format and uploaded through the link I will share after we connect. The work is fully remote, paid at $8 USD per recorded hour, and you can set your own schedule. As long as you are 18 or older, speak Belarusian natively, and have a modern smartphone, you are welcome to participate. Ready to start? Message or call me on WhatsApp or Telegram at +91 7749083550 and I will send the script, brief instructions, and the upload folder so you can begin... Audio Editing Audio Engineering Audio Services Russian Translator Translation Voice Acting Voice Over Voice Talent $10 - $30 $10 - $30 0 bids Bid now",
-        "https://www.freelancer.com/projects/voice-over/belarusian-speech-recording-project"
-      ],
-      "human_actions": [],
-      "human_gate_required": false,
-      "lane": "strategic",
-      "notification_fingerprint": "945b01ee5e68b6f76cf7",
-      "opportunity_id": "market-f0e1a28c46ee3cc2",
-      "payment_methods": [
-        "Freelancer milestone payment; account payout method selected after award"
-      ],
-      "prepared_artifacts": [],
-      "rationale": [
-        "estimated_effort_hours=8",
-        "page_count=unknown",
-        "time_to_cash_days=30",
-        "competition=0.00",
-        "cost=0.10",
-        "accessibility=0.86",
-        "economics_viable=false",
-        "minimum_hourly_value=8",
-        "agent_native_microjob=false",
-        "agent_native_minimum_reward=5",
-        "execution_ready=false",
-        "scope_exception_applied=false",
-        "hours and page volume are scoring inputs, not standalone rejection gates",
-        "headline prize size is not used as the primary ranking signal"
-      ],
-      "ready_for_human_action": false,
-      "reward_amount": 10.0,
-      "risk_summary": "risk=0.20; platform account and terms gate only; KYC, payout and contract actions remain deferred until explicitly required",
-      "scope_exception_applied": false,
-      "source_url": "https://www.freelancer.com/projects/voice-over/belarusian-speech-recording-project",
-      "time_to_cash_days": 30,
-      "title": "Belarusian Speech Recording Project",
       "urgency": "normal"
     },
     {
