@@ -1,3 +1,63 @@
+## Contrôle du 24 octobre 2026 à 11:28 UTC — publication cash-first réparée sans bruit
+
+- `get_repo` réellement appelé ; main épinglé à
+  `b2fcddd8dc4470e09f6648000fa023064848215d`. Aucun AGENTS.md.
+  Instructions, politiques, #473, 19 PR ouvertes, workflows, états, intentions
+  et reçus relus. Les trois registres de soumission absents restent inconnus
+  (404). Aucune PR existante ne traitait cette publication.
+- Travail engagé réconcilié : cycle marché indépendant `40074066557`
+  et routeur `40074244308` réussis. Cycle sans VM 89 sain, 30 inspectées,
+  0 qualifiée, 0 erreur ; la pause AgentPact tient sans faux remplaçant.
+  Le nouveau candidat canonique est le BloomFilter BountyBook à 12 USDC
+  annoncés ; aucun livrable ni autorisation. L'ancien dossier CI/CD est
+  conservé dans le backlog, hash intacts et sans nouvelle demande.
+- Défaut reproduit dans les logs de `40065129714`, job
+  `120786656719` : tests et persistance réussis, puis refus GitHub
+  « Commenting is disabled on issues with more than 2500 comments » sur #77.
+- PR #494 fusionnée au commit
+  `46cddc5088a9f25d3be8b455a67286d02394691f`. La publication du workflow
+  cash-first vise désormais #473 et n'est exécutée que pour un changement
+  économique/coût causé par cette synchronisation ou un nouveau gate humain
+  exact. Scans, préparation, horodatages et libellés seuls restent silencieux.
+  Le rapprochement externe conserve la responsabilité des alertes de paiement
+  amont ; aucune nouvelle autorité externe n'est ajoutée.
+- CI avant fusion `40089578429` réussie au SHA exact
+  `1da7ca9c3926294a46ef40f8cffed5573d3c89cb`, 885 tests sur Python
+  3.11/3.12. CI main `40089719278` réussie. Déploiement
+  `40089719256` réussi ; GCP non réactivé, crons et politique inchangés.
+- Premier run de synchronisation annulé par la concurrence avec le marché ;
+  reprise bornée du seul job annulé après fin du marché et du routeur.
+  Run `40089719227`, tentative 2, job `120860395714`, réussi :
+  neuf tests, `Material publication change: false`, `No ledger changes`,
+  étape de publication sautée. L'ancien échec sur #77 est donc réellement
+  éliminé dans le chemin stable ; aucun commentaire de démonstration créé.
+  Le chemin positif vers #473 est couvert par les tests, pas par une
+  transition économique artificiellement fabriquée.
+- Cycle marché post-fusion `40089719289` et routeur `40089873126`
+  réussis. État final contrôlé à
+  `5d35c4d257c005db9dbe1cc4c6ddd7f32773fbaf` : cycle 90 sain,
+  30 inspectées, 0 qualifiée, 0 erreur ; routeur 69 lignes, 0 execute_now,
+  8 prepare_then_gate, 14 capability_build et 47 rejets. Pivot encore
+  `holding_source_pause_pending_replacement`, aucun adaptateur distinct.
+- #493 tient : solde agrégé historique 11 RTC conservé, attribution
+  individuelle 0, revenu confirmé 0 EUR. Dépôt RustChain 404 toujours visible.
+  Taskmarket reste sans attribution propre ni paiement vérifié ; Manic
+  10 USD reste annoncé seulement. Aucun transfert/wallet effectué malgré
+  la discussion récente sur Bitget.
+- Mesures du cycle : 0 nouvelle mission qualifiée, 0 nouveau dossier terminé,
+  0 soumission avec reçu, 0 acceptation, 0 paiement, 0 intervention humaine.
+  Blocage CI/CD compte/conditions environ 138 h 20. Aucun achat ni coût nouveau
+  autorisé ; coût connu 0 EUR, coût Actions/total et temps par mission inconnus.
+  Temps pilote environ onze minutes. Tests et commits ne sont pas du revenu.
+
+Décision : une correction cohérente intégrée et effet réel stable vérifié ;
+ne pas enchaîner une seconde amélioration. Prochaine action précise : vérifier
+le prochain rapprochement stable sans commit répétitif, puis reprendre la
+validation d'une source distincte payable et accessible sans coût. Ne pas
+répéter les recherches Workana/PeoplePerHour/Contra/openbounty déjà consignées,
+préparer un second dossier BountyBook bloqué par le même accès, réactiver GCP
+ou supposer le Lenovo installé. Aucun revenu garanti.
+
 ## Contrôle du 24 octobre 2026 à 05:11 UTC — attribution RTC agrégée corrigée et vérifiée
 
 - `get_repo` réellement appelé ; `main` épinglé au début à
