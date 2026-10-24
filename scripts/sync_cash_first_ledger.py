@@ -129,6 +129,32 @@ def synchronize(
     return result
 
 
+
+def publication_changed(previous: Mapping[str, Any], current: Mapping[str, Any]) -> bool:
+    """Only synchronization-caused economic or new exact human-gate changes.
+
+    Scans, preparation counts, timestamps and next-action wording are not
+    economic events. The outcome reconciler owns upstream payment alerts.
+    Missing values stay distinct from known zero values.
+    """
+    fields = (
+        "external_actions_submitted", "external_actions_accepted",
+        "payouts_received_verified", "revenue_confirmed_eur", "revenue_received",
+        "known_operating_cost_eur", "unknown_cost_components", "cost_basis_status",
+    )
+    if any(previous.get(key) != current.get(key) for key in fields):
+        return True
+    if not current.get("owner_notification_required") or not current.get("new_human_actions"):
+        return False
+    def gate(ledger: Mapping[str, Any]) -> tuple[Any, ...]:
+        top = ledger.get("cash_first_top_opportunity") or {}
+        return (
+            bool(ledger.get("owner_notification_required")),
+            top.get("opportunity_id"), top.get("notification_fingerprint"),
+        )
+    return gate(previous) != gate(current)
+
+
 def main() -> int:
     ledger = load_json(LEDGER_PATH, {})
     portfolio = load_json(PORTFOLIO_PATH, {})
