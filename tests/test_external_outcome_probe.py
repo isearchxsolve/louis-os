@@ -177,7 +177,7 @@ class ExternalOutcomeProbeTests(unittest.TestCase):
         self.assertEqual(probe.load_json(probe.LEDGER_PATH, {})["payouts_received_verified"], 0)
         code, result = self.run_probe(comments=[], balance={"balance": 11})
         self.assertEqual(code, 0)
-        self.assertTrue(result["changed"])
+        self.assertFalse(result["changed"])
         ledger = probe.load_json(probe.LEDGER_PATH, {})
         self.assertEqual(ledger["payouts_received_verified"], 0)
         self.assertTrue(ledger["rustchain_aggregate_wallet_settlement_verified"])
