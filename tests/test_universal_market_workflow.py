@@ -125,7 +125,9 @@ class UniversalMarketWorkflowTests(unittest.TestCase):
 
     def test_dedicated_ledger_workflow_remains_recovery_path(self) -> None:
         text = (ROOT / ".github/workflows/cash-first-ledger-sync.yml").read_text(encoding="utf-8")
-        self.assertIn("python scripts/sync_cash_first_ledger.py", text)
+        self.assertIn("from scripts.sync_cash_first_ledger import", text)
+        self.assertIn("          main()", text)
+        self.assertIn("publication_changed(previous, current)", text)
         self.assertIn("python -m unittest tests.test_cash_first_ledger_sync -v", text)
         self.assertIn("results/monetization.json", text)
         self.assertIn("group: monetization-ledger-writer", text)
