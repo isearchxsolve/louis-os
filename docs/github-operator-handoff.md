@@ -1,3 +1,67 @@
+## Contrôle du 24 octobre 2026 à 17:24 UTC — rapprochement stable, sortie RTC indisponible annoncée
+
+- `get_repo` réellement appelé ; main épinglé à
+  `2512a5417a9a84eead6de618ed84130e5ac863d1`. Aucun AGENTS.md.
+  Instructions, politiques, #473, 19 PR ouvertes, workflows, jobs/logs,
+  états, intentions et reçus relus. Les trois registres absents sont toujours
+  inconnus (404), pas réputés vides. Politique et crons inchangés.
+- #494 réconciliée : workflow cash-first conserve le gate matériel et la cible
+  #473. Aucun nouvel événement ni run de synchronisation indépendant à annoncer.
+  Aucun nouvel échec de publication observé ; la preuve réelle précédente
+  reste `40089719227:2`, avec publication sautée.
+- Rapprochements planifiés `40090334638` puis `40110498052` sur le SHA
+  épinglé. Dernier job `120921012567` à 16:12:50 UTC : 17 tests réussis,
+  `changed=false`, `health_changed=false`, wallet frais 11 RTC,
+  zéro reçu individuel marqué payé, une cause dépôt HTTP 404 et cinq suivis
+  bloqués. Persistance/publication sautées ; pas de commit répétitif.
+  Artifact `12566092155`, digest
+  `sha256:697ace15472cd6aae24b2e02a8ac82354e7c6e88a3ea3df4b1bbf0e653fd2096`,
+  disponible jusqu'au 07/11. Échec final attendu pour lecture incomplète.
+- Dernière preuve marché toujours cycle 90 à 11:25 UTC : sain, 30 inspectées,
+  0 qualifiée, 0 erreur. Sources fraîches de moins de six heures :
+  AgentPact en pause sans sonde/remplaçant ; BountyBook 50, Freelancer simple 4,
+  logiciel vide ; MoltJobs dix lignes invalides ; Superteam sans credential ;
+  Guru 403 et Truelancer 429. Routeur 0 execute_now, 8 prepare_then_gate,
+  14 capability_build, 47 rejets. Le cycle planifié suivant ne s'était pas
+  encore matérialisé ; ne pas fabriquer sa fraîcheur.
+- Travail déjà soumis repris en lecture seule : job RIP-302
+  `job_9ad634ec9a9f880a`, ancien livrable bannière à 3 RTC potentiels.
+  URL canonique https://explorer.rustchain.org/agent/jobs/job_9ad634ec9a9f880a
+  non accessible au lecteur web ; aucune acceptation ni clôture déduite.
+  La page actuelle https://rustchain.org/explorer/ expose seulement une
+  coquille JavaScript dans ce lecteur. Ne pas resoumettre ni remplacer le reçu.
+- Information de liquidité importante confirmée par la source officielle :
+  https://rustchain.org/ indique dans Tokenomics « CASH VALUE: none
+  (experimental; no off-ramp) » et dans « RTC: EARN AND SPEND » que le
+  pont vers les autres chaînes est désactivé. Le même site explique que son
+  profil GitHub est masqué pendant une revue et renvoie vers un miroir
+  officiel : cela contextualise les 404, sans prouver les résultats d'issues.
+- Cette lecture corrige la piste évoquée plus tôt vers wRTC/Solana :
+  aucune voie opérationnelle de conversion ou d'envoi vers Bitget n'est
+  établie. La date de désactivation est inconnue. https://bottube.ai/bridge
+  et https://rustchain.org/wallet.html restent non accessibles au lecteur.
+  Ne pas interpréter l'annonce comme preuve que les 11 RTC ont disparu,
+  ni une valeur indicative comme prix liquide. Le solde et la frontière EUR
+  demeurent inchangés ; aucune connexion wallet, signature ou transaction.
+- Dossier CI/CD intact en backlog, non autorisé, blocage compte/conditions
+  environ 144 h 16, sans rappel. Aucun nouveau dossier BloomFilter, bloqué par
+  le même accès. Taskmarket sans attribution propre observée ; Manic 10 USD
+  reste non vérifié.
+- Mesures : 0 mission distincte nouvellement qualifiée, 0 nouveau dossier
+  terminé, 0 soumission avec reçu, 0 acceptation, 0 paiement, 0 intervention
+  humaine. Coût connu 0 EUR ; coût Actions, coût total et temps par mission
+  inconnus. Le contrôle de sources et cette passation ne sont pas du revenu.
+
+Décision : aucun défaut nouveau du code démontré ; pas de PR artificielle,
+ni recherche répétée de plateformes. La source RTC ne satisfait pas une voie
+cash liquide vérifiée ; conserver les anciens reçus pour rapprochement, sans
+l'activer comme remplacement payable en euros. Prochaine action précise :
+examiner une seule liste officielle publique de missions payées en fiat/USDC
+d'une famille autorisée distincte, avec montant, périmètre borné, accès effectif
+et frais nuls vérifiés avant intégration ; ne pas reprendre les six pistes déjà
+écartées ni redemander la même autorisation BountyBook. Réconcilier le prochain
+état externe s'il change. GCP et Lenovo restent hors périmètre actif.
+
 ## Contrôle du 24 octobre 2026 à 11:28 UTC — publication cash-first réparée sans bruit
 
 - `get_repo` réellement appelé ; main épinglé à
