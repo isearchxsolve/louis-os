@@ -1,7 +1,7 @@
 {
   "registry": {
     "schema_version": 7,
-    "generated_at": "2026-10-23T18:31:57.335075+00:00",
+    "generated_at": "2026-10-24T07:27:57.113020+00:00",
     "count": 0,
     "authenticity_verified": 0,
     "authenticity_blocked": 30,
@@ -23,9 +23,9 @@
   "qualified": 0,
   "rejected": [
     {
-      "candidate_id": "22919bde609f8079",
-      "url": "https://github.com/Meisterlala/NekoServer/issues/4",
-      "title": "Dependency Dashboard",
+      "candidate_id": "4c244bb247c0f244",
+      "url": "https://github.com/tehas-app/tehas/issues/630",
+      "title": "The conflict check also refreshes a handed-off pull request",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -35,15 +35,51 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "83e54291e38baaea",
-      "url": "https://github.com/amthqng/acorn-trail/issues/83",
-      "title": "Fall theme",
+      "candidate_id": "6e1795bf20325be2",
+      "url": "https://github.com/autonomio/poise/issues/562",
+      "title": "feat: server support for the redesigned interface (PRD)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "43bf8767bc8669a3",
-      "url": "https://github.com/RenderbitTechnologies/Light-Bootstrap-Dashboard/issues/15",
-      "title": "[Feature]: Add a test suite and CI (composer test/check-style reference missing tests/)",
+      "candidate_id": "b464666c231361e2",
+      "url": "https://github.com/OpenHands/software-agent-sdk/issues/6191",
+      "title": "[Feature]: Add MCP Resources and Prompts integration to the SDK",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "a9f1e6ea12d45712",
+      "url": "https://github.com/rc0/mairix/issues/29",
+      "title": "Non-ASCII queries (UTF-8)?",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "7cac25ebe5fbe61f",
+      "url": "https://github.com/stSoftwareAU/VibeCoder/issues/4221",
+      "title": "Codex: adapt away from a refused built-in default model on a ChatGPT login (no --model) instead of failing the phase",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "31252d290d17f1a6",
+      "url": "https://github.com/ProjectDataHopper/hopper-edw/issues/224",
+      "title": "[Feature]: Create a getting-started video series",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "29a90e432e2cc822",
+      "url": "https://github.com/waigore/simplechessv2/issues/587",
+      "title": "UX story coverage file is a 29-word stub: no element is proven and split story files are unindexed",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "b5c88b7355206809",
+      "url": "https://github.com/pyrycode/pyrycode-mobile/issues/2508",
+      "title": "flaky tests: saved-file compatibility openings exhaust the shared heap",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "ef2b87f2ab71def0",
+      "url": "https://github.com/tauri-apps/webdriver-example/issues/4",
+      "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -53,33 +89,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "099498a473a6caef",
-      "url": "https://github.com/LunarVagabond/Pipe-Deck/issues/442",
-      "title": "[Chore] Unit tests for effects/processing_node/plugins Tauri command handlers",
+      "candidate_id": "3b5af2e697076a80",
+      "url": "https://github.com/haggaikaunda/kami-split/issues/214",
+      "title": "Make CI and production deployment change-aware to reduce GitHub Actions usage",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "a78d5e2c9dfcafe1",
-      "url": "https://github.com/RapierCraftStudios/causedeck/issues/485",
-      "title": "feat(network): consented contributed public court documents shared across workspaces (D-048)",
+      "candidate_id": "8be8c9fdf06306c8",
+      "url": "https://github.com/MultiSimOLab/HyperFEM.jl/issues/257",
+      "title": "[PostProcessors]: Redesign — stable API, separate physics hook, pluggable writers",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "b5885c90d0513e11",
-      "url": "https://github.com/fo4sf/fo4-to-starfield/issues/32",
-      "title": "Project update (shared post: Claude, Codex, Grok)",
+      "candidate_id": "a2946b997b415f93",
+      "url": "https://github.com/cyberdudebivash/cyberdudebivash-blog/issues/360",
+      "title": "P0: SENTINEL APEX SOC transformation — tenant isolation, customer pilot, commercial and hostname release gates",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "86840e342f929ea8",
-      "url": "https://github.com/UOR-Foundation/uor-r4/issues/2028",
-      "title": "[Roadmap] UOR-R4 — path to a native conversation and memory alpha",
+      "candidate_id": "32c16df024a4349f",
+      "url": "https://github.com/stephenlclarke/elite/issues/203",
+      "title": "Correct ordnance fixtures to query exact actors and actual beam geometry",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "c16e0d1bf45b40d0",
-      "url": "https://github.com/Generous-Corp/pulp/issues/10353",
-      "title": "Queue watchdog blind: 1 API read(s) failing; run listing truncated (completed)",
+      "candidate_id": "80ccb5200b4f4ead",
+      "url": "https://github.com/SShadowS/al-sem/issues/160",
+      "title": "alsem batch: build the model once and run several commands against it",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -89,33 +125,27 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "e642995d3cd74324",
-      "url": "https://github.com/LunarVagabond/Pipe-Deck/issues/441",
-      "title": "[Chore] Unit tests for routing/mixer/virtual_device Tauri command handlers",
+      "candidate_id": "0cc07ce49c51ff3c",
+      "url": "https://github.com/pj-tmt/tmt/issues/4767",
+      "title": "test(cli): wait for the committed provider session in PTY resume fixture",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "89d4c7186e180034",
-      "url": "https://github.com/appliedtopology/tda4j/issues/211",
-      "title": "Two Bowyer-Watson mutants survive BowyerWatsonSpec and DelaunayPredicatesSpec",
+      "candidate_id": "5a792202a75320a0",
+      "url": "https://github.com/stephenlclarke/elite/issues/211",
+      "title": "Run mandatory Metal renderer assertions on a capable native runner",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "9b13ea1a645b4bf5",
-      "url": "https://github.com/louiss0/agent_resource/issues/8",
-      "title": "Define cross-platform acceptance and test gates",
+      "candidate_id": "4d756021fe99cfea",
+      "url": "https://github.com/HKcode22/ReplitTranvr/issues/38",
+      "title": "Four-anchor WSSS OMAA SKBO YSSY — Phase3/4/5 gates and Phase6 calendar deadlines",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "9c87f6e2929d841b",
-      "url": "https://github.com/KestrelSovereignAI/kestrel-cloud-runpod/issues/17",
-      "title": "Implement provider-neutral private inference lease adapter",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "59d85b1c989e6d36",
-      "url": "https://github.com/the-vibey-project/vibey/issues/620",
-      "title": "feat(ledger): the job lifecycle's event kinds and one draft builder for every queue transition",
+      "candidate_id": "7add61dd0654f359",
+      "url": "https://github.com/SAST-UP-STG/SAST-Test-Repo-fab1516d-2371-4a19-8ba7-48611daa5048/issues/137",
+      "title": "CVE-2024-22243 (High) detected in spring-web-5.3.31.jar",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -125,27 +155,27 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "0696a82e93ea58b1",
-      "url": "https://github.com/RapierCraftStudios/causedeck/issues/584",
-      "title": "feat(notices): notice and notice_match schema, migration, seed sources (D-048, 1/5)",
+      "candidate_id": "7c200fec6e6778f6",
+      "url": "https://github.com/stephenlclarke/elite/issues/210",
+      "title": "Keep both selected showroom textures visible at actual native sizes",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "ea8a2354bc481b17",
-      "url": "https://github.com/Entif-AI/Bilqis-MLX/issues/131",
-      "title": "Preregister SYS-01 integrated systems experiment and freeze plan-lock artifacts",
+      "candidate_id": "22e329f9153b285c",
+      "url": "https://github.com/JWST-GC/data-qa/issues/172",
+      "title": "GC Treasury — jw10678-o132 (MIRI)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "39fb060638c699b1",
-      "url": "https://github.com/TalesFromTheField/Fabric-DataPro-Overview-Workshop/issues/22",
-      "title": "Module 1: Broken TOC anchor, inconsistent formatting, and content fixes",
+      "candidate_id": "f66e7ee5ba1d344c",
+      "url": "https://github.com/DavidObando/gsharp/issues/5236",
+      "title": "Implement ADR-0210 F1: canonical fixed-array ABI and import contracts",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "22e56d6acdd29f6b",
-      "url": "https://github.com/SFenton/ha-sfenton-react-dash/issues/346",
-      "title": "Fix WebKit flake in touch-keyboard modal close test (#346)",
+      "candidate_id": "d81ed08213b4e34e",
+      "url": "https://github.com/ampproject/wg-outreach/issues/124",
+      "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -155,53 +185,21 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "e0ef5e6b6b7a52db",
-      "url": "https://github.com/honua-io/honua-release/issues/378",
-      "title": "release: FOSS4G Nov 2 RC announcement and verified AI pilot demo",
+      "candidate_id": "5e45b396db407744",
+      "url": "https://github.com/quadseven/wow-overseer/issues/1395",
+      "title": "Deploy marker: report the bridge's own uptime, show restarting when the site stops answering, carry the ship PR",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "9d54006b970e9473",
-      "url": "https://github.com/OKHP3/askjamie-foundry/issues/68",
-      "title": "Route Playwright browser dependencies through Ubuntu HTTPS archive",
+      "candidate_id": "2b3aa016e092ec0e",
+      "url": "https://github.com/cbkii/otast/issues/44",
+      "title": "[OTAST target] yurikey upstream review required",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "5c00ab45c540d7d7",
-      "url": "https://github.com/himeshsameera/Dependencies/issues/15",
-      "title": "Link to `Visual C++ Redistributable` is broken.",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "09adb1672d830b46",
-      "url": "https://github.com/SkriptLang/Skript/issues/8383",
-      "title": "When using multiline examples the docs generator breaks",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "1e89d1dc6c5e2647",
-      "url": "https://github.com/roshpinacare-sys/Pulse/issues/10",
-      "title": "alert: heartbeat degraded/blocked — see latest state/network.json",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "b58f9f73497a47aa",
-      "url": "https://github.com/gyroflow/gyroflow/issues/742",
-      "title": "Refactor lens profile handling",
-      "reason": "overcrowded_bounty",
-      "active_attempts": 20,
-      "maximum_allowed": 5
-    },
-    {
-      "candidate_id": "cfeb0be230ebfc30",
-      "url": "https://github.com/hivecommons/hive/issues/13843",
-      "title": "[selfreport] unclassified_error_repeated: failed to restore per-agent dir mode",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "854c12f1f9ab7e74",
-      "url": "https://github.com/oso-gato/fedora-bootstrap/issues/463",
-      "title": "APPARATUS LIVENESS DEADMAN",
+      "candidate_id": "28c3b979c4985941",
+      "url": "https://github.com/JWST-GC/data-qa/issues/180",
+      "title": "GC Treasury — jw10678-o126 (NIRCam)",
       "reason": "verified_payment_adapter_evidence_missing"
     }
   ],
