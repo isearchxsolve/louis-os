@@ -101,7 +101,13 @@ def synchronize(
 
     queued = int(result.get("payouts_queued") or 0)
     received = int(result.get("payouts_received_verified") or 0)
-    if queued > received:
+    aggregate_received = bool(result.get("rustchain_aggregate_wallet_settlement_verified"))
+    if aggregate_received and result.get("crypto_payment_verified") and result["revenue_confirmed_eur"] <= 0:
+        result["next_action"] = (
+            "Preserve the verified aggregate crypto receipt without assigning it to individual payouts, "
+            "verify lawful liquidity, and execute the next no-stake paid mission."
+        )
+    elif queued > received:
         result["next_action"] = (
             "Monitor the authoritative RTC wallet until the queued payout changes the balance; keep EUR revenue at zero."
         )
