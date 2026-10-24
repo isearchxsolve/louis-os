@@ -1,7 +1,7 @@
 ## Louis OS — mode dégradé sans VM
 
 - Runtime : healthy
-- Dernier cycle : 2026-10-23T18:31:57.336062+00:00
+- Dernier cycle : 2026-10-24T07:27:57.113806+00:00
 - Résultat : no_eligible_candidate
 - Missions inspectées : 30 ; éligibles : 0
 - Soumissions vérifiées dans ce cycle : 0
@@ -10,10 +10,10 @@
 
 - Pilote des soumissions : connected_github_operator
 - Paquet disponible pour revue : False
-- Dossier marché préparé pour revue : market-685081cabe16a6b0
+- Dossier marché préparé pour revue : aucun
 - Dossiers déjà préparés hors sélection : []
-- Erreurs du relais marché : []
-- Suite du pilote : review_prepared_market_mission
+- Erreurs du relais marché : ['market_selection_mismatch']
+- Suite du pilote : repair_market_handoff_evidence
 - Relais conversationnel : results/degraded/operator-briefing.json ; docs/github-operator-handoff.md
 - Le pilote connecté agit pendant une conversation active ; aucun réveil automatique.
 
