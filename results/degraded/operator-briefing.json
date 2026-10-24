@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-24T17:31:36.495779+00:00",
+  "generated_at": "2026-10-24T17:32:10.129002+00:00",
   "submission_driver": "connected_github_operator",
   "execution": "interactive_conversation_only",
   "continuous_operator": false,
@@ -29,9 +29,9 @@
         "deliverables/bountybook_cicd_comparison_d47a42b6/FACTUAL_REVIEW.md": "3a7acf033c8e43709e01271f596f90c18bb4141583d43f66fed4ad38a164e60c"
       },
       "source_path": "results/internet_opportunity_router.json",
-      "source_generated_at": "2026-10-24T11:26:18.384845+00:00",
+      "source_generated_at": "2026-10-24T17:32:09.934552+00:00",
       "cash_generated_at": "2026-10-24T17:31:02.805569+00:00",
-      "listing_observed_at": "2026-10-24T11:24:50.609342+00:00",
+      "listing_observed_at": "2026-10-24T17:30:52.892202+00:00",
       "missing_receipt_registries": [
         "results/degraded/intents.json",
         "results/degraded/receipts.json",
