@@ -28,7 +28,7 @@
   ],
   "time_to_first_euro_band": "first crypto received; first EUR remains unverified until liquidity or an EUR payment is proven",
   "next_experiment": "Preserve the wallet receipt, verify lawful liquidity and fees, and do not label the token balance as EUR revenue.",
-  "generated_at": "2026-08-24T02:09:50.151155+00:00",
+  "generated_at": "2026-10-24T05:10:37.884076+00:00",
   "source_issue": 77,
   "evidence_files": [
     "results/monetization.json",
