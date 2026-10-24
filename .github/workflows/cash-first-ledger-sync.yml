@@ -37,7 +37,20 @@ jobs:
         run: python -m unittest tests.test_cash_first_ledger_sync -v
 
       - name: Synchronize dedicated cash-first truth
-        run: python scripts/sync_cash_first_ledger.py
+        id: synchronize
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from scripts.sync_cash_first_ledger import LEDGER_PATH, load_json, main, publication_changed
+          previous = load_json(LEDGER_PATH, {})
+          main()
+          current = load_json(LEDGER_PATH, {})
+          changed = publication_changed(previous, current)
+          with open(os.environ["GITHUB_OUTPUT"], "a") as output:
+              output.write("publish=" + str(changed).lower() + "\n")
+          print("Material publication change: " + str(changed).lower())
+          PY
 
       - name: Persist dashboard ledger
         run: |
@@ -62,7 +75,8 @@ jobs:
           echo "Unable to persist ledger after bounded retries"
           exit 1
 
-      - name: Publish synchronized truth to master dossier
+      - name: Publish material synchronized truth to recovery dossier
+        if: steps.synchronize.outputs.publish == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -82,4 +96,4 @@ jobs:
           print(f"- Revenu confirmé : {ledger.get('revenue_confirmed_eur', 0.0)} €")
           print(f"- Prochaine action : `{ledger.get('next_action')}`")
           PY
-          gh issue comment 77 --repo "${GITHUB_REPOSITORY}" --body-file /tmp/ledger-sync-report.md
+          gh issue comment 473 --repo "${GITHUB_REPOSITORY}" --body-file /tmp/ledger-sync-report.md
