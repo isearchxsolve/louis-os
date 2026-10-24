@@ -128,12 +128,18 @@ class ExternalOutcomeReconciliationTests(unittest.TestCase):
                 "last_external_wallet_balance_rtc": 0.0,
                 "revenue_confirmed_eur": 0.0,
                 "revenue_received": 0.0,
+                "payouts_received_verified": 9,
             },
             summary,
             checked_at="2026-08-23T21:45:00+00:00",
         )
         self.assertEqual(result["revenue_received_rtc"], 6.0)
-        self.assertEqual(result["payouts_received_verified"], 2)
+        self.assertEqual(result["payouts_received_verified"], 0)
+        self.assertEqual(
+            result["payout_receipt_attribution"],
+            "aggregate_wallet_only_not_individual_receipts",
+        )
+        self.assertTrue(result["rustchain_aggregate_wallet_settlement_verified"])
         self.assertTrue(result["crypto_payment_verified"])
         self.assertEqual(result["revenue_confirmed_eur"], 0.0)
         self.assertEqual(result["revenue_received"], 0.0)
