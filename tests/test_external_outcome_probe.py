@@ -165,7 +165,7 @@ class ExternalOutcomeProbeTests(unittest.TestCase):
                 self.assertEqual(code, 2)
                 self.assertFalse(result["wallet_evidence_fresh"])
 
-    def test_recovery_reconciles_new_acceptance_against_same_fresh_balance(self) -> None:
+    def test_recovery_keeps_same_balance_aggregate_not_individual(self) -> None:
         self.run_probe(comments=[], balance={"balance": 11})
         receipts = probe.load_json(probe.RECEIPTS_PATH, {})
         receipts["receipts"].append({
@@ -174,11 +174,17 @@ class ExternalOutcomeProbeTests(unittest.TestCase):
         })
         probe.save_json(probe.RECEIPTS_PATH, receipts)
         self.run_probe(comments=[], balance=TimeoutError())
-        self.assertEqual(probe.load_json(probe.LEDGER_PATH, {})["payouts_received_verified"], 1)
+        self.assertEqual(probe.load_json(probe.LEDGER_PATH, {})["payouts_received_verified"], 0)
         code, result = self.run_probe(comments=[], balance={"balance": 11})
         self.assertEqual(code, 0)
         self.assertTrue(result["changed"])
-        self.assertEqual(probe.load_json(probe.LEDGER_PATH, {})["payouts_received_verified"], 2)
+        ledger = probe.load_json(probe.LEDGER_PATH, {})
+        self.assertEqual(ledger["payouts_received_verified"], 0)
+        self.assertTrue(ledger["rustchain_aggregate_wallet_settlement_verified"])
+        self.assertEqual(
+            ledger["payout_receipt_attribution"],
+            "aggregate_wallet_only_not_individual_receipts",
+        )
 
     def test_fresh_wallet_can_advance_crypto_without_fabricating_euros(self) -> None:
         code, result = self.run_probe(comments=[], balance={"balance": 12})
