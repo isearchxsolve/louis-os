@@ -2,7 +2,8 @@ from __future__ import annotations
 
 import unittest
 
-from scripts.sync_cash_first_ledger import synchronize
+from pathlib import Path
+from scripts.sync_cash_first_ledger import synchronize, publication_changed
 
 
 class CashFirstLedgerSyncTests(unittest.TestCase):
@@ -114,6 +115,44 @@ class CashFirstLedgerSyncTests(unittest.TestCase):
         result = synchronize(ledger, {"counts": {}}, {}, cycle)
         self.assertEqual(result["updated_at"], "2026-08-23T17:54:00+00:00")
         self.assertIn("RTC wallet", result["next_action"])
+
+
+    def test_publication_ignores_scan_time_preparation_and_action_wording(self) -> None:
+        old = {"revenue_confirmed_eur": 0, "updated_at": "old", "cash_first_candidates": 1}
+        new = {**old, "updated_at": "new", "cash_first_candidates": 12,
+               "simple_mission_dossiers_prepared": 4, "next_action": "changed wording"}
+        self.assertFalse(publication_changed(old, new))
+        self.assertFalse(publication_changed(new, new))
+
+    def test_publication_detects_economic_and_cost_changes_without_zero_filling(self) -> None:
+        for field, value in (
+            ("external_actions_submitted", 1), ("external_actions_accepted", 1),
+            ("revenue_confirmed_eur", 1.0), ("payouts_received_verified", 1),
+            ("known_operating_cost_eur", 2.0), ("cost_basis_status", "complete"),
+        ):
+            with self.subTest(field=field):
+                self.assertTrue(publication_changed({field: 0}, {field: value}))
+        self.assertTrue(publication_changed({}, {"revenue_confirmed_eur": 0}))
+
+    def test_publication_requires_new_exact_human_gate(self) -> None:
+        gate = {"owner_notification_required": True, "new_human_actions": 1,
+                "cash_first_top_opportunity": {
+                    "opportunity_id": "one", "notification_fingerprint": "exact"}}
+        self.assertTrue(publication_changed({}, gate))
+        self.assertFalse(publication_changed(gate, gate))
+        self.assertFalse(publication_changed({}, {**gate, "new_human_actions": 0}))
+        self.assertFalse(publication_changed({}, {**gate, "owner_notification_required": False}))
+
+    def test_workflow_gates_publication_and_never_comments_saturated_issue(self) -> None:
+        workflow = (Path(__file__).resolve().parents[1] /
+                    ".github/workflows/cash-first-ledger-sync.yml").read_text()
+        self.assertIn("gh issue comment 473", workflow)
+        self.assertNotIn("gh issue comment 77", workflow)
+        self.assertIn("if: steps.synchronize.outputs.publish == 'true'", workflow)
+        self.assertIn("publication_changed(previous, current)", workflow)
+        self.assertNotIn("schedule:", workflow)
+        self.assertLess(workflow.index("- name: Persist dashboard ledger"),
+                        workflow.index("- name: Publish material synchronized truth"))
 
 
 if __name__ == "__main__":
