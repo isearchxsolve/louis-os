@@ -307,11 +307,16 @@ def _apply_wallet_observation(
 
     aggregate_settled = bool(settlement["aggregate_wallet_settlement_verified"])
     result["rustchain_aggregate_wallet_settlement_verified"] = aggregate_settled
+    # A matching aggregate balance proves that tokens reached the tracked wallet,
+    # but it cannot assign that balance to individual queued receipts. Keep the
+    # per-receipt count conservative and expose the attribution boundary.
+    result["payouts_received_verified"] = 0
+    result["payout_receipt_attribution"] = (
+        "aggregate_wallet_only_not_individual_receipts"
+        if aggregate_settled
+        else "no_verified_wallet_receipt_attribution"
+    )
     if aggregate_settled:
-        result["payouts_received_verified"] = max(
-            int(result.get("payouts_received_verified") or 0),
-            int(summary.get("payout_expected_count") or queued + paid),
-        )
         result["crypto_payment_verified"] = True
         result["submission_blocked_stage"] = "fiat_liquidity_and_next_payment"
         result["next_action"] = (

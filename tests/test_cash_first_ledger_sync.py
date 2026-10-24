@@ -81,6 +81,25 @@ class CashFirstLedgerSyncTests(unittest.TestCase):
         self.assertEqual(result["net_profit_eur"], 10.75)
         self.assertEqual(result["unknown_cost_components"], [])
 
+    def test_aggregate_wallet_receipt_does_not_require_individual_attribution(self) -> None:
+        ledger = {
+            "payouts_queued": 3,
+            "payouts_received_verified": 0,
+            "rustchain_aggregate_wallet_settlement_verified": True,
+            "crypto_payment_verified": True,
+            "revenue_confirmed_eur": 0.0,
+        }
+        result = synchronize(
+            ledger,
+            {"counts": {}},
+            {},
+            {"next_action": "route_top_cash_first_mission_to_executor"},
+        )
+        self.assertIn("aggregate crypto receipt", result["next_action"])
+        self.assertIn("without assigning it to individual payouts", result["next_action"])
+        self.assertEqual(result["payouts_received_verified"], 0)
+        self.assertEqual(result["revenue_confirmed_eur"], 0.0)
+
     def test_queued_payout_keeps_priority_over_new_discovery_candidate(self) -> None:
         ledger = {
             "payouts_queued": 3,
