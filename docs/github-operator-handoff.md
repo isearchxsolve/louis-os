@@ -1,3 +1,75 @@
+## Contrôle du 24 octobre 2026 à 05:11 UTC — attribution RTC agrégée corrigée et vérifiée
+
+- `get_repo` réellement appelé ; `main` épinglé au début à
+  `cd0f551929cd57e26131d0ab33e3037f51402bfe`, puis état réel final contrôlé
+  au commit `013053a1e942c3fdc3b87922adabf62c12260da4`. Aucun
+  `AGENTS.md`. Instructions, politiques, états, intentions, reçus, #473,
+  19 PR ouvertes et workflows relus ; aucune PR existante ne recouvrait ce
+  défaut.
+- Taskmarket `40051619564`, job `120745326782`, réussi : 13 tests,
+  santé true, deux soumissions historiques retrouvées, mais
+  `selection_signal_any=false`, `payout_evidence_candidate=false`,
+  `MEANINGFUL_CHANGED=false` et wallet toujours inconnu. Artifact
+  `12543063360`, digest
+  `sha256:4352ed4cdeb0b5e2613deefb65b04e2ba4c617d1c4ea1143613c350d05a6f980`,
+  disponible jusqu'au 07/11.
+- Rapprochement planifié `40064435979`, job `120784604455` : 17 tests
+  réussis, `changed=false`, `health_changed=false`, une erreur dépôt 404,
+  cinq suivis bloqués, wallet frais à 11 RTC et zéro reçu individuel marqué
+  payé. Artifact `12548791021`, digest
+  `sha256:9de5e3da321479d164f4b4497f3feb7697292079801049738a6c9db891388141`.
+- Défaut reproduit : malgré `payout_paid_count=0`, le grand livre exposait
+  `payouts_received_verified=3` en déduisant trois paiements individuels du
+  seul solde agrégé de 11 RTC. Cela confondait preuve de réception portefeuille
+  et attribution aux trois reçus toujours en file.
+- PR #493 fusionnée au commit
+  `826c1a5e68859dcc5a7a31a7d4d923ea2fe97ff5`. Le solde agrégé et
+  `crypto_payment_verified=true` sont conservés, mais
+  `payouts_received_verified=0` tant qu'aucun lien individuel n'est prouvé ;
+  le nouveau champ `payout_receipt_attribution` expose
+  `aggregate_wallet_only_not_individual_receipts`. Les 11 RTC ne sont
+  toujours pas convertis en EUR.
+- Vérification avant fusion au SHA exact
+  `1d76f61c6f3067ff86c3b017c05a14c4a82561be` : CI
+  `40065008722` réussie, 881 tests sous Python 3.11 et 3.12. CI main
+  `40065129668` réussie ; déploiement `40065129787` réussi avec la garde
+  existante, sans réactivation GCP.
+- Effet réel : le rapprochement `40065129708`, tentative 2, a exécuté 17
+  tests et persisté la transition au commit
+  `013053a1e942c3fdc3b87922adabf62c12260da4`. État vérifié :
+  trois acceptations et 11 RTC en file, zéro reçu individuel payé, solde
+  agrégé 11 RTC, attribution individuelle zéro, revenu confirmé 0 EUR.
+  Artifact `12548708593`, digest
+  `sha256:90b83f7973b50874ae14e906003fa0c9e513a8a6fa8d92066efcb9eff98899a7`,
+  disponible jusqu'au 07/11. L'échec final reste le garde-fou attendu pour le
+  dépôt source 404.
+- Le cycle marché planifié de 02:23 UTC ne s'était pas encore matérialisé à
+  05:11 UTC ; les cycles GitHub planifiés précédents montrent plusieurs heures
+  de retard. Les sources versionnées restent datées du 23/10 à 18:31 UTC,
+  donc encore sous la fenêtre de 24 h. Ne pas annoncer un cycle absent ni
+  augmenter la fréquence.
+- Régression restante observée séparément : le workflow cash-first
+  `40065129714` a bien testé puis persisté le grand livre au commit
+  `badcfb7c9895cbf58eb0b0f73e8aa7a36bca485d`, mais son étape de publication
+  échoue encore en tentant de commenter #77, saturée à plus de 2500
+  commentaires. La vérité versionnée n'est pas perdue ; la notification
+  historique est seule en échec.
+- Le dossier CI/CD reste préparé mais non autorisé, sans rappel ; blocage
+  compte/conditions d'environ 132 h 02. Manic 10 USD reste non vérifié.
+- Mesures : 0 nouvelle mission distincte qualifiée, 0 nouveau dossier terminé,
+  0 soumission avec reçu, 0 acceptation nouvelle, 0 paiement individuel
+  attribué et 0 intervention humaine. Coût d'exploitation connu 0 EUR ; coût
+  Actions, coût total et temps par mission inconnus. Temps pilote de ce
+  correctif environ 13 minutes. CI, commit et scans ne sont pas du revenu.
+
+Décision : une seule amélioration cohérente intégrée et vérifiée sur données
+réelles ; aucune seconde correction engagée. Prochaine action précise : modifier
+le workflow cash-first sur une branche dédiée pour publier un changement
+matériel vers #473 au lieu de #77, avec silence lorsque l'état ne change pas ;
+puis vérifier la CI et un run réel. Ne pas réactiver GCP, supposer le Lenovo
+accessible, attribuer les 11 RTC aux trois reçus individuels ou redemander
+l'autorisation CI/CD sans événement.
+
 ## Contrôle du 23 octobre 2026 à 23:28 UTC — pause tenue, remplacement payable non prouvé
 
 - `get_repo` réellement appelé ; `main` épinglé à
