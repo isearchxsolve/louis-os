@@ -11,9 +11,9 @@
 - Pilote des soumissions : connected_github_operator
 - Paquet disponible pour revue : False
 - Dossier marché préparé pour revue : aucun
-- Dossiers déjà préparés hors sélection : []
-- Erreurs du relais marché : ['market_selection_mismatch']
-- Suite du pilote : repair_market_handoff_evidence
+- Dossiers déjà préparés hors sélection : ['market-685081cabe16a6b0']
+- Erreurs du relais marché : []
+- Suite du pilote : retain_prepared_market_backlog_gate
 - Relais conversationnel : results/degraded/operator-briefing.json ; docs/github-operator-handoff.md
 - Le pilote connecté agit pendant une conversation active ; aucun réveil automatique.
 
