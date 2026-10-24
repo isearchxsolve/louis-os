@@ -1,7 +1,7 @@
 {
   "registry": {
     "schema_version": 7,
-    "generated_at": "2026-10-24T11:25:41.846085+00:00",
+    "generated_at": "2026-10-24T17:31:34.962674+00:00",
     "count": 0,
     "authenticity_verified": 0,
     "authenticity_blocked": 30,
@@ -23,45 +23,9 @@
   "qualified": 0,
   "rejected": [
     {
-      "candidate_id": "42454134a1408aef",
-      "url": "https://github.com/alexpricedev/billet-cms/issues/43",
-      "title": "The dashboard says which slots have unpublished drafts",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "8ed3ecd13dc92387",
-      "url": "https://github.com/Open-Athena/biotasks/issues/19",
-      "title": "Notebook-to-task generation through artifact reproduction",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "dc4af4923f3ea4a1",
-      "url": "https://github.com/Oozak-ACY/Space-Hulk-Ascension/issues/1",
-      "title": "Spec: Milestone 1 — playable room-loop slice",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "d16987c245ebb086",
-      "url": "https://github.com/Mavergreen/ninja/issues/2",
-      "title": "Dependency Dashboard",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "a9f1e6ea12d45712",
-      "url": "https://github.com/rc0/mairix/issues/29",
-      "title": "Non-ASCII queries (UTF-8)?",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "6a59bc0679fe254f",
-      "url": "https://github.com/yoonsj0305/NEUMANN/issues/530",
-      "title": "G0 SINGLE GATE: find true headroom before Q3 learned operator invention (freeze CA iteration)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "0f90b343d56c9561",
-      "url": "https://github.com/CVX-Hull/enactive/issues/191",
-      "title": "Generalize organic interaction and enforce CDDA-class portability",
+      "candidate_id": "802edb2311ff9e55",
+      "url": "https://github.com/julien-riel/deux-mains/issues/80",
+      "title": "Ajouter la scène du disque et y jouer le boss de fin",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -71,15 +35,95 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "58f679f9116cc8b9",
-      "url": "https://github.com/shuntatsu/trade_rl/issues/810",
-      "title": "[Design / Epic] 手数料後利益最大化に向けた非LLMトレーダー再設計：予測・配分・RL訓練・執行・検証",
+      "candidate_id": "8cfae9bd16fa42db",
+      "url": "https://github.com/0Hoag/agent-ops/issues/223",
+      "title": "W5c: Decode real retained provider history in insights",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "62931e91727254ee",
-      "url": "https://github.com/canboat/canboat/issues/1099",
-      "title": "J1939: field types should be J1939's own, not NMEA 2000's",
+      "candidate_id": "50baf74a1573fc13",
+      "url": "https://github.com/suitenumerique/docs/issues/15",
+      "title": "Dependency Dashboard",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "16fa94d7130642be",
+      "url": "https://github.com/SCIBASE-AI/SCIBASE.AI/issues/18",
+      "title": "Scientific Bounty System",
+      "reason": "task_not_narrow_enough",
+      "narrowness_score": 5.0,
+      "scope": {
+        "file_paths": [],
+        "requirements": 39,
+        "broad_hits": 0,
+        "body_length": 3075,
+        "exact_replacement": false
+      }
+    },
+    {
+      "candidate_id": "73802da66b32d0d0",
+      "url": "https://github.com/RapierCraftStudios/causedeck/issues/666",
+      "title": "feat(web): B2B portfolio import, dashboard and export UI (#498 part 6)",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "c93e880336c87ff7",
+      "url": "https://github.com/mario-andreschak/FLUJO/issues/469",
+      "title": "Follow-up: Design proposal for single-gate tool approval system redesign",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "14250961a11d85bb",
+      "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/2793",
+      "title": "Team Naya live board — coordination venue (successor to #2765)",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "a9a27c2f8ec1c01e",
+      "url": "https://github.com/eltmon/overdeck/issues/4534",
+      "title": "CI failure feedback names no failing test: relay looks up completed failed workflow runs while the run is still in progress",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "59c7d1e4bfce9d07",
+      "url": "https://github.com/je55pr/one-big-package/issues/265",
+      "title": "OBP reconciliation: document invariants and enforce source-neutral host boundaries",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "a9f1e6ea12d45712",
+      "url": "https://github.com/rc0/mairix/issues/29",
+      "title": "Non-ASCII queries (UTF-8)?",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "fb87d6bd18b6db64",
+      "url": "https://github.com/openai/codex/issues/54540",
+      "title": "[Windows] Recurring \"workspace routing discovery timed out\" during goals and subagent workflows",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "e4b8741407a7e999",
+      "url": "https://github.com/eshu-hq/eshu/issues/9005",
+      "title": "main is red @47424274f1",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "3eb770df2fdfa4fb",
+      "url": "https://github.com/StegVerse-org/.github/issues/163",
+      "title": "PRIORITY P1 — Ecosystem AI, multi-LLM coordination and reusable components",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "f8c8d0ff38c2afd8",
+      "url": "https://github.com/P00NSMASHER/portfolio-brain/issues/689",
+      "title": "Autonomous Repair Control Ledger",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "9b24367f9a746c0b",
+      "url": "https://github.com/devhusdk/rules_dx/issues/2440",
+      "title": "quality/runner: tool config files are staged after sources and overwrite a source that is also the config",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -89,33 +133,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "064199984212de34",
-      "url": "https://github.com/newsdayads/tigeriq-ai-lab/issues/5129",
-      "title": "[P0] UltraCarHCM V1 — Camera v1.0.43 TEST tạm chốt OK | ứng dụng chưa nghiệm thu cuối",
+      "candidate_id": "57a081535a479df5",
+      "url": "https://github.com/EmileK33/factory-testbed/issues/305",
+      "title": "T4 rep 8a: benchmark run (rep8)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "ed4c4c6138c73905",
-      "url": "https://github.com/dszakallas/ogra/issues/6",
-      "title": "Dependency Dashboard 🤖",
+      "candidate_id": "8489ddca5c36dba2",
+      "url": "https://github.com/nullorder/runek/issues/27",
+      "title": "enhancement: add a BeachChair sun lounger component",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "8ff43c0753a1d78a",
-      "url": "https://github.com/nocturney/velvetos-core/issues/612",
-      "title": "Office 2.0 P0 — integration acceleration: continuous agents + parallel PRs + quality/memory",
+      "candidate_id": "f7fb4adf2450d187",
+      "url": "https://github.com/antonkomarev/github-profile-views-counter/issues/122",
+      "title": "Not working anymore.",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "531612391f986f49",
-      "url": "https://github.com/zerocracy/judges-action/issues/2921",
-      "title": "`survives-a-broken-version-check-before-push.sh` stops testing the second version check on every run after the first, because `calls.txt` is never reset",
+      "candidate_id": "2235af8bdf9a91ca",
+      "url": "https://github.com/mikesvoboda/nemotron-v3-home-security-intelligence/issues/6958",
+      "title": "Uplevel heartbeats",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "ea8c539cee60749c",
-      "url": "https://github.com/sumwai/larkax/issues/1183",
-      "title": "fix(larkaxctl): fish 子命令位置仍在补父层动作与选项",
+      "candidate_id": "4304cc9a82d9ee7e",
+      "url": "https://github.com/biaw/website/issues/1",
+      "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -125,33 +169,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "c3763e59e0aecd34",
-      "url": "https://github.com/cantrip-rs/cantrip-rs/issues/608",
-      "title": "Card: Whirlwind of Thought",
+      "candidate_id": "698e959a4cfeaf85",
+      "url": "https://github.com/oborskyivitalii/oborskyivitalii/issues/5",
+      "title": "Migrate pinned UA publishing mechanics into the personal publication pipeline",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "867735f0cdb4915b",
-      "url": "https://github.com/GlueOps/backup-tools/issues/274",
+      "candidate_id": "f1a67849b85a8cfb",
+      "url": "https://github.com/nano-muse/nanoMuse/issues/586",
+      "title": "Relay: offload middleware counter writes so DB contention does not stall the event loop",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "691550bdc6571986",
+      "url": "https://github.com/0xCyberBerserker/pokemon-ultimate-gold/issues/33",
+      "title": "Integración jugable completa de Kris",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "0aa524251dd1b4e0",
+      "url": "https://github.com/tim1016/learn-ai/issues/3490",
+      "title": "PRD: Consistent Markets, Research, Signal strategies, Options setups and Operations workspaces",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "a4ae79650e04d80f",
+      "url": "https://github.com/operational-context-graph/operational-context-graph/issues/1",
       "title": "Dependency Dashboard",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "afe7191dd86940ac",
-      "url": "https://github.com/SymoHTL/Kurz/issues/19",
-      "title": "Low findings of the automated review",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "f1a5c9141b2f51c0",
-      "url": "https://github.com/sv-tmueller/trading-bot/issues/678",
-      "title": "Research pipeline: volatility-target sizing and vol-targeted SPY benchmark",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "73f27f52cfc58fd8",
-      "url": "https://github.com/rjwalters/kicad-tools/issues/7955",
-      "title": "diffpair_bench pairs run: mark oracle_unverified rows invalid (killed kicad-cli oracle still reads valid: true)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -161,45 +205,9 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "5cbb4bec7839060b",
-      "url": "https://github.com/maxwellmattryan/forge/issues/388",
-      "title": "Instructions from the main checkout, an untrusted paragraph for the approver, adopt-by-number through the CLI path",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "1c4f6c40612133a9",
-      "url": "https://github.com/juv4uk/sens/issues/5029",
-      "title": "[P0][COORD] SID8/SENS8 → доменна драбина: власники файлів, CLAIM, single-writer main",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "a2100cc6ad16355a",
-      "url": "https://github.com/cillian1/belfast-wheel-app/issues/30",
-      "title": "Banter: Claude × Copilot chat",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "1f88ac85b2c405fe",
-      "url": "https://github.com/SWATPeaceKeeper/novabrands-mgmt/issues/8",
-      "title": "Dependency Dashboard",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "b030afc3b66771ba",
-      "url": "https://github.com/drizzle-team/drizzle-orm/issues/376",
-      "title": "Add proper error handling and wrapping",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "521df9790dafe1ca",
-      "url": "https://github.com/tehki/myaso/issues/695",
-      "title": "P0 Operation Pre-Alpha 0.1 — existing combat arena, instant light, hold-release heavy, 2–4 humans",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "91ddd4519c3b244f",
-      "url": "https://github.com/CVX-Hull/enactive/issues/178",
-      "title": "Add a player-owned asynchronous reflection exchange with automatic evidence feedback",
+      "candidate_id": "150d3de6e9d14fc6",
+      "url": "https://github.com/kaicreator-mm/domain-harness/issues/1330",
+      "title": "[v0.10.2 T09] Integration — clean Node24 Tiny/Rich install, closure assertions, external producer, subscribe in Tiny",
       "reason": "verified_payment_adapter_evidence_missing"
     }
   ],
